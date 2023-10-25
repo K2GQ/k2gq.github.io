@@ -27,7 +27,7 @@ We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the S
 | Secretary | Stephen F. Modica | KC2PNZ |
 | Treasurer | Jim Mesterhazy | KC2SKK |
 
-Email Contact: [roselandarc\@gmail.com](mailto:roselandarc@gmail.com)
+Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 <br/><br/>
 
 ### Club History
