@@ -7,7 +7,7 @@ subtitle: RARC Club Calendar
 ## October 2023
 
 **Monday, October 16th**<br/>
-7 PM ET general meeting @ 300 Eagle Rock Avenue, Roseland, NJ 07068<br/>
+7 PM ET general meeting @ 300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
 note: New Members are Always Welcome!<br/>
 
 **Wednesday, October 18th**<br/>
