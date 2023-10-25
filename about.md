@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Us
+cover-img: /assets/img/rarc-hq.png
 subtitle: Roseland Amateur Radio Club
 ---
 
