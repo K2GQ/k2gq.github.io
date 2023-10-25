@@ -11,7 +11,7 @@ subtitle: RARC Club Calendar
 note: New Members are Always Welcome!<br/>
 
 **Wednesday, October 18th**<br/>
-<img style="float: right;" src="/assets/img/scanner.jpg">
+thumbnail-img: /assets/img/scanner.jpg
 Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
 7 PM ET, open to all.<br/>
 
