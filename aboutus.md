@@ -8,7 +8,7 @@ subtitle: Roseland Amateur Radio Club
 
 The Roseland Office of Emergency Management<br/>
 300 Eagle Rock Avenue, Roseland, NJ 07068 <br/>
-**New Members are Always Welcome!**
+**guests and new members are always welcome!**
 
 ## Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz
 
@@ -17,7 +17,7 @@ The Roseland Office of Emergency Management<br/>
 We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the St. Barnabas Amateur Radio Club & St. Barnabas Control Operators for their contributions to Amateur Radio and for the use of this repeater.
 
 
-Current Officers:
+**Current Officers:**
 
 | Position | Name | Call Sign |
 | :------ |:--- | :--- |
@@ -25,10 +25,8 @@ Current Officers:
 | Vice President | Walter G. Mellish | KC2KZJ |
 | Secretary | Stephen F. Modica | KC2PNZ |
 | Treasurer | Jim Mesterhazy | KC2SKK |
-# | Chief Operator | Peter Summers | N2XTT |
-# | License Trustee | Harvey Moskowitz | W2YWC |
 
+<br/><br/>
 
 ### Club History
-
 Coming soon
