@@ -29,4 +29,8 @@ We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the S
 <br/><br/>
 
 ### Club History
-Coming soon
+**Roseland Amateur Radio Club**
+
+The Roseland Amateur Radio Club Has been serving the community for over 75 years! The club was founded after World War II by Doc Schwalbe and has been in constant operation since that time. In 1958, the club became an ARRL affiliate and has maintained the affiliation throughout these many years. In 2015 we began our renewed drive to help the community with emergency communications and bring the areas "technologists" together in the interests of ham radio, community service, communications, electronics, digital technology and the camaraderie of these mutual interests. Please join us at one of our meetings to learn more about us, and how you can become a "ham".<br/>
+
+More history coming soon, stay tuned!
