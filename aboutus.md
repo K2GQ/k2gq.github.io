@@ -6,10 +6,8 @@ subtitle: Roseland Amateur Radio Club
 
 ## The Roseland Amateur Radio Club meets Wednesday, 7:00 PM monthly at:
 
-The Roseland Office of Emergency Management
-300 Eagle Rock Avenue
-Roseland, NJ 07068
-
+The Roseland Office of Emergency Management<br/>
+300 Eagle Rock Avenue, Roseland, NJ 07068 <br/>
 **New Members are Always Welcome!**
 
 ## Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz
@@ -23,16 +21,14 @@ Current Officers:
 
 | Position | Name | Call Sign |
 | :------ |:--- | :--- |
-| President | Werner Staehle | KC2QLE |
-| Vice President | Stephen Modica | KC2PNZ |
-| Secretary | Robert J Kovacs | KC2WYH |
+| President | Ronald J. Reinhardt | WV2RJR |
+| Vice President | Walter G. Mellish | KC2KZJ |
+| Secretary | Stephen F. Modica | KC2PNZ |
 | Treasurer | Jim Mesterhazy | KC2SKK |
-| Chief Operator | Peter Summers | N2XTT |
-| License Trustee | Harvey Moskowitz | W2YWC |
+# | Chief Operator | Peter Summers | N2XTT |
+# | License Trustee | Harvey Moskowitz | W2YWC |
 
 
 ### Club History
 
-Historical site 1: [Yahoo](https://yahoo.com)
-
-Historical site 2: [Google](https://google.com)
+Coming soon

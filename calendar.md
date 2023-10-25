@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Club Calendar
-subtitle: IRAC Club Calendar
+subtitle: RARC Club Calendar
 ---
 
 ## October 2024
