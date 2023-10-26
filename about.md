@@ -9,7 +9,8 @@ subtitle: Roseland Amateur Radio Club
 
 The Roseland Office of Emergency Management<br/>
 300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
-**guests and new members are always welcome!**
+**guests and new members are always welcome!**<br/>
+Please check our [club calendar](/calendar.md) to see our next in-person meeting date.
 
 ## Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz
 
