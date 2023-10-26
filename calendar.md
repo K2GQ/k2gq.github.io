@@ -4,7 +4,7 @@ title: Club Calendar
 subtitle: RARC Club Calendar
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**October 2023**
+<span style="font-size:larger;text-decoration:underline;"><p align="center">**October 2023**</p>
 
 **Monday, October 16th**<br/>
 7 PM ET General Meeting<br/>
