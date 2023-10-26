@@ -28,6 +28,7 @@ Please check our [club calendar](/calendar.md) to see our next in-person meeting
 
 ---
 
+<img align="right" width="240" height="80" src="/assets/img/scanner.jpg">
 **Weekly Club Net:**<br/>
 146.595 (+1.0 MHz), 127.3 Hz<br/>
 7 PM ET Wednesdays, open to all.

@@ -21,7 +21,6 @@ Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
 
 ## November 2023
 
-<img align="right" width="240" height="80" src="/assets/img/scanner.jpg">
 **Wednesday, November 1st**<br/>
 Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
 7 PM ET, open to all.<br/>
