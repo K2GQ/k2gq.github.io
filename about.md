@@ -5,7 +5,7 @@ cover-img: /assets/img/rarc-hq.png
 subtitle: Roseland Amateur Radio Club
 ---
 
-**Roseland Amateur Radio Club History**
+<span style="font-size:larger;">**Roseland Amateur Radio Club History**
 
 The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
@@ -28,7 +28,8 @@ Please check our [club calendar](/calendar.md) to see our next in-person meeting
 
 ---
 
-**Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz**
+**Weekly Club Net:**</br>
+146.595 (+1.0 MHz), 127.3 Hz</br>
 7 PM ET Wednesdays, open to all.
 
 We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the St. Barnabas Amateur Radio Club & St. Barnabas Control Operators for their contributions to Amateur Radio and for the use of this repeater.
