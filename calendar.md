@@ -12,11 +12,11 @@ subtitle: RARC Club Calendar
 note: new members are always welcome!<br/>
 
 **Wednesday, October 18th**<br/>
-Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 7 PM ET, open to all.<br/>
 
 **Wednesday, October 25th**<br/>
-Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 7 PM ET, open to all.<br/>
 
 ---
@@ -24,5 +24,5 @@ Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
 <span style="font-size:larger;text-decoration:underline;">**November 2023**
 
 **Wednesday, November 1st**<br/>
-Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 7 PM ET, open to all.<br/>
