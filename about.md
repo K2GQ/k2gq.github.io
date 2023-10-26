@@ -17,18 +17,23 @@ We warmly invite you to join us at one of our upcoming meetings to learn more ab
 
 Stay tuned for more insights into our club's history and the significant moments that have shaped our journey.
 
-# The Roseland Amateur Radio Club meets Wednesday, 7:00 PM monthly at:
+---
+
+**The Roseland Amateur Radio Club meets Wednesday, 7:00 PM monthly at:**
 
 The Roseland Office of Emergency Management<br/>
 300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
 **guests and new members are always welcome!**<br/>
 Please check our [club calendar](/calendar.md) to see our next in-person meeting date.
 
-# Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz
+---
 
-**7 PM ET Wednesdays, open to all.**
+**Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz**
+7 PM ET Wednesdays, open to all.
 
 We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the St. Barnabas Amateur Radio Club & St. Barnabas Control Operators for their contributions to Amateur Radio and for the use of this repeater.
+
+---
 
 **Current Officers:**
 
