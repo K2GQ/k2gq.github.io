@@ -34,6 +34,12 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 ### Club History
 **Roseland Amateur Radio Club**
 
-The Roseland Amateur Radio Club Has been serving the community for over 75 years! The club was founded after World War II by Doc Schwalbe and has been in constant operation since that time. In 1958, the club became an ARRL affiliate and has maintained the affiliation throughout these many years. In 2015 we began our renewed drive to help the community with emergency communications and bring the areas "technologists" together in the interests of ham radio, community service, communications, electronics, digital technology and the camaraderie of these mutual interests. Please join us at one of our meetings to learn more about us, and how you can become a "ham".<br/>
+The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
-More history coming soon, stay tuned!
+In 1958, the Roseland Club affiliated itself with the American Radio Relay League (ARRL), marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
+
+The year 2015 was a pivotal point in our club's history, as we renewed our commitment to serving the community through emergency communications. This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
+
+We warmly invite you to join us at one of our upcoming meetings to learn more about the world of amateur radio and how you can get involved in this rewarding hobby.
+
+Stay tuned for more insights into our club's history and the significant moments that have shaped our journey.
