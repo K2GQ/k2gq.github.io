@@ -30,7 +30,7 @@ Please check our [club calendar](/calendar.md) to see our next in-person meeting
 
 <img align="right" width="240" height="80" src="/assets/img/scanner.jpg">
 **Weekly Club Net:**<br/>
-146.595 (+1.0 MHz), 127.3 Hz<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 7 PM ET Wednesdays, open to all.
 
 We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the St. Barnabas Amateur Radio Club & St. Barnabas Control Operators for their contributions to Amateur Radio and for the use of this repeater.
