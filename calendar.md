@@ -4,7 +4,7 @@ title: Club Calendar
 subtitle: RARC Club Calendar
 ---
 
-<span style="font-size:larger;">**October 2023**
+<span style="font-size:larger;text-decoration:underline;">**October 2023**
 
 **Monday, October 16th**<br/>
 7 PM ET General Meeting<br/>
@@ -21,7 +21,7 @@ Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
 
 ---
 
-<span style="font-size:larger;">**November 2023**
+<span style="font-size:larger;text-decoration:underline;">**November 2023**
 
 **Wednesday, November 1st**<br/>
 Weekly Club Net: 146.595 (+1.0 MHz), 127.3 Hz<br/>
