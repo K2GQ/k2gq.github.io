@@ -19,10 +19,11 @@ Stay tuned for more insights into our club's history and the significant moments
 
 ---
 
-**The Roseland Amateur Radio Club meets Wednesday, 7:00 PM monthly at:**<br/>
+**In-person Meetings:**<br/>
 The Roseland Office of Emergency Management<br/>
 300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
 **guests and new members are always welcome!**<br/>
+
 Please check our [club calendar](/calendar.md) to see our next in-person meeting date.
 
 ---
