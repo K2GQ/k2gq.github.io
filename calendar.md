@@ -2,7 +2,6 @@
 layout: page
 title: Club Calendar
 subtitle: RARC Club Calendar
-cover-img: /assets/img/abstract-calendar.png
 ---
 
 <span style="font-size:larger;text-decoration:underline;">**October 2023**
