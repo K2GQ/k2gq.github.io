@@ -19,7 +19,7 @@ Stay tuned for more insights into our club's history and the significant moments
 
 ---
 
-<img align="right" width="240" height="80" src="/assets/img/radio-station.png">
+<img align="right" width="240" height="160" src="/assets/img/radio-station.png">
 **In-person Meetings:**<br/>
 The Roseland Office of Emergency Management<br/>
 300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
