@@ -3,7 +3,7 @@ layout: post
 title: Welcome
 subtitle: Roseland Amateur Radio Club
 cover-img: /assets/img/rigphoto.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: /assets/img/k2gq-radio.png
 share-img: /assets/img/rigphoto.jpg
 tags: [welcome, introduction]
 ---
