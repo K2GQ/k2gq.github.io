@@ -14,8 +14,8 @@ We are delighted to extend a warm invitation to you to explore our club, a diver
 
 In addition to our educational endeavors, we are honored to lend our skills in service of our local community. Each year, we volunteer our time and expertise to facilitate public service communications for charity runs in the Essex County, NJ area, further solidifying our role as an integral part of the community fabric.
 
-Our club station, esteemed with an OEM rating, plays a pivotal role as the communications backbone of Roseland OEM. This is complemented by our active participation in HF contests and our adept utilization of HF digital modes.
+Our club station plays a pivotal role as the communications backbone of Roseland OEM. This is complemented by our active participation in HF contests and our adept utilization of HF digital modes.
 
-A unique aspect of our club is our keen interest in the innovative realm of antenna construction and study. We boast a wealth of knowledge within our ranks, with one member bringing years of invaluable experience in building antennas ranging from LF to microwaves. Currently, our exploratory endeavors have extended into the exciting world of Raspberry Pi, specifically its applications in ham radio. We are proud to have a functional SDR2 play at our disposal, allowing us to delve deep into bandwidth analysis.
+A unique aspect of our club is our interest in the innovative realm of antenna construction and study. We boast a wealth of knowledge within our ranks, with one member bringing years of invaluable experience in building antennas ranging from LF to microwaves. Currently, our exploratory endeavors have extended into the exciting world of Raspberry Pi, specifically its applications in ham radio. We are proud to have a functional SDR2 play at our disposal, allowing us to delve deep into bandwidth analysis.
 
-We warmly invite you to immerse yourself in our vibrant community, where innovation, education, and service converge to create a truly enriching experience.
+We warmly invite you to immerse yourself in our community, where innovation, education, and service converge to create a truly enriching experience.
