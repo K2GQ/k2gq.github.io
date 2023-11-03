@@ -26,3 +26,7 @@ subtitle: RARC Club Calendar
 **Wednesday, November 1st**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 7 PM ET, open to all.<br/>
+
+**Tuesday, November 7th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+7 PM ET, open to all.<br/>
