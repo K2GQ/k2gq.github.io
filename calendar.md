@@ -28,5 +28,7 @@ subtitle: RARC Club Calendar
 7 PM ET, open to all.<br/>
 
 **Tuesday, November 7th**<br/>
+<pre>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)   ░▒▓Echolink: KC2NJ-R▓▒░<br/>
+</pre>
 7 PM ET, open to all.<br/>
