@@ -22,7 +22,7 @@ subtitle: RARC Club Calendar
 
 **Wednesday, November 15th**<br/>
 7 PM ET General Meeting<br/>
-300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
+[300 Eagle Rock Avenue, Roseland, NJ 07068-1719](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 *guests and new members are always welcome!*<br/>
 
 **Tuesday, November 21st**<br/>
