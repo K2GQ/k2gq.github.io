@@ -15,15 +15,15 @@ subtitle: RARC Club Calendar
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, open to all.<br/>
 
-**Wednesday, November 15th**<br/>
-7 PM ET General Meeting<br/>
-300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
-*guests and new members are always welcome!*<br/>
-
 **Tuesday, November 14th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, open to all.<br/>
+
+**Wednesday, November 15th**<br/>
+7 PM ET General Meeting<br/>
+300 Eagle Rock Avenue, Roseland, NJ 07068-1719<br/>
+*guests and new members are always welcome!*<br/>
 
 **Tuesday, November 21st**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
