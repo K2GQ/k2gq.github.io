@@ -25,7 +25,7 @@ navbar-links:
   Resources:
     - ARRL: "https://www.arrl.org"
     - QRZ: "https://www.qrz.com/"
-    - FCC DB: "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAmateur.jsp"
+    - FCC ULS: "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAmateur.jsp"
 
 
 ################
