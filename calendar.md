@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Club Calendar
+cover-img: /assets/img/ts830s.jpg
 subtitle: RARC Club Calendar
 ---
 
