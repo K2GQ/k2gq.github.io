@@ -11,5 +11,5 @@ With thanks to our members and friends in the Essex County area, the Tuesday nig
 
 If you haven't had the chance to join in on the Roseland net, we encourage you to do so. It's an opportunity to engage with fellow members and local operators, share your experiences, and contribute to the connection of radio amateurs in our area.
 
-We'd also like to extend our thanks to Maurice, KB2SUL, for the excellent work he's doing as our net control. His coordination keeps our sessions running smoothly and ensures everyone gets a chance to participate; his friendly contributions and reliability are key components of the weekly net's success to date.
+We'd also like to extend our thanks to Maurice, KB2SUL, for the excellent work he's doing as our net control. His coordination keeps our sessions running smoothly and ensures everyone gets a chance to participate; his friendly contributions and reliability are key components of the weekly net's success.
 
