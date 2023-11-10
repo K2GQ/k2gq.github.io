@@ -24,6 +24,7 @@ navbar-links:
   Club Calendar: "calendar"
   Resources:
     - ARRL: "https://www.arrl.org"
+    - ARRL Hudson Divison: "https://hudson.arrl.org/"
     - QRZ: "https://www.qrz.com/"
     - FCC ULS: "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAmateur.jsp"
 
