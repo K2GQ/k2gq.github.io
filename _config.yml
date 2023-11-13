@@ -20,8 +20,8 @@ author: RARC
 ###############################################
 
 navbar-links:
-  About Us: "about"
   Club Calendar: "calendar"
+  About Us: "about"
   Resources:
     - ARDC: "https://www.ardc.net/"
     - ARRL: "https://www.arrl.org"
@@ -126,7 +126,7 @@ post_search: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "radio,amateur,essex,roseland,NJ,club,radio club, essex county, new jersey,ham, ham radio, amateur radio, radio club in essex county"
+keywords: "radio,amateur,essex,roseland,NJ,club,radio club,essex county,new jersey,ham,ham radio,amateur radio,radio club in essex county,Roseland ARC,Livingston,Short Hills,West Orange"
 
 ######################################
 # --- Colours / background image --- #
