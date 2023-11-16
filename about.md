@@ -7,6 +7,8 @@ subtitle: Roseland Amateur Radio Club
 
 <span style="font-size:larger;">**Roseland Amateur Radio Club History**
 
+<p><img src="/assets/img/log-1978.jpg" alt="log" class="mx-auto d-block" /></p>
+
 The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
 In 1958, the Roseland Club affiliated itself with the American Radio Relay League (ARRL), marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
