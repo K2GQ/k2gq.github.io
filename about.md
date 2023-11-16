@@ -7,7 +7,7 @@ subtitle: Roseland Amateur Radio Club
 
 <span style="font-size:larger;">**Roseland Amateur Radio Club History**
 
-<p><img src="https://k2gq.github.io/assets/img/log-1978.jpg" alt="log" class="mx-auto d-block" /></p>
+<p><img src="/assets/img/log-1978.jpg" alt="log" class="mx-auto d-block" /></p>
 
 The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
