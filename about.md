@@ -53,6 +53,7 @@ We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the S
 Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
 ---
-
+<br/>
+<br/>
 <p><img src="/assets/img/doc-k2gq.jpg" alt="log" class="mx-auto d-block" width="300" /></p>
 <p style="text-align: center;">K2GQ - Doc Schwalbe</p>
