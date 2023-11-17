@@ -51,3 +51,7 @@ We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the S
 | Treasurer | Jim Mesterhazy | KC2SKK |
 
 Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
+
+---
+
+<p><img src="/assets/img/doc-k2gq.jpg" alt="log" class="mx-auto d-block" /></p>
