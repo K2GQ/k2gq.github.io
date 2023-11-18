@@ -45,3 +45,23 @@ subtitle: RARC Club Calendar
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, open to all.<br/>
+
+**Tuesday, December 12th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, open to all.<br/>
+
+**Wednesday, December 13th**<br/>
+7 PM ET General Meeting & Holiday Dinner at Frank's Pizza<br/>
+[14 Eisenhower Pkwy, Roseland, NJ 07068](https://maps.app.goo.gl/CbKKCF5Cgo4EUV139)<br/>
+*guests and new members are always welcome!*<br/>
+
+**Tuesday, December 19th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, open to all.<br/>
+
+**Tuesday, December 26th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, open to all.<br/>
