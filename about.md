@@ -27,7 +27,7 @@ The Roseland Office of Emergency Management<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068-1719](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 *guests and new members are always welcome!*<br/>
 
-Please check our [club calendar](/calendar.md) to see our next in-person meeting date.
+Please check our [club calendar](/calendar.md) to verify our next in-person meeting date.
 
 ---
 
