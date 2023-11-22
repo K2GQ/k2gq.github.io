@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EchoLink Support
+title: EchoLink Information
 subtitle: How to Install EchoLink on your Smartphone
 cover-img: /assets/img/pcs7000h_lrg.jpg
 thumbnail-img: /assets/img/echolink.webp
