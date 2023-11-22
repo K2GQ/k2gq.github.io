@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
 tags: [echolink,ios,android,iphone,ipad]
 ---
-EchoLink for iOS is an edition of the EchoLink software that runs on an iPhone, iPad, or iPod touch. If you own one of these devices and are a validated EchoLink user, you can access the EchoLink system from nearly anywhere where WiFi networking is available. If you have an iPhone or cellular-capable iPad, you can also use it to access EchoLink over the cellular data network. EchoLink for iOS is available free of charge from Apple's App Store.
+<strong>EchoLink for iOS</strong> is an edition of the EchoLink software that runs on an iPhone, iPad, or iPod touch. If you own one of these devices and are a validated EchoLink user, you can access the EchoLink system from nearly anywhere where WiFi networking is available. If you have an iPhone or cellular-capable iPad, you can also use it to access EchoLink over the cellular data network. EchoLink for iOS is available free of charge from Apple's App Store.
 
 If you have used EchoLink before (for example, on Windows), enter the callsign and password you already have. Otherwise, choose and enter a password, and the app will walk you through the first part of the registration procedure.
 
@@ -17,7 +17,7 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 
 ---
 
-EchoLink for Android is an edition of the EchoLink software that runs on an Android smartphone or tablet. If you own one of these devices and are a validated EchoLink user, you can access the EchoLink system from nearly anywhere where WiFi or cellular networking is available. EchoLink for Android is available free of charge from Google Play; tap the Google Play icon on your phone and search for EchoLink.
+<strong>EchoLink for Android</strong> is an edition of the EchoLink software that runs on an Android smartphone or tablet. If you own one of these devices and are a validated EchoLink user, you can access the EchoLink system from nearly anywhere where WiFi or cellular networking is available. EchoLink for Android is available free of charge from Google Play; tap the Google Play icon on your phone and search for EchoLink.
 
 If you have used EchoLink before (for example, on Windows), enter the callsign and password you already have. Otherwise, choose and enter a password, and the app will walk you through the first part of the registration procedure.
 
