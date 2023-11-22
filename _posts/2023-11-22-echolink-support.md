@@ -2,9 +2,9 @@
 layout: post
 title: EchoLink Support
 subtitle: How to Install EchoLink on your Smartphone
-cover-img: /assets/img/ic228h.jpg
+cover-img: /assets/img/pcs7000h_lrg.jpg
 thumbnail-img: /assets/img/echolink.webp
-share-img: /assets/img/pcs7000h_lrg.jpg
+share-img: /assets/img/echolink.webp
 tags: [echolink,ios,android,iphone,ipad]
 ---
 iPhone: https://apps.apple.com/us/app/echolink/id350688562
