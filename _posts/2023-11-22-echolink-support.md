@@ -2,7 +2,7 @@
 layout: post
 title: EchoLink Information
 subtitle: How to Install EchoLink on your Smartphone
-cover-img: /assets/img/pcs7000h_lrg.jpg
+cover-img: /assets/img/azden_7000h.jpg
 thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
 tags: [echolink,ios,android,iphone,ipad]
