@@ -7,6 +7,11 @@ thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
 tags: [echolink,ios,android,iphone,ipad]
 ---
+
+EchoLink is a popular system used by amateur radio operators to link radio repeaters to the internet, allowing radio communications to extend beyond the traditional range of radio signals.  Using EchoLink, an operator can access their local repeater from anywhere with an internet connection, effectively overcoming geographical limitations. This is especially useful in situations where direct radio contact with the repeater is not possible due to distance, obstructions, or reduced signal strength.  The EchoLink setup on NE2S/R assures the user they will be "full quieting" into the repeater, and have Q5 copy during reception.
+
+---
+
 <strong>EchoLink for iOS</strong> is an edition of the EchoLink software that runs on an iPhone, iPad, or iPod touch. If you own one of these devices and are a validated EchoLink user, you can access the EchoLink system from nearly anywhere where WiFi networking is available. If you have an iPhone or cellular-capable iPad, you can also use it to access EchoLink over the cellular data network. EchoLink for iOS is available free of charge from Apple's App Store.
 
 If you have used EchoLink before (for example, on Windows), enter the callsign and password you already have. Otherwise, choose and enter a password, and the app will walk you through the first part of the registration procedure.
