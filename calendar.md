@@ -17,7 +17,6 @@ subtitle: RARC Club Calendar
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, open to all.<br/>
 
-{: .box-success}
 **Tuesday, November 28th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
@@ -27,6 +26,7 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**December 2023**
 
+{: .box-success}
 **Tuesday, December 5th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
