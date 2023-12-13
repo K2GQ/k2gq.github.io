@@ -5,9 +5,13 @@ cover-img: /assets/img/rarc-hq.png
 subtitle: Roseland Amateur Radio Club
 ---
 
-<span style="font-size:larger;">**Roseland Amateur Radio Club History**
+<span style="font-size:larger;text-align: center;">**Roseland Amateur Radio Club History**
 
 <p><img src="/assets/img/log-1978.jpg" alt="log" class="mx-auto d-block" /></p>
+
+Welcome to the Roseland Amateur Radio Club, located in the borough of Roseland, Essex County, New Jersey.
+
+We are delighted to extend a warm invitation to you to explore our club, a diverse gathering of individuals united by our passion for amateur radio. As an ARRL affiliated club, our membership proudly spans the spectrum from Technician to General and Amateur Extra class license holders. Our commitment to the growth and development of our community is reflected in our mentoring programs, where we provide comprehensive guidance and tutoring to those aspiring to attain their Technician and General license exams.
 
 The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
@@ -15,6 +19,8 @@ The Roseland Amateur Radio Club has been a part of the community for over 75 yea
 In 1958, the Roseland Club affiliated itself with the American Radio Relay League (ARRL), marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
 
 The year 2015 was a pivotal point in our club's history, as we renewed our commitment to serving the community through emergency communications. This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
+
+In addition to our educational endeavors, we are honored to lend our skills in service of our local community. Each year, we volunteer our time and expertise to facilitate public service communications for charity runs in the Essex County, NJ area, further solidifying our role as an integral part of the community fabric.
 
 We warmly invite you to join us at one of our upcoming meetings to learn more about the world of amateur radio and how you can get involved in this rewarding hobby.
 
