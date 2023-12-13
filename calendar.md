@@ -12,12 +12,12 @@ subtitle: RARC Club Calendar
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
-{: .box-success}
 **Tuesday, December 12th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
+{: .box-success}
 **Wednesday, December 13th**<br/>
 7 PM ET General Meeting & Holiday Dinner at Frank's Pizza<br/>
 [14 Eisenhower Pkwy, Roseland, NJ 07068](https://maps.app.goo.gl/g6tZ863EweCbHi1t7)<br/>
