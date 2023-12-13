@@ -5,7 +5,7 @@ cover-img: /assets/img/rarc-hq.png
 subtitle: Roseland Amateur Radio Club
 ---
 
-<p style="text-align: center;"><span style="font-size:larger;">**Roseland Amateur Radio Club History**</p>
+<p style="text-align: center;">**Roseland Amateur Radio Club History**</p>
 
 <p><img src="/assets/img/log-1978.jpg" alt="log" class="mx-auto d-block" /></p>
 
