@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/cake.jpg
 share-img: /assets/img/cake.jpg
 tags: [holiday,dinner,party,pizza]
 ---
-On a pleasant December evening, the Roseland Amateur Radio Club gathered at Frank's Pizza for a special holiday dinner.  The evening began with a brief club meeting. This was an opportunity for the members to discuss club matters, plan upcoming activities, and share updates. The meeting set a tone of community and collaboration, integral to the spirit of our club.
+On a pleasant December evening, the Roseland Amateur Radio Club gathered at Frank's Pizza for a special holiday dinner.  The evening began with a brief club meeting; this was an opportunity for the members to discuss club matters, plan upcoming activities, and share updates. The meeting set a tone of community and collaboration, integral to the spirit of our club.
 
 Following the meeting, members exchanged knowledge, experiences, and ideas about various aspects of amateur radio. From discussing the latest in radio technology to sharing anecdotes from their radio adventures, the conversation was both enlightening and entertaining.
 
