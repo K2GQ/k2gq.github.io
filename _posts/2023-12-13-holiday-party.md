@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Roseland ARC Holiday Dinner
-subtitle: Club Dinner at Frank's Pizza
+title: Roseland ARC Holiday Party
+subtitle: Club Meeting & Dinner at Frank's Pizza
 cover-img: /assets/img/franks-pizza.png
 thumbnail-img: /assets/img/cake.jpg
 share-img: /assets/img/cake.jpg
