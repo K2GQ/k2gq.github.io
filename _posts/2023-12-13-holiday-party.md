@@ -4,7 +4,7 @@ title: Roseland ARC Holiday Party
 subtitle: Club Dinner at Frank's Pizza
 cover-img: /assets/img/franks-pizza.png
 thumbnail-img: /assets/img/cake.jpg
-share-img: /assets/img/echolink.webp
+share-img: /assets/img/cake.jpg
 tags: [holiday,dinner,party,pizza]
 ---
 On a pleasant December evening, the Roseland Amateur Radio Club gathered at Frank's Pizza for a special holiday dinner. The event, spanning two hours, was not just a holiday dinner but also a celebration of camaraderie and shared passion for amateur radio.
