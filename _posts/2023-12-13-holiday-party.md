@@ -19,7 +19,6 @@ To round off the meal, a delightful ice cream cake was served. It was the perfec
 
 As the event drew to a close, it was evident that it was enjoyed by all. The combination of a warm and inviting atmosphere, engaging conversation, delicious food, and the shared love for amateur radio made this holiday dinner a memorable one. The cool and clear weather added to the charm of the evening, making it a perfect backdrop for a gathering that celebrated community, passion, and the joy of the holiday season.
 
-<br/>
-<p><img src="/assets/img/dec-13-group-photo.jpg" alt="RARC group photo" class="mx-auto d-block" width="300" /></p>
+<p><img src="/assets/img/dec-13-group-photo.jpg" alt="RARC group photo" class="mx-auto d-block" width="700" /></p>
 <p style="text-align: center;">Happy Holidays from the Roseland Amateur Radio Club!</p>
 
