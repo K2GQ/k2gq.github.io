@@ -35,12 +35,12 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**January 2024**
 
-{: .box-success}
 **Tuesday, January 2nd**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
+{: .box-success}
 **Tuesday, January 9th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
