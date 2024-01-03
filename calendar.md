@@ -5,34 +5,6 @@ cover-img: /assets/img/ts830s.jpg
 subtitle: RARC Club Calendar
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**December 2023**
-
-**Tuesday, December 5th**<br/>
-[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒Echolink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
-**Tuesday, December 12th**<br/>
-[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒Echolink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
-**Wednesday, December 13th**<br/>
-7 PM ET General Meeting & Holiday Dinner at Frank's Pizza<br/>
-[14 Eisenhower Pkwy, Roseland, NJ 07068](https://maps.app.goo.gl/g6tZ863EweCbHi1t7)<br/>
-
-**Tuesday, December 19th**<br/>
-[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒Echolink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
-**Tuesday, December 26th**<br/>
-[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒Echolink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
----
-
 <span style="font-size:larger;text-decoration:underline;">**January 2024**
 
 **Tuesday, January 2nd**<br/>
@@ -65,3 +37,28 @@ subtitle: RARC Club Calendar
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
+
+---
+
+<span style="font-size:larger;text-decoration:underline;">**February 2024**
+
+**Tuesday, February 6th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, February 13th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, February 20th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, February 27th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒Echolink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
