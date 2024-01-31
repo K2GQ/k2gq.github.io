@@ -32,7 +32,6 @@ subtitle: RARC Club Calendar
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 *guests and new members are always welcome!*<br/>
 
-{: .box-success}
 **Tuesday, January 30th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
@@ -42,6 +41,7 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**February 2024**
 
+{: .box-success}
 **Tuesday, February 6th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
