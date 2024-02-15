@@ -7,7 +7,7 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**February 2024**
 
-<img align="right" width="240" height="120" src="/assets/img/net-2024-02-06.png">
+[<img align="right" width="240" height="120" src="/assets/img/net-2024-02-06.png">](./assets/img/net-2024-02-06.png)
 **Tuesday, February 6th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
