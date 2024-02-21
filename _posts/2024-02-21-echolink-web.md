@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EchoLink Web
-subtitle: Clientless EchoLink now Available Online
+subtitle: Clientless EchoLink Access now Available
 cover-img: /assets/img/echolink-web-3.png
 thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
