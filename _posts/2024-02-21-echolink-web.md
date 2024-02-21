@@ -2,7 +2,7 @@
 layout: post
 title: EchoLink Web
 subtitle: Clientless EchoLink now Available Online
-cover-img: /assets/img/echolink-web-2.png
+cover-img: /assets/img/echolink-web-3.png
 thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
 tags: [echolink,web,clientless]
