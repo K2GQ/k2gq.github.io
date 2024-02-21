@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  
-subtitle: EchoLink Web
-cover-img: /assets/img/echolink-web.png
+title:  EchoLink Web
+cover-img: /assets/img/echolink-web-2.png
 thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
 tags: [echolink,web,clientless]
@@ -25,4 +24,4 @@ Upon launching EchoLink Web, you might be prompted to allow the use of your micr
 
 Once logged in, connecting to another station is straightforward. To start transmitting, either click on the Transmit button or press and hold the space bar. Remember, you can only transmit when the EchoLink Web page is actively in use on your screen.
 
-Additional techincal details can be found here [https://www.echolink.org/faq_webapp.htm](https://www.echolink.org/faq_webapp.htm)
+Additional techincal details can be found here: [https://www.echolink.org/faq_webapp.htm](https://www.echolink.org/faq_webapp.htm)
