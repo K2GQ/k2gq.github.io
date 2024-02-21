@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <span style="color:black">*EchoLink Web*</span>
+title: EchoLink Web
 subtitle: Clientless EchoLink now Available Online
 cover-img: /assets/img/echolink-web-2.png
 thumbnail-img: /assets/img/echolink.webp
