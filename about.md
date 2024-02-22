@@ -20,6 +20,7 @@ In 1958, the Roseland Club affiliated itself with the American Radio Relay Leagu
 
 The year 2015 was a pivotal point in our club's history, as we renewed our commitment to serving the community through emergency communications. This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
 
+<img align="right" width="240" height="240" src="/assets/img/ftdx10_club.jpg">
 In addition to our educational endeavors, we are honored to lend our skills in service of our local community. Each year, we volunteer our time and expertise to facilitate public service communications for charity runs in the Essex County, NJ area, further solidifying our role as an integral part of the community fabric.
 
 We warmly invite you to join us at one of our upcoming meetings to learn more about the world of amateur radio and how you can get involved in this rewarding hobby.
