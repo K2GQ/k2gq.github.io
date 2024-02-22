@@ -17,7 +17,7 @@ EchoLink Web is a browser-based version of the popular EchoLink software, enabli
 
 #### Getting Started with EchoLink Web
 
-To dive into the world of EchoLink Web, simply navigate to [webapp.echolink.org](http://webapp.echolink.org). You'll need your existing EchoLink callsign (make sure it's in single-user mode, without the -L or -R suffix) and password to log in. If your callsign hasn't been validated yet, the website will guide you through the validation process. Should you encounter an "incorrect password" message, you can easily reset your EchoLink password on the Validation page.
+To dive into the world of EchoLink Web, simply navigate to [webapp.echolink.org](https://webapp.echolink.org). You'll need your existing EchoLink callsign (make sure it's in single-user mode, without the -L or -R suffix) and password to log in. If your callsign hasn't been validated yet, the website will guide you through the validation process. Should you encounter an "incorrect password" message, you can easily reset your EchoLink password on the Validation page.
 
 #### Permissions and Functionality
 
