@@ -2,9 +2,9 @@
 layout: post
 title: Repeater Operational Tips
 subtitle: 
-cover-img: /assets/img/acc_rc850-2.jpg
+cover-img: /assets/img/acc_rc850.jpg
 thumbnail-img: /assets/img/acc-rc-850-cib.jpg
-share-img: /assets/img/acc_rc850-2.jpg
+share-img: /assets/img/acc_rc850.jpg
 tags: [repeater,PL,CTCSS,controller,NE2S]
 ---
 The question of how a repeater controller functions has come up several times in the past few months.  Below are some general facts about the operation of a familiar repeater controller that focus on relevant, high impact items for repeater users, with specific details for our local repeater, NE2S, on 146.595 MHz.
