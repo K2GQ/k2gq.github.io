@@ -21,7 +21,7 @@ This is the period where the repeater transmitter remains on the air, after the 
 ### Timeout Timer
 The repeater’s timeout timer is set at 3 minutes on NE2S and its function is to limit transmission duration in case of a continuous carrier at the repeater’s receiver. The timer resets automatically when the input signal at the receiver has ceased for 1.5 seconds. Normally, a Courtesy Tone is generated at that time, however if pending repeater ID is waiting, the repeater ID message will be generated in place of the Courtesy Tone and will be followed by the tone. In either case, the Timeout Timer resets at the beginning of the courtesy tone or pending repeater ID.  You do not need to wait for the repeater tail (Hang Time) to drop (end).  In order to reset the Timeout Timer, simply wait to hear the Courtesy Tone and begin the next transmission.
 
-If users do not wait for the Courtesy Tone and the total transmission time between timer resets exceeds the NE2S timeout timer value of 3 minutes, the controller will announce “Repeater Time Out”, and the transmitter will be shut off. When the signal at the input stops for at least 1.5 seconds, the transmitter will be re-enabled and will announce “Repeater Time Out Cancel” and normal operation will resume.
+If users do not wait for the Courtesy Tone and the total transmission time between timer resets exceeds the NE2S timeout timer value of 3 minutes, the controller will announce “Repeater Time Out”, and the transmitter will be shut off. When the signal at the input stops for at least 1.5 seconds, the transmitter will be re-enabled and will announce “Repeater Ready” and normal operation will resume.
 
 | Function | Value |
 | :------ |:--- |
