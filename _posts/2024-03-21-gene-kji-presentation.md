@@ -2,9 +2,9 @@
 layout: post
 title: Principles of RF Propagation by Gene Niemiec - K2KJI
 subtitle:
-cover-img: /assets/img/ionosphere-2.png
-thumbnail-img: /assets/img/ionosphere-1.png
-share-img: /assets/img/ionosphere-1.png
+cover-img: /assets/img/ionosphere-b.png
+thumbnail-img: /assets/img/ionosphere-a.png
+share-img: /assets/img/ionosphere-a.png
 tags: [ionosphere,atmosphere,propagation]
 ---
 # Discovering the Atmosphere Through Radio Waves: A Glimpse into Gene Niemiec's Seminar
@@ -12,7 +12,7 @@ tags: [ionosphere,atmosphere,propagation]
 [Lecture Notes](../assets/pdf/K2KJI-presentation.pdf) || 
 [Presentation Video](https://www.youtube.com/watch?v=-DwEA7eCeho)
 
-<img align="right" width="180" height="240" src="/assets/img/gene-kji-lecture.jpg">
+<img align="right" width="185" height="240" src="/assets/img/gene-kji-lecture.jpg">
 In the inaugural session of our new Seminar Series, Gene Niemiec from KJI Electronics took the stage, captivating the audience with a 45-minute deep dive into the world of "Atmospherics". This monthly initiative aims to shed light on the diverse expertise within our community, and Gene's lecture did just that, blending history, science, and technology into an enlightening experience.
 
 ### Journey Through Radio Discovery
