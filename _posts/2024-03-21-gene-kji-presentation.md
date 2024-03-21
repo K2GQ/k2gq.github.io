@@ -15,7 +15,7 @@ tags: [ionosphere,atmosphere,propagation]
 <img align="right" width="185" height="240" src="/assets/img/gene-kji-lecture.jpg">
 In the inaugural session of our new Seminar Series, Gene Niemiec from KJI Electronics took the stage, captivating the audience with a 45-minute deep dive into the world of "Atmospherics". This monthly initiative aims to shed light on the diverse expertise within our community, and Gene's lecture did just that, blending history, science, and technology into an enlightening experience.
 
-<br /><br />
+<br />
 
 ### Journey Through Radio Discovery
 
