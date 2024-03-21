@@ -15,6 +15,8 @@ tags: [ionosphere,atmosphere,propagation]
 <img align="right" width="185" height="240" src="/assets/img/gene-kji-lecture.jpg">
 In the inaugural session of our new Seminar Series, Gene Niemiec from KJI Electronics took the stage, captivating the audience with a 45-minute deep dive into the world of "Atmospherics". This monthly initiative aims to shed light on the diverse expertise within our community, and Gene's lecture did just that, blending history, science, and technology into an enlightening experience.
 
+<br /><br />
+
 ### Journey Through Radio Discovery
 
 Gene's lecture commenced with a historical overview of radio discovery, tracing back to the pioneering days when the airwaves first whispered their secrets to humanity. He recounted the milestones that led to our contemporary understanding of radio technology, paying homage to the legends like Heinrich Hertz and James Clerk Maxwell, whose foundational work paved the way for modern telecommunications.
