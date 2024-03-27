@@ -63,8 +63,38 @@ subtitle: RARC Club Calendar
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 *guests and new members are always welcome!*<br/>
 
-{: .box-success}
+[<img align="right" width="240" height="120" src="/assets/img/net-2024-03-26.png">](./assets/img/net-2024-03-26.png.png)
 **Tuesday, March 26th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+---
+
+<span style="font-size:larger;text-decoration:underline;">**April 2024**
+
+{: .box-success}
+**Tuesday, April 2nd**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, April 9th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, April 16th**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, April 23rd**<br/>
+[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, April 30th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
