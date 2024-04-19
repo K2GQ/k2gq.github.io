@@ -65,4 +65,6 @@ subtitle: RARC Club Calendar
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
+---
+
 [RARC Social Net Log Archive / History](/nethistory.md)
