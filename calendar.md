@@ -5,8 +5,6 @@ cover-img: /assets/img/ts830s.jpg
 subtitle: RARC Club Calendar
 ---
 
-[RARC Social Net Log Archive / History](/nethistory.md)
-
 <span style="font-size:larger;text-decoration:underline;">**April 2024**
 
 [<img align="right" width="240" height="100" src="/assets/img/net-2024-04-02.png">](./assets/img/net-2024-04-02.png)
@@ -66,3 +64,5 @@ subtitle: RARC Club Calendar
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
+
+[RARC Social Net Log Archive / History](/nethistory.md)
