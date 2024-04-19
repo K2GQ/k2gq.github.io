@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Net History
-cover-img: /assets/img/ic228h.jpg
+cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly RARC Net History
 ---
 
