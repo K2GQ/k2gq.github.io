@@ -12,7 +12,7 @@ tags: [NetLogger]
 [Presentation Video](https://youtu.be/tH91dnmCiDk?si=s3XAaoybDPzpLQRY&t=1)
 
 <img align="right" width="185" height="200" src="/assets/img/peter-xtt.jpg">
-Recently, our club had the pleasure of hosting a presentation by Peter Summers, call sign N2XTT. Peter introduced us to NetLogger, a powerful tool for amateur radio operators, especially those involved in HF (High Frequency) communications.
+In April, our club had the pleasure of hosting a presentation by Peter Summers, call sign N2XTT. Peter introduced us to NetLogger, a powerful tool for amateur radio operators, especially those involved in HF (High Frequency) communications.
 
 <br />
 

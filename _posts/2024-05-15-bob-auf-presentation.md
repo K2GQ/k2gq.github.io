@@ -12,7 +12,7 @@ tags: [CW,Vibroplex,Collins]
 [Presentation Video](https://www.youtube.com/watch?v=zf22qNyEmXo&t=1s)
 
 <img align="right" width="185" height="220" src="/assets/img/bob-auf-lecture.jpg">
-Recently, we had the pleasure of attending a captivating presentation by Bob, who shared his extensive knowledge and personal experiences with vintage Collins equipment and CW (Continuous Wave) operations. As a lifelong enthusiast and skilled CW operator, Bob's insights provided a rich glimpse into the history and technical intricacies of amateur radio.
+This month, we had the pleasure of attending a captivating presentation by Bob, who shared his extensive knowledge and personal experiences with vintage Collins equipment and CW (Continuous Wave) operations. As a lifelong enthusiast and skilled CW operator, Bob's insights provided a rich glimpse into the history and technical intricacies of amateur radio.
 
 <br />
 
