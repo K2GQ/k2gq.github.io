@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/cwkey-a.jpg
 share-img: /assets/img/cwkey-a.jpg
 tags: [CW,Vibroplex,Collins]
 ---
-# Exploring the Fascinating World CW Operations with Bob Calandra - K2AUF
+# Exploring the Fascinating World of CW Operations with Bob Calandra - K2AUF
 
 [Presentation Video](https://www.youtube.com/watch?v=zf22qNyEmXo&t=1s)
 
