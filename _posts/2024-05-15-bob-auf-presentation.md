@@ -40,7 +40,7 @@ Bob shared his experiences during significant historical events, such as the Cub
 
 Bob's presentation was enriched by his display of vintage Collins equipment, including the Collins R-390 receiver, renowned for its exceptional performance. He emphasized the durability and reliability of these classic radios, which continue to be treasured by enthusiasts today.
 
-### A Glimpse into the Future
+### Advice for New CW Operators
 
 For those inspired by Bob's presentation, he offered valuable advice on starting with CW. He recommended learning a few characters at a time and practicing regularly to develop proficiency. Bob stressed the importance of listening before sending, as recognizing the rhythm and spacing of characters is crucial.
 
