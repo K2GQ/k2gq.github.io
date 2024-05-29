@@ -35,7 +35,7 @@ subtitle: RARC Club Calendar
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
-{: .box-success}
+[<img align="right" width="240" height="100" src="/assets/img/net-2024-05-28.png">](./assets/img/net-2024-05-28.png)
 **Tuesday, May 28th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
@@ -45,6 +45,7 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**June 2024**
 
+{: .box-success}
 **Tuesday, June 4th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
