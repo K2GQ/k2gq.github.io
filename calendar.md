@@ -13,12 +13,13 @@ subtitle: RARC Club Calendar
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
-{: .box-success}
+[<img align="right" width="240" height="100" src="/assets/img/net-2024-06-11.png">](./assets/img/net-2024-06-11.png)
 **Tuesday, June 11th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
+{: .box-success}
 **Tuesday, June 18th**<br/>
 [146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
