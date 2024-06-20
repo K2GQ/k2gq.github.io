@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Club Constitution and By-Laws
-cover-img: /assets/img/ic-781.jpg
+cover-img: /assets/img/rarc-hq.png
 subtitle: Roseland Amateur Radio Club
 ---
 ## ROSELAND AMATEUR RADIO CLUB
@@ -17,9 +17,9 @@ This organization shall be known as The Roseland Amateur Radio Club.
 
 #### Section 2
 The purpose of this organization shall be:
-A. To maintain, improve, and promote the standards and philosophy of amateur radio.
-B. To foster an atmosphere that will promote technical and social interaction through mutual assistance.
-C. In the name of public service to provide communications for community events and emergencies.
+- A. To maintain, improve, and promote the standards and philosophy of amateur radio.
+- B. To foster an atmosphere that will promote technical and social interaction through mutual assistance.
+- C. In the name of public service to provide communications for community events and emergencies.
 
 ### Article II: Offices shall be elected annually.
 
