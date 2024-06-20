@@ -17,14 +17,14 @@ This organization shall be known as The Roseland Amateur Radio Club.
 
 #### Section 2
 The purpose of this organization shall be:
-- A. To maintain, improve, and promote the standards and philosophy of amateur radio.
-- B. To foster an atmosphere that will promote technical and social interaction through mutual assistance.
-- C. In the name of public service to provide communications for community events and emergencies.
+A. To maintain, improve, and promote the standards and philosophy of amateur radio.
+B. To foster an atmosphere that will promote technical and social interaction through mutual assistance.
+C. In the name of public service to provide communications for community events and emergencies.
 
 ### Article II: Offices shall be elected annually.
 
 #### Section 1
-The club shall have the following officers: President, Vice President, Secretary, Treasurer, Chief Operator, and only club license trustee and Three Trustees.
+The club shall have the following officers: President, Vice President, Secretary, Treasurer, Chief Operator, and one club license trustee and Three Trustees.
 
 #### Section 2
 Any person holding an office must be a permanently licensed amateur, over 18 years of age and be a member in good standing in the club.
