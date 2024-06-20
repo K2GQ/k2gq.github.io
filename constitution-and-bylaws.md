@@ -51,7 +51,7 @@ Nominations for office shall be made at the July - August period. Elections for 
 - B. Ex-officio member of all committees.
 - C. Calls a special election in case of an executive board vacancy.
 - D. Appoints a chairman for each committee unless otherwise noted in the constitution.
-- E. Can co-sign club checks.
+- E. Can co-sign all club checks.
 
 #### Section 2: Vice President
 - A. Chairman of the membership committee.
