@@ -4,8 +4,8 @@ title: Club Constitution and By-Laws
 cover-img: /assets/img/rarc-hq.png
 subtitle: Roseland Amateur Radio Club
 ---
-## ROSELAND AMATEUR RADIO CLUB
-## Constitution and ByLaws
+### ROSELAND AMATEUR RADIO CLUB
+### Constitution and ByLaws
 ### February 2022
 
 ## Constitution
@@ -125,6 +125,8 @@ A member may make a request for a constitutional change by making same in writin
 
 #### Section 1
 Upon dissolution of the club, the club shall, after payment of all liabilities, dispose of all assets of the club exclusively for the purpose and in such manner or to such organizations organized and operated exclusively for charitable, educational or scientific purposes as shall at that time qualify for exemption under Section 501(c)(3) or (5) of the internal revenue code of 2019.
+
+---
 
 ## By-Laws
 
