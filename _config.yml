@@ -10,21 +10,29 @@
 ############################
 
 # Name of website
-title: My website
+title: Roseland Amateur Radio Club
 
 # Your name to show in the footer
-author: Some Person
+author: RARC
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Club Calendar: "calendar"
+  About Us: "about"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - ARDC: "https://www.ardc.net/"
+    - ARRL: "https://www.arrl.org"
+    - DX Calendar: "https://dxnews.com/calendar/"
+    - EchoLink Web: "https://webapp.echolink.org/"
+    - FCC ULS: "https://wireless2.fcc.gov/UlsApp/UlsSearch/searchAmateur.jsp"
+    - NetLogger: "https://www.netlogger.org/"
+    - Online License Exams: "https://hamstudy.org/sessions/remote"
+    - QRZ: "https://www.qrz.com/"
+    - Solar Conditions: "https://solar.w5mmw.net/"
+    - Tropo Index: "https://www.dxinfocentre.com/tropo.html"
 
 ################
 # --- Logo --- #
@@ -32,7 +40,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/assets/img/irac.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -50,14 +58,14 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: "roselandarc@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#  facebook: deanattali
+#  github: daattali
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: "@daattali"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -85,7 +93,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Roseland ARC
 
 ###########################
 # --- General options --- #
@@ -93,14 +101,14 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "k2gq.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -126,7 +134,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "radio,amateur,essex,roseland,NJ,club,radio club,essex county,new jersey,ham,ham radio,amateur radio,radio club in essex county,Roseland ARC,Livingston,Short Hills,West Orange"
 
 ######################################
 # --- Colours / background image --- #
