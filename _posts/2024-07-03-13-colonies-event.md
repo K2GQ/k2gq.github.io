@@ -30,7 +30,7 @@ One of the highlights of the event is the opportunity to receive commemorative Q
 1. **Prepare Early:** Check the event's website for frequencies and operating schedules.
 2. **Log Your Contacts:** Keep a detailed log of your contacts to ensure you can claim your certificates.
 3. **Use Multiple Bands and Modes:** The stations will operate on various bands and modes (CW, SSB, digital), so explore different frequencies.
-4. **Follow Event Updates:** Join the event's social media groups or forums to stay updated on station activities and band conditions.
+4. **Follow Event Updates:** Join the event's social media groups or forums to stay updated on station activities and band conditions.</br>
 
 #### The Spirit of Ham Radio
 
