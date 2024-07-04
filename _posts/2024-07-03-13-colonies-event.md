@@ -2,7 +2,7 @@
 layout: post
 title: The Annual 13 Colonies Special Event
 subtitle: July 1-7
-cover-img: /assets/img/independence-hall.png
+cover-img: /assets/img/independence-hall.jpg
 thumbnail-img: /assets/img/betsy-ross-flag.jpg
 share-img: /assets/img/betsy-ross-flag.jpg
 tags: [contest,13 colonies,special event]
