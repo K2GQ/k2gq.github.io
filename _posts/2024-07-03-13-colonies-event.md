@@ -23,7 +23,7 @@ For those who successfully contact at least some of the thirteen colonies, a bea
 
 #### Special Event QSL Cards and Certificates
 
-One of the highlights of the event is the opportunity to receive commemorative QSL cards and a certificate. Each special event station provides a unique QSL card, often featuring historical imagery related to the colony they represent. Collecting these cards has become a cherished tradition among amateur radio enthusiasts.
+One of the highlights of the event is the opportunity to receive commemorative QSL cards and a certificate. Each special event station offers a unique QSL card, often featuring historical imagery related to the colony they represent. Collecting these cards has become a cherished tradition among amateur radio enthusiasts.
 
 #### Tips for a Successful Event
 
