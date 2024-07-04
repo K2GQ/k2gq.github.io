@@ -13,7 +13,7 @@ Every year, amateur radio operators across the globe eagerly anticipate the 13 C
 
 #### What is the 13 Colonies Special Event?
 
-The 13 Colonies Special Event is a unique amateur radio activity where operators aim to contact special event stations representing each of the original thirteen colonies: Connecticut, Delaware, Georgia, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, and Virginia. Additionally, two bonus stations—WM3PEN in Philadelphia, representing the Liberty Bell, and GB13COL in the United Kingdom—are also active during the event.
+The 13 Colonies Special Event is a unique amateur radio activity where operators aim to contact special event stations representing each of the original thirteen colonies: Connecticut, Delaware, Georgia, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Pennsylvania, Rhode Island, South Carolina, and Virginia. Additionally, three bonus stations—WM3PEN in Philadelphia, representing the Liberty Bell, TM13COL in France, and GB13COL in the United Kingdom—are also active during the event.
 
 #### How to Participate
 
@@ -30,7 +30,7 @@ One of the highlights of the event is the opportunity to receive commemorative Q
 1. **Prepare Early:** Check the event's website for frequencies and operating schedules.
 2. **Log Your Contacts:** Keep a detailed log of your contacts to ensure you can claim your certificates.
 3. **Use Multiple Bands and Modes:** The stations will operate on various bands and modes (CW, SSB, digital), so explore different frequencies.
-4. **Follow Event Updates:** Join the event's social media groups or forums to stay updated on station activities and band conditions.<br/>
+4. **Follow Event Updates:** Join the event's social media groups or forums to stay updated on station activities and band conditions.
 
 #### The Spirit of Ham Radio
 
