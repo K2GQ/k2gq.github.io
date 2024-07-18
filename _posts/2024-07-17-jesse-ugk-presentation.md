@@ -9,9 +9,9 @@ tags: [FT8,FT4,digital,HF,DX]
 ---
 **FT8: Jesse, N1UGK, Unveils the Technical and Operational Details at Roseland Amateur Radio Club**
 
-[Presentation](/assets/pdf/N1UGK-FT8-presentation.pdf)
+[FT8 Slide Deck Presentation](/assets/pdf/N1UGK-FT8-presentation.pdf)
 
-<img align="right" width="185" height="220" src="/assets/img/jesse-ugk-lecture.jpgjesse-ugk-lecture.jpg">
+<img align="right" width="185" height="220" src="/assets/img/jesse-ugk-lecture.jpg">
 **Roseland, NJ** — In an era where digital communication reigns supreme, Jesse, N1UGK, brought a wave of excitement to the Roseland Amateur Radio Club last evening with his comprehensive presentation on FT8. Despite a well-attended meeting ending in a deluge of lightning and rain, the enthusiasm for this innovative mode of communication remained undampened.
 
 **The Dawn of FT8**
