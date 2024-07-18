@@ -48,4 +48,6 @@ One of the highlights was the introduction of GridTracker, a tool that enhances 
 
 As the evening drew to a close, attendees were left with a deeper understanding of FT8's capabilities and its place in the future of amateur radio. Despite the heavy storm outside, the spirit of innovation and community inside the Roseland Amateur Radio Club was anything but dampened.
 
-Jesse, N1UGK's presentation on FT8 not only illuminated the technical prowess of this mode but also sparked a spirited discussion on the future of digital communication in amateur radio. As the storm raged on, it was clear that the waves of FT8 would continue to ripple through the amateur radio world.
+Jesse's presentation on FT8 not only illuminated the technical prowess of this mode but also sparked a spirited discussion on the future of digital communication in amateur radio. As the storm raged on, it was clear that the waves of FT8 would continue to ripple through the amateur radio world.
+
+Please enjoy Jesse's comprehensive amateur radio & technology blog at [https://n1ugk.com/](https://n1ugk.com/)
