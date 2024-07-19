@@ -26,7 +26,7 @@ Jesse traced the evolution of digital modes, from the inception of RTTY in 1949 
 
 **Why FT8?**
 
-FT8’s appeal lies in its accessibility and efficiency. It provides a gateway for technicians without HF privileges, save for the digital portion of the 10-meter band, who may not be versed in CW. Additionally, it is a boon for those aspiring towards awards like the ARRL DXCC or Worked All States, as FT8 contacts are recognized for their digital verification. FT8 is also an invaluable tool for antenna testing and propagation comparison, offering quick, non-conversational contacts that can be made in as little as 90 seconds, and even shorter in contest mode.
+FT8’s appeal lies in its accessibility and efficiency. It provides a gateway for technicians without digital HF privileges, save for a portion of the 10-meter band, who may not be versed in CW. Additionally, it is a boon for those aspiring towards awards like the ARRL DXCC or Worked All States, as FT8 contacts are recognized for their digital verification. FT8 is also an invaluable tool for antenna testing and propagation comparison, offering quick, non-conversational contacts that can be made in as little as 90 seconds, and even shorter in contest mode.
 
 **The Controversy and Criticism**
 
