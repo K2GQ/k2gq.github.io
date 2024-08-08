@@ -3,8 +3,8 @@ layout: post
 title: Navigating Power Outages: The Role of Amateur Radio Operators
 subtitle:
 cover-img: /assets/img/power-cover-sul.png
-thumbnail-img: /assets/img/po-sul.jpeg
-share-img: /assets/img/po-sul.jpeg
+thumbnail-img: /assets/img/po-sul.jpg
+share-img: /assets/img/po-sul.jpg
 tags: [power,outages,NE2S,community,service]
 ---
 *By Maurice - KB2SUL*
