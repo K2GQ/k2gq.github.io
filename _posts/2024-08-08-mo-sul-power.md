@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Navigating Power Outages: The Role of Amateur Radio Operators
+title: Navigating Power Outages - The Role of Amateur Radio Operators
 subtitle:
 cover-img: /assets/img/power-cover-sul.png
 thumbnail-img: /assets/img/po-sul.jpg
