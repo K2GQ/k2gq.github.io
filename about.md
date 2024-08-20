@@ -41,7 +41,7 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 
 <img align="right" width="240" height="80" src="/assets/img/scanner.jpg">
 **Weekly Club Net:**<br/>
-[146.595 (+1.0 MHz), 127.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET Tuesdays, open to all.
 
