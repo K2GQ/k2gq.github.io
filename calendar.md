@@ -56,7 +56,7 @@ subtitle: RARC Club Calendar
 7 PM ET, weekly social net, open to all.<br/>
 
 **Saturday, September 21st**<br/>
-Run & Walk for Roseland 2024<br/>
+[Run & Walk for Roseland 2024](https://k2gq.github.io/2024-08-21-roseland-run-invite/)<br/>
 [140 Eagle Rock Ave, Roseland, NJ 07068](https://tinyurl.com/539yun9a)<br/>
 *Please volunteer to assist with this event!*<br/>
 
