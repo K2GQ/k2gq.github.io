@@ -19,7 +19,7 @@ The Roseland Amateur Radio Club is seeking dedicated amateur radio operators to 
 **Requirements:**
 - A 2-meter FM radio (HT or mobile) is needed to participate.
 
-Your role will be crucial in ensuring the safety of participants along the race course. If you're interested in volunteering, please reach out to Roseland ARC at [roselandarc@gmail.com](mailto:roselandarc@gmail.com).
+Your role will be crucial in ensuring the safety of participants along the race course. If you're interested in volunteering, please reach out to Jesse, N1UGK at [Jbertier@arrl.net](mailto:Jbertier@arrl.net).
 
 Thank you for your support! Let's make this event a safe and successful one!
 
