@@ -25,12 +25,12 @@ subtitle: RARC Club Calendar
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
-{: .box-success}
 **Wednesday, August 21st**<br/>
 7 PM ET General Meeting<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 *guests and new members are always welcome!*<br/>
 
+{: .box-success}
 **Tuesday, August 27th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
@@ -54,6 +54,11 @@ subtitle: RARC Club Calendar
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
+
+**Saturday, September 21st**<br/>
+Run & Walk for Roseland 2024<br/>
+[140 Eagle Rock Ave, Roseland, NJ 07068](https://tinyurl.com/539yun9a)<br/>
+*Please volunteer to assist with this event!*<br/>
 
 **Tuesday, September 24th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
