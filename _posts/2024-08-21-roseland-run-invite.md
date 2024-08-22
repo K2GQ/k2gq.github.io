@@ -2,7 +2,7 @@
 layout: post
 title: Call for Volunteers
 subtitle: Roseland 2024 Run & Walk Event
-cover-img: /assets/img/rr-banner-png
+cover-img: /assets/img/rr-banner.png
 thumbnail-img: /assets/img/rr-link.png
 share-img: /assets/img/rr-link.jpg
 tags: [roseland,run,walk,5K,community,service]
@@ -23,5 +23,5 @@ Your role will be crucial in ensuring the safety of participants along the race 
 
 Thank you for your support! Let's make this event a safe and successful one!
 
-[Run & Walk Info Flyer](/assets/img/roseland-run-2024.jpg)
+[Run & Walk Info Flyer](/assets/img/roseland-run-2024.jpg)<br/>
 [1.5 Mile Walk and Talk Course Map](/assets/pdf/rr-course-map.pdf)
