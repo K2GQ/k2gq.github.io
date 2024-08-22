@@ -13,7 +13,7 @@ The Roseland Amateur Radio Club is seeking dedicated amateur radio operators to 
 
 **Event Details:**
 - **Date:** Saturday, September 21st, 2024
-- **Time:** 8:00 AM - 10:00 AM
+- **Time:** 8:00 AM - 10:00 AM ET
 - **Location:** 140 Eagle Rock Ave, Roseland, NJ and along the race course in Roseland
 
 **Requirements:**
