@@ -33,8 +33,8 @@ Stay tuned for more insights into our club's history and the significant moments
 **In-person Meetings:**<br/>
 The Roseland Office of Emergency Management<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068-1719](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-*guests and new members are always welcome!*<br/>
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
+*guests and new members are always welcome!*<br/>
 
 Please check our [club calendar](/calendar.md) to verify our next in-person meeting date.
 

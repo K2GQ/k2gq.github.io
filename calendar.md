@@ -28,8 +28,8 @@ subtitle: RARC Club Calendar
 **Wednesday, August 21st**<br/>
 7 PM ET General Meeting<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-*guests and new members are always welcome!*<br/>
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
+*guests and new members are always welcome!*<br/>
 
 {: .box-success}
 **Tuesday, August 27th**<br/>
