@@ -31,7 +31,7 @@ subtitle: RARC Club Calendar
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
 *guests and new members are always welcome!*<br/>
 
-{: .box-success}
+[<img align="right" width="240" height="85" src="/assets/img/net-2024-08-27.png">](./assets/img/net-2024-08-27.png)
 **Tuesday, August 27th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
@@ -41,6 +41,7 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 
 <span style="font-size:larger;text-decoration:underline;">**September 2024**
 
+{: .box-success}
 **Tuesday, September 3rd**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
