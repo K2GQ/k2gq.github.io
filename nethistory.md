@@ -205,12 +205,6 @@ subtitle: Weekly RARC Net History
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
-**Wednesday, August 21st**<br/>
-7 PM ET General Meeting<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
-*guests and new members are always welcome!*<br/>
-
 [<img align="right" width="240" height="85" src="/assets/img/net-2024-08-27.png">](./assets/img/net-2024-08-27.png)
 **Tuesday, August 27th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
