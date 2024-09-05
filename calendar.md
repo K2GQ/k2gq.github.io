@@ -5,40 +5,6 @@ cover-img: /assets/img/ts830s.jpg
 subtitle: RARC Club Calendar
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**August 2024**
-
-[<img align="right" width="240" height="85" src="/assets/img/net-2024-08-06.png">](./assets/img/net-2024-08-06.png)
-**Tuesday, August 6th**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
-[<img align="right" width="240" height="85" src="/assets/img/net-2024-08-13.png">](./assets/img/net-2024-08-13.png)
-**Tuesday, August 13th**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
-[<img align="right" width="240" height="85" src="/assets/img/net-2024-08-20.png">](./assets/img/net-2024-08-20.png)
-**Tuesday, August 20th**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
-**Wednesday, August 21st**<br/>
-7 PM ET General Meeting<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
-*guests and new members are always welcome!*<br/>
-
-[<img align="right" width="240" height="85" src="/assets/img/net-2024-08-27.png">](./assets/img/net-2024-08-27.png)
-**Tuesday, August 27th**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
-
----
-
 <span style="font-size:larger;text-decoration:underline;">**September 2024**
 
 [<img align="right" width="240" height="85" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)
@@ -64,6 +30,35 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 *Please volunteer to assist with this event!*<br/>
 
 **Tuesday, September 24th**<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+---
+
+<span style="font-size:larger;text-decoration:underline;">**October 2024**
+
+**Tuesday, October 1st**<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, October 8th**<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, October 15th**<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, October 22nd**<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+
+**Tuesday, October 29th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
