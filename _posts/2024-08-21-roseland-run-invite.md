@@ -26,7 +26,7 @@ Thank you for your support! Let's make this event a safe and successful one!
 [Run & Walk Info Flyer](/assets/img/roseland-run-2024.jpg)<br/>
 [1.5 Mile Walk and Talk Course Map](/assets/pdf/rr-course-map.pdf)
 
-**Wednesday, September 11th**<br/>
+**Wednesday, September 18th**<br/>
 7:30 PM ET Roseland Run Planning Meeting<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
