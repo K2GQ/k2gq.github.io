@@ -12,6 +12,7 @@ As the leaves begin to change and the crisp autumn air settles in, amateur radio
 
 In this blog post, we'll delve into the science behind tropospheric ducting, explore how it affects VHF propagation along the East Coast during the fall, and discuss how tools like the **Hepburn Tropo Maps** can help you predict and capitalize on these exceptional conditions.
 
+<br/>
 ## Understanding Tropospheric Ducting
 
 **Tropospheric ducting** is a form of radio propagation that occurs when layers of the Earth's atmosphere create a "duct," guiding radio signals over long distances with minimal loss. This happens due to temperature inversions in the troposphere—the lowest layer of the atmosphere—where a layer of warm air sits above cooler air.
@@ -22,6 +23,7 @@ In this blog post, we'll delve into the science behind tropospheric ducting, exp
 - **Refractive Index**: The inversion creates a change in the refractive index of the air, bending radio waves back toward the Earth's surface.
 - **Duct Formation**: This bending effect allows radio waves to be trapped within the inversion layer, effectively creating a waveguide that can carry signals over vast distances.
 
+<br/>
 ## Fall: The Prime Time for Tropospheric Ducting Along the East Coast
 
 The East Coast's unique geographical and meteorological conditions during the fall make it a hotspot for enhanced tropospheric ducting.
@@ -32,6 +34,7 @@ The East Coast's unique geographical and meteorological conditions during the fa
 - **Sea Surface Temperatures**: The ocean retains heat longer than land, creating temperature differentials that favor inversion layers.
 - **Calm Weather Conditions**: Reduced atmospheric turbulence allows ducting layers to remain stable for longer periods.
 
+<br/>
 ## The 2-Meter Band: A Sweet Spot for VHF Enthusiasts
 
 The 2-meter band (144-148 MHz), commonly used for VHF communications, is particularly receptive to tropospheric ducting.
@@ -42,6 +45,7 @@ The 2-meter band (144-148 MHz), commonly used for VHF communications, is particu
 - **Extended Range**: Under normal conditions, the 2-meter band has a range of about 50-75 miles. With ducting, this can extend to several hundred miles.
 - **Signal Clarity**: The ducting effect not only increases range but can also improve signal strength and clarity due to the guided propagation path.
 
+<br/>
 ## Leveraging the Hepburn Tropo Maps
 
 To make the most of these enhanced propagation conditions, operators can turn to the **Hepburn Tropo Maps**, available at [dxinfocentre.com/tropo.html](https://www.dxinfocentre.com/tropo.html).
@@ -59,6 +63,7 @@ To make the most of these enhanced propagation conditions, operators can turn to
 3. **Interpret the Colors**: Darker colors indicate stronger ducting potential.
 4. **Plan Your Operations**: Schedule your communication attempts during periods of high ducting potential.
 
+<br/>
 ## Practical Tips for Maximizing Tropospheric Ducting
 
 ### Equipment Considerations
