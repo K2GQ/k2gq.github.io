@@ -2,7 +2,7 @@
 layout: post
 title: Unlocking the Magic of Tropospheric Ducting
 subtitle: Enhancing VHF Communications Along the East Coast This Fall
-cover-img: /assets/img/tropo1.webp
+cover-img: /assets/img/dark-sky.webp
 thumbnail-img: /assets/img/yagi.png
 share-img: /assets/img/yagi.png
 tags: [troposphere,ducting,hepburn map,inversion,refractive index]
