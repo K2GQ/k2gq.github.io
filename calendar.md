@@ -31,16 +31,16 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 
-{: .box-success}
 **Wednesday, September 18th**<br/>
 7:30 PM ET Roseland Run Planning Meeting<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
 *new volunteers are always welcome!*<br/>
 
+{: .box-success}
 **Saturday, September 21st**<br/>
 [Run & Walk for Roseland 2024](https://k2gq.github.io/2024-08-21-roseland-run-invite/)<br/>
-[140 Eagle Rock Ave, Roseland, NJ 07068](https://tinyurl.com/539yun9a)<br/>
+[140 Eagle Rock Ave, Roseland, NJ 07068](https://maps.app.goo.gl/gfJ3PxPXxd6QrD9c6)<br/>
 *Please volunteer to assist with this event!*<br/>
 
 **Tuesday, September 24th**<br/>
