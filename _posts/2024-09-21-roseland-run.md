@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Run For The Roses
+title: Run For The Roses 2024
 subtitle: RARC Public Service
 cover-img: /assets/img/2024-race-01.jpg
 thumbnail-img: /assets/img/cotre-ht.jpg
