@@ -40,7 +40,7 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 **Saturday, September 21st**<br/>
 Meet up at 7:45 AM ET, use Google Maps link below for location.<br/>
 [Run & Walk for Roseland 2024](https://k2gq.github.io/2024-08-21-roseland-run-invite/)<br/>
-[140 Eagle Rock Ave, Roseland, NJ 07068](https://maps.app.goo.gl/gfJ3PxPXxd6QrD9c6)<br/>
+[15 Harrison Ave, Roseland, NJ 07068](https://maps.app.goo.gl/gfJ3PxPXxd6QrD9c6)<br/>
 *Please volunteer to assist with this event!*<br/>
 
 {: .box-success}
