@@ -13,15 +13,15 @@ On Saturday, September 21 2024, the Roseland Amateur Radio Club assisted the Bor
 ---
 ## Roseland ARC Photos from the 2024 Event
 All photos courtesy Maurice, KB2SUL<br/>
-[<img align="right" width="1024" height="340" src="/assets/img/2024-race/2024-rr-1.jpeg">](../assets/img/2024-race/2024-rr-1.jpeg)<br/>
-Ron WV2RJR, Bob K2AUF, Mike, KC2NJ, Jesse N1UGK, Werner KC2QLE, Jim KC2SKK<br/>
-[<img align="right" width="1024" height="340" src="/assets/img/2024-race/2024-rr-2.jpeg">](../assets/img/2024-race/2024-rr-2.jpeg)<br/>
-Ron WV2RJR, Bob K2AUF, Werner KC2QLE, Jim KC2SKK, Mike, KC2NJ, Jesse N1UGK, Maurice KB2SUL<br/>
-[<img align="right" width="1024" height="340" src="/assets/img/2024-race/2024-rr-3.jpeg">](../assets/img/2024-race/2024-rr-3.jpeg)<br/>
-Jesse N1UGK, Mike, KC2NJ<br/>
-[<img align="right" width="1024" height="340" src="/assets/img/2024-race/2024-rr-4.jpeg">](../assets/img/2024-race/2024-rr-4.jpeg)<br/>
-Ron WV2RJR, Jesse N1UGK, Mike, KC2NJ<br/>
-[<img align="right" width="1024" height="340" src="/assets/img/2024-race/2024-rr-6.jpeg">](../assets/img/2024-race/2024-rr-6.jpeg)<br/>
+[<img align="right" width="1024" height="310" src="/assets/img/2024-race/2024-rr-1.jpeg">](../assets/img/2024-race/2024-rr-1.jpeg)<br/>
+Ron WV2RJR, Bob K2AUF, Mike KC2NJ, Jesse N1UGK, Werner KC2QLE, Jim KC2SKK<br/>
+[<img align="right" width="1024" height="310" src="/assets/img/2024-race/2024-rr-2.jpeg">](../assets/img/2024-race/2024-rr-2.jpeg)<br/>
+Ron WV2RJR, Bob K2AUF, Werner KC2QLE, Jim KC2SKK, Mike KC2NJ, Jesse N1UGK, Maurice KB2SUL<br/>
+[<img align="right" width="1024" height="310" src="/assets/img/2024-race/2024-rr-3.jpeg">](../assets/img/2024-race/2024-rr-3.jpeg)<br/>
+Jesse N1UGK, Mike KC2NJ<br/>
+[<img align="right" width="1024" height="310" src="/assets/img/2024-race/2024-rr-4.jpeg">](../assets/img/2024-race/2024-rr-4.jpeg)<br/>
+Ron WV2RJR, Jesse N1UGK, Mike KC2NJ<br/>
+[<img align="right" width="1024" height="310" src="/assets/img/2024-race/2024-rr-6.jpeg">](../assets/img/2024-race/2024-rr-6.jpeg)<br/>
 Ron WV2RJR<br/>
-[<img align="right" width="400" height="600" src="/assets/img/2024-race/2024-rr-5.jpeg">](../assets/img/2024-race/2024-rr-5.jpeg)<br/>
-Ron WV2RJR, Maurice KB2SUL
+[<img align="right" width="400" height="550" src="/assets/img/2024-race/2024-rr-5.jpeg">](../assets/img/2024-race/2024-rr-5.jpeg)<br/>
+Ron WV2RJR, Maurice KB2SUL{: style="text-align: center;"}
