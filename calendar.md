@@ -37,13 +37,13 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
 *new volunteers are always welcome!*<br/>
 
-{: .box-success}
 **Saturday, September 21st**<br/>
 Meet up at 7:45 AM ET, use Google Maps link below for location.<br/>
 [Run & Walk for Roseland 2024](https://k2gq.github.io/2024-08-21-roseland-run-invite/)<br/>
 [140 Eagle Rock Ave, Roseland, NJ 07068](https://maps.app.goo.gl/gfJ3PxPXxd6QrD9c6)<br/>
 *Please volunteer to assist with this event!*<br/>
 
+{: .box-success}
 **Tuesday, September 24th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
