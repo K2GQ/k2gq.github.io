@@ -25,4 +25,5 @@ Thank you for your support! Let's make this event a safe and successful one!
 
 [Run & Walk Info Flyer](/assets/img/roseland-run-2024.jpg)<br/>
 [1.5 Mile Walk and Talk Course Map](/assets/pdf/rr-course-map.pdf)
+[5K Race Map with Positions](/assets/img/2022-5k-map.bmp)
 
