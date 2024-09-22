@@ -11,50 +11,50 @@ subtitle: Weekly RARC Net History
 [<img align="right" width="350" src="/assets/img/net-2024-02-06.png">](./assets/img/net-2024-02-06.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
+7 PM ET, weekly social net, open to all.<br/>
 
-**Tuesday, February 13th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-02-13.png">](./assets/img/net-2024-02-13.png)
+**Tuesday, February 13th**
+[<img align="right" width="350" src="/assets/img/net-2024-02-13.png">](./assets/img/net-2024-02-13.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
+7 PM ET, weekly social net, open to all.<br/>
 
-**Tuesday, February 20th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-02-20.png">](./assets/img/net-2024-02-20.png)
+**Tuesday, February 20th**
+[<img align="right" width="350" src="/assets/img/net-2024-02-20.png">](./assets/img/net-2024-02-20.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
+7 PM ET, weekly social net, open to all.<br/>
 
-**Tuesday, February 27th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-02-27.png">](./assets/img/net-2024-02-27.png)
+**Tuesday, February 27th**
+[<img align="right" width="350" src="/assets/img/net-2024-02-27.png">](./assets/img/net-2024-02-27.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
+7 PM ET, weekly social net, open to all.<br/>
 
 ---
 
 <span style="font-size:larger;text-decoration:underline;">**March 2024**
 
-**Tuesday, March 5th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-03-05.png">](./assets/img/net-2024-03-05.png)
+**Tuesday, March 5th**
+[<img align="right" width="350" src="/assets/img/net-2024-03-05.png">](./assets/img/net-2024-03-05.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, March 12th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-03-12.png">](./assets/img/net-2024-03-12.png)
+**Tuesday, March 12th**
+[<img align="right" width="350" src="/assets/img/net-2024-03-12.png">](./assets/img/net-2024-03-12.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, March 19th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-03-19.png">](./assets/img/net-2024-03-19.png)
+**Tuesday, March 19th**
+[<img align="right" width="350" src="/assets/img/net-2024-03-19.png">](./assets/img/net-2024-03-19.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, March 26th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-03-26.png">](./assets/img/net-2024-03-26.png)
+**Tuesday, March 26th**
+[<img align="right" width="350" src="/assets/img/net-2024-03-26.png">](./assets/img/net-2024-03-26.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
@@ -63,32 +63,32 @@ subtitle: Weekly RARC Net History
 
 <span style="font-size:larger;text-decoration:underline;">**April 2024**
 
-**Tuesday, April 2nd**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-04-02.png">](./assets/img/net-2024-04-02.png)
+**Tuesday, April 2nd**
+[<img align="right" width="350" src="/assets/img/net-2024-04-02.png">](./assets/img/net-2024-04-02.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, April 9th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-04-09.png">](./assets/img/net-2024-04-09.png)
+**Tuesday, April 9th**
+[<img align="right" width="350" src="/assets/img/net-2024-04-09.png">](./assets/img/net-2024-04-09.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, April 16th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-04-16.png">](./assets/img/net-2024-04-16.png)
+**Tuesday, April 16th**
+[<img align="right" width="350" src="/assets/img/net-2024-04-16.png">](./assets/img/net-2024-04-16.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, April 23rd**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-04-23.png">](./assets/img/net-2024-04-23.png)
+**Tuesday, April 23rd**
+[<img align="right" width="350" src="/assets/img/net-2024-04-23.png">](./assets/img/net-2024-04-23.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, April 30th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-04-30.png">](./assets/img/net-2024-04-30.png)
+**Tuesday, April 30th**
+[<img align="right" width="350" src="/assets/img/net-2024-04-30.png">](./assets/img/net-2024-04-30.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
