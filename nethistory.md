@@ -26,7 +26,7 @@ subtitle: Weekly RARC Net History
 7 PM ET, weekly social net, open to all.<br/>
 
 **Tuesday, February 27th**
-[<img align="right" height="200" src="/assets/img/net-2024-02-27.png">](./assets/img/net-2024-02-27.png)<br/>
+[<img align="right" height="100" src="/assets/img/net-2024-02-27.png">](./assets/img/net-2024-02-27.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
