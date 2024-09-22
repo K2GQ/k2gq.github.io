@@ -17,6 +17,8 @@ In the case of a runner requiring medical attention, Roseland ARC is instrumenta
 ---
 ## Roseland ARC Photos from the 2024 Event
 All photos courtesy Maurice, KB2SUL<br/><br/>
+[<img align="center" src="/assets/img/2024-race/2024-rr-7.jpeg">](../assets/img/2024-race/2024-rr-7.jpeg){: height="325" }<br/>
+Ron WV2RJR<br/><br/>
 [<img align="center" src="/assets/img/2024-race/2024-rr-1.jpeg">](../assets/img/2024-race/2024-rr-1.jpeg){: height="325" }<br/>
 Ron WV2RJR, Bob K2AUF, Mike KC2NJ, Jesse N1UGK, Werner KC2QLE, Jim KC2SKK<br/><br/>
 [<img align="center" src="/assets/img/2024-race/2024-rr-2.jpeg">](../assets/img/2024-race/2024-rr-2.jpeg){: height="325" }<br/>

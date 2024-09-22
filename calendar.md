@@ -7,7 +7,7 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**September 2024**
 
-[<img align="right" width="240" height="85" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)
+[<img align="right" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png){: width="240" }
 **Tuesday, September 3rd**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
