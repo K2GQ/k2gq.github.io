@@ -62,27 +62,27 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 **Tuesday, October 1st**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
+7 PM ET, weekly social net, open to all.<br/><br/>
 
 **Tuesday, October 8th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
+7 PM ET, weekly social net, open to all.<br/><br/>
 
 **Tuesday, October 15th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
+7 PM ET, weekly social net, open to all.<br/><br/>
 
 **Tuesday, October 22nd**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
+7 PM ET, weekly social net, open to all.<br/><br/>
 
 **Tuesday, October 29th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/>
+7 PM ET, weekly social net, open to all.<br/><br/>
 
 ---
 
