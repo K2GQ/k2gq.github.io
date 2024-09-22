@@ -7,14 +7,14 @@ subtitle: RARC Club Calendar
 
 <span style="font-size:larger;text-decoration:underline;">**September 2024**
 
-**Tuesday, September 3rd**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)
+**Tuesday, September 3rd**
+[<img align="right" width="350" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Tuesday, September 10th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-09-10.png">](./assets/img/net-2024-09-10.png)
+**Tuesday, September 10th**
+[<img align="right" width="350" src="/assets/img/net-2024-09-10.png">](./assets/img/net-2024-09-10.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
@@ -25,8 +25,8 @@ subtitle: RARC Club Calendar
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
 *new volunteers are always welcome!*<br/><br/>
 
-**Tuesday, September 17th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-09-17.png">](./assets/img/net-2024-09-17.png)
+**Tuesday, September 17th**
+[<img align="right" width="350" src="/assets/img/net-2024-09-17.png">](./assets/img/net-2024-09-17.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
