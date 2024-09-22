@@ -7,8 +7,8 @@ subtitle: Weekly RARC Net History
 
 <span style="font-size:larger;text-decoration:underline;">**February 2024**
 
-**Tuesday, February 6th**<br/>
-[<img align="right" width="350" src="/assets/img/net-2024-02-06.png">](./assets/img/net-2024-02-06.png)
+**Tuesday, February 6th**
+[<img align="right" width="350" src="/assets/img/net-2024-02-06.png">](./assets/img/net-2024-02-06.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
