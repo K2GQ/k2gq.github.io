@@ -21,7 +21,7 @@ All photos courtesy Maurice, KB2SUL<br/><br/>
 Ron WV2RJR, Bob K2AUF, Mike KC2NJ, Jesse N1UGK, Werner KC2QLE, Jim KC2SKK<br/><br/>
 [<img align="center" src="/assets/img/2024-race/2024-rr-2.jpeg">](../assets/img/2024-race/2024-rr-2.jpeg){: height="325" }<br/>
 Ron WV2RJR, Bob K2AUF, Werner KC2QLE, Jim KC2SKK, Mike KC2NJ, Jesse N1UGK, Maurice KB2SUL<br/><br/>
-[<img align="center" width="1024" height="325" src="/assets/img/2024-race/2024-rr-3.jpeg">](../assets/img/2024-race/2024-rr-3.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2024-race/2024-rr-3.jpeg">](../assets/img/2024-race/2024-rr-3.jpeg){: height="325" }<br/>
 Jesse N1UGK, Mike KC2NJ<br/><br/>
 [<img align="center" src="/assets/img/2024-race/2024-rr-4.jpeg">](../assets/img/2024-race/2024-rr-4.jpeg){: height="325" }<br/>
 Ron WV2RJR, Jesse N1UGK, Mike KC2NJ<br/><br/>
