@@ -19,13 +19,13 @@ In the case of a runner requiring medical attention, Roseland ARC is instrumenta
 All photos courtesy Maurice, KB2SUL<br/><br/>
 [<img align="center" src="/assets/img/2024-race/2024-rr-1.jpeg">](../assets/img/2024-race/2024-rr-1.jpeg){: height="325" }<br/>
 Ron WV2RJR, Bob K2AUF, Mike KC2NJ, Jesse N1UGK, Werner KC2QLE, Jim KC2SKK<br/><br/>
-[<img align="center" width="1024" height="325" src="/assets/img/2024-race/2024-rr-2.jpeg">](../assets/img/2024-race/2024-rr-2.jpeg)<br/>
+[<img align="center" src="/assets/img/2024-race/2024-rr-2.jpeg">](../assets/img/2024-race/2024-rr-2.jpeg){: height="325" }<br/>
 Ron WV2RJR, Bob K2AUF, Werner KC2QLE, Jim KC2SKK, Mike KC2NJ, Jesse N1UGK, Maurice KB2SUL<br/><br/>
-[<img align="center" width="1024" height="325" src="/assets/img/2024-race/2024-rr-3.jpeg">](../assets/img/2024-race/2024-rr-3.jpeg)<br/>
+[<img align="center" width="1024" height="325" src="/assets/img/2024-race/2024-rr-3.jpeg">](../assets/img/2024-race/2024-rr-3.jpeg){: height="325" }<br/>
 Jesse N1UGK, Mike KC2NJ<br/><br/>
-[<img align="center" width="1024" height="325" src="/assets/img/2024-race/2024-rr-4.jpeg">](../assets/img/2024-race/2024-rr-4.jpeg)<br/>
+[<img align="center" src="/assets/img/2024-race/2024-rr-4.jpeg">](../assets/img/2024-race/2024-rr-4.jpeg){: height="325" }<br/>
 Ron WV2RJR, Jesse N1UGK, Mike KC2NJ<br/><br/>
-[<img align="center" width="1024" height="325" src="/assets/img/2024-race/2024-rr-6.jpeg">](../assets/img/2024-race/2024-rr-6.jpeg)<br/>
+[<img align="center" src="/assets/img/2024-race/2024-rr-6.jpeg">](../assets/img/2024-race/2024-rr-6.jpeg){: height="325" }<br/>
 Ron WV2RJR<br/><br/>
-[<img align="center" width="400" height="500" src="/assets/img/2024-race/2024-rr-5.jpeg">](../assets/img/2024-race/2024-rr-5.jpeg)<br/>
+[<img align="center" src="/assets/img/2024-race/2024-rr-5.jpeg">](../assets/img/2024-race/2024-rr-5.jpeg){: height="500" }<br/>
 Ron WV2RJR, Maurice KB2SUL
