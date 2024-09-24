@@ -8,7 +8,7 @@ share-img: /assets/img/cotre-ht.jpg
 tags: [public service, 5K, race, roseland]
 ---
 
-On Saturday, September 21 2024, the Roseland Amateur Radio Club assisted the Borough of Roseland with public safety communications for the annual Run & Walk for Roseland.  The weather was sunny and cool, perfect weather for a running event.  We used 70 centimeter simplex to communicate, and communication was clear and effective across the entire race course.  Thank you to all club members who came out early Saturday morning and helped to make this event a success.
+On Saturday, September 21 2024, the Roseland Amateur Radio Club assisted the Borough of Roseland with public safety communications for the annual [Run & Walk for Roseland](https://www.roselandnj.org/recreation-department/news/2024-run-walk-roseland).  The weather was sunny and cool, perfect weather for a running event.  We used 70 centimeter simplex to communicate, and communication was clear and effective across the entire race course.  Thank you to all club members who came out early Saturday morning and helped to make this event a success.
 
 The Roseland Amateur Radio Club (Roseland ARC) plays a vital role in ensuring the smooth operation and safety of the event by providing reliable communications throughout the entire race course. This direct communication link between race officials and various checkpoints allows for real-time updates on the progress of participants, as well as immediate responses to any emerging situations. With their trained operators positioned at key locations, the club also acts as additional eyes on the course, aiding race organizers and public safety departments in monitoring the event for any unforeseen challenges.
 
