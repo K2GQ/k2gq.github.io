@@ -43,7 +43,7 @@ Meet up at 7:45 AM ET, use Google Maps link below for location.<br/>
 [15 Harrison Ave, Roseland, NJ 07068](https://maps.app.goo.gl/gfJ3PxPXxd6QrD9c6)<br/>
 *Please volunteer to assist with this event!*<br/><br/>
 
-**Tuesday, September 24th**<br/>
+**Tuesday, September 24th**
 [<img align="right" width="395" src="/assets/img/net-2024-09-24.png">](./assets/img/net-2024-09-24.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
