@@ -49,7 +49,6 @@ Meet up at 7:45 AM ET, use Google Maps link below for location.<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-{: .box-success}
 **Wednesday, September 25th**<br/>
 7 PM ET General Meeting<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
@@ -60,6 +59,7 @@ Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/
 
 <span style="font-size:larger;text-decoration:underline;">**October 2024**
 
+{: .box-success}
 **Tuesday, October 1st**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
