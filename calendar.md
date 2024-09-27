@@ -5,7 +5,11 @@ cover-img: /assets/img/ts830s.jpg
 subtitle: RARC Club Calendar
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**September 2024**
+<iframe src="https://calendar.google.com/calendar/embed?src=c_da7cb2d11a6ff3fb7f778f618cc04b4f2b9242e529c37e3e9cfae38366ffd1e8%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+---
+
+<span style="font-size:larger;text-decoration:underline;">**Recent Net Reports**
 
 **Tuesday, September 3rd**
 [<img align="right" width="395" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)<br/>
@@ -19,74 +23,14 @@ subtitle: RARC Club Calendar
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Wednesday, September 11th**<br/>
-7:30 PM ET Roseland Run Planning Meeting<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
-*new volunteers are always welcome!*<br/><br/>
-
 **Tuesday, September 17th**
 [<img align="right" width="395" src="/assets/img/net-2024-09-17.png">](./assets/img/net-2024-09-17.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
 
-**Wednesday, September 18th**<br/>
-7:30 PM ET Roseland Run Planning Meeting<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
-*new volunteers are always welcome!*<br/><br/>
-
-**Saturday, September 21st**<br/>
-Meet up at 7:45 AM ET, use Google Maps link below for location.<br/>
-[Run & Walk for Roseland 2024](https://k2gq.github.io/2024-08-21-roseland-run-invite/)<br/>
-[15 Harrison Ave, Roseland, NJ 07068](https://maps.app.goo.gl/gfJ3PxPXxd6QrD9c6)<br/>
-*Please volunteer to assist with this event!*<br/><br/>
-
 **Tuesday, September 24th**
 [<img align="right" width="395" src="/assets/img/net-2024-09-24.png">](./assets/img/net-2024-09-24.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
-
-**Wednesday, September 25th**<br/>
-7 PM ET General Meeting<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
-*guests and new members are always welcome!*<br/><br/>
-
----
-
-<span style="font-size:larger;text-decoration:underline;">**October 2024**
-
-{: .box-success}
-**Tuesday, October 1st**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
-
-**Tuesday, October 8th**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
-
-**Tuesday, October 15th**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
-
-**Wednesday, October 16th**<br/>
-7 PM ET General Meeting<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
-Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
-*guests and new members are always welcome!*<br/><br/>
-
-**Tuesday, October 22nd**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/>
-
-**Tuesday, October 29th**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/>
