@@ -36,7 +36,9 @@ The Roseland Office of Emergency Management<br/>
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
 *guests and new members are always welcome!*<br/>
 
-Please check our [club calendar](/calendar.md) to verify our next in-person meeting date.
+Please check our [club calendar](/calendar.md) to verify our next in-person meeting date.<br/>
+
+[Join our Google Group](https://groups.google.com/g/roseland-amateur-radio-club/) to participate in the club e-mail distribution list.
 
 ---
 
