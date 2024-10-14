@@ -48,7 +48,7 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET Tuesdays, open to all.
 
-We thank and honor Doctor Alvin Friedland, NE2S; George Murillo Jr, W2PQC; the St. Barnabas Amateur Radio Club & St. Barnabas Control Operators for their contributions to Amateur Radio and for the use of this repeater.
+We thank and honor Doctor Alvin Friedland, NE2S; [George Murillo Jr, W2PQC](/assets/img/nparc-ne2s-2007.png); the St. Barnabas Amateur Radio Club & St. Barnabas Control Operators for their contributions to Amateur Radio and for the use of this repeater.
 
 ---
 
