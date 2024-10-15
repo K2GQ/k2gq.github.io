@@ -11,12 +11,12 @@ subtitle: Roseland Amateur Radio Club
 
 Welcome to the Roseland Amateur Radio Club, located in the borough of Roseland, Essex County, New Jersey.
 
-We are delighted to extend a warm invitation to you to explore our club, a diverse gathering of individuals united by our passion for amateur radio. As an ARRL affiliated club, our membership proudly spans the spectrum from Technician to General and Amateur Extra class license holders. Our commitment to the growth and development of our community is reflected in our mentoring programs, where we provide comprehensive guidance and tutoring to those aspiring to attain their Technician and General license exams.
+We are delighted to extend a warm invitation to you to explore our club, a diverse gathering of individuals united by our passion for amateur radio. As an [American Radio Relay League](https://www.arrl.org/) (ARRL) affiliated club, our membership proudly spans the spectrum from Technician to General and Amateur Extra class license holders. Our commitment to the growth and development of our community is reflected in our mentoring programs, where we provide comprehensive guidance and tutoring to those aspiring to attain their Technician and General license exams.
 
 The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
 <img align="right" width="240" height="120" src="/assets/img/gonset.jpg">
-In 1958, the Roseland Club affiliated itself with the [American Radio Relay League](https://www.arrl.org/) (ARRL), marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
+In 1958, the Roseland Club affiliated itself with the ARRL, marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
 
 The year 2015 was a pivotal point in our club's history, as we renewed our commitment to serving the community through emergency communications. This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
 
@@ -32,7 +32,7 @@ Stay tuned for more insights into our club's history and the significant moments
 <img align="right" width="240" height="120" src="/assets/img/radio-station.png">
 **In-person Meetings:**<br/>
 The Roseland Office of Emergency Management<br/>
-[300 Eagle Rock Avenue, Roseland, NJ 07068-1719](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/>
+[300 Eagle Rock Avenue, Roseland, NJ 07068-1719](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/><br/>
 Join us via Skype: [https://join.skype.com/bwOH2R0SFyIR](https://join.skype.com/bwOH2R0SFyIR)<br/>
 *guests and new members are always welcome!*<br/>
 
