@@ -16,14 +16,14 @@ We are delighted to extend a warm invitation to you to explore our club, a diver
 The Roseland Amateur Radio Club has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
 <img align="right" width="240" height="120" src="/assets/img/gonset.jpg">
-In 1958, the Roseland Club affiliated itself with the American Radio Relay League (ARRL), marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
+In 1958, the Roseland Club affiliated itself with the [American Radio Relay League](https://www.arrl.org/) (ARRL), marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
 
 The year 2015 was a pivotal point in our club's history, as we renewed our commitment to serving the community through emergency communications. This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
 
 <img align="right" width="240" height="240" src="/assets/img/ftdx10_club.jpg">
-In addition to our educational endeavors, we are honored to lend our skills in service of our local community. Each year, we volunteer our time and expertise to facilitate public service communications for charity runs in the Essex County, NJ area, further solidifying our role as an integral part of the community fabric.
+In addition to our educational endeavors, we are honored to lend our skills in service of our local community. Each year, we [volunteer our time and expertise to facilitate public service communications](https://k2gq.github.io/2024-09-21-roseland-run/) for charity runs in the Essex County, NJ area, further solidifying our role as an integral part of the community fabric.
 
-We warmly invite you to join us at one of our upcoming meetings to learn more about the world of amateur radio and how you can get involved in this rewarding hobby.
+We warmly invite you to join us at one of our [upcoming meetings](https://k2gq.github.io/calendar/) to learn more about the world of amateur radio and how you can get involved in this rewarding hobby.
 
 Stay tuned for more insights into our club's history and the significant moments that have shaped our journey.
 
