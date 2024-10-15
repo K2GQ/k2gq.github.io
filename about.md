@@ -48,7 +48,7 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 ░▒Echolink: KC2NJ-R▒░<br/>
 7 PM ET Tuesdays, open to all.
 
-We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr, W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the St. Barnabas Amateur Radio Club & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of this repeater.
+We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr, W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the [St. Barnabas Amateur Radio Club](https://web.archive.org/web/19990302094547/http://members.tripod.com/%7Esbarc/) & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of this repeater.
 
 ---
 
