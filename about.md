@@ -65,20 +65,13 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
 ---
 
-**Roseland Legacy Event Photos**<br/><br/>
-[<img align="center" src="/assets/img/legacy/IMG_0673.JPG">](../assets/img/legacy/IMG_0673.JPG){: height="300" }<br/>
-<br/><br/>
-[<img align="center" src="/assets/img/legacy/img_0818X.jpg">](../assets/img/legacy/img_0818X.jpg){: height="300" }<br/>
-<br/><br/>
-[<img align="center" src="/assets/img/legacy/iracparade.jpg">](../assets/img/legacy/iracparade.jpg){: height="300" }<br/>
-<br/><br/>
-[<img align="center" src="/assets/img/legacy/nno.jpg">](../assets/img/legacy/nno.jpg){: height="300" }<br/>
-<br/><br/>
+<p style="text-align: center;">**Roseland Legacy Event Photos**</p>
 
-<p><img src="/assets/img/legacy/nno.jpg" alt="Doc Schwalbe" class="mx-auto d-block" height="300" /></p>
-
-[<img align="center" src="/assets/img/legacy/IMG_0571.JPG">](../assets/img/legacy/IMG_0571.JPG){: height="300" }<br/>
-<br/><br/>
+<p><img src="/assets/img/legacy/IMG_0673.JPG" class="mx-auto d-block" height="300" /></p>
+<p><img src="/assets/img/legacy/img_0818X.jpg" class="mx-auto d-block" height="300" /></p>
+<p><img src="/assets/img/legacy/iracparade.jpg" class="mx-auto d-block" height="300" /></p>
+<p><img src="/assets/img/legacy/nno.jpg" class="mx-auto d-block" height="300" /></p>
+<p><img src="/assets/img/legacy/IMG_0571.JPG" class="mx-auto d-block" height="300" /></p>
 
 ---
 <br/>
