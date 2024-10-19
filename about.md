@@ -65,10 +65,16 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
 ---
 
-## Roseland Legacy Event Photos
-[<img align="center" src="/assets/img/legacy/IMG_0673.JPG">](../assets/img/legacy/IMG_0673.JPG){: height="325" }<br/>
+**Roseland Legacy Event Photos**<br/>
+[<img align="center" src="/assets/img/legacy/IMG_0673.JPG">](../assets/img/legacy/IMG_0673.JPG){: height="300" }<br/>
 <br/><br/>
-[<img align="center" src="/assets/img/legacy/img_0818X.jpg">](../assets/img/legacy/img_0818X.jpg){: height="325" }<br/>
+[<img align="center" src="/assets/img/legacy/img_0818X.jpg">](../assets/img/legacy/img_0818X.jpg){: height="300" }<br/>
+<br/><br/>
+[<img align="center" src="/assets/img/legacy/iracparade.jpg">](../assets/img/legacy/iracparade.jpg){: height="300" }<br/>
+<br/><br/>
+[<img align="center" src="/assets/img/legacy/nno.jpg">](../assets/img/legacy/nno.jpg){: height="300" }<br/>
+<br/><br/>
+[<img align="center" src="/assets/img/legacy/IMG_0571.JPG">](../assets/img/legacy/IMG_0571.JPG){: height="300" }<br/>
 <br/><br/>
 
 ---
