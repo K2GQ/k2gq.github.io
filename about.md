@@ -74,6 +74,6 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 <p><img src="/assets/img/legacy/IMG_0571.JPG" class="mx-auto d-block" height="400" /></p>
 
 ---
-<br/>
+
 <p><img src="/assets/img/doc-k2gq.jpg" alt="Doc Schwalbe" class="mx-auto d-block" width="300" /></p>
 <p style="text-align: center;">K2GQ - Doc Schwalbe</p>
