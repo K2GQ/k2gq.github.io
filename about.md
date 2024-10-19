@@ -64,6 +64,14 @@ We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmi
 Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
 ---
+
+## Roseland Legacy Event Photos
+[<img align="center" src="/assets/img/legacy/IMG_0673.JPG">](../assets/img/legacy/IMG_0673.JPG){: height="325" }<br/>
+<br/><br/>
+[<img align="center" src="/assets/img/legacy/img_0818X.jpg">](../assets/img/legacy/img_0818X.jpg){: height="325" }<br/>
+<br/><br/>
+
+---
 <br/>
 <p><img src="/assets/img/doc-k2gq.jpg" alt="Doc Schwalbe" class="mx-auto d-block" width="300" /></p>
 <p style="text-align: center;">K2GQ - Doc Schwalbe</p>
