@@ -68,10 +68,10 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 <h3 style="text-align: center;">Roseland Legacy Event Photos</h3>
 
 <p><a href="../assets/img/legacy/IMG_0673.JPG"> <img src="/assets/img/legacy/IMG_0673.JPG" class="mx-auto d-block" width="450" /></a></p>
-<p><img src="/assets/img/legacy/img_0818X.jpg" class="mx-auto d-block" width="450" /></p>
-<p><img src="/assets/img/legacy/iracparade.jpg" class="mx-auto d-block" width="450" /></p>
-<p><img src="/assets/img/legacy/nno.jpg" class="mx-auto d-block" width="450" /></p>
-<p><img src="/assets/img/legacy/IMG_0571.JPG" class="mx-auto d-block" width="450" /></p>
+<p><a href="../assets/img/legacy/img_0818X.jpg"> <img src="/assets/img/legacy/img_0818X.jpg" class="mx-auto d-block" width="450" /></a></p>
+<p><a href="../assets/img/legacy/iracparade.jpg"> <img src="/assets/img/legacy/iracparade.jpg" class="mx-auto d-block" width="450" /></a></p>
+<p><a href="../assets/img/legacy/nno.jpg"> <img src="/assets/img/legacy/nno.jpg" class="mx-auto d-block" width="450" /></a></p>
+<p><a href="../assets/img/legacy/IMG_0571.JPG"> <img src="/assets/img/legacy/IMG_0571.JPG" class="mx-auto d-block" width="450" /></a></p>
 
 ---
 
