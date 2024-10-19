@@ -65,6 +65,7 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
 ---
 
+<br/>
 <h3 style="text-align: center;">Roseland Legacy Event Photos</h3>
 
 <p><img src="/assets/img/legacy/IMG_0673.JPG" class="mx-auto d-block" height="400" /></p>
