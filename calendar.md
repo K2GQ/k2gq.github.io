@@ -11,8 +11,8 @@ subtitle: RARC Club Calendar
 
 ---
 
-<id="net-reports" span style="font-size:larger;text-decoration:underline;">**Recent Net Reports**
-
+# <span style="font-size:larger;text-decoration:underline;">**Recent Net Reports**
+<h3 id="net-reports">Recent Net Reports</h3>
 **Tuesday, October 1st**
 [<img align="right" width="395" src="/assets/img/net-2024-10-01.png">](./assets/img/net-2024-10-01.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
