@@ -50,7 +50,8 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 
 We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr., W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the [St. Barnabas Amateur Radio Club](/sbarc/) & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of this repeater.
 
-<p><a href="../assets/img/SBARC-August-1984.png"> <img src="/assets/img/SBARC-August-1984.png" class="mx-auto d-block" width="375" /></a></p>
+<p><a href="../assets/img/SBARC-August-1984.png"> <img src="/assets/img/SBARC-August-1984.png" class="mx-auto d-block" width="375" alt="The Saint Barnabas Amateur Radio Club, composed of physicians, technicians and several teenagers, responded to roadside illnesses and auto accidents, and maintained a communications facility for emergencies at Saint Barnabas. Members shown here include, front, Louis Victor, and Michael and Emily Bahler; and rear, Jack Clark, Dan Keesee, M.D., Steven Victor, M.D., Alan Bahler, M.D., Dwight Sloehler, Howard Eisenhardt, M.D., Fred Jacobs, M.D., George Murillo, and Alvln Friedland, M.D." /></a></p>
+<p style="text-align: center;">SBARC - August 1984</p>
 
 ---
 
