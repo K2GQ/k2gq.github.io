@@ -50,6 +50,8 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 
 We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr., W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the [St. Barnabas Amateur Radio Club](/sbarc/) & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of this repeater.
 
+<p><a href="../assets/img/SBARC-August-1984.png"> <img src="/assets/img/SBARC-August-1984.png" class="mx-auto d-block" width="375" /></a></p>
+
 ---
 
 **Club Officers:**
