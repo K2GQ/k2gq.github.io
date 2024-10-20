@@ -11,6 +11,7 @@ subtitle: RARC Club Calendar
 
 ---
 
+<br/>
 <h3 id="net-reports"><u>Recent Net Reports</u></h3>
 **Tuesday, October 1st**
 [<img align="right" width="395" src="/assets/img/net-2024-10-01.png">](./assets/img/net-2024-10-01.png)<br/>
