@@ -31,7 +31,7 @@ subtitle: RARC Club Calendar
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
 
-**Tuesday, October 22th**
+**Tuesday, October 22nd**
 [<img align="right" width="395" src="/assets/img/net-2024-10-22.png">](./assets/img/net-2024-10-22.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
