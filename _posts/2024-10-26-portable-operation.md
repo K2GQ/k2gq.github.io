@@ -46,4 +46,4 @@ Mike KC2NJ verifying dipole resonance with a NanoVNA<br/><br/>
 [<img align="center" src="/assets/img/htx-100-and-digirig.jpg">](../assets/img/htx-100-and-digirig.jpg){: height="325" }<br/>
 HTX-100 and DigiRig computer interface<br/><br/>
 [<img align="center" src="/assets/img/1990-rs-ad.png">](../assets/img/1990-rs-ad.png){: height="325" }<br/>
-1990 RadioShack catalog ad; $643.35 in 2024 dollars per [CPI calculator](https://data.bls.gov/cgi-bin/cpicalc.pl)<br/><br/>
+1990 Radio Shack catalog ad; $643.35 in 2024 dollars per [CPI calculator](https://data.bls.gov/cgi-bin/cpicalc.pl)<br/><br/>
