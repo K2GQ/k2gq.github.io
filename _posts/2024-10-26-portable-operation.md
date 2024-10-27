@@ -35,8 +35,8 @@ Locations where our FT8 signal was received, according to [PSK Reporter](https:/
 [<img align="center" src="/assets/img/psk-reporter-kb2sul.png">](../assets/img/psk-reporter-kb2sul.png){: height="325" }<br/><br/>
 
 ---
-### Saturday October 26 - Portable Operation
-All photos courtesy Maurice, KB2SUL<br/><br/>
+### Saturday October 26 2024 - Portable Operation
+Some photos courtesy Maurice, KB2SUL<br/><br/>
 [<img align="center" src="/assets/img/jesse-mo.jpeg">](../assets/img/jesse-mo.jpeg){: height="325" }<br/>
 Jesse N1UGK, Maurice KB2SUL operating 10 meters<br/><br/>
 [<img align="center" src="/assets/img/mike-nanovna.jpeg">](../assets/img/mike-nanovna.jpeg){: height="325" }<br/>
@@ -45,3 +45,5 @@ Mike KC2NJ verifying dipole resonance with a NanoVNA<br/><br/>
 10 Meter dipole at approx. 20 feet<br/><br/>
 [<img align="center" src="/assets/img/htx-100-and-digirig.jpg">](../assets/img/htx-100-and-digirig.jpg){: height="325" }<br/>
 HTX-100 and DigiRig computer interface<br/><br/>
+[<img align="center" src="/assets/img/1990-rs-ad.png">](../assets/img/1990-rs-ad.png){: height="325" }<br/>
+1990 RadioShack catalog ad; $643.35 in 2024 dollars per [CPI calculator](https://data.bls.gov/cgi-bin/cpicalc.pl)<br/><br/>
