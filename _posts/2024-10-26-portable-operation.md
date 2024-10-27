@@ -18,7 +18,7 @@ Equipment list:
 - Digirig Mobile PC to radio interface (for FT8).
 - Laptop running Windows 10 and WSJT-X software
 - GPS USB dongle for precise time synchronization (required for FT4/8 modes).
-- Alinco microphone (on the Kenwood pinout standard), compatible with the HTX-100.
+- Alinco electret condenser microphone (uses the Kenwood pinout standard), compatible with the HTX-100.
 - Arborist throw line kit w/ 15oz throw bag (used to get the antenna rope high in the tree).
 - 3/16 inch black dacron polyester rope.
 - 10 meter dipole in a inverted V configuration.
