@@ -25,7 +25,7 @@ Equipment list:
 - Various HTs for local communications such as talk-in.
 - Folding table & chairs for a comfortable operating position.
 
-We operated from 10 AM - 12:30 PM ET under the call sign KB2SUL and made the following contacts:<br/><br/>
+We operated from 10 AM - 12:30 PM ET under the call sign [KB2SUL](https://www.qrz.com/db/KB2SUL) and made the following contacts:<br/><br/>
 [<img align="center" src="/assets/img/oct-26-logbook.png">](../assets/img/oct-26-logbook.png){: height="325" }<br/>
 DX Entities: Netherlands, France, Italy, Spain, Canada, Slovak Republic, Angola<br/>
 US States: Texas, Arizona, Oklahoma, Nebraska, Arkansas, Colorado, Oregon
