@@ -30,6 +30,10 @@ We operated from 10 AM - 12:30 PM ET under the call sign KB2SUL and made the fol
 DX Entities: Netherlands, France, Italy, Spain, Canada, Slovak Republic, Angola<br/>
 US States: Texas, Arizona, Oklahoma, Nebraska, Arkansas, Colorado, Oregon
 <br/><br/>
+
+Locations where our FT8 signal was received, according to [PSK Reporter](https://pskreporter.info/):<br/><br/>
+[<img align="center" src="/assets/img/psk-reporter-kb2sul.png">](../assets/img/psk-reporter-kb2sul.png){: height="325" }<br/><br/>
+
 ---
 ### Saturday October 26 - Portable Operation
 All photos courtesy Maurice, KB2SUL<br/><br/>
