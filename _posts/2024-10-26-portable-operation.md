@@ -22,7 +22,7 @@ Equipment list:
 - Various HTs for local communications such as talk-in.
 - Folding table & chairs for a comfortable operating position.
 
-We operated from 10 AM - 12:30 PM ET under the call sign KB2SUL and made the following contacts:<br/>
+We operated from 10 AM - 12:30 PM ET under the call sign KB2SUL and made the following contacts:<br/><br/>
 [<img align="center" src="/assets/img/oct-26-logbook.png">](../assets/img/oct-26-logbook.png){: height="325" }<br/>
 DX Countries: Netherlands, France, Italy, Spain, Canada, Slovak Republic, Angola<br/>
 US States: Texas, Arizona, Oklahoma, Nebraska, Arkansas, Colorado, Oregon
@@ -36,4 +36,5 @@ Jesse N1UGK, Maurice KB2SUL operating 10 meters<br/><br/>
 Mike KC2NJ verifying dipole resonance with a NanoVNA<br/><br/>
 [<img align="center" src="/assets/img/10m-dipole.jpeg">](../assets/img/10m-dipole.jpeg){: height="325" }<br/>
 10 Meter dipole at approx. 20 feet<br/><br/>
-
+[<img align="center" src="/assets/img/htx-100-and-digirig.jpg">](../assets/img/htx-100-and-digirig.jpg){: height="325" }<br/>
+HTX-100 and DigiRig computer interface<br/><br/>
