@@ -17,12 +17,12 @@ Equipment list:
 - 12V 15Ah LiFePO4 Battery.
 - Digirig Mobile PC to radio interface (for FT8).
 - Alinco microphone (on the Kenwood pinout standard), compatible with the HTX-100.
-- arborist throw line kit w/ 15oz throw bag (used to get the antenna high in the tree).
-- 10 meter dipole in a inverted V configuration
-- various HTs for local communications
-- folding table & chairs for a comfortable operating position
+- Arborist throw line kit w/ 15oz throw bag (used to get the antenna rope high in the tree).
+- 10 meter dipole in a inverted V configuration.
+- Various HTs for local communications such as talk-in.
+- Folding table & chairs for a comfortable operating position.
 
-We operated from 10 AM - 12:30 PM ET under the call sign KB2SUL and made the following contacts:
+We operated from 10 AM - 12:30 PM ET under the call sign KB2SUL and made the following contacts:<br/>
 [<img align="center" src="/assets/img/oct-26-logbook.png">](../assets/img/oct-26-logbook.png){: height="325" }<br/>
 DX Countries: Netherlands, France, Italy, Spain, Canada, Slovak Republic, Angola<br/>
 US States: Texas, Arizona, Oklahoma, Nebraska, Arkansas, Colorado, Oregon
