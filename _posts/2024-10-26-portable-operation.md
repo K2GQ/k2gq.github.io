@@ -8,7 +8,7 @@ share-img: /assets/img/htx-100.jpg
 tags: [portable, operation, dipole, 10 meters, SSB, FT8, social]
 ---
 
-A few Roseland members operated portable on Saturday morning starting at 10 AM ET from [Bramhall Terrace at South Mountain Reservation](https://maps.app.goo.gl/wB3PrZ47D6CqHRXK8).  This week's setup was for 10 meters, SSB and digital (FT8) using a legacy (circa 1989) [Realistic HTX-100 25 watt transceiver](https://www.rigpix.com/rs-realistic/realistic_htx100.htm).  If you enjoy portable operations or just a pleasant time outdoors with friends, please consider joining us on a future portable operation.  We provide a table and some chairs, however it is recommended to bring a folding chair if possible for your comfort.
+A few Roseland members operated portable on Saturday morning starting at 10 AM ET from [Bramhall Terrace at South Mountain Reservation](https://maps.app.goo.gl/wB3PrZ47D6CqHRXK8).  This week's setup was for 10 meters, SSB and digital (FT8) using a legacy (circa 1989) [Realistic HTX-100 25 watt transceiver](https://www.rigpix.com/rs-realistic/realistic_htx100.htm).  If you enjoy portable operations or just a pleasant time outdoors with friends, please consider joining us on a future portable operation.  We provide a table and some chairs, however it is recommended to bring a folding chair for your comfort.
 
 To locate us during operation and/or when you're on site, give a call on NE2S/R (EchoLink node KC2NJ-R) or on 146.52 simplex.
 
