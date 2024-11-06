@@ -13,32 +13,8 @@ subtitle: RARC Club Calendar
 
 <br/>
 <h3 id="net-reports"><u>Recent Net Reports</u></h3>
-**Tuesday, October 1**
-[<img align="right" width="395" src="/assets/img/net-2024-10-01.png">](./assets/img/net-2024-10-01.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/><br/>
-
-**Tuesday, October 8**
-[<img align="right" width="395" src="/assets/img/net-2024-10-08.png">](./assets/img/net-2024-10-08.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/><br/>
-
-**Tuesday, October 15**
-[<img align="right" width="395" src="/assets/img/net-2024-10-15.png">](./assets/img/net-2024-10-15.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/><br/>
-
-**Tuesday, October 22**
-[<img align="right" width="395" src="/assets/img/net-2024-10-22.png">](./assets/img/net-2024-10-22.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/><br/>
-
-**Tuesday, October 29**
-[<img align="right" width="395" src="/assets/img/net-2024-10-29.png">](./assets/img/net-2024-10-29.png)<br/>
+**Tuesday, November 5**
+[<img align="right" width="395" src="/assets/img/net-2024-11-05.png">](./assets/img/net-2024-11-05.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
