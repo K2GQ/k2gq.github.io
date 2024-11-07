@@ -18,7 +18,7 @@ The Roseland Amateur Radio Club has been a part of the community for over 75 yea
 <img align="right" width="240" height="120" src="/assets/img/gonset.jpg">
 In 1958, the Roseland Club affiliated itself with the ARRL, marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
 
-The year 2015 was a pivotal point in our club's history, as we renewed our commitment to serving the community through emergency communications. This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
+The year 2015 was a pivotal point in our club's history, as we [renewed our commitment to serving the community through emergency communications](https://essexnewsdaily.com/news/roseland/explore-the-world-through-a-ham-radio). This initiative also brought together individuals with a shared interest in ham radio, community service, communications, electronics, and digital technology, solidifying the bond among club members.
 
 <img align="right" width="240" height="240" src="/assets/img/ftdx10_club.jpg">
 In addition to our educational endeavors, we are honored to lend our skills in service of our local community. Each year, we [volunteer our time and expertise to facilitate public service communications](/_posts/2024-09-21-roseland-run.md) for charity runs in the Essex County, NJ area, further solidifying our role as an integral part of the community fabric.
