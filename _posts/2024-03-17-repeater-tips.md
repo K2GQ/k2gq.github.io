@@ -25,7 +25,7 @@ If users do not wait for the Courtesy Tone and the total transmission time betwe
 
 | Function | Value |
 | :------ |:--- |
-| Input PL | 127.3 Hz |
+| Input PL | 100.0 Hz |
 | Output PL | None |
 | Courtesy Tone | 1.5 seconds |
 | Hang Time | 3 seconds |
