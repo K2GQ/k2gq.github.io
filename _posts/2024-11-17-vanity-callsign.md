@@ -2,7 +2,7 @@
 layout: post
 title: Securing a Desirable Vanity Callsign
 subtitle: Strategies for Securing Your Vanity Amateur Radio Callsign
-cover-img: /assets/img/callbooks.webp
+cover-img: /assets/img/modern-banner-1.webp
 thumbnail-img: /assets/img/fcc-logo.png
 share-img: /assets/img/fcc-logo.png
 tags: [vanity,FCC,callsign,strategy,AE7Q]
