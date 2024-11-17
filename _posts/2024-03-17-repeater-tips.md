@@ -33,3 +33,7 @@ If users do not wait for the Courtesy Tone and the total transmission time betwe
 
 73 & hope to hear you on the repeater soon!
 
+[<img align="center" src="/assets/img/ne2s-repeater.jpeg">](../assets/img/ne2s-repeater.jpeg){: height="325" }<br/>
+NE2S Repeater<br/><br/>
+
+
