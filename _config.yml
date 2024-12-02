@@ -20,8 +20,9 @@ author: RARC
 ###############################################
 
 navbar-links:
-  Club Calendar: "calendar"
   About Us: "about"
+  Club Calendar: "calendar"
+  Net History: "nethistory"
   Resources:
     - ARDC: "https://www.ardc.net/"
     - ARRL: "https://www.arrl.org"
