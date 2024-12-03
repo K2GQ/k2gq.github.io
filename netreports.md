@@ -5,6 +5,40 @@ cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly RARC Net Reports
 ---
 
+<span style="font-size:larger;text-decoration:underline;">**January 2024**
+
+**Tuesday, January 2**
+[<img align="right" width="395" src="/assets/img/net-2024-01-02.png">](./assets/img/net-2024-01-02.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 9**
+[<img align="right" width="395" src="/assets/img/net-2024-01-09.png">](./assets/img/net-2024-01-09.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 16**
+[<img align="right" width="395" src="/assets/img/net-2024-01-16.png">](./assets/img/net-2024-01-16.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 23**
+[<img align="right" width="395" src="/assets/img/net-2024-01-23.png">](./assets/img/net-2024-01-23.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 30**
+[<img align="right" width="395" src="/assets/img/net-2024-01-30.png">](./assets/img/net-2024-01-30.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+---
+
 <span style="font-size:larger;text-decoration:underline;">**February 2024**
 
 **Tuesday, February 6**
