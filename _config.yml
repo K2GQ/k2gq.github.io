@@ -22,7 +22,7 @@ author: RARC
 navbar-links:
   About Us: "about"
   Club Calendar: "calendar"
-  Net Reports: "nethistory"
+  Net Reports: "netreports"
   Resources:
     - ARDC: "https://www.ardc.net/"
     - ARRL: "https://www.arrl.org"
