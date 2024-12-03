@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Net History
+title: Net Reports
 cover-img: /assets/img/FT-736R.jpg
-subtitle: Weekly RARC Net History
+subtitle: Weekly RARC Net Reports
 ---
 
 <span style="font-size:larger;text-decoration:underline;">**February 2024**
