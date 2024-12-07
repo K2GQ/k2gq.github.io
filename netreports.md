@@ -12,6 +12,8 @@ subtitle: Weekly RARC Net Reports
         <td><a href="#january">January</a></td>
         <td><a href="#february">February</a></td>
         <td><a href="#march">March</a></td>
+      </tr>
+      <tr>
         <td><a href="#april">April</a></td>
         <td><a href="#may">May</a></td>
         <td><a href="#june">June</a></td>
@@ -20,6 +22,8 @@ subtitle: Weekly RARC Net Reports
         <td><a href="#july">July</a></td>
         <td><a href="#august">August</a></td>
         <td><a href="#september">September</a></td>
+      </tr>
+      <tr>
         <td><a href="#october">October</a></td>
         <td><a href="#november">November</a></td>
         <td><a href="#december">December</a></td>
