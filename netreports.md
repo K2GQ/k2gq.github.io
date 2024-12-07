@@ -6,7 +6,7 @@ subtitle: Weekly RARC Net Reports
 ---
 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
-  <table id="months-table" border="1" cellpadding="10" style="text-align: center; width: 50%;">
+  <table id="months-table" border="1" cellpadding="10">
     <tbody>
       <tr>
         <td><a href="#january">January</a></td>
