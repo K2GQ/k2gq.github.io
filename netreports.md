@@ -9,56 +9,29 @@ subtitle: Weekly RARC Net Reports
   <table id="months-table" border="1" cellpadding="10">
     <tbody>
       <tr>
-        <td>January</td>
-        <td>#january</td>
+        <td><a href="#january">January</a></td>
+        <td><a href="#february">February</a></td>
+        <td><a href="#march">March</a></td>
       </tr>
       <tr>
-        <td>February</td>
-        <td>#february</td>
+        <td><a href="#april">April</a></td>
+        <td><a href="#may">May</a></td>
+        <td><a href="#june">June</a></td>
       </tr>
       <tr>
-        <td>March</td>
-        <td>#march</td>
+        <td><a href="#july">July</a></td>
+        <td><a href="#august">August</a></td>
+        <td><a href="#september">September</a></td>
       </tr>
       <tr>
-        <td>April</td>
-        <td>#april</td>
-      </tr>
-      <tr>
-        <td>May</td>
-        <td>#may</td>
-      </tr>
-      <tr>
-        <td>June</td>
-        <td>#june</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>#july</td>
-      </tr>
-      <tr>
-        <td>August</td>
-        <td>#august</td>
-      </tr>
-      <tr>
-        <td>September</td>
-        <td>#september</td>
-      </tr>
-      <tr>
-        <td>October</td>
-        <td>#october</td>
-      </tr>
-      <tr>
-        <td>November</td>
-        <td>#november</td>
-      </tr>
-      <tr>
-        <td>December</td>
-        <td>#december</td>
+        <td><a href="#october">October</a></td>
+        <td><a href="#november">November</a></td>
+        <td><a href="#december">December</a></td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
 | [January](#january) | [February](#february) | [March](#march) |
