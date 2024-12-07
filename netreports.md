@@ -331,7 +331,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**December 2024**
+<span id="december" style="font-size:larger;text-decoration:underline;">**December 2024**
 
 **Tuesday, December 3**
 [<img align="right" width="395" src="/assets/img/net-2024-12-03.png">](./assets/img/net-2024-12-03.png)<br/>
