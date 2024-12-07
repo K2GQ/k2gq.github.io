@@ -12,9 +12,9 @@ subtitle: Weekly RARC Net Reports
       <tr>
         <td><a href="#august">August</a></td>
         <td><a href="#september">September</a></td>
+        <td><a href="#october">October</a></td>
       </tr>
       <tr>
-        <td><a href="#october">October</a></td>
         <td><a href="#november">November</a></td>
         <td><a href="#december">December</a></td>
       </tr>
@@ -25,20 +25,20 @@ subtitle: Weekly RARC Net Reports
 
 <span id="august" style="font-size:larger;text-decoration:underline;">**August 2023**
 
-Note: the first net was August 30, 2023.  WV2RJR was net control and there were several check-ins.
+Note: the first net was Wednesday, August 30, 2023.  Ron, WV2RJR was net control and there were several check-ins.
 
 ---
 
 <span id="september" style="font-size:larger;text-decoration:underline;">**September 2023**
 
 **Wednesday, September 6**
-[<img align="right" width="395" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)<br/>
+[<img align="right" width="395" src="/assets/img/net-2023-09-06.png">](./assets/img/net-2023-09-06.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
 
 **Wednesday, September 13**
-[<img align="right" width="395" src="/assets/img/net-2024-09-10.png">](./assets/img/net-2024-09-10.png)<br/>
+[<img align="right" width="395" src="/assets/img/net-2023-09-13.png">](./assets/img/net-2023-09-13.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
