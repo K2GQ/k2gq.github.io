@@ -5,6 +5,15 @@ cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly RARC Net Reports
 ---
 
+**Select Month or Scroll Down**
+
+| [January](#january) | February | March |
+| April | May | June |
+| [July](#july) | August | September |
+| October | November | [December](#december) |
+
+---
+
 <span style="font-size:larger;text-decoration:underline;">**January 2024**
 
 **Tuesday, January 2**
@@ -39,7 +48,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**February 2024**
+<span id="february" style="font-size:larger;text-decoration:underline;">**February 2024**
 
 **Tuesday, February 6**
 [<img align="right" width="395" src="/assets/img/net-2024-02-06.png">](./assets/img/net-2024-02-06.png)<br/>
@@ -67,7 +76,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**March 2024**
+<span id="march" style="font-size:larger;text-decoration:underline;">**March 2024**
 
 **Tuesday, March 5**
 [<img align="right" width="395" src="/assets/img/net-2024-03-05.png">](./assets/img/net-2024-03-05.png)<br/>
@@ -95,7 +104,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**April 2024**
+<span id="april" style="font-size:larger;text-decoration:underline;">**April 2024**
 
 **Tuesday, April 2**
 [<img align="right" width="395" src="/assets/img/net-2024-04-02.png">](./assets/img/net-2024-04-02.png)<br/>
@@ -129,7 +138,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**May 2024**
+<span id="may" style="font-size:larger;text-decoration:underline;">**May 2024**
 
 **Tuesday, May 7**
 [<img align="right" width="395" src="/assets/img/net-2024-05-07.png">](./assets/img/net-2024-05-07.png)<br/>
@@ -157,7 +166,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**June 2024**
+<span id="june" style="font-size:larger;text-decoration:underline;">**June 2024**
 
 **Tuesday, June 4**
 [<img align="right" width="395" src="/assets/img/net-2024-06-04.png">](./assets/img/net-2024-06-04.png)<br/>
@@ -185,7 +194,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**July 2024**
+<span id="july" style="font-size:larger;text-decoration:underline;">**July 2024**
 
 **Tuesday, July 2**
 [<img align="right" width="395" src="/assets/img/net-2024-07-02.png">](./assets/img/net-2024-07-02.png)<br/>
@@ -219,7 +228,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**August 2024**
+<span id="august" style="font-size:larger;text-decoration:underline;">**August 2024**
 
 **Tuesday, August 6**
 [<img align="right" width="395" src="/assets/img/net-2024-08-06.png">](./assets/img/net-2024-08-06.png)<br/>
@@ -247,7 +256,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**September 2024**
+<span id="september" style="font-size:larger;text-decoration:underline;">**September 2024**
 
 **Tuesday, September 3**
 [<img align="right" width="395" src="/assets/img/net-2024-09-03.png">](./assets/img/net-2024-09-03.png)<br/>
@@ -275,7 +284,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**October 2024**
+<span id="october" style="font-size:larger;text-decoration:underline;">**October 2024**
 
 **Tuesday, October 8**
 [<img align="right" width="395" src="/assets/img/net-2024-10-08.png">](./assets/img/net-2024-10-08.png)<br/>
@@ -303,7 +312,7 @@ subtitle: Weekly RARC Net Reports
 
 ---
 
-<span style="font-size:larger;text-decoration:underline;">**November 2024**
+<span id="november" style="font-size:larger;text-decoration:underline;">**November 2024**
 
 **Tuesday, November 5**
 [<img align="right" width="395" src="/assets/img/net-2024-11-05.png">](./assets/img/net-2024-11-05.png)<br/>
