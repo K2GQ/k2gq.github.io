@@ -5,10 +5,12 @@ cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly RARC Net Reports
 ---
 
+<div align="center">
 | [January](#january) | [February](#february) | [March](#march) |
 | [April](#april) | [May](#may) | [June](#june) |
 | [July](#july) | [August](#august) | [September](#september) |
 | [October](#october) | [November](#november) | [December](#december) |
+</div>
 
 ---
 
