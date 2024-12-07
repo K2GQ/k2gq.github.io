@@ -31,13 +31,6 @@ subtitle: Weekly RARC Net Reports
     </tbody>
   </table>
 </div>
-
-
-
-| [January](#january) | [February](#february) | [March](#march) |
-| [April](#april) | [May](#may) | [June](#june) |
-| [July](#july) | [August](#august) | [September](#september) |
-| [October](#october) | [November](#november) | [December](#december) |
 <br/>
 
 ---
