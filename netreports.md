@@ -5,12 +5,66 @@ cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly RARC Net Reports
 ---
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <table id="months-table" border="1" cellpadding="10">
+    <tbody>
+      <tr>
+        <td>January</td>
+        <td>#january</td>
+      </tr>
+      <tr>
+        <td>February</td>
+        <td>#february</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>#march</td>
+      </tr>
+      <tr>
+        <td>April</td>
+        <td>#april</td>
+      </tr>
+      <tr>
+        <td>May</td>
+        <td>#may</td>
+      </tr>
+      <tr>
+        <td>June</td>
+        <td>#june</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>#july</td>
+      </tr>
+      <tr>
+        <td>August</td>
+        <td>#august</td>
+      </tr>
+      <tr>
+        <td>September</td>
+        <td>#september</td>
+      </tr>
+      <tr>
+        <td>October</td>
+        <td>#october</td>
+      </tr>
+      <tr>
+        <td>November</td>
+        <td>#november</td>
+      </tr>
+      <tr>
+        <td>December</td>
+        <td>#december</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 | [January](#january) | [February](#february) | [March](#march) |
 | [April](#april) | [May](#may) | [June](#june) |
 | [July](#july) | [August](#august) | [September](#september) |
 | [October](#october) | [November](#november) | [December](#december) |
-</div>
 <br/>
 
 ---
