@@ -5,6 +5,16 @@ cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly RARC Net Reports
 ---
 
+
+<p class="box-note">
+<strong>About our net:</strong>
+
+The Roseland Amateur Radio Net, established on Wednesday, August 20th, 2023, meets every Tuesday at 7 PM, offering a vibrant and diverse communication platform for amateur radio enthusiasts. Utilizing the NE2S repeater on 146.595 MHz and linked with the KC2NJ-R EchoLink node, the net extends its reach beyond traditional radio boundaries.
+
+Far from being a strictly technical gathering, the net embraces a wide-ranging conversational approach. Participants engage in lively discussions that span multiple interests, including social interactions, local weather updates, culinary adventures, gardening tips, and of course, technical amateur radio topics. This eclectic mix of conversation topics reflects the net's primary goal of fostering genuine community connections among amateur radio operators in Essex County, New Jersey, and beyond.
+
+By creating an inclusive and welcoming communication space, the net demonstrates the true spirit of amateur radio - bringing people together through shared interests and technology. Whether participants want to share a new recipe, discuss their garden's latest bloom, talk about recent technical innovations, or simply catch up with fellow radio enthusiasts, the net provides a warm and engaging platform for communication.</p>
+
 <p style="text-align: center;">
   <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a>
 </p>

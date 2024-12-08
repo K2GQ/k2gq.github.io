@@ -47,8 +47,26 @@ Note: the first net was Wednesday, August 30, 2023.  Ron, WV2RJR was net control
 
 <span id="october" style="font-size:larger;text-decoration:underline;">**October 2023**
 
+**Tuesday, October 4**
+[<img align="right" width="395" src="/assets/img/net-2023-10-04.png">](./assets/img/net-2023-10-04.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
 **Tuesday, October 11**
 [<img align="right" width="395" src="/assets/img/net-2023-10-11.png">](./assets/img/net-2023-10-11.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, October 18**
+[<img align="right" width="395" src="/assets/img/net-2023-10-18.png">](./assets/img/net-2023-10-18.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, October 25**
+[<img align="right" width="395" src="/assets/img/net-2023-10-25.png">](./assets/img/net-2023-10-25.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2NJ-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
@@ -56,6 +74,12 @@ Note: the first net was Wednesday, August 30, 2023.  Ron, WV2RJR was net control
 ---
 
 <span id="november" style="font-size:larger;text-decoration:underline;">**November 2023**
+
+**Tuesday, November 1**
+[<img align="right" width="395" src="/assets/img/net-2023-11-01.png">](./assets/img/net-2023-11-01.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2NJ-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
 
 **Tuesday, November 7**
 [<img align="right" width="395" src="/assets/img/net-2023-11-07.png">](./assets/img/net-2023-11-07.png)<br/>
