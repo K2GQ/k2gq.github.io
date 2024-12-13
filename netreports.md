@@ -9,7 +9,7 @@ subtitle: Weekly RARC Net Reports
 <p class="box-note">
 <strong>About our net:</strong>
 
-The Roseland Amateur Radio Net, established on August 30th, 2023, meets every Tuesday at 7 PM ET. Utilizing the NE2S (SBARC) repeater on 146.595 MHz and linked with the KC2NJ-R EchoLink node, the net extends its reach beyond traditional VHF radio boundaries, offering a vibrant and diverse communication platform for amateur radio operators.
+The Roseland Amateur Radio Net, established on August 30th, 2023, meets every Tuesday at 7 PM ET. Utilizing the KC2TXA (SBARC) repeater on 146.595 MHz and linked with the KC2NJ-R EchoLink node, the net extends its reach beyond traditional VHF radio boundaries, offering a vibrant and diverse communication platform for amateur radio operators.
 
 Far from being a strictly technical gathering, the net embraces a wide-ranging conversational approach. Participants engage in lively discussions that span multiple interests, including social interactions, local weather updates, culinary adventures, gardening tips, and of course, technical amateur radio topics. This eclectic mix of conversation topics reflects the net's primary goal of fostering genuine community connections among amateur radio operators in Essex County, New Jersey, and beyond.
 
