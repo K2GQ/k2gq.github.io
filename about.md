@@ -45,7 +45,7 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 [<img align="right" width="240" src="/assets/img/scanner.jpg">](../netreports)
 **Weekly Club Net:**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒Echolink: KC2NJ-R▒░<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET Tuesdays, open to all.
 
 We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr., W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the [St. Barnabas Amateur Radio Club](/sbarc/) & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of this repeater.
