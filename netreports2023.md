@@ -2,7 +2,7 @@
 layout: page
 title: Net Reports
 cover-img: /assets/img/FT-736R.jpg
-subtitle: Weekly RARC Net Reports
+subtitle: Weekly Net Reports
 ---
 
 <p style="text-align: center; font-size: 24px; font-weight: bold; text-decoration: underline;">2023 Net Reports</p>
