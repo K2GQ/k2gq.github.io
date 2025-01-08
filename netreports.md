@@ -15,9 +15,9 @@ By creating an inclusive and welcoming communication space, the net demonstrates
 
 <p style="text-align: center;">
   <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a> ||
-    <a href="/netreports2024/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2025 Net Reports</a>
+    <a href="/netreports2024/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2024 Net Reports</a>
 </p>
-<p style="text-align: center; font-size: 24px; font-weight: bold; text-decoration: underline;">2024 Net Reports</p>
+<p style="text-align: center; font-size: 24px; font-weight: bold; text-decoration: underline;">2025 Net Reports</p>
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <table id="months-table" border="1" cellpadding="10">
     <tbody>
