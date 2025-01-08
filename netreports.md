@@ -14,8 +14,8 @@ Far from being a strictly technical gathering, the net embraces a wide-ranging c
 By creating an inclusive and welcoming communication space, the net demonstrates the true spirit of amateur radio - bringing people together through shared interests and technology. Whether participants want to share a new recipe, discuss their garden's latest bloom, talk about recent technical innovations, or simply catch up with fellow radio enthusiasts, the net provides a warm and engaging platform for communication.</p>
 
 <p style="text-align: center;">
-  <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a>
-    <a href="/netreports2024/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2024 Net Reports</a>
+  <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a> ||
+    <a href="/netreports2024/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2025 Net Reports</a>
 </p>
 <p style="text-align: center; font-size: 24px; font-weight: bold; text-decoration: underline;">2024 Net Reports</p>
 <div style="display: flex; justify-content: center; margin-top: 20px;">
@@ -51,6 +51,6 @@ By creating an inclusive and welcoming communication space, the net demonstrates
 **Tuesday, January 7**
 [<img align="right" width="395" src="/assets/img/net-2025-01-07.png">](./assets/img/net-2025-01-07.png)<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
-░▒EchoLink: KC2NJ-R▒░<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
 
