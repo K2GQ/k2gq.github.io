@@ -29,6 +29,19 @@ Stay tuned for more insights into our club's history and the significant moments
 
 ---
 
+**Club Officers:**
+
+| Position | Name | Call Sign |
+| :------ |:--- | :--- |
+| President | Bob Calandra | K2AUF |
+| Vice President | Ronald Reinhardt | WV2RJR |
+| Secretary | Maurice Naraine | KB2SUL |
+| Treasurer | Jesse Bertier | N1UGK |
+
+Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
+
+---
+
 <img align="right" width="240" height="120" src="/assets/img/radio-station.png">
 **In-person Meetings:**<br/>
 The Roseland Office of Emergency Management<br/>
@@ -52,19 +65,6 @@ We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmi
 
 <p><a href="../assets/img/SBARC-August-1984.png"> <img src="/assets/img/SBARC-August-1984.png" class="mx-auto d-block" width="375" alt="The Saint Barnabas Amateur Radio Club, composed of physicians, technicians and several teenagers, responded to roadside illnesses and auto accidents, and maintained a communications facility for emergencies at Saint Barnabas. Members shown here include, front, Louis Victor, and Michael and Emily Bahler; and rear, Jack Clark, Dan Keesee, M.D., Steven Victor, M.D., Alan Bahler, M.D., Dwight Sloehler, Howard Eisenhardt, M.D., Fred Jacobs, M.D., George Murillo, and Alvln Friedland, M.D." /></a></p>
 <p style="text-align: center;">SBARC - August 1984</p>
-
----
-
-**Club Officers:**
-
-| Position | Name | Call Sign |
-| :------ |:--- | :--- |
-| President | Ronald J. Reinhardt | WV2RJR |
-| Vice President | Walter G. Mellish | KC2KZJ |
-| Secretary | Stephen F. Modica | KC2PNZ |
-| Treasurer | Jim Mesterhazy | KC2SKK |
-
-Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
 ---
 
