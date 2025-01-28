@@ -57,8 +57,9 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 
 ---
 
+<span id="net">
 [<img align="right" width="240" src="/assets/img/scanner.jpg">](../netreports)
-<span id="net">**Weekly Community Net:**<br/>
+**Weekly Community Net:**<br/>
 [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET Tuesdays, open to all.
