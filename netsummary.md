@@ -42,7 +42,7 @@ ML/GPT net summaries below</p>
 
 **Tuesday, February 25**
 ### Community Net ML/GPT Generated Summary
-- The SBARC Community Net is held weekly on Tuesdays, inviting hams from surrounding clubs to socialize, practice communication skills, and stay active on the air.
+- The Community Net is held weekly on Tuesdays, inviting hams from surrounding clubs to socialize, practice communication skills, and stay active on the air.
 - The net started with check-ins from both RF and EchoLink.
 - A structured roundtable discussion followed, covering various topics including weather, personal updates, equipment sales, and emergency preparedness.
 
@@ -54,7 +54,7 @@ ML/GPT net summaries below</p>
 - Melting snow and the first flowers blooming were noted by participants.
 
 #### Ham Radio Events & Auctions:
-- A recent New Providence auction was well attended, with praise for auctioneer Hillary, who efficiently handled the event.
+- A recent New Providence auction was well attended, with praise for auctioneer Hilary, who efficiently handled the event.
 - Participants noted the start of Hamfest season and referenced a club calendar (hosted on Roseland ARC's website) listing upcoming events.
 
 #### Equipment for Sale & Giveaway:
