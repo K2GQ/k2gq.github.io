@@ -5,10 +5,6 @@ cover-img: /assets/img/FT-736R.jpg
 subtitle: Weekly Net Summaries
 ---
 
-
-<p class="box-note">
-ML/GPT net summaries below</p>
-
 <p style="text-align: center; font-size: 24px; font-weight: bold; text-decoration: underline;">2025 Net Summaries</p>
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <table id="months-table" border="1" cellpadding="10">
@@ -41,7 +37,7 @@ ML/GPT net summaries below</p>
 <span id="february" style="font-size:larger;text-decoration:underline;">**February 2025**
 
 **Tuesday, February 25**
-### Community Net ML/GPT Generated Summary
+### Community Net Weekly Summary
 - The Community Net is held weekly on Tuesdays, inviting hams from surrounding clubs to socialize, practice communication skills, and stay active on the air.
 - The net started with check-ins from both RF and EchoLink.
 - A structured roundtable discussion followed, covering various topics including weather, personal updates, equipment sales, and emergency preparedness.
