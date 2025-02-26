@@ -36,7 +36,7 @@ subtitle: Weekly Net Summaries
 
 <span id="february" style="font-size:larger;text-decoration:underline;">**February 2025**
 
-<span id="february25"></br>
+<span id="february25"><br/>
 **Net date: Tuesday, February 25**
 ### Community Net Weekly Summary
 - The Community Net is held weekly on Tuesdays, inviting hams from surrounding clubs to socialize, practice communication skills, and stay active on the air.
