@@ -41,7 +41,10 @@ ML/GPT net summaries below</p>
 <span id="february" style="font-size:larger;text-decoration:underline;">**February 2025**
 
 **Tuesday, February 25**
-### SBARC Community Net ML/GPT Generated Summary – 02/25/2025
+### Community Net ML/GPT Generated Summary
+- The SBARC Community Net is held weekly on Tuesdays, inviting hams from surrounding clubs to socialize, practice communication skills, and stay active on the air.
+- The net started with check-ins from both RF and EchoLink.
+- A structured roundtable discussion followed, covering various topics including weather, personal updates, equipment sales, and emergency preparedness.
 
 ### Discussion Highlights
 
