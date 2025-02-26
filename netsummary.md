@@ -81,6 +81,14 @@ ML/GPT net summaries below</p>
   - Answer: "Because they have green thumbs."
 - Some lighthearted banter about adjusting car clocks for daylight savings time, with creative "solutions" like disconnecting the battery at exactly 12:00 PM.
 
+#### Moment of the Net:
+
+The honor for the best moment of the net goes to **Maurice (KB2SUL)** for his hilarious suggestion on resetting the car clock:
+
+> **"Just disconnect the battery at exactly 12:00 PM and reconnect it—problem solved!"** 
+
+Nice one, Maurice! 🎉🔧🚗
+
 #### Final Thoughts:
 - The net wrapped up with a reminder about emergency preparedness, including fuel, water, food, and cash.
 - Net control thanked SBARC for use of the repeater and officially closed the session.
