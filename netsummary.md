@@ -36,9 +36,9 @@ subtitle: Weekly Net Summaries
 
 <span id="february" style="font-size:larger;text-decoration:underline;">**February 2025**
 
-<span id="february25"><br/>
+<span id="february25">
 **Net date: Tuesday, February 25**
-### Community Net Weekly Summary
+### Community Net Weekly Summary - February 25
 - The Community Net is held weekly on Tuesdays, inviting hams from surrounding clubs to socialize, practice communication skills, and stay active on the air.
 - The net started with check-ins from both RF and EchoLink.
 - A structured roundtable discussion followed, covering various topics including weather, personal updates, equipment sales, and emergency preparedness.
