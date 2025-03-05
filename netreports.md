@@ -103,7 +103,7 @@ By creating an inclusive and welcoming communication space, the net demonstrates
 
 ---
 
-<span id="March" style="font-size:larger;text-decoration:underline;">**March 2025**
+<span id="march" style="font-size:larger;text-decoration:underline;">**March 2025**
 
 **Tuesday, March 4**
 [<img align="right" width="395" src="/assets/img/net-2025-03-04.png">](./assets/img/net-2025-03-04.png)<br/>
