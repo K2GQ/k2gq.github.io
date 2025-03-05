@@ -96,3 +96,48 @@ Nice one, Maurice! 🎉🔧🚗
 
 <span id="march4">
 **Net date: Tuesday, March 4**
+
+### Community Net Weekly Summary - March 4
+
+#### **Topics Discussed:**
+
+1. **Check-ins & Introductions:**  
+   The net opened with check-ins from operators via Echolink and RF. A mix of familiar voices and new participants joined in, with everyone sharing their location and status.
+
+2. **Weather Updates:**  
+   Members noted that temperatures were rising above freezing, a sign that spring is approaching. There was optimism about upcoming warm days, even with a rainy forecast on the horizon.
+
+3. **Radio & Technical Topics:**  
+   - Discussion about the W2LI-4 packet BBS being back online.  
+   - Comparison of different HTs—Yaesu FT-70D vs. a budget Baofeng—highlighting how sometimes the cheaper radio performs better.  
+   - Troubleshooting issues with Echolink, including ISP-related blocks and relay settings for better performance.
+
+4. **Scams & Fraud Alerts:**  
+   - Several participants shared recent scam experiences, from fraudulent phone numbers posing as GEICO to fake Apple support calls.  
+   - Emphasis was placed on recognizing phishing attempts and avoiding sharing personal information over the phone.
+
+5. **Medical Trivia & Fun Questions:**  
+   - A trivia question asked, *"What is the largest organ in the human body?"*—with skin being the correct answer.  
+   - Another question followed: *"What is the #1 symptom that makes people visit a doctor?"* Answer: **Pain.**  
+   - Some playful alternative answers were suggested, like "falling" and "temperature."
+
+6. **Hamfest & Local Events:**  
+   - A mention of an upcoming hamfest in Cherryville sparked interest. Some members were unsure if they could attend due to family obligations.
+
+7. **Personal News & Miscellaneous Topics:**  
+   - One member shared that his mother had just turned 98, receiving warm congratulations from the group.  
+   - There was also discussion about daylight savings time coming up, with members reminding each other to set their clocks forward.  
+
+### **Moment of the Net:**  
+The funniest moment of the net happened when a participant, while discussing medical trivia, joked about how pain leads people to the doctor, then followed up with:  
+
+*"A guy walks into the doctor's office and says, ‘Every time I raise my right hand, it hurts!’ The doctor looks at him and says, ‘Then don’t raise your right hand!’"*  
+
+The groan-worthy joke got a good laugh from the group, making it the standout moment of the evening.  
+
+**Closing Remarks:**  
+The net wrapped up with 73s all around, encouragement to join the morning coffee chat on the repeater, and a reminder that spring is just around the corner.  
+
+Thanks to everyone who participated—until next week!
+
+---
