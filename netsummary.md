@@ -141,3 +141,60 @@ The net wrapped up with 73s all around, encouragement to join the morning coffee
 Thanks to everyone who participated—until next week!
 
 ---
+
+<span id="march11">
+**Net date: Tuesday, March 11**
+
+### Community Net Weekly Summary - March 11
+
+Tonight’s **St. Barnabas Hosted Community Net** covered a variety of topics, ranging from **weather updates and gardening** to **technical discussions and scam awareness**. Below are the key highlights from the session.  
+
+**1. General Discussion**  
+- **Weather Update**: The day saw an unseasonably warm **75-degree temperature**, leading to discussions about **gardening, outdoor activities, and even turning on air conditioning**.  
+- **Gardening Talk**: Several participants shared updates on **overwintered plants and tropical peppers**, with excitement about the upcoming spring growing season.  
+- **Academic Conference**: An upcoming **conference at NJIT** was noted, but registration had already closed.  
+
+**2. Staten Island Radio Club & Solar-Powered Communications**  
+- A participant shared information about **a Staten Island high school radio club** where students are encouraged to get their amateur radio licenses. The club operates under the callsign **WS1THS**.  
+- Another interesting project discussed was a **solar-powered vehicle with an integrated communication system**, being developed by a group called **Seagull Solar**. The vehicle operates under the callsign **WS0LAR** and is designed to use **cross-band repeaters for extended communication capabilities**.  
+- A request was made for a **used dual-band mobile radio** to support the solar-powered vehicle project.  
+
+**3. Technical Topics**  
+- **Echolink Update**: The latest **Echolink app update introduced a red transmission screen**, prompting discussion on its **usefulness and impact on user experience**.  
+- **Connectivity Issues**: Some operators experienced **Echolink instability**, with dropped connections and difficulties reconnecting.  
+- **NetLogger Recommendation**: A tool for **tracking net check-ins and participation** was suggested for better net management.  
+- **Blocking Scam Calls**: Various **phone and VOIP blocking options** were discussed to combat unwanted spam and scam calls.  
+
+**4. Equipment Sales & Requests**  
+- **Radios for Sale**:
+  - **Yaesu FT-60R Dual Band** for **$100**  
+  - **Yaesu FT-4XR Dual Band** for **$50**  
+- **Request for Used Equipment**: A request was made for a **used dual-band mobile radio** to support the **solar-powered vehicle communication project**.  
+
+**5. Fun & Entertainment**  
+- **Riddle of the Night**:  
+  - *"What can go up a chimney down, but not down a chimney up?"*  
+  - Answer: **An umbrella** 🌂 (This stumped a few participants!)  
+
+**6. Scam Awareness & Security**  
+- **Common scams were discussed**, including:  
+  - **Fake delivery notifications** (e.g., UPS package scams)  
+  - **Spoofed account update emails**  
+  - **Robocalls requesting personal information**  
+- The consensus was to **never click on suspicious links or respond to unverified messages**.  
+
+**7. Miscellaneous Updates**  
+- **Tax Season Updates**: A participant working in **tax preparation** shared their experience of a busy season.  
+- **Reservoir Levels & Drought**: Low **reservoir levels in northern New Jersey** were noted, confirming ongoing **drought conditions**.  
+- **Daylight Saving Time Effects**: The **longer daylight hours** were appreciated by many, signaling the arrival of spring.  
+
+**8. Closing Remarks**  
+- **Final check-ins were taken**, and the net concluded at the top of the hour, returning the repeater to normal use.  
+
+**Final Thoughts**  
+Tonight’s net covered a wide range of topics, including **weather, gardening, technical updates, scam awareness, and fun riddles**. The discussion about **solar-powered communications** was a highlight, and the **Echolink software update** sparked debate on usability.  
+
+Looking forward to the next session! **73!** 🚀
+
+---
+
