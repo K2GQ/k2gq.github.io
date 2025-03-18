@@ -8,7 +8,7 @@ share-img: /assets/img/echolink.webp
 tags: [echolink,ios,android,iphone,ipad]
 ---
 
-EchoLink is a popular system used by amateur radio operators to link radio repeaters to the internet, allowing radio communications to extend beyond the traditional range of radio signals.  Using EchoLink, an operator can access their local repeater from anywhere with an internet connection, effectively overcoming geographical limitations. This is especially useful in situations where direct radio contact with the repeater is not possible due to distance, obstructions, or reduced signal strength.  The EchoLink setup on NE2S/R assures the operator their signal will be "full quieting" into the repeater and enjoy Q5 copy during reception.
+EchoLink is a popular system used by amateur radio operators to link radio repeaters to the internet, allowing radio communications to extend beyond the traditional range of radio signals.  Using EchoLink, an operator can access their local repeater from anywhere with an internet connection, effectively overcoming geographical limitations. This is especially useful in situations where direct radio contact with the repeater is not possible due to distance, obstructions, or reduced signal strength.  The EchoLink setup on KC2TXA/R assures the operator their signal will be "full quieting" into the repeater and enjoy Q5 copy during reception.
 
 ---
 
