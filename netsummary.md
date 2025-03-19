@@ -211,7 +211,7 @@ Check-ins started strong with hams joining via RF and Echolink, but one operator
 Their check-in sparked some fun technical chatter, with others discussing the tricky topography of the area and whether a Yagi antenna might be a good experiment. Another operator pointed out that mobile signals from Staten Island had struggled earlier in the day, but a properly placed rooftop antenna made all the difference.  
 
 #### 🛠️ Equipment Talk: The Bargain Bin & A New Toy  
-There was a little ham radio shopping spree happening, too. Someone put up a Yaesu FT-60R for $100, and another operator had a DMR UHF radio still in the box for a bargain $50—practically giving the thing away. No word on whether a bidding war broke out, but those deals were tempting.  
+There was a little ham radio shopping spree happening, too. Someone put up a Yaesu FT-60R for $100, and a DMR UHF radio still in the box for a bargain $50—practically giving the thing away. No word on whether a bidding war broke out, but those deals were tempting.  
 
 Meanwhile, one participant shared their excitement about purchasing a Xiegu G90 HF transceiver. This little rig packs 20 watts of punch and even has a built-in tuner, making it perfect for mobile HF ops. The plan? Stick an antenna on the car and hit the road with some HF action. This, of course, led to some good-natured ribbing about how they should just install a 100-foot wire on the roof rack and “see what happens.”  
 
@@ -228,7 +228,7 @@ Spring fever is real, and the hams are feeling it. The crocuses are popping, the
 
 Two big events are coming up:  
 📻 **Parsippany Hamfest** – Radios, parts, mystery gear, and maybe some old chassis with outrageous price tags.  
-🏠 **Red Cross Operating Event** – If everything lines up, the club will fire up some HF and digital modes at their Fairfield station.  
+🏠 **Red Cross Operating Event** – If everything lines up, the WEARC club will fire up some HF and digital modes at their Fairfield station.  
 
 There was some last-minute wheeling and dealing over who’s going where, and whether anyone needs a ride (or just a good excuse to spend money on radio gear).  
 
