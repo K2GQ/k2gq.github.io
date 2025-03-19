@@ -198,4 +198,45 @@ Looking forward to the next session! 73!
 
 ---
 
+<span id="march18">
+**Net date: Tuesday, March 18**
 
+### Community Net Weekly Summary – March 18  
+
+Spring is knocking, the bees are buzzing, and the radios are crackling with activity—welcome to another **St. Barnabas Hosted Community Net!** This week’s session had everything: technical deep dives, radio sales, philosophical riddles, and even a brand-new ham making waves from Staten Island!  
+
+#### 🎙️ Roll Call & A Staten Island Surprise  
+Check-ins started strong with hams joining via RF and Echolink, but one operator had a little more adventure than expected. A participant from Staten Island Technical High School checked in—eventually—after battling a technical gremlin. Turns out, their J-Pole antenna was solid, but the radio settings weren’t quite right, and they were trying to check in on simplex instead of the repeater input. Once they got it sorted, their 50-watt signal made it through, which is no small feat considering the hills and valleys in between.  
+
+Their check-in sparked some fun technical chatter, with others discussing the tricky topography of the area and whether a Yagi antenna might be a good experiment. Another operator pointed out that mobile signals from Staten Island had struggled earlier in the day, but a properly placed rooftop antenna made all the difference.  
+
+#### 🛠️ Equipment Talk: The Bargain Bin & A New Toy  
+There was a little ham radio shopping spree happening, too. Someone put up a Yaesu FT-60R for $100, and another operator had a DMR UHF radio still in the box for a bargain $50—practically giving the thing away. No word on whether a bidding war broke out, but those deals were tempting.  
+
+Meanwhile, one participant shared their excitement about purchasing a Xiegu G90 HF transceiver. This little rig packs 20 watts of punch and even has a built-in tuner, making it perfect for mobile HF ops. The plan? Stick an antenna on the car and hit the road with some HF action. This, of course, led to some good-natured ribbing about how they should just install a 100-foot wire on the roof rack and “see what happens.”  
+
+#### 🛑 The Riddle That Stumped the Net  
+Every good net needs a mental workout, and one participant delivered with this brain-bender:  
+*“What question can you never say yes to?”*  
+
+The guesses started rolling in, with one operator confidently declaring the answer was, *“Are you a liar?”* The logic? If you say yes, then you’re a liar, which means you’re lying about being a liar, so… uh… yeah. Brain meltdown initiated.  
+
+But the real answer was revealed to be: *“Are you asleep?”* Cue the groans, laughter, and light existential crisis.  
+
+#### 🐝 Bees, Hamfests & Red Cross Operations  
+Spring fever is real, and the hams are feeling it. The crocuses are popping, the forsythias are glowing yellow, and one operator had a full-blown moment with a bee on their windshield. Instead of swatting it, they slowed down, spoke to it like an old friend, and let it fly away. Good karma achieved.  
+
+Two big events are coming up:  
+📻 **Parsippany Hamfest** – Radios, parts, mystery gear, and maybe some old chassis with outrageous price tags.  
+🏠 **Red Cross Operating Event** – If everything lines up, the club will fire up some HF and digital modes at their Fairfield station.  
+
+There was some last-minute wheeling and dealing over who’s going where, and whether anyone needs a ride (or just a good excuse to spend money on radio gear).  
+
+#### 👋 Wrapping Up: See You Next Time!  
+As the net wound down, everyone shared final thoughts, weekend plans, and 73s. One last call for check-ins came up empty—either everyone was already in bed, or they were too busy looking up the Xiegu G90.  
+
+The repeater was returned to normal use, and just like that, another great net was in the books. Same time, same place next week—bring your radios, riddles, and maybe a little more antenna gain if you're calling in from Staten Island.  
+
+🔥 73 and keep the airwaves lively! 🔥
+
+---
