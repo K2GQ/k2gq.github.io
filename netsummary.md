@@ -240,3 +240,68 @@ The repeater was returned to normal use, and just like that, another great net w
 🔥 73 and keep the airwaves lively! 🔥
 
 ---
+
+<span id="march25">
+**Net date: Tuesday, March 25**
+
+### Community Net Weekly Summary – March 25
+
+🌐 **St. Barnabas Community Net – March 25, 2025 Recap** 🎙️  
+*Live from the RF airwaves and EchoLink alike, this week’s social net was buzzing with early spring energy, plant pride, a little radio troubleshooting, and more than a few laughs.*
+
+### 🧠 **Insightful Highlights**
+
+Spring has officially arrived—and it seems to have brought half the garden with it.
+
+This week’s roundtable touched on everything from weather predictions (an optimistic 80°F forecast!) to propagation prep and a new local net. Operators shared their gardening projects, tech hiccups, and upcoming events—all in the true spirit of amateur radio camaraderie.
+
+A key update: the repeater will begin hosting the **Essex County ARES Net** starting in April. This net will meet **monthly on the second Thursday at 8 PM Eastern**, open to *anyone* interested in emergency communications, regardless of whether they live in Essex County or are officially part of ARES.
+
+Meanwhile, one operator ran into a CW keying issue on his Icom rig. That sparked an on-air diagnostic brainstorm session that included everything from checking jacks, toggling between keyer modes, and confirming settings like full break-in vs. semi-break-in. Even a GPT-generated troubleshooting list made its way into the mix—turns out AI is now joining the roundtable, too.
+
+### 🌼 **Gardening Goes Ham**
+
+You’d be forgiven for thinking this was a gardening club with a side of RF. Spring had everyone talking soil and sprouts:
+
+- Rhubarb was just peeking above ground with its tiny, crinkled leaves.
+- A Wiri pepper plant passed from neighbor to neighbor like a VIP seedling.
+- Milkweed was going in to attract monarchs, while tree seedlings from the Arbor Day Foundation were being carefully potted.
+- Butterfly bushes, cucumber vines, and tomato dreams filled the air—along with questions about overwintering potted plants in garages or basements.
+
+Even hams who swore off plants after childhood yard chores were reconsidering after hearing all the buzz.
+
+And just to drive home how deep the veggie rabbit hole goes: someone looked up the number of known tomato varieties—over **10,000**! That’s not a typo. (By comparison, cucumbers only have about 100. Sorry, cucumbers.)
+
+### 💬 **Engaging Exchanges**
+
+The recent in-person meetup at the Red Cross facility got high praise. Operators shared stories of operating CW, socializing over radios, and tossing around ideas like returning to the club after the upcoming Splitrock Hamfest in May for more radio fun.
+
+A few folks also shared their experiences with family members in the hospital or recovering from illness. The group sent warm wishes and showed support, as always. This net doesn’t just build antennas—it builds community.
+
+And yes, there was a *very* gentle roast when someone kept mixing up two operators with very different call signs and hometowns—because, as it turns out, everyone taller than you starts to look the same after a while.
+
+### 🧩 **Trivia Time!**
+
+One participant dropped a classic riddle that left most scratching their heads:  
+**“What kind of room has no doors or windows?”**  
+
+The correct answer—supplied by one operator’s better half—was:  
+**“A mushroom.”**  
+
+It landed well, especially with folks planning to test it out on their grandkids.
+
+### 🛠️ **Marketplace & Odds ‘n Ends**
+
+- A lightly used **Yaesu FTM-7250DR** was offered up for $200.
+- Trenton Computer Festival was mentioned as an upcoming event. Fun fact: someone spotted an Einstein impersonator at a related meeting… which is somehow *exactly* what you’d expect at a Princeton-area tech gathering.
+- Reminder: when selling gear at a hamfest, maybe don’t price it like it’s museum-grade if you're serious about letting it go!
+
+### 🌱 **Final Thoughts**
+
+The net wrapped with a few last garden notes, a mini botany lesson on hybrid tomato plants, and more spring optimism. While some signed off early with warm 73s, others lingered, soaking up the vibe of a group that knows how to mix RF with TLC.
+
+The weekly St. Barnabas Net continues to be a place for more than just signal reports—it's where technical minds meet big hearts, with a dash of humor and homegrown tomatoes on the side.
+
+See you next week! And hey, don’t forget your flip-flops—it might actually *hit 80 degrees.*
+
+---
