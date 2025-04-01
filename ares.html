@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ARES® Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .container {
+      background: #fff;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 15px;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .header-table {
+      border: none;
+      margin-bottom: 25px;
+    }
+    .header-table td {
+      border: none;
+      text-align: center;
+    }
+    .header-table h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin: 15px 0 5px;
+      font-size: 16px;
+      text-decoration: underline;
+    }
+    input[type="text"],
+    input[type="date"],
+    input[type="email"] {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 4px;
+      font-size: 14px;
+    }
+    .no-border {
+      border: none;
+    }
+    .signature-container {
+      border: 1px solid #000;
+      width: 100%;
+      height: 150px;
+      position: relative;
+    }
+    .button {
+      padding: 10px 15px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    .inline {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="form-container">
+    <!-- Header Section -->
+    <table class="header-table">
+      <tr>
+        <td><h1>ARES® Registration Form</h1></td>
+      </tr>
+      <tr>
+        <td>Amateur Radio Emergency Service®</td>
+      </tr>
+    </table>
+
+    <!-- Personal Information -->
+    <table>
+      <tr>
+        <td style="width: 15%;">Name:</td>
+        <td style="width: 35%;"><input type="text" id="name"></td>
+        <td style="width: 15%;">Call Sign:</td>
+        <td style="width: 35%;"><input type="text" id="call-sign"></td>
+      </tr>
+      <tr>
+        <td>Mailing Address:</td>
+        <td colspan="3"><input type="text" id="mailing-address"></td>
+      </tr>
+      <tr>
+        <td>City:</td>
+        <td><input type="text" id="city"></td>
+        <td>State:</td>
+        <td><input type="text" id="state"></td>
+      </tr>
+      <tr>
+        <td>ZIP Code:</td>
+        <td><input type="text" id="zip"></td>
+        <td>Email Address(es):</td>
+        <td><input type="text" id="email"></td>
+      </tr>
+      <tr>
+        <td>Home Phone:</td>
+        <td><input type="text" id="home-phone"></td>
+        <td>Work Phone:</td>
+        <td><input type="text" id="work-phone"></td>
+      </tr>
+      <tr>
+        <td>Cell Phone:</td>
+        <td><input type="text" id="cell-phone"></td>
+        <td>License Class:</td>
+        <td><input type="text" id="license-class"></td>
+      </tr>
+    </table>
+
+    <!-- Bands and Modes Table -->
+    <div class="section-title">Check bands and modes that you can operate:</div>
+    <table>
+      <tr>
+        <th style="width: 20%;">Mode</th>
+        <th style="width: 13%;">HF</th>
+        <th style="width: 13%;">6 meters</th>
+        <th style="width: 13%;">2 meters</th>
+        <th style="width: 13%;">222 MHz</th>
+        <th style="width: 13%;">440 MHz</th>
+        <th style="width: 15%;">Others</th>
+      </tr>
+      <tr>
+        <td>SSB</td>
+        <td><input type="checkbox" name="ssb_hf"></td>
+        <td><input type="checkbox" name="ssb_6"></td>
+        <td><input type="checkbox" name="ssb_2"></td>
+        <td><input type="checkbox" name="ssb_222"></td>
+        <td><input type="checkbox" name="ssb_440"></td>
+        <td><input type="checkbox" name="ssb_others"></td>
+      </tr>
+      <tr>
+        <td>CW</td>
+        <td><input type="checkbox" name="cw_hf"></td>
+        <td><input type="checkbox" name="cw_6"></td>
+        <td><input type="checkbox" name="cw_2"></td>
+        <td><input type="checkbox" name="cw_222"></td>
+        <td><input type="checkbox" name="cw_440"></td>
+        <td><input type="checkbox" name="cw_others"></td>
+      </tr>
+      <tr>
+        <td>FM</td>
+        <td><input type="checkbox" name="fm_hf"></td>
+        <td><input type="checkbox" name="fm_6"></td>
+        <td><input type="checkbox" name="fm_2"></td>
+        <td><input type="checkbox" name="fm_222"></td>
+        <td><input type="checkbox" name="fm_440"></td>
+        <td><input type="checkbox" name="fm_others"></td>
+      </tr>
+      <tr>
+        <td>DATA</td>
+        <td><input type="checkbox" name="data_hf"></td>
+        <td><input type="checkbox" name="data_6"></td>
+        <td><input type="checkbox" name="data_2"></td>
+        <td><input type="checkbox" name="data_222"></td>
+        <td><input type="checkbox" name="data_440"></td>
+        <td><input type="checkbox" name="data_others"></td>
+      </tr>
+      <tr>
+        <td>PACKET</td>
+        <td><input type="checkbox" name="packet_hf"></td>
+        <td><input type="checkbox" name="packet_6"></td>
+        <td><input type="checkbox" name="packet_2"></td>
+        <td><input type="checkbox" name="packet_222"></td>
+        <td><input type="checkbox" name="packet_440"></td>
+        <td><input type="checkbox" name="packet_others"></td>
+      </tr>
+      <tr>
+        <td>Other modes<br>(specify below):</td>
+        <td colspan="6"><input type="text" id="other-modes" style="width: 100%;"></td>
+      </tr>
+      <tr>
+        <td>Mobile Operation</td>
+        <td><input type="checkbox" name="mobile_hf"></td>
+        <td><input type="checkbox" name="mobile_6"></td>
+        <td><input type="checkbox" name="mobile_2"></td>
+        <td><input type="checkbox" name="mobile_222"></td>
+        <td><input type="checkbox" name="mobile_440"></td>
+        <td><input type="checkbox" name="mobile_others"></td>
+      </tr>
+    </table>
+
+    <!-- Signature and Date -->
+    <table>
+      <tr>
+        <td style="width: 70%; vertical-align: top;">
+          Signature:<br>
+          <div id="signature-pad" class="signature-container"></div>
+          <button type="button" id="clear-signature" class="button inline">Clear</button>
+        </td>
+        <td style="width: 30%; vertical-align: top;">
+          Date:<br>
+          <input type="date" id="date">
+        </td>
+      </tr>
+    </table>
+
+    <!-- Download Zip Button -->
+    <button type="button" id="download-zip" class="button">Download Zip</button>
+  </div>
+
+  <!-- Include Signature Pad -->
+  <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>
+  <!-- Include html2canvas -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <!-- Include jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- Include JSZip -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
+  <script>
+    // Create canvas element inside signature container
+    const container = document.getElementById('signature-pad');
+    const sigCanvas = document.createElement('canvas');
+    sigCanvas.style.width = '100%';
+    sigCanvas.style.height = '100%';
+    container.appendChild(sigCanvas);
+    
+    // Initialize signature pad
+    const signaturePad = new SignaturePad(sigCanvas);
+
+    // Resize canvas for high-DPI devices
+    function resizeCanvas() {
+      const ratio = Math.max(window.devicePixelRatio || 1, 1);
+      sigCanvas.width = container.clientWidth * ratio;
+      sigCanvas.height = container.clientHeight * ratio;
+      sigCanvas.getContext("2d").scale(ratio, ratio);
+      signaturePad.clear();
+    }
+    window.addEventListener("resize", resizeCanvas);
+    resizeCanvas();
+
+    // Clear the signature pad
+    document.getElementById('clear-signature').addEventListener('click', () => {
+      signaturePad.clear();
+    });
+
+    // Helper function: get all form data
+    function getFormData() {
+      const data = {};
+      data.name = document.getElementById("name").value;
+      data.callSign = document.getElementById("call-sign").value;
+      data.mailingAddress = document.getElementById("mailing-address").value;
+      data.city = document.getElementById("city").value;
+      data.state = document.getElementById("state").value;
+      data.zip = document.getElementById("zip").value;
+      data.email = document.getElementById("email").value;
+      data.homePhone = document.getElementById("home-phone").value;
+      data.workPhone = document.getElementById("work-phone").value;
+      data.cellPhone = document.getElementById("cell-phone").value;
+      data.licenseClass = document.getElementById("license-class").value;
+      data.otherModes = document.getElementById("other-modes").value;
+      data.date = document.getElementById("date").value;
+      data.signatureProvided = signaturePad.isEmpty() ? "No" : "Yes";
+      
+      function isChecked(name) {
+        const el = document.querySelector('input[name="' + name + '"]');
+        return el && el.checked ? "Yes" : "No";
+      }
+      // SSB row
+      data.ssb_hf = isChecked("ssb_hf");
+      data.ssb_6 = isChecked("ssb_6");
+      data.ssb_2 = isChecked("ssb_2");
+      data.ssb_222 = isChecked("ssb_222");
+      data.ssb_440 = isChecked("ssb_440");
+      data.ssb_others = isChecked("ssb_others");
+      // CW row
+      data.cw_hf = isChecked("cw_hf");
+      data.cw_6 = isChecked("cw_6");
+      data.cw_2 = isChecked("cw_2");
+      data.cw_222 = isChecked("cw_222");
+      data.cw_440 = isChecked("cw_440");
+      data.cw_others = isChecked("cw_others");
+      // FM row
+      data.fm_hf = isChecked("fm_hf");
+      data.fm_6 = isChecked("fm_6");
+      data.fm_2 = isChecked("fm_2");
+      data.fm_222 = isChecked("fm_222");
+      data.fm_440 = isChecked("fm_440");
+      data.fm_others = isChecked("fm_others");
+      // DATA row
+      data.data_hf = isChecked("data_hf");
+      data.data_6 = isChecked("data_6");
+      data.data_2 = isChecked("data_2");
+      data.data_222 = isChecked("data_222");
+      data.data_440 = isChecked("data_440");
+      data.data_others = isChecked("data_others");
+      // PACKET row
+      data.packet_hf = isChecked("packet_hf");
+      data.packet_6 = isChecked("packet_6");
+      data.packet_2 = isChecked("packet_2");
+      data.packet_222 = isChecked("packet_222");
+      data.packet_440 = isChecked("packet_440");
+      data.packet_others = isChecked("packet_others");
+      // Mobile Operation row
+      data.mobile_hf = isChecked("mobile_hf");
+      data.mobile_6 = isChecked("mobile_6");
+      data.mobile_2 = isChecked("mobile_2");
+      data.mobile_222 = isChecked("mobile_222");
+      data.mobile_440 = isChecked("mobile_440");
+      data.mobile_others = isChecked("mobile_others");
+
+      return data;
+    }
+
+    // Generate a plain text version of the form
+    function generateTextVersion(data) {
+      return `
+ARES® Registration Form
+---------------------------
+Name: ${data.name}
+Call Sign: ${data.callSign}
+Mailing Address: ${data.mailingAddress}
+City: ${data.city}
+State: ${data.state}
+ZIP Code: ${data.zip}
+Email Address(es): ${data.email}
+Home Phone: ${data.homePhone}
+Work Phone: ${data.workPhone}
+Cell Phone: ${data.cellPhone}
+License Class: ${data.licenseClass}
+
+Bands and Modes:
+  SSB - HF: ${data.ssb_hf}, 6 meters: ${data.ssb_6}, 2 meters: ${data.ssb_2}, 222 MHz: ${data.ssb_222}, 440 MHz: ${data.ssb_440}, Others: ${data.ssb_others}
+  CW  - HF: ${data.cw_hf}, 6 meters: ${data.cw_6}, 2 meters: ${data.cw_2}, 222 MHz: ${data.cw_222}, 440 MHz: ${data.cw_440}, Others: ${data.cw_others}
+  FM  - HF: ${data.fm_hf}, 6 meters: ${data.fm_6}, 2 meters: ${data.fm_2}, 222 MHz: ${data.fm_222}, 440 MHz: ${data.fm_440}, Others: ${data.fm_others}
+  DATA- HF: ${data.data_hf}, 6 meters: ${data.data_6}, 2 meters: ${data.data_2}, 222 MHz: ${data.data_222}, 440 MHz: ${data.data_440}, Others: ${data.data_others}
+  PACKET - HF: ${data.packet_hf}, 6 meters: ${data.packet_6}, 2 meters: ${data.packet_2}, 222 MHz: ${data.packet_222}, 440 MHz: ${data.packet_440}, Others: ${data.packet_others}
+  Other Modes (specify): ${data.otherModes}
+  Mobile Operation - HF: ${data.mobile_hf}, 6 meters: ${data.mobile_6}, 2 meters: ${data.mobile_2}, 222 MHz: ${data.mobile_222}, 440 MHz: ${data.mobile_440}, Others: ${data.mobile_others}
+
+Date: ${data.date}
+Signature Provided: ${data.signatureProvided}
+      `.trim();
+    }
+
+    // Generate CSV version (header and one data row)
+    function generateCSVVersion(data) {
+      // Define header and order
+      const headers = ["Name","Call Sign","Mailing Address","City","State","ZIP Code","Email Address(es)","Home Phone","Work Phone","Cell Phone","License Class",
+        "SSB HF","SSB 6 meters","SSB 2 meters","SSB 222 MHz","SSB 440 MHz","SSB Others",
+        "CW HF","CW 6 meters","CW 2 meters","CW 222 MHz","CW 440 MHz","CW Others",
+        "FM HF","FM 6 meters","FM 2 meters","FM 222 MHz","FM 440 MHz","FM Others",
+        "DATA HF","DATA 6 meters","DATA 2 meters","DATA 222 MHz","DATA 440 MHz","DATA Others",
+        "PACKET HF","PACKET 6 meters","PACKET 2 meters","PACKET 222 MHz","PACKET 440 MHz","PACKET Others",
+        "Other Modes","Mobile HF","Mobile 6 meters","Mobile 2 meters","Mobile 222 MHz","Mobile 440 MHz","Mobile Others",
+        "Date","Signature Provided"];
+      const values = [
+        data.name, data.callSign, data.mailingAddress, data.city, data.state, data.zip, data.email, data.homePhone, data.workPhone, data.cellPhone, data.licenseClass,
+        data.ssb_hf, data.ssb_6, data.ssb_2, data.ssb_222, data.ssb_440, data.ssb_others,
+        data.cw_hf, data.cw_6, data.cw_2, data.cw_222, data.cw_440, data.cw_others,
+        data.fm_hf, data.fm_6, data.fm_2, data.fm_222, data.fm_440, data.fm_others,
+        data.data_hf, data.data_6, data.data_2, data.data_222, data.data_440, data.data_others,
+        data.packet_hf, data.packet_6, data.packet_2, data.packet_222, data.packet_440, data.packet_others,
+        data.otherModes,
+        data.mobile_hf, data.mobile_6, data.mobile_2, data.mobile_222, data.mobile_440, data.mobile_others,
+        data.date, data.signatureProvided
+      ];
+      // Escape values if necessary and join as CSV rows
+      const escapeCSV = (val) => `"${String(val).replace(/"/g, '""')}"`;
+      const headerRow = headers.map(escapeCSV).join(",");
+      const dataRow = values.map(escapeCSV).join(",");
+      return headerRow + "\n" + dataRow;
+    }
+
+    // When "Download Zip" is clicked, generate the three files and package them into a ZIP file.
+    document.getElementById('download-zip').addEventListener('click', () => {
+      // First, capture the form as an image and create a PDF.
+      html2canvas(document.getElementById("form-container")).then(canvas => {
+        const imgData = canvas.toDataURL("image/png");
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF('p', 'pt', 'letter');
+        const pageWidth = pdf.internal.pageSize.getWidth();
+        const imgWidth = pageWidth;
+        const imgHeight = canvas.height * imgWidth / canvas.width;
+        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+        const pdfBlob = pdf.output("blob");
+
+        // Next, get form data and generate text and CSV outputs.
+        const formData = getFormData();
+        const textContent = generateTextVersion(formData);
+        const csvContent = generateCSVVersion(formData);
+        const textBlob = new Blob([textContent], { type: "text/plain" });
+        const csvBlob = new Blob([csvContent], { type: "text/csv" });
+
+        // Use JSZip to package the three files.
+        const zip = new JSZip();
+        zip.file("ARES_Registration_Form.pdf", pdfBlob);
+        zip.file("ARES_Registration_Form.txt", textBlob);
+        zip.file("ARES_Registration_Form.csv", csvBlob);
+
+        // Generate the ZIP file and trigger download.
+        zip.generateAsync({ type: "blob" }).then(function(content) {
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(content);
+          link.download = "ARES_Registration_Form.zip";
+          link.click();
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+
