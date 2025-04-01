@@ -64,7 +64,7 @@
     }
     .radio-group {
       padding: 10px;
-      white-space: nowrap; /* Prevent wrapping of Yes/No options */
+      white-space: nowrap; /* Keep Yes/No on one line */
     }
     .button {
       padding: 10px 15px;
@@ -252,7 +252,6 @@
     </div>
 
     <!-- Signature and Date Section -->
-    <!-- On mobile the date will appear above the signature pad -->
     <div class="signature-date-container">
       <div class="date-container">
         <label for="date"><strong>Date:</strong></label><br>
@@ -265,7 +264,7 @@
       </div>
     </div>
 
-    <!-- Action Button: Will be "Download Zip" on desktop or "Share Form" on mobile -->
+    <!-- Action Button: "Download Zip" on desktop; "Share Form" on mobile -->
     <button type="button" id="action-button" class="button"></button>
   </div>
 
@@ -345,157 +344,5 @@
       data.fm_2 = document.querySelector('input[name="fm_2"]').checked ? "Yes" : "No";
       data.fm_222 = document.querySelector('input[name="fm_222"]').checked ? "Yes" : "No";
       data.fm_440 = document.querySelector('input[name="fm_440"]').checked ? "Yes" : "No";
-      data.fm_others = document.querySelector('input[name="fm_others"]').checked ? "Yes" : "No";
-      // DATA row
-      data.data_hf = document.querySelector('input[name="data_hf"]').checked ? "Yes" : "No";
-      data.data_6 = document.querySelector('input[name="data_6"]').checked ? "Yes" : "No";
-      data.data_2 = document.querySelector('input[name="data_2"]').checked ? "Yes" : "No";
-      data.data_222 = document.querySelector('input[name="data_222"]').checked ? "Yes" : "No";
-      data.data_440 = document.querySelector('input[name="data_440"]').checked ? "Yes" : "No";
-      data.data_others = document.querySelector('input[name="data_others"]').checked ? "Yes" : "No";
-      // PACKET row
-      data.packet_hf = document.querySelector('input[name="packet_hf"]').checked ? "Yes" : "No";
-      data.packet_6 = document.querySelector('input[name="packet_6"]').checked ? "Yes" : "No";
-      data.packet_2 = document.querySelector('input[name="packet_2"]').checked ? "Yes" : "No";
-      data.packet_222 = document.querySelector('input[name="packet_222"]').checked ? "Yes" : "No";
-      data.packet_440 = document.querySelector('input[name="packet_440"]').checked ? "Yes" : "No";
-      data.packet_others = document.querySelector('input[name="packet_others"]').checked ? "Yes" : "No";
-      // Mobile Operation row
-      data.mobile_hf = document.querySelector('input[name="mobile_hf"]').checked ? "Yes" : "No";
-      data.mobile_6 = document.querySelector('input[name="mobile_6"]').checked ? "Yes" : "No";
-      data.mobile_2 = document.querySelector('input[name="mobile_2"]').checked ? "Yes" : "No";
-      data.mobile_222 = document.querySelector('input[name="mobile_222"]').checked ? "Yes" : "No";
-      data.mobile_440 = document.querySelector('input[name="mobile_440"]').checked ? "Yes" : "No";
-      data.mobile_others = document.querySelector('input[name="mobile_others"]').checked ? "Yes" : "No";
-      return data;
-    }
-
-    // Generate plain text version (for email copy-paste)
-    function generateTextVersion(data) {
-      return `
-ARES® Registration Form
----------------------------
-Name: ${data.name}
-Call Sign: ${data.callSign}
-Mailing Address: ${data.mailingAddress}
-City: ${data.city}
-State: ${data.state}
-ZIP Code: ${data.zip}
-Email Address(es): ${data.email}
-Home Phone: ${data.homePhone}
-Work Phone: ${data.workPhone}
-Cell Phone: ${data.cellPhone}
-License Class: ${data.licenseClass}
-Home Station Operates Without Commercial Power: ${data.home_power}
-
-Bands and Modes:
-  SSB - HF: ${data.ssb_hf}, 6 meters: ${data.ssb_6}, 2 meters: ${data.ssb_2}, 222 MHz: ${data.ssb_222}, 440 MHz: ${data.ssb_440}, Others: ${data.ssb_others}
-  CW  - HF: ${data.cw_hf}, 6 meters: ${data.cw_6}, 2 meters: ${data.cw_2}, 222 MHz: ${data.cw_222}, 440 MHz: ${data.cw_440}, Others: ${data.cw_others}
-  FM  - HF: ${data.fm_hf}, 6 meters: ${data.fm_6}, 2 meters: ${data.fm_2}, 222 MHz: ${data.fm_222}, 440 MHz: ${data.fm_440}, Others: ${data.fm_others}
-  DATA- HF: ${data.data_hf}, 6 meters: ${data.data_6}, 2 meters: ${data.data_2}, 222 MHz: ${data.data_222}, 440 MHz: ${data.data_440}, Others: ${data.data_others}
-  PACKET - HF: ${data.packet_hf}, 6 meters: ${data.packet_6}, 2 meters: ${data.packet_2}, 222 MHz: ${data.packet_222}, 440 MHz: ${data.packet_440}, Others: ${data.packet_others}
-  Other Modes (specify): ${data.otherModes}
-  Mobile Operation - HF: ${data.mobile_hf}, 6 meters: ${data.mobile_6}, 2 meters: ${data.mobile_2}, 222 MHz: ${data.mobile_222}, 440 MHz: ${data.mobile_440}, Others: ${data.mobile_others}
-
-Date: ${data.date}
-Signature Provided: ${data.signatureProvided}
-      `.trim();
-    }
-
-    // Generate CSV version (header and one data row)
-    function generateCSVVersion(data) {
-      const headers = [
-        "Name","Call Sign","Mailing Address","City","State","ZIP Code",
-        "Email Address(es)","Home Phone","Work Phone","Cell Phone","License Class",
-        "Home Station Operates Without Commercial Power",
-        "SSB HF","SSB 6 meters","SSB 2 meters","SSB 222 MHz","SSB 440 MHz","SSB Others",
-        "CW HF","CW 6 meters","CW 2 meters","CW 222 MHz","CW 440 MHz","CW Others",
-        "FM HF","FM 6 meters","FM 2 meters","FM 222 MHz","FM 440 MHz","FM Others",
-        "DATA HF","DATA 6 meters","DATA 2 meters","DATA 222 MHz","DATA 440 MHz","DATA Others",
-        "PACKET HF","PACKET 6 meters","PACKET 2 meters","PACKET 222 MHz","PACKET 440 MHz","PACKET Others",
-        "Other Modes",
-        "Mobile HF","Mobile 6 meters","Mobile 2 meters","Mobile 222 MHz","Mobile 440 MHz","Mobile Others",
-        "Date","Signature Provided"
-      ];
-      const values = [
-        data.name, data.callSign, data.mailingAddress, data.city, data.state, data.zip,
-        data.email, data.homePhone, data.workPhone, data.cellPhone, data.licenseClass,
-        data.home_power,
-        data.ssb_hf, data.ssb_6, data.ssb_2, data.ssb_222, data.ssb_440, data.ssb_others,
-        data.cw_hf, data.cw_6, data.cw_2, data.cw_222, data.cw_440, data.cw_others,
-        data.fm_hf, data.fm_6, data.fm_2, data.fm_222, data.fm_440, data.fm_others,
-        data.data_hf, data.data_6, data.data_2, data.data_222, data.data_440, data.data_others,
-        data.packet_hf, data.packet_6, data.packet_2, data.packet_222, data.packet_440, data.packet_others,
-        data.otherModes,
-        data.mobile_hf, data.mobile_6, data.mobile_2, data.mobile_222, data.mobile_440, data.mobile_others,
-        data.date, data.signatureProvided
-      ];
-      const escapeCSV = (val) => `"${String(val).replace(/"/g, '""')}"`;
-      const headerRow = headers.map(escapeCSV).join(",");
-      const dataRow = values.map(escapeCSV).join(",");
-      return headerRow + "\n" + dataRow;
-    }
-
-    // Function to generate the ZIP file and either share or download
-    function generateAndShareZip() {
-      html2canvas(document.getElementById("form-container")).then(canvas => {
-        const imgData = canvas.toDataURL("image/png");
-        const { jsPDF } = window.jspdf;
-        const pdf = new jsPDF('p', 'pt', 'letter');
-        const pageWidth = pdf.internal.pageSize.getWidth();
-        const imgWidth = pageWidth;
-        const imgHeight = canvas.height * imgWidth / canvas.width;
-        pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
-        const pdfBlob = pdf.output("blob");
-
-        const formData = getFormData();
-        const textContent = generateTextVersion(formData);
-        const csvContent = generateCSVVersion(formData);
-        const textBlob = new Blob([textContent], { type: "text/plain" });
-        const csvBlob = new Blob([csvContent], { type: "text/csv" });
-
-        const zip = new JSZip();
-        zip.file("ARES_Registration_Form.pdf", pdfBlob);
-        zip.file("ARES_Registration_Form.txt", textBlob);
-        zip.file("ARES_Registration_Form.csv", csvBlob);
-
-        zip.generateAsync({ type: "blob" }).then(function(content) {
-          const zipFile = new File([content], "ARES_Registration_Form.zip", { type: "application/zip" });
-          // Try file sharing if supported
-          if (isMobile() && navigator.share && navigator.canShare && navigator.canShare({ files: [zipFile] })) {
-            navigator.share({
-              files: [zipFile],
-              title: "ARES Registration Form",
-              text: "Please find attached the ARES Registration Form."
-            }).catch((error) => {
-              console.error("Error sharing", error);
-              alert("Sharing as an attachment is not supported on your browser. Please download the file and attach it manually.");
-              // Fallback: trigger download
-              const link = document.createElement("a");
-              link.href = URL.createObjectURL(content);
-              link.download = "ARES_Registration_Form.zip";
-              link.click();
-            });
-          } else {
-            // Fallback: download the ZIP
-            const link = document.createElement("a");
-            link.href = URL.createObjectURL(content);
-            link.download = "ARES_Registration_Form.zip";
-            link.click();
-          }
-        });
-      });
-    }
-
-    // Set up the action button based on device type
-    const actionButton = document.getElementById('action-button');
-    if (isMobile()) {
-      actionButton.textContent = "Share Form";
-    } else {
-      actionButton.textContent = "Download Zip";
-    }
-    actionButton.addEventListener('click', generateAndShareZip);
-  </script>
-</body>
-</html>
+      data.fm_others = document.querySelector_
 
