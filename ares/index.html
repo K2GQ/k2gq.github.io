@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- The viewport meta tag is essential for mobile responsiveness -->
+  <!-- Viewport meta tag for responsive mobile behavior -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ARES® Registration Form</title>
   <style>
@@ -63,8 +63,8 @@
       position: relative;
     }
     .radio-group {
-      text-align: left;
       padding: 10px;
+      white-space: nowrap; /* Prevent wrapping of Yes/No options */
     }
     .button {
       padding: 10px 15px;
@@ -83,7 +83,19 @@
       display: inline-block;
       vertical-align: middle;
     }
-    /* Mobile styling */
+    /* Signature & Date container: side-by-side on desktop, stacked on mobile */
+    .signature-date-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .date-container {
+      width: 30%;
+    }
+    .signature-container-wrapper {
+      width: 65%;
+    }
     @media (max-width: 600px) {
       .container {
         padding: 10px;
@@ -98,6 +110,14 @@
       .button {
         font-size: 16px;
         padding: 12px 18px;
+      }
+      /* Stack date above signature on mobile */
+      .signature-date-container {
+        flex-direction: column;
+      }
+      .date-container, .signature-container-wrapper {
+        width: 100%;
+        margin-bottom: 10px;
       }
     }
   </style>
@@ -226,27 +246,26 @@
 
     <!-- Home Station Power Question -->
     <div class="radio-group">
-      Can your home station be operated without commercial power?
+      Can your home station be operated without commercial power? 
       &nbsp;&nbsp;Yes <input type="radio" name="home_power" value="Yes">
       &nbsp;&nbsp;No <input type="radio" name="home_power" value="No">
     </div>
 
-    <!-- Signature and Date -->
-    <table>
-      <tr>
-        <td style="width: 70%; vertical-align: top;">
-          Signature:<br>
-          <div id="signature-pad" class="signature-container"></div>
-          <button type="button" id="clear-signature" class="button inline">Clear</button>
-        </td>
-        <td style="width: 30%; vertical-align: top;">
-          Date:<br>
-          <input type="date" id="date">
-        </td>
-      </tr>
-    </table>
+    <!-- Signature and Date Section -->
+    <!-- On mobile the date will appear above the signature pad -->
+    <div class="signature-date-container">
+      <div class="date-container">
+        <label for="date"><strong>Date:</strong></label><br>
+        <input type="date" id="date">
+      </div>
+      <div class="signature-container-wrapper">
+        <label><strong>Signature:</strong></label><br>
+        <div id="signature-pad" class="signature-container"></div>
+        <button type="button" id="clear-signature" class="button inline">Clear</button>
+      </div>
+    </div>
 
-    <!-- Action Button (Download on desktop; Share on mobile) -->
+    <!-- Action Button: Will be "Download Zip" on desktop or "Share Form" on mobile -->
     <button type="button" id="action-button" class="button"></button>
   </div>
 
@@ -261,17 +280,15 @@
       return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
 
-    // Create a canvas element for the signature
+    // Create and initialize the signature pad
     const container = document.getElementById('signature-pad');
     const sigCanvas = document.createElement('canvas');
     sigCanvas.style.width = '100%';
     sigCanvas.style.height = '100%';
     container.appendChild(sigCanvas);
-    
-    // Initialize Signature Pad
     const signaturePad = new SignaturePad(sigCanvas);
 
-    // Resize canvas to fit container and device pixel ratio
+    // Resize the signature canvas for high-DPI devices
     function resizeCanvas() {
       const ratio = Math.max(window.devicePixelRatio || 1, 1);
       sigCanvas.width = container.clientWidth * ratio;
@@ -282,12 +299,12 @@
     window.addEventListener("resize", resizeCanvas);
     resizeCanvas();
 
-    // Clear signature event
+    // Clear signature button event
     document.getElementById('clear-signature').addEventListener('click', () => {
       signaturePad.clear();
     });
 
-    // Helper: Gather form data
+    // Gather form data
     function getFormData() {
       const data = {};
       data.name = document.getElementById("name").value;
@@ -305,9 +322,8 @@
       data.date = document.getElementById("date").value;
       data.signatureProvided = signaturePad.isEmpty() ? "No" : "Yes";
       
-      // Home station power value
       data.home_power = document.querySelector('input[name="home_power"]:checked') ?
-                        document.querySelector('input[name="home_power"]:checked').value : "Not Answered";
+                          document.querySelector('input[name="home_power"]:checked').value : "Not Answered";
       
       // SSB row
       data.ssb_hf = document.querySelector('input[name="ssb_hf"]').checked ? "Yes" : "No";
@@ -351,11 +367,10 @@
       data.mobile_222 = document.querySelector('input[name="mobile_222"]').checked ? "Yes" : "No";
       data.mobile_440 = document.querySelector('input[name="mobile_440"]').checked ? "Yes" : "No";
       data.mobile_others = document.querySelector('input[name="mobile_others"]').checked ? "Yes" : "No";
-
       return data;
     }
 
-    // Generate plain text version for email copy-paste
+    // Generate plain text version (for email copy-paste)
     function generateTextVersion(data) {
       return `
 ARES® Registration Form
@@ -421,7 +436,7 @@ Signature Provided: ${data.signatureProvided}
       return headerRow + "\n" + dataRow;
     }
 
-    // Function to generate ZIP and either share (mobile) or download (desktop)
+    // Function to generate the ZIP file and either share or download
     function generateAndShareZip() {
       html2canvas(document.getElementById("form-container")).then(canvas => {
         const imgData = canvas.toDataURL("image/png");
@@ -445,25 +460,24 @@ Signature Provided: ${data.signatureProvided}
         zip.file("ARES_Registration_Form.csv", csvBlob);
 
         zip.generateAsync({ type: "blob" }).then(function(content) {
-          // If on mobile and the Web Share API supports file sharing
-          if (isMobile() && navigator.canShare && navigator.canShare({ files: [new File([content], "ARES_Registration_Form.zip", { type: "application/zip" })] })) {
-            const file = new File([content], "ARES_Registration_Form.zip", { type: "application/zip" });
+          const zipFile = new File([content], "ARES_Registration_Form.zip", { type: "application/zip" });
+          // Try file sharing if supported
+          if (isMobile() && navigator.share && navigator.canShare && navigator.canShare({ files: [zipFile] })) {
             navigator.share({
-              files: [file],
+              files: [zipFile],
               title: "ARES Registration Form",
               text: "Please find attached the ARES Registration Form."
-            }).then(() => {
-              console.log("Share successful");
             }).catch((error) => {
               console.error("Error sharing", error);
-              // Fallback: trigger download if sharing fails
+              alert("Sharing as an attachment is not supported on your browser. Please download the file and attach it manually.");
+              // Fallback: trigger download
               const link = document.createElement("a");
               link.href = URL.createObjectURL(content);
               link.download = "ARES_Registration_Form.zip";
               link.click();
             });
           } else {
-            // Fallback for desktop or if Web Share API is unavailable
+            // Fallback: download the ZIP
             const link = document.createElement("a");
             link.href = URL.createObjectURL(content);
             link.download = "ARES_Registration_Form.zip";
