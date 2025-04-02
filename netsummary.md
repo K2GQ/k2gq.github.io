@@ -313,7 +313,7 @@ Absolutely! Here's the revised version of your **St. Barnabas Community Net Reca
 <span id="april1">
 **Net date: Tuesday, April 1**
 
-### Community Net Weekly Summary – April 1
+### Community Net Weekly Summary – April 1 <br/>
 
 ### 🌐 St. Barnabas Community Net Recap – April 1, 2025
 
