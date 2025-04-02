@@ -306,10 +306,6 @@ See you next week! And hey, don’t forget your flip-flops—it might actually *
 
 ---
 
-Absolutely! Here's the revised version of your **St. Barnabas Community Net Recap** for April 1, 2025, with all individual names and call signs removed:
-
----
-
 <span id="april1">
 **Net date: Tuesday, April 1**
 
