@@ -309,8 +309,8 @@ See you next week! And hey, don’t forget your flip-flops—it might actually *
 <span id="april1">
 **Net date: Tuesday, April 1**
 
-### Community Net Weekly Summary – April 1 <br/>
-
+### Community Net Weekly Summary – April 1
+<br/>
 ### 🌐 St. Barnabas Community Net Recap – April 1, 2025
 
 April Fool's Day might be built for pranks, but the only thing this net fooled us with was how quickly two hours could fly by. The **St. Barnabas Community Net** once again proved why Tuesday nights on the repeater are anything but boring. We had a mix of seasoned voices, fresh check-ins, storm recaps, gardening tips, and even a riddle to stump the room.
