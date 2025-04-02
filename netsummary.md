@@ -305,3 +305,51 @@ The weekly St. Barnabas Net continues to be a place for more than just signal re
 See you next week! And hey, don’t forget your flip-flops—it might actually *hit 80 degrees.*
 
 ---
+
+Absolutely! Here's the revised version of your **St. Barnabas Community Net Recap** for April 1, 2025, with all individual names and call signs removed:
+
+---
+
+<span id="april1">
+**Net date: Tuesday, April 1**
+
+### Community Net Weekly Summary – April 1
+
+### 🌐 St. Barnabas Community Net Recap – April 1, 2025
+
+April Fool's Day might be built for pranks, but the only thing this net fooled us with was how quickly two hours could fly by. The **St. Barnabas Community Net** once again proved why Tuesday nights on the repeater are anything but boring. We had a mix of seasoned voices, fresh check-ins, storm recaps, gardening tips, and even a riddle to stump the room.
+
+### ✅ Check-Ins and First-Timers
+The net kicked off with a warm welcome to both **EchoLink** and **RF** stations, including several familiar check-ins and a brand-new licensee from Mendham using a handheld. Great to see new folks jumping into the hobby—and they even scored the lucky number seven in the round table!
+
+### 🌦️ Weather Tales and Lightning Shows
+Much of the net reflected on the dramatic thunderstorms from the night before. One operator reported "lightning bolts so thick it was unbelievable," while another checked a local rain gauge and measured about an inch of rain. Not catastrophic, but enough to ease some ongoing drought concerns. As someone aptly put it, “Let it rain, let it rain, let it rain”—which may now be our official spring anthem.
+
+### 🍻 Beer, Birds, and Backyard Experiments
+- One participant’s **2004 Honda Civic** air conditioner miraculously still works—cause for celebration!
+- A future BBQ was teased, featuring microbrew beer from Toms River—just waiting on a sunny Saturday.
+- Sightings of robins, blue jays, and cardinals confirmed that spring is officially in the air.
+- There's a gardening experiment underway with **dehydrated soil** and the growing of **weary pepper plants**, which may eventually be turned into homemade hot sauce.
+- A plug was made for NJ’s Pequest Fish Hatchery and the joys of trout season—perfectly timed with others sharing their fly-fishing backgrounds.
+
+### 📻 Gear Talk and Club Happenings
+Someone shared news of a **DMR UHF handheld radio** for sale—boxed, barely used, and priced at just $50. It's a great deal, complete with charger and reportedly one of the best speakers on a handheld.
+
+Mentions were made of the upcoming **club meeting** (both in person and online), and a reminder that **ARRL Field Day** is just three months away. Never too early to start planning!
+
+### 🧠 Moment of the Net: The Riddle Showdown
+This week’s **“Moment of the Net”** goes to the classic riddle:
+> **"What can travel around the world without leaving its corner?"**  
+> _Answer: A stamp._
+
+That stumped a few folks and kicked off a spirited debate. An alternate answer was floated: **the North and South Poles**—always in their corner, yet central to global rotation. But the original riddle won out in the end.
+
+Best of all? The closing pun:  
+> _"I’ll put my **stamp of approval** on all of tonight."_
+
+Well played.
+
+### 💬 Final Thoughts
+As always, the net wrapped up with warm 73s, light-hearted banter, and an open invitation to stick around for more socializing. There was even a reminder to check your **tire pressure**—because with changing spring temps, that PSI can sneak up on you.
+
+---
