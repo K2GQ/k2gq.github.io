@@ -349,3 +349,53 @@ Well played.
 As always, the net wrapped up with warm 73s, light-hearted banter, and an open invitation to stick around for more socializing. There was even a reminder to check your **tire pressure**—because with changing spring temps, that PSI can sneak up on you.
 
 ---
+
+<span id="april8">
+**Net date: Tuesday, April 8**
+
+### Community Net Weekly Summary – April 8
+<br/>
+
+## 🎙️ St. Barnabas Community Net Recap – April 8, 2025
+
+They say time flies when you're having fun, and this Tuesday's edition of the St. Barnabas Community Net was a textbook case. We squeezed in **three full rotations** of stories, trivia, weather rants, garden updates, and net wisdom, all before the hour struck. Not bad for an “unofficial” spring night where the thermometer still thinks it’s January.
+
+### 🌦️ Weather Whiplash Continues
+This week’s theme? **Mother Nature is not ready to let go**. One moment it's crocuses blooming, the next it’s snow in the Berkshires and 24-degree wind chills. Even the “weather guy” on the net had to turn his heat back on. And yes, there were strong opinions about that.
+
+Several net participants are clearly done with the cold, but others took time to appreciate the upside:
+- **Rainy days** helped fill the rivers and ease lingering drought concerns.
+- **Pollen haters** rejoiced with every drop.
+- One person even timed their **fertilizer application** perfectly with a light rain. Now that’s efficiency.
+
+### 🌸 Cherry Blossoms, Hot Dogs, and Hidden Parks
+The discussion turned poetic as memories of **Branch Brook Park** came pouring in. With its stunning cherry blossoms and storied past, the park sparked some great nostalgia:
+- Once home to the largest cherry blossom collection on the East Coast.
+- Beloved for school field trips and family outings (though not everyone was thrilled about missing the swing sets).
+- And yes, **JJ’s Hot Dog Truck**—still operating after three generations—got a shoutout and is officially now on everyone’s food pilgrimage list.
+
+### 💻 Club Upgrades and Activities
+Big tech news: a brand-new WEARC **club laptop** was acquired this week, complete with Ryzen 7, 16GB RAM, and a 15" screen. It’s destined for **FT8 operation** in the club station, and several operators are excited to get it configured and integrated.
+
+A **new ground-wave HF coordination night** also kicked off—an informal Wednesday evening event for those who want to experiment with 10m, 40m, or whatever works. And in the public service realm, a monthly **Essex County ARES Net** is making its comeback this Thursday, April 10th and will take place each second Thursday of the month.
+
+### 🎯 Moment of the Net: The Riddle & The Reveal
+This week's **"Moment of the Net"** was all about brainpower:
+
+> **Riddle:** "Spell me forward, I’m something you do every day. Spell me backward, I’m something you hate."
+
+The answer? **LIVE / EVIL**  
+Cue applause, texted guesses, and one very proud ham who relayed the correct answer from the home team. 🧠👏
+
+### 🧪 Garden Experiments and Pest Battles
+The growing season is beginning—sort of. Between hyacinths, daffodils, and tulips trying to bloom and persistent snow in higher elevations, it’s a waiting game. One participant reported their crocuses were "fighting to stay up" through a dusting of snow. Another confirmed the **black ants** have returned, staking their claim to the kitchen sink. Ah, spring.
+
+And of course, the elusive **weary pepper** made another appearance—still germinating, still promising health benefits and fiery heat.
+
+### 💡 Final Notes & Friendly Sign-Offs
+The net wrapped with shoutouts, tech tips (Zoom > Skype for club meetings, FYI), and the universal truth that no one actually likes folding laundry. Also, dishes waited patiently while folks enjoyed just one more round. Priorities.
+
+As always, this net served up connection, community, and a few surprises. See you next Tuesday—and don’t forget to keep your antenna up, your coffee hot, and your hot dog cravings ready. JJ’s, we’re coming for you. 🌭🌸
+
+---
+
