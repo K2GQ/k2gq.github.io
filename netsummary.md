@@ -246,7 +246,7 @@ The repeater was returned to normal use, and just like that, another great net w
 
 ### Community Net Weekly Summary – March 25
 
-🌐 **St. Barnabas Community Net – March 25, 2025 Recap** 🎙️  
+🌐 **Community Net – March 25, 2025 Recap** 🎙️  
 *Live from the RF airwaves and EchoLink alike, this week’s social net was buzzing with early spring energy, plant pride, a little radio troubleshooting, and more than a few laughs.*
 
 ### 🧠 **Insightful Highlights**
@@ -311,7 +311,7 @@ See you next week! And hey, don’t forget your flip-flops—it might actually *
 
 ### Community Net Weekly Summary – April 1
 <br/>
-### 🌐 St. Barnabas Community Net Recap – April 1, 2025
+### 🌐 Community Net Recap – April 1, 2025
 
 April Fool's Day might be built for pranks, but the only thing this net fooled us with was how quickly two hours could fly by. The **St. Barnabas Community Net** once again proved why Tuesday nights on the repeater are anything but boring. We had a mix of seasoned voices, fresh check-ins, storm recaps, gardening tips, and even a riddle to stump the room.
 
@@ -356,7 +356,7 @@ As always, the net wrapped up with warm 73s, light-hearted banter, and an open i
 ### Community Net Weekly Summary – April 8
 <br/>
 
-## 🎙️ St. Barnabas Community Net Recap – April 8, 2025
+## 🎙️ Community Net Recap – April 8, 2025
 
 They say time flies when you're having fun, and this Tuesday's edition of the St. Barnabas Community Net was a textbook case. We squeezed in **three full rotations** of stories, trivia, weather rants, garden updates, and net wisdom, all before the hour struck. Not bad for an “unofficial” spring night where the thermometer still thinks it’s January.
 
