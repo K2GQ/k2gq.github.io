@@ -399,3 +399,62 @@ As always, this net served up connection, community, and a few surprises. See yo
 
 ---
 
+<span id="april15">
+**Net date: Tuesday, April 15**
+
+### Community Net Weekly Summary – April 15
+<br/>
+
+## 🎙️ St. Barnabas Community Net Recap – April 15, 2025
+
+The **mid-April edition** of the St. Barnabas Community Net had it all—**sunshine, salmon mishaps, trivia twists, antenna advice, and the great Coffee Club rebrand.** With **eleven check-ins** spanning from New Jersey to Eastern Europe, this net once again reminded us that a repeater can be a window to the world.
+
+### 🌞 Weather Watch: Shorts and Snowflakes
+The weather took center stage again this week. While some participants declared it officially “shorts season” and got the grill going, others—especially those farther north—were watching snowflakes in the forecast. One operator shared that it was 58°F with clear skies, while another’s app showed snow arriving overnight. Go figure.
+
+As one ham put it: “Mother Nature is still trying to decide if it’s spring or not.”
+
+### 🍳 Farewell to the Coffee Club — Hello, Breakfast Club!
+The **morning informal net**, long known as the “Coffee Club,” has officially rebranded itself as the **Breakfast Club** to reflect its international and time zone-flexible nature. After all, when one person’s sipping espresso, someone else might already be on their second glass of wine.  
+
+The change also sparked a nostalgic dive into pop culture:
+- Yes, the 1985 movie _The Breakfast Club_ came up (and yes, there was a debate over whether it was detention or summer school).
+- Bonus trivia: the original **"Breakfast Club"** was actually a popular **radio program** in the 1950s, later simulcast on ABC TV.
+
+🎵 _Cue Simple Minds: “Don’t You Forget About Me.”_
+
+### 🧠 Moment of the Net: The Presidential Riddle
+This week’s **riddle** stole the show:
+
+> **“The 22nd and 24th U.S. Presidents had the same parents, but were not brothers. How is this possible?”**  
+> _Answer: It’s the same person—Grover Cleveland!_
+
+This week’s trivia question didn’t pose much of a challenge for this crew—especially given how familiar some are with **Grover Cleveland**. The moment the riddle was read, a correct answer followed swiftly, prompting knowing nods rather than puzzled silence. One participant even reminded us that the club has held events at the **Grover Cleveland Birthplace**, making this more of a memory jog than a brain teaser.
+
+### 📡 Ham Radio Highlights
+- A **new voice joined the net** this week, checking in via EchoLink for the first time and asking about the **ICOM 7300**—a popular and powerful HF rig. Plenty of advice followed, including suggestions to check Ham Radio Outlet and a reminder that antennas matter just as much.
+- Another participant reported **200 FT8 contacts and 50 DX entities**—a huge milestone and a nice testament to propagation and patience.
+- Milkweed plants arrived in the mail (yes, in a plastic bag), and the **butterfly project** is officially underway.
+- A flowering plant called **ranunculus** sparked curiosity and horticultural admiration, proving yet again that this net is as much about **life as it is about radio**.
+
+### 🔧 From the Shack to the Grill
+The weekly chatter featured:
+- **Grilling misfires** caused by high wind and unlit burners,
+- Dreams of salmon on the deck,
+- Barbecue flashbacks tied to boom box anthems,
+- And yes, **dishwashing shifts** that had net control signing off temporarily.
+
+### 🎉 Elder Wisdom and a Living Link to History
+One of the most exciting moments came when an operator reported hearing from **a 90-year-old amateur**—licensed in **1952** and believed to be a **founding member of the St. Barnabas club**. Still living locally, he checked in recently with a decades-old HT.
+
+There’s now talk of capturing his stories, interviewing him, and documenting this living history while we still can. As someone aptly put it, _“That’s a big part of amateur radio in this area—we need to preserve it.”_
+
+### 💬 Final Thoughts
+As the net wound down, operators shared well-wishes, commented on new rigs, announced upcoming travel plans to Cyprus, and gave thanks for the community they’ve found on the air.
+
+And while not everyone agreed on what _The Breakfast Club_ was really about, we all agreed on this: barbecues, bumblebees, and bonding over the bands mean spring has truly arrived.
+
+**Catch the St. Barnabas Net every Tuesday at 7 PM. Come for the trivia, stay for the tulips—and don’t forget to say hi at the Breakfast Club. You might just walk away with a riddle, a rig recommendation, and a recipe for grilled salmon.** 🐟🎙️🌼
+
+---
+
