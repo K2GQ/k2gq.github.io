@@ -426,7 +426,7 @@ The change also sparked a nostalgic dive into pop culture:
 🎵 _Cue Simple Minds: “Don’t You Forget About Me.”_
 
 ### 🧠 Moment of the Net: The Presidential Riddle
-This week’s **riddle** stole the show:
+This week’s riddle barely had time to breathe before getting solved—turns out, the answer is a local celebrity:
 
 > **“The 22nd and 24th U.S. Presidents had the same parents, but were not brothers. How is this possible?”**  
 > _Answer: It’s the same person—Grover Cleveland!_
