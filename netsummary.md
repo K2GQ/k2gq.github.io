@@ -306,6 +306,8 @@ See you next week! And hey, don’t forget your flip-flops—it might actually *
 
 ---
 
+<span id="April" style="font-size:larger;text-decoration:underline;">**April 2025**
+
 <span id="april1">
 **Net date: Tuesday, April 1**
 
@@ -454,7 +456,7 @@ As the net wound down, operators shared well-wishes, commented on new rigs, anno
 
 And while not everyone agreed on what _The Breakfast Club_ was really about, we all agreed on this: barbecues, bumblebees, and bonding over the bands mean spring has truly arrived.
 
-**Catch the St. Barnabas Net every Tuesday at 7 PM. Come for the trivia, stay for the tulips—and don’t forget to say hi at the Breakfast Club. You might just walk away with a riddle, a rig recommendation, and a recipe for grilled salmon.** 🐟🎙️🌼
+Catch the St. Barnabas Community Net every Tuesday at 7 PM. Come for the trivia, stay for the tulips—and don’t forget to say hi at the Breakfast Club. You might just walk away with a riddle, a rig recommendation, and a recipe for grilled salmon. 🐟🎙️🌼
 
 ---
 
