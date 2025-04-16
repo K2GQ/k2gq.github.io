@@ -306,7 +306,7 @@ See you next week! And hey, don’t forget your flip-flops—it might actually *
 
 ---
 
-<span id="April" style="font-size:larger;text-decoration:underline;">**April 2025**
+<span id="april" style="font-size:larger;text-decoration:underline;">**April 2025**
 
 <span id="april1">
 **Net date: Tuesday, April 1**
