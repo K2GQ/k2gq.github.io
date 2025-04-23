@@ -460,3 +460,90 @@ Catch the St. Barnabas Community Net every Tuesday at 7 PM. Come for the trivia,
 
 ---
 
+<span id="april22">
+**Net date: Tuesday, April 22**
+
+### Community Net Weekly Summary – April 22
+<br/>
+
+## 🛰️ St. Barnabas Community Net Recap – April 22, 2025
+
+Spring was in full swing on this week’s net, and so was the storytelling—from **riddles about bald guys**, to **Jack Daniel’s trivia**, to a surprise history lesson on **NASA on the Air**. We had **13 check-ins**, including a few fresh voices, a remote participant from Eastern Europe, and a Memphis operator who taught us more about Tennessee than any travel guide ever could.
+
+---
+
+### 🌤️ Weather Report: Bats, Barbecues, and Blooming Dogwoods
+Everyone seemed to be soaking up the spring weather—literally. Between grill smoke, mosquito defense strategies, and blooming cherry trees, the airwaves were full of seasonal updates:
+- Multiple operators were **grilling dinner live** during the net (chicken, steak, corn, salmon, spaghetti, and meatballs all made appearances).
+- One backyard featured **bats on mosquito duty** while another had **pink dogwoods** and **cherry blossoms** in full bloom.
+- Several reported highs in the **70s and 80s**, with one station dealing with a post-thunderstorm cooldown.
+
+Let’s just say no one was complaining.
+
+---
+
+### 📡 Ham Happenings: Updates, QSL Cards, and Burned Finals
+On the amateur radio front:
+- One op is up to **228 contacts and 55 countries** on **FT8**—a strong showing for digital mode fans.
+- Another shared memories of **a cross-country road trip** made more fun by making VHF contacts and receiving a stack of QSL cards upon returning home.
+- A cautionary tale: One inexpensive mobile rig suffered **VHF final failure** after transmitting while sitting in direct sunlight. A reminder that even radios need shade sometimes.
+
+---
+
+### 🧠 The Riddle Returns
+As is tradition, the net’s resident puzzler dropped a zinger:
+> **“A man goes out in heavy rain with nothing to protect him. His hair doesn’t get wet—how?”**
+
+The answer?  
+**He’s bald.**  
+(Which had everyone laughing and offering their own spin—“he dodged the raindrops” or “never left the building” were close contenders.)
+
+One participant shared this gem:  
+> _“I knew I was going bald when the shampoo started lasting longer and the face lotion ran out faster.”_
+
+---
+
+### 🎬 Pop Culture & Pour Decisions
+The **Breakfast Club movie** got a callback this week, with one participant finally watching it and finding the ending “surprisingly deep.” The classic tune “Don’t You Forget About Me” earned nostalgic nods.
+
+But the real plot twist? The net **pivoted into a spirited debate about Jack Daniel’s, Tennessee whiskey, bourbon, and whether carrot juice makes you less tolerant to hard liquor**. Consensus:
+- Jack Daniel’s burns.
+- Mixed with Coke, it’s tolerable.
+- Carrot juice and tequila don’t mix.
+- And yes, someone has tried a **pre-mixed Jack & Coke in a can**—but it just wasn’t the same.
+
+---
+
+### 🌄 Spotlight State: Tennessee Takes Center Stage
+A newcomer from **Memphis** unknowingly sparked a full-blown cultural segment. Thanks to them, we learned:
+- Tennessee is home to Moon Pies, Smoky Mountains, Graceland, Dolly Parton, Jack Daniel’s, George Dickel, barbecue, black bears, banjo circles, and yes— Davey Crockett.
+- Memphis blues and Nashville country music got well-deserved recognition.
+- As for the spaghetti and meatballs? Not exactly traditional Tennessee fare—but like any good Southern fusion, it just worked in the moment. Elvis probably would’ve approved. 🍝🎸
+
+---
+
+### 👨‍🔧 Tech Notes and PL Tones
+A heads-up from net control: One participant experienced **PL tone issues** when switching from EchoLink to RF, leading to transmissions not carried by the repeater. A quick reminder to **check your PL (CTCSS) tone is 100.0 Hz** when participating in the tnet via the local VHF repeater.
+
+---
+
+### 🚀 Space Corner: NASA On The Air (NOTA)
+Another op gave a heads-up about **NASA On The Air**, a special event honoring the first spaceflight. Multiple NASA-affiliated stations will be operating throughout early May—definitely worth chasing for the logbook.
+
+---
+
+### 🧼 Sign-Offs and 73s
+As the sun set and the dishes loomed, participants signed off with their usual warmth:
+- **“Nastrovia!”** from overseas.
+- Cherry trees, bats, and long walks made it into the final round.
+- Several folks are now **planning a trip to the liquor store to verify the existence of Tennessee whiskey**, as part of their amateur radio field research. Strictly for science, of course.
+
+---
+
+## 🔚 Final Thoughts
+From QSL cards to QTH cuisine, this net had it all. Whether you're here for the tech tips, gardening updates, or spirited Southern banter, the **St. Barnabas Community Net** remains a place where hams gather, laugh, learn, and maybe even barbecue mid-transmission.
+
+**See you next Tuesday at 7 PM. No hair required.** 😄🎙️🥃
+
+---
+
