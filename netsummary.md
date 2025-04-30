@@ -547,3 +547,114 @@ From QSL cards to QTH cuisine, this net had it all. Whether you're here for the 
 
 ---
 
+<span id="april29">
+**Net date: Tuesday, April 29**
+
+### Community Net Weekly Summary – April 29
+<br/>
+
+## 🎙️ St. Barnabas Community Net Recap – April 29, 2025
+
+Spring has truly arrived, and with it came another vibrant edition of the St. Barnabas Community Net—featuring **flowering gardens, attic antennas, riddle games, emergency comms, cobblestones, and a high chance of allergy meds**. With **13 check-ins** across RF and EchoLink, the airwaves were filled with camaraderie, local updates, and a healthy dose of trivia confusion.
+
+---
+
+### 🌱 Spring Is in the Air (And So Is Pollen)
+Spring was in full bloom—literally. From **garlic and tulips** in the Berkshires to **roses and lilacs** budding in yards across New Jersey, operators celebrated the growing season. One described the local flora as:
+> _“Mini daffodils, large daffodils, ranunculus, and some flower I can’t remember the name of.”_
+
+Even the bees got a shoutout—along with a gentle reminder that they're struggling in Texas, so **plant responsibly**!
+
+Of course, no spring net would be complete without allergy talk:
+> _“I’m fully medicated on the generic Claritin—just as good, way cheaper.”_
+
+---
+
+### 📡 Simulated Emergency Test (SET): ARES Activation This Saturday!
+**🔥 THIS SATURDAY, MAY 3, STARTING AT 9:00 AM ET 🔥**
+
+ARES members and non-members alike are encouraged to check in on **this very repeater** or via EchoLink for a **Simulated Emergency Test (SET)** involving **Essex, Bergen, Hudson, and Passaic Counties**.
+
+**What’s happening:**
+- 📻 Check-ins begin at **9:00 AM** on **KC2TXA-R | 146.595 MHz**
+- 📡 A **simplex test** follows at **10:00 AM** on **147.540 MHz**
+- 🏞️ Essex County operations will be centered at **Eagle Rock Reservation**
+
+If you’re local, swing by Eagle Rock early to join in person. And yes—**water will be provided**, unless the gazebo gets taken by a wedding party again. Priorities.
+
+---
+
+### 🧠 Moment of the Net: The Riddle That Flipped the Room
+This week's riddle stumped almost everyone:
+> **“What five-letter word, typed in all capital letters, reads the same upside down?”**  
+> _Answer: SWIMS_
+
+The reactions ranged from **"Ohhh!"** to **"I would never have guessed!"** to one participant admitting:
+> _“I was going with ‘LEVEL’ but... that doesn’t work upside down. Good one.”_
+
+Score another point for the Net’s resident riddle-master.
+
+---
+
+### 🏡 Antenna Adventures (and Attic Ambitions)
+One participant asked for feedback on using **attic antennas for UHF and HF**, citing limitations like no trees and a spouse vetoing roof installations.
+
+Responses included:
+- “A few folks out here have done it successfully.”
+- “YouTube has some helpful builds.”
+- “It’s not ideal—but it can absolutely work.”
+
+A few ops hinted they might try it themselves, so expect future reports on attic SWR.
+
+---
+
+### 🧱 Cobblestones, Construction, and Curious Paving Choices
+A side conversation about tree removal sparked an unexpected history lesson:
+- Several participants recalled when their **streets were repaved**, revealing pristine **cobblestones** underneath.
+- One observed:  
+> _“It was a shame to bury those beautiful stones. Fancy stuff under there.”_
+
+And we learned:
+> “You just steamroll them flat and they’re good as new. Way better than asphalt!”
+
+---
+
+### 🛰️ Remote Nets & Historic Sites
+A few operators reported on the **W2NJR system’s mobile net**, where gear is set up at historic NJ locations:
+- This Thursday: **Barnegat Lighthouse**
+- Coming soon: **The Blue Comet rail site**, the **Tuckerton radio tower**, and a park in **New Brunswick**
+
+A fun blend of history, operating, and public visibility. Photos and info are on their Facebook page.
+
+---
+
+### 📻 Radio Round-Up: DX, Exams & Digital Links
+- One op hit **60 DXCC entities on FT8**—congrats!
+- Another is prepping for the **Amateur Extra exam** and got encouragement from the crew:
+  > _“50 questions of fun! But well worth the effort.”_
+- There was some EchoLink audio weirdness, and a shoutout to **AllStarLink** for Raspberry Pi users.
+
+---
+
+### 🥄 Life Beyond the Bands
+Dinner was simmering across the net, including:
+- Spaghetti and meatballs
+- Mystery meals from family debates
+- “Just two forks and a plate”—someone was clearly winning the dishes game
+
+One op was **transfixed by a tree removal operation**, describing it like a **cirque du soleil of chainsaws**. Another reported three bats now **patrolling their backyard for mosquitoes**. Natural pest control!
+
+---
+
+## 📻 Final Notes and Sign-Offs
+As the net wrapped up, many shared 73s with warm thoughts about the upcoming ARES event and the growing strength of the Tuesday net community.
+
+> “I always learn something new on this net—whether it’s about antennas or cobblestones.”  
+> “God bless y’all. 73.”  
+> “I’ll be back in 10. I’ve got dishes to do.”
+
+---
+
+**Until next Tuesday at 7 PM, keep your mics hot, your allergies managed, and your antennas (attic or otherwise) tuned. And don’t forget—Saturday morning at 9 AM, the ARES SET is live. Please check in if you can.**
+
+---
