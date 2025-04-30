@@ -576,7 +576,7 @@ Of course, no spring net would be complete without allergy talk:
 ARES members and non-members alike are encouraged to check in on **this very repeater** or via EchoLink for a **Simulated Emergency Test (SET)** involving **Essex, Bergen, Hudson, and Passaic Counties**.
 
 **What’s happening:**
-- 📻 Check-ins begin at **9:00 AM** on **KC2TXA-R | 146.595 MHz**
+- 📻 Check-ins begin at **9:00 AM** on **RF: 146.595 MHz +1.0 PL 100.0 Hz; EchoLink: KC2TXA-R**
 - 📡 A **simplex test** follows at **10:00 AM** on **147.540 MHz**
 - 🏞️ Essex County operations will be centered at **Eagle Rock Reservation**
 
