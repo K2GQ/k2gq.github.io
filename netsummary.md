@@ -658,3 +658,112 @@ As the net wrapped up, many shared 73s with warm thoughts about the upcoming ARE
 **Until next Tuesday at 7 PM, keep your mics hot, your allergies managed, and your antennas (attic or otherwise) tuned. And don’t forget—Saturday morning at 9 AM, the ARES SET is live. Please check in if you can.**
 
 ---
+
+Here’s your **detailed and engaging summary** of the **St. Barnabas Community Net** held on **May 6, 2025**—perfect for your blog, newsletter, or radio club recap. As always, personal names and calls have been omitted, and it includes your trademark blend of humor, highlights, and ham camaraderie.
+
+---
+
+<span id="may6">
+**Net date: Tuesday, May 6**
+
+### Community Net Weekly Summary – May 6
+<br/>
+
+## 🌐 St. Barnabas Community Net Recap – May 6, 2025
+
+Spring storms, root canals, riddle victories, tomatoes the size of dinner plates, and the return of a long-lost pool cue from a historic Orange bar… this net had it all. With check-ins from across New Jersey, New England, and even overseas, the St. Barnabas Net proved once again that Tuesday nights on the repeater are equal parts **community roundtable, horticultural update, and comedy hour**.
+
+---
+
+### 🌧️ Weather Report: All Rain, No Complaints
+
+If you’re into **green grass and allergy meds**, this was your net. Nearly everyone reported heavy rain across the region, which meant:
+
+* **No lawn mowing** (unless you’re riding on 12 volts),
+* A **bloom bonanza** from tulips to daffodils to irises,
+* And lots of gratitude for **not having to water plants**.
+
+Of course, some weren’t thrilled about the return of cold nights in the 40s. But allergy sufferers (shout-out to Team Generic Claritin) were just glad the pollen was taking a break.
+
+---
+
+### 🍅 Tomatoes, Tulips & The Weary Pepper
+
+The gardening chatter was rich and colorful:
+
+* Some are growing **giant beefsteak tomatoes** ideal for covering an entire slice of rye.
+* Others are patiently coaxing **weary peppers** to grow—reportedly one of the slowest germinating species known to mankind.
+* There were detailed tulip updates from New England, including:
+
+  > *“Purple so dark they’re nearly black, yellow ones that flop open like a smile, and pink ones with iridescent white streaks.”*
+* A reminder was shared that **tulips often only bloom for 3–4 years**, while **irises last forever**—a budget tip for the backyard.
+
+Also: tomatoes + grilled cheese + bacon = happiness. Bonus points if you add mayo.
+
+---
+
+### 🎸 Music Corner: Chicago, Canasta & The Sound of Silence
+
+Musical mentions hit full stride this week:
+
+* The group agreed on love for **Chicago**, **Earth, Wind & Fire**, and **The Eagles**.
+* One op named *25 or 6 to 4* as his favorite Chicago track, though he still doesn’t know what it means. (Spoiler: it’s about songwriting at 3:34 a.m.)
+* A participant with a **MIDI guitar** can now play piano using strings. Technology, meet talent.
+* Meanwhile, another ham has ditched **day trading** in favor of **canasta club** and is reportedly doing far better there.
+
+---
+
+### 🧠 Riddle of the Night
+
+**Riddle:** *“What is so fragile that saying its name breaks it?”*
+**Answer:** *Silence.*
+
+After a few rounds of head-scratching, someone quietly dropped the correct answer… **without even admitting it was an answer.** That subtlety earned full points. As one op put it:
+
+> *“He said it. He didn’t say it was the answer, but we all know.”*
+
+Bonus cultural tie-in: *The Sound of Silence* by Paul Simon. A few even added it to their backyard playlist for tomato tending.
+
+---
+
+### 🎩 The Pool Cue with a Story
+
+In perhaps the most unexpected twist of the evening, one op offered to give away a **historic pool stick** salvaged from a now-closed bar in **Orange, NJ**—once the **hat capital of the world** and the birthplace of **John B. Stetson** (yes, *that* Stetson).
+
+> *“You can meet me at Manhattan Bagel across from Turtle Back Zoo. I’ll buy you a bagel and coffee and give you the stick.”*
+
+It’s not eBay, it’s better: it’s ham radio hospitality.
+
+---
+
+### 🚨 Bonus Tips & Bits
+
+* A tip for Livingston-area scanner fans: **154.755 MHz** is still used by EMS and fire.
+* One ham shared success getting a flat tire patched for \$15 after suspecting (correctly) that it was a leaking valve stem.
+* Another shared plans to bring the pool cue to the **Thomas Edison Museum**—because why not make history even more historic?
+
+---
+
+### 👋 New Voices & Returning Friends
+
+The net welcomed a new voice from **Budd Lake**, who recalled his time in both **Roseland ARC** and **IRAC**. A warm welcome back to the air!
+
+---
+
+## 🥪 Final Thoughts and 73s
+
+As dishes piled in the sink and net control eyed the clock, everyone had one last thought:
+
+* Some were already prepping for tomorrow’s **WEARC meeting via Zoom**.
+* Others were eyeing their tomato seedlings like overprotective parents.
+* One person just wanted a sandwich.
+
+And yes, the historic pool stick is still looking for a home.
+
+---
+
+**Until next Tuesday at 7 PM, keep growing, keep grinning, and if you hear silence… don’t say anything. That’s the answer.**
+
+---
+
+
