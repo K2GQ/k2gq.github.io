@@ -172,3 +172,15 @@ By creating an inclusive and welcoming communication space, the net demonstrates
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/>
 [Roundtable Summary](/netsummary/#april29)<br/><br/><br/>
+
+---
+
+<span id="may" style="font-size:larger;text-decoration:underline;">**May 2025**
+
+**Tuesday, May 6**
+[<img align="right" width="395" src="/assets/img/net-2025-05-06.png">](./assets/img/net-2025-05-06.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+[Roundtable Summary](/netsummary/#may6)<br/><br/><br/>
+
