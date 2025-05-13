@@ -31,12 +31,10 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 **Android Download:** [https://play.google.com/store/search?q=echolink&c=apps](https://play.google.com/store/search?q=echolink&c=apps)
 
 
-## 🚀 Advanced Tips for Android
+### 🚀 Advanced Tips for Android
 
 **Device:** Inrico Network Radio
 **Android Version:** 8.1
-
----
 
 ### 🔄 Keep EchoLink Connected While Screen is Off
 
@@ -46,8 +44,6 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 4. Choose **All apps**
 5. Find and select **EchoLink**
 6. Set to **“Don't optimize”**
-
----
 
 ### 🔌 Prevent Disconnects While Charging via USB
 
@@ -72,10 +68,6 @@ This command tells Android to stay awake when plugged in via:
 * AC power
 * Wireless charging
 
----
-
-Let me know if you'd like this as HTML or styled for a static site generator like Hugo or Jekyll.
-
 
 | Decimal Value | Binary Flag | Power Source          | Behavior                                 |
 | ------------- | ----------- | --------------------- | ---------------------------------------- |
@@ -88,11 +80,10 @@ Let me know if you'd like this as HTML or styled for a static site generator lik
 | `6`           | `110`       | USB + Wireless        | Stay awake on USB or wireless            |
 | `7`           | `111`       | AC + USB + Wireless   | Stay awake regardless of charging method |
 
+---
 
 **Device:** Modern Smartphone
 **Android Version:** 15
-
----
 
 ### 🔄 Keep EchoLink Connected While Screen is Off
 
@@ -101,6 +92,4 @@ Let me know if you'd like this as HTML or styled for a static site generator lik
 3. Go to **App battery usage**
 4. Tap **Allow background usage**
 5. Set to **Unrestricted**
-
-
 
