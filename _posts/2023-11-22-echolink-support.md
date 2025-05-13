@@ -29,7 +29,6 @@ If you have used EchoLink before (for example, on Windows), enter the callsign a
 If necessary, [request a password reset](https://www.echolink.org/validation/) from the Validation page on the EchoLink Web site.
 
 **Android Download:** [https://play.google.com/store/search?q=echolink&c=apps](https://play.google.com/store/search?q=echolink&c=apps)
-
 <br/>
 
 ---
