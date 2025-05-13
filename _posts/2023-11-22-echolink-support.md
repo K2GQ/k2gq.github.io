@@ -30,20 +30,52 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 
 **Android Download:** [https://play.google.com/store/search?q=echolink&c=apps](https://play.google.com/store/search?q=echolink&c=apps)
 
-**Advanced Tips for Android**
-Android Version 8.1 (**Inrico Network Radio**)
 
-Allow EchoLink to remain connected while screen is off:
+## 🚀 Advanced Tips for Android
 
-Settings > 3 vertical dots > Battery optimization > All apps > EchoLink > Set To "Don't optimize"
+**Device:** Inrico Network Radio
+**Android Version:** 8.1
 
-Help keep system from entering low-power states on USB (remain connected to EchoLink while charging):
+---
 
-note: for this function, we connect the Inrico to a linux computer and use the adb (Android Debug Bridge) package.
+### 🔄 Keep EchoLink Connected While Screen is Off
 
-verify: adb shell settings get global stay_on_while_plugged_in
+1. Open **Settings**
+2. Tap the **⋮ (3-dot menu)**
+3. Select **Battery optimization**
+4. Choose **All apps**
+5. Find and select **EchoLink**
+6. Set to **“Don't optimize”**
 
-change: adb shell settings put global stay_on_while_plugged_in 3
+---
+
+### 🔌 Prevent Disconnects While Charging via USB
+
+To keep the system from entering low-power states while connected to USB (e.g., charging while running EchoLink), you'll need to use the **ADB (Android Debug Bridge)** tool on a Linux machine.
+
+#### ✅ Verify Current Setting
+
+```bash
+adb shell settings get global stay_on_while_plugged_in
+```
+
+#### ⚙️ Change the Setting
+
+```bash
+adb shell settings put global stay_on_while_plugged_in 3
+```
+
+**Note:**
+This command tells Android to stay awake when plugged in via:
+
+* USB
+* AC power
+* Wireless charging
+
+---
+
+Let me know if you'd like this as HTML or styled for a static site generator like Hugo or Jekyll.
+
 
 | Decimal Value | Binary Flag | Power Source          | Behavior                                 |
 | ------------- | ----------- | --------------------- | ---------------------------------------- |
@@ -57,9 +89,18 @@ change: adb shell settings put global stay_on_while_plugged_in 3
 | `7`           | `111`       | AC + USB + Wireless   | Stay awake regardless of charging method |
 
 
-Android Version 15 (**modern smartphone**)
+**Device:** Modern Smartphone
+**Android Version:** 15
 
-Allow EchoLink to remain connected while screen is off:
+---
 
-Press and hold EchoLink app icon > App info > App battery usage > Allow background usage (press this) > Unrestricted
+### 🔄 Keep EchoLink Connected While Screen is Off
+
+1. **Press and hold** the **EchoLink** app icon
+2. Tap **App info**
+3. Go to **App battery usage**
+4. Tap **Allow background usage**
+5. Set to **Unrestricted**
+
+
 
