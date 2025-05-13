@@ -50,7 +50,7 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 5. Find and select **EchoLink**
 6. Set to **“Don't optimize”**
 
-### 🔌 Prevent Disconnects While Charging via USB
+### 🔌 Prevent EchoLink Disconnects While Charging via USB
 
 To keep the system from entering low-power states while connected to USB (e.g., charging while running EchoLink), you'll need to use the **ADB (Android Debug Bridge)** tool on a Linux machine.
 
