@@ -5,7 +5,7 @@ subtitle: How to Install EchoLink on your Smartphone
 cover-img: /assets/img/FT-817.jpg
 thumbnail-img: /assets/img/echolink.webp
 share-img: /assets/img/echolink.webp
-tags: [echolink,ios,android,iphone,ipad]
+tags: [echolink,ios,android,iphone,ipad,inrico,t320]
 ---
 
 EchoLink is a popular system used by amateur radio operators to link radio repeaters to the internet, allowing radio communications to extend beyond the traditional range of radio signals.  Using EchoLink, an operator can access their local repeater from anywhere with an internet connection, effectively overcoming geographical limitations. This is especially useful in situations where direct radio contact with the repeater is not possible due to distance, obstructions, or reduced signal strength.  The EchoLink setup on KC2TXA/R assures the operator their signal will be "full quieting" into the repeater and enjoy Q5 copy during reception.
@@ -30,10 +30,11 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 
 **Android Download:** [https://play.google.com/store/search?q=echolink&c=apps](https://play.google.com/store/search?q=echolink&c=apps)
 
+<br/>
+<span id="advanced">
+### 📱 Advanced Tips for Android
 
-### 🚀 Advanced Tips for Android
-
-**Device:** Inrico Network Radio
+**Device:** Inrico Network Radio<br/>
 **Android Version:** 8.1
 
 ### 🔄 Keep EchoLink Connected While Screen is Off
@@ -80,9 +81,10 @@ This command tells Android to stay awake when plugged in via:
 | `6`           | `110`       | USB + Wireless        | Stay awake on USB or wireless            |
 | `7`           | `111`       | AC + USB + Wireless   | Stay awake regardless of charging method |
 
+<br/><br/>
 ---
 
-**Device:** Modern Smartphone
+**Device:** Modern Smartphone<br/>
 **Android Version:** 15
 
 ### 🔄 Keep EchoLink Connected While Screen is Off
