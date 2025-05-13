@@ -32,12 +32,17 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 
 **Advanced Tips for Android**
 Android Version 8.1 (**Inrico Network Radio**)
+
 Allow EchoLink to remain connected while screen is off:
+
 Settings > 3 vertical dots > Battery optimization > All apps > EchoLink > Set To "Don't optimize"
 
 Help keep system from entering low-power states on USB (remain connected to EchoLink while charging):
+
 note: for this function, we connect the Inrico to a linux computer and use the adb (Android Debug Bridge) package.
+
 verify: adb shell settings get global stay_on_while_plugged_in
+
 change: adb shell settings put global stay_on_while_plugged_in 3
 
 | Decimal Value | Binary Flag | Power Source          | Behavior                                 |
@@ -53,6 +58,8 @@ change: adb shell settings put global stay_on_while_plugged_in 3
 
 
 Android Version 15 (**modern smartphone**)
+
 Allow EchoLink to remain connected while screen is off:
+
 Press and hold EchoLink app icon > App info > App battery usage > Allow background usage (press this) > Unrestricted
 
