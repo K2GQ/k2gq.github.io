@@ -31,7 +31,11 @@ If necessary, [request a password reset](https://www.echolink.org/validation/) f
 **Android Download:** [https://play.google.com/store/search?q=echolink&c=apps](https://play.google.com/store/search?q=echolink&c=apps)
 
 <br/>
+
+---
+
 <span id="advanced">
+
 ### 📱 Advanced Tips for Android
 
 **Device:** Inrico Network Radio<br/>
@@ -81,7 +85,8 @@ This command tells Android to stay awake when plugged in via:
 | `6`           | `110`       | USB + Wireless        | Stay awake on USB or wireless            |
 | `7`           | `111`       | AC + USB + Wireless   | Stay awake regardless of charging method |
 
-<br/><br/>
+<br/>
+
 ---
 
 **Device:** Modern Smartphone<br/>
