@@ -766,4 +766,134 @@ And yes, the historic pool stick is still looking for a home.
 
 ---
 
+Here is the **official summary** of the **St. Barnabas Community Net** held on **May 13, 2025** — your weekly blend of technical exploration, trivia, gardening wisdom, satellite dreams, and signature net banter. As always, names and call signs have been removed, and the style matches your prior recaps.
+
+---
+
+<span id="may13">
+**Net date: Tuesday, May 13**
+
+### Community Net Weekly Summary – May 13
+<br/>
+
+## 🎙️ St. Barnabas Community Net Recap – May 13, 2025
+
+Another strong turnout, another week of wild weather, and another round of riddle-fueled revelations. With **9 check-ins** from New Jersey, the Berkshires, and points beyond, this week’s net ranged from **Mother’s Day breakfast reports** to **field day satellite talk**, with plenty of laughs (and linseed oil) along the way.
+
+---
+
+### 🌦️ Weather Report: “Looks Like Rain All Week…”
+
+Everyone checked in with **mixed meteorological emotions**:
+
+* Up north? **Sunny and perfect** for outdoor projects.
+* Down in NJ? **Off-and-on rain**, perfect for flowerbeds and allergies.
+* Forecast for the rest of the week? “Looks like a washout.”
+
+One participant wisely added:
+
+> *“I only look two days ahead. Anything past that is fiction.”*
+
+---
+
+### 🍳 Mother’s Day Highlights
+
+From **breakfast gatherings** to **card games at golf clubs**, the net opened with a sweet recap of Mother’s Day:
+
+* Some made breakfast, others went out.
+* One participant noted a local golf club dropped its prices 20% from last year—**inflation be darned**.
+* Others spent the day **playing cards, doing paperwork, or soaking up the sunshine.**
+
+---
+
+### 📡 HF Fun & Digital Experiments
+
+The net spotlighted several current and upcoming activities:
+
+#### 🛰️ **FreeDV Digital Voice Mode**
+
+An experiment is underway to test **FreeDV**, a digital voice mode that transmits over HF. A local club group is working on setup for:
+
+* **40 meters**, known to propagate well across Essex County
+* Integration using **modern radios with built-in sound cards**, or legacy radios with **SignalLink/DigiRig** interfaces
+
+If successful, this could open up new digital options for local HF ragchews—**clearer audio, narrower bandwidth, and less noise.**
+
+#### 📟 **Android & EchoLink Power Tips**
+
+One participant shared a solution for an annoying problem: **Android devices dropping EchoLink connections** during low power or standby mode. [A brief technical write-up](/2023-11-22-echolink-support/#advanced) is available for anyone facing similar issues, particularly on **network radios** like the Inrico T320.
+
+---
+
+### 🧠 Riddle of the Week: Science Edition
+
+> **“What scale is used to measure the hardness of minerals?”**
+> *Answer: The Mohs Scale*
+
+Despite early silence (fitting, perhaps), a correct answer eventually emerged. One participant's child remembered it from **seventh grade geology**, and another drew a clever line:
+
+> *“Now everyone calls me Moe, so it should have been the Moe’s Scale.”*
+
+**Moment of the Net**? Definitely.
+
+---
+
+### 🌱 Gardening Galore: Cedar Beds, Peppers, and Petunias
+
+* Cedar planter boxes were being assembled and sealed with **linseed oil** to protect against rot and **voles.**
+* Purple petunias from a **high school plant sale** added a pop of color to one operator’s porch.
+* The legendary **weary pepper** is still growing slowly… but growing.
+* Several gardens are **bursting with tulips, roses, and cabbage white butterflies.**
+
+Also, it was agreed that **flower forecast accuracy > weather forecast accuracy.**
+
+---
+
+### 🛰️ Field Day & Satellite Excitement
+
+The net buzzed with **Field Day anticipation**—only **6 weeks away**, and a few special features were highlighted:
+
+* A robotic **satellite tracking system** will be on display again this year, complete with:
+
+  * **Circular-polarized Yagi antennas**
+  * Integration with **Keplerian elements** for ISS and satellite tracking
+  * Successful past contacts made **via ISS packet and voice**
+* Contacts have reached **Florida and Connecticut** via satellite — on **145 MHz** VHF!
+
+Those who haven’t seen it are encouraged to attend and take a picture—**and maybe claim credit for building it.** 😉
+There's also talk of **moonbounce (EME)** ambitions down the road.
+
+---
+
+### 🏃‍♂️ Roseland Run This Saturday
+
+Operators were reminded about the upcoming **Roseland Run**:
+
+* Takes place at the **West Caldwell High School park area**
+* Bring your **VHF HT** if you’re volunteering
+* VHF frequency to be confirmed, likely same as last year
+
+It’s a great way to meet other hams and support the community.
+
+---
+
+### 🎯 Odds and Ends
+
+* A few ops are interested in building or buying **POTA (Parks on the Air) antennas** — mentions included **DX Commander-style verticals.**
+* Another suggested the app **ISS Detector** for **live satellite pass predictions**.
+* Field Day planning is well underway. All are welcome to join the local group at the **Fairfield Red Cross** site.
+* One participant is on a mission to get a photo with the satellite rig and **send it to his nephew at MIT**. Legacy, confirmed.
+
+---
+
+## 📻 Final Thoughts
+
+From Mohs scale trivia to ISS packet QSLs, from tomato seedlings to servo-controlled satellite arrays—**this net covered every layer of the amateur radio stratosphere**.
+
+> *“Ham radio has so many directions you can go… it’s a beautiful thing.”*
+> *“I’ll be back in ten minutes… gotta do the dishes.”*
+
+Until next Tuesday at 7 PM, keep your antennas up, your radios charged, and your linseed oil handy.
+
+---
 
