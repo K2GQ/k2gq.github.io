@@ -40,6 +40,7 @@ Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF<br/><br/>
 
 ---
 
+<br/>
 ## Photos from the 2025 Event
 <br/>
 [<img align="center" src="/assets/img/2025-may-race/2025-cc-1.jpg">](../assets/img/2025-may-race/2025-cc-1.jpg){: height="325" }<br/>
@@ -60,6 +61,6 @@ Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF<br/><br/>
 [<img align="center" src="/assets/img/2025-may-race/2025-cc-6.jpg">](../assets/img/2025-may-race/2025-cc-6.jpg){: height="325" }<br/>
 <br/>
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-7.jpeg">](../assets/img/2025-may-race/2025-cc-7.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-7.jpg">](../assets/img/2025-may-race/2025-cc-7.jpg){: height="325" }<br/>
 <br/>
 
