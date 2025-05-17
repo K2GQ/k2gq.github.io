@@ -11,7 +11,7 @@ tags: [public service, 5K, race, caldwell]
 # Roseland ARC Supports the 2025 Caldwell Classic 5K
 
 **CALDWELL, NJ — Saturday, May 17, 2025**
-A cool, overcast morning set the stage for this year’s **Caldwell Classic 5K Run/Walk & Family Fun Run**, where more than 1,000 participants took to the streets in a celebration of community, fitness, and fun. Among the many volunteers helping make the event a success, the **Roseland Amateur Radio Club** was once again proud to provide race-day communication support.
+A cool, overcast morning set the stage for this year’s **[Caldwell Classic 5K Run/Walk & Family Fun Run](https://runsignup.com/Race/NJ/WestCaldwell/CWCEFRUNFOREDUCATION)**, where more than 1,000 participants took to the streets in a celebration of community, fitness, and fun. Among the many volunteers helping make the event a success, the **Roseland Amateur Radio Club** was once again proud to provide race-day communication support.
 
 ## Behind the Scenes: Ham Radio in Action
 
@@ -31,7 +31,7 @@ Meanwhile, the Roseland ARC team was keeping tabs on everything from medical che
 
 This marks another successful public service outing for Roseland ARC, whose members regularly volunteer at regional races and community events. These activities aren’t just about radio—they’re a chance to practice emergency preparedness, demonstrate the value of amateur radio to the public, and engage with the community in a meaningful way.
 
-The club would like to thank the **Caldwell-West Caldwell Education Foundation (CWCEF)**, the **race organizers**, and the **runners and families** who made this event a success. We look forward to seeing everyone again next year!
+The club would like to thank the **Caldwell-West Caldwell Education Foundation (CWCEF)**, the [event sponsors](https://runsignup.com/Race/CWCEFRUNFOREDUCATION/Page-2), the **race organizers**, and the **runners and families** who made this event a success. We look forward to seeing everyone again next year!
 
 <br/><br/>
 
