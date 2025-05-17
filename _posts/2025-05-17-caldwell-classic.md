@@ -31,9 +31,9 @@ Meanwhile, the Roseland ARC team was keeping tabs on everything from medical che
 
 This marks another successful public service outing for Roseland ARC, whose members regularly volunteer at regional races and community events. These activities aren’t just about radio—they’re a chance to practice emergency preparedness, demonstrate the value of amateur radio to the public, and engage with the community in a meaningful way.
 
-The club would like to thank the **Caldwell-West Caldwell Education Foundation (CWCEF)**, the [event sponsors](https://runsignup.com/Race/CWCEFRUNFOREDUCATION/Page-2), the **race organizers**, and the **runners and families** who made this event a success. We look forward to seeing everyone again next year!
+The club would like to thank the **Caldwell-West Caldwell Education Foundation (CWCEF)**, the **[event sponsors](https://runsignup.com/Race/CWCEFRUNFOREDUCATION/Page-2)**, the **race organizers**, and the **runners and families** who made this event a success. We look forward to seeing everyone again next year!
 
-<br/><br/>
+<br/>
 
 [<img align="center" src="/assets/img/2025-may-race/group-photo.jpeg">](../assets/img/2025-may-race/group-photo.jpeg){: height="325" }<br/>
 Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF<br/><br/>
