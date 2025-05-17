@@ -8,9 +8,6 @@ share-img: /assets/img/cotre-ht.jpg
 tags: [public service, 5K, race, caldwell]
 ---
 
-[<img align="center" src="/assets/img/2025-may-race/group-photo.jpeg">](../assets/img/2025-may-race/group-photo.jpeg){: height="325" }<br/>
-Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF,<br/><br/>
-
 # Roseland ARC Supports the 2025 Caldwell Classic 5K
 
 **CALDWELL, NJ — Saturday, May 17, 2025**
@@ -36,26 +33,31 @@ This marks another successful public service outing for Roseland ARC, whose memb
 
 The club would like to thank the **Caldwell-West Caldwell Education Foundation (CWCEF)**, the **race organizers**, and the **runners and families** who made this event a success. We look forward to seeing everyone again next year!
 
+<br/><br/>
+
+[<img align="center" src="/assets/img/2025-may-race/group-photo.jpeg">](../assets/img/2025-may-race/group-photo.jpeg){: height="325" }<br/>
+Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF<br/><br/>
+
 ---
 
 ## Photos from the 2025 Event
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-1.jpeg">](../assets/img/2025-may-race/2025-cc-1.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-1.jpg">](../assets/img/2025-may-race/2025-cc-1.jpg){: height="325" }<br/>
 <br/>
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-2.jpeg">](../assets/img/2025-may-race/2025-cc-2.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-2.jpg">](../assets/img/2025-may-race/2025-cc-2.jpg){: height="325" }<br/>
 <br/>
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-3.jpeg">](../assets/img/2025-may-race/2025-cc-3.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-3.jpg">](../assets/img/2025-may-race/2025-cc-3.jpg){: height="325" }<br/>
 <br/>
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-4.jpeg">](../assets/img/2025-may-race/2025-cc-4.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-4.jpg">](../assets/img/2025-may-race/2025-cc-4.jpg){: height="325" }<br/>
 <br/>
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-5.jpeg">](../assets/img/2025-may-race/2025-cc-5.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-5.jpg">](../assets/img/2025-may-race/2025-cc-5.jpg){: height="325" }<br/>
 <br/>
 <br/>
-[<img align="center" src="/assets/img/2025-may-race/2025-cc-6.jpeg">](../assets/img/2025-may-race/2025-cc-6.jpeg){: height="325" }<br/>
+[<img align="center" src="/assets/img/2025-may-race/2025-cc-6.jpg">](../assets/img/2025-may-race/2025-cc-6.jpg){: height="325" }<br/>
 <br/>
 <br/>
 [<img align="center" src="/assets/img/2025-may-race/2025-cc-7.jpeg">](../assets/img/2025-may-race/2025-cc-7.jpeg){: height="325" }<br/>
