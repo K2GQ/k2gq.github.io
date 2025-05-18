@@ -15,7 +15,7 @@ A cool, overcast morning set the stage for this year’s **[Caldwell Classic 5K 
 
 ## Behind the Scenes: Ham Radio in Action
 
-Roseland ARC volunteers were stationed across the race course, ensuring that organizers had reliable communication from start to finish. Utilizing **2-meter simplex VHF**, hams maintained real-time contact between checkpoints, the finish line, and safety personnel. With the course winding through local neighborhoods, the club's use of simplex frequencies proved effective and efficient, providing clear coverage with minimal interference.
+Roseland ARC volunteers were stationed across the race course, ensuring that organizers had reliable communication from start to finish. Utilizing **2 meters (VHF, FM) simplex**, hams maintained real-time contact between checkpoints, the finish line, and safety personnel. With the course winding through local neighborhoods, the club's use of simplex frequencies proved effective and efficient, providing clear coverage with minimal interference.
 
 In one notable instance, operators helped race organizers respond quickly to a logistical hiccup: a water station was missing its supplies shortly before race time. Thanks to quick communication between Roseland hams and course volunteers, the issue was relayed and resolved promptly—ensuring water was delivered just in time for the first wave of runners.
 
