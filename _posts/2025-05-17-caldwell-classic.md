@@ -40,16 +40,16 @@ Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF<br/><br/>
 
 ---
 
-<video controls loop width="720" height="405" style="max-width:100%; height:auto;">
+<br/>
+## Photos and Video from the 2025 Event
+
+<br/>
+<video controls width="720" height="405" style="max-width:100%; height:auto;">
   <source src="/assets/img/2025-may-race/video-1.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
-
----
-
 <br/>
-## Photos from the 2025 Event
-<br/>
+
 [<img align="center" src="/assets/img/2025-may-race/2025-cc-1.jpg">](../assets/img/2025-may-race/2025-cc-1.jpg){: height="325" }<br/>
 <br/>
 <br/>
