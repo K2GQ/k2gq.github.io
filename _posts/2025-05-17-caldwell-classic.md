@@ -40,14 +40,8 @@ Jim KC2SKK, Michel KE2FGU, Maurice KB2SUL, Bob K2AUF<br/><br/>
 
 ---
 
-<video
-  controls
-  loop
-  width="720"       <!-- 16:9 fallback -->
-  height="405"
-  style="max-width:100%; height:auto;"
->
-  <source src="/assets/img/2025-may-race/video-1.mp4" type="video/mp4">
+<video controls loop width="720" height="405" style="max-width:100%; height:auto;">
+  <source src="/assets/img/2025-may-race/video-1.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 
