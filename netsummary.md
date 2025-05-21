@@ -897,3 +897,138 @@ Until next Tuesday at 7 PM, keep your antennas up, your radios charged, and your
 
 ---
 
+Here is your **detailed and entertaining summary** of the **St. Barnabas Community Net** from **May 20, 2025**, perfect for blog, newsletter, or community recap purposes. Following your established style, names and calls have been removed, and personal anecdotes are woven into the narrative.
+
+---
+
+<span id="may20">
+**Net date: Tuesday, May 20**
+
+### Community Net Weekly Summary – May 20
+<br/>
+
+## 🎙️ St. Barnabas Community Net Recap – May 20, 2025
+
+It’s not officially summer yet, but this net was already heating up with **coffee ground experiments, antenna misadventures, 5K mysteries, barbecue dreams, duck eggs, and isotopes**—a perfectly seasoned stew of ham radio and human connection. With check-ins from **New Jersey, New England, Tennessee, Europe, and the digital world**, the airwaves were alive and well.
+
+---
+
+### 🏃 Caldwell Run & The Five-Year-Old Phenomenon
+
+One of the early highlights was a report on the **Roseland 5K**, where a few operators helped out with **event communications**. The big surprise?
+
+> A **five-year-old participant** reportedly ran the 5K in **under 25 minutes**.
+> *“Faster than me, faster than I’ve ever been able to do it!”*
+
+Whether it was a timing glitch, a misassigned chip, or the second coming of Usain Bolt, we may never know—but it sure gave everyone something to marvel at.
+
+---
+
+### 🧪 Riddle of the Week: Chemical Curiosity
+
+This week’s trivia came in the form of a science stumper:
+
+> **“Atoms of the same chemical element but with different atomic masses are called what?”**
+> *Answer: Isotopes.*
+
+After a few creative guesses (“enantiomers,” “isobars,” and “uh... science?”), the correct answer was landed by one participant, earning well-deserved kudos and a round of congratulations.
+
+---
+
+### ☕ Gardening Gold: Coffee Grounds Take Center Stage
+
+This week’s most surprising conversation revolved around the **many uses of old coffee grounds**. Operators reported:
+
+* Sprinkling them in gardens to **deter insects and squirrels**
+* Using them to **deodorize garbage areas**
+* Spreading them around **ant holes**
+* Adding them to **potholes** (for real!)
+* And even planting **basil directly in used coffee grounds**—a trick passed down from one operator’s grandmother.
+
+Another added that the grounds helped **fend off a groundhog** that was munching on ranunculus bulbs. The science? Debatable. The enthusiasm? Undeniable.
+
+---
+
+### 🍳 Egg Wars: Chicken, Duck, and the Great Refrigeration Debate
+
+The egg talk cracked wide open this week:
+
+* Duck eggs were called **larger**, **richer**, and sometimes requested in **fancy recipes**.
+* One participant warned: **some people allergic to duck eggs can still eat chicken eggs**—a reversal of what you might expect.
+* The topic of **egg refrigeration** came up, with one op noting that in **Europe**, eggs are sold unrefrigerated due to their natural coating.
+* The key tip: if eggs are **unwashed**, they can sit on the counter. But once washed, into the fridge they go.
+
+> *“We’ve made our lives harder by insisting on washing eggs. Europeans are still alive, so maybe they’ve got it right.”*
+
+---
+
+### 🔧 Radio Bits & Hamstack Hotline
+
+* One participant asked for help identifying a coax connector smaller than a PL-259.
+  The likely answer? **BNC connectors**.
+* Another shared a story of building a **halo antenna**, only to find it performed worse than a vertical. The group suggested:
+
+  > *“Halo antennas are horizontally polarized—20 dB down from vertical, unless you align everything right.”*
+* The **Hamshack Hotline** got a shout-out, with tips like:
+
+  * You must **log in occasionally or lose your number**.
+  * Apps like **Groundwire** can serve as softphones.
+  * And yes, someone got their \$5 VoIP phone working after weeks of configuration.
+
+---
+
+### 🛰️ Field Day Prep Begins
+
+Field Day anticipation is growing:
+
+* **QST magazine** ranked the most important bands:
+
+  > *40m, 20m, 15m, 80m, and 10m—in that order.*
+* Some operators debated whether 15m really outranks 80m. (Verdict: TBD.)
+* Ideas were shared about **satellite tracking stations** and **digital voice modes**, with echoes from previous nets.
+
+---
+
+### 🍕 BBQ, Pizza & Memorial Day Forecasts
+
+Memorial Day Weekend came up often, with various forecasts:
+
+* Cookouts, grilled ribs, and pizza plans were in the works.
+* One ham predicted a **“cold grill” weekend**—literally:
+
+  > *“60s and rainy? No flip-flops, no Tom Cruise sunglasses this year.”*
+* Another lamented:
+
+  > *“This isn’t the kind of Memorial Day barbecue I look forward to… but I’ll still do it.”*
+
+And of course, there's always the **electric ninja grill** to fall back on when rain spoils the coals.
+
+---
+
+### 👋 New Voices & Net Family
+
+The net welcomed:
+
+* A station **traveling home from work**, checking in before another net.
+* A returning voice from **Memphis**, who brought tales of the **World Championship BBQ Contest**.
+* And a check-in from **Europe**, now a regular on the repeater thanks to EchoLink.
+
+---
+
+## 📻 Final 73s
+
+As always, the net wrapped with good cheer, allergy reports, and reminders to:
+
+* Use HEPA filters if you're dragging pollen indoors.
+* Avoid tossing out your antenna project—**it might just need tweaking**.
+* And always, always do the dishes. (Or at least log out of the net before someone catches you.)
+
+> *“Good net tonight.”*
+> *“Let’s try to get a Breakfast Club session in this week.”*
+> *“Seven-three and enjoy the weekend—just don’t eat *too much* barbecue. (Actually, go ahead.)”*
+
+---
+
+**Thanks to all who checked in. Catch you next Tuesday at 7 PM. Coffee grinds and duck eggs optional.**
+
+
