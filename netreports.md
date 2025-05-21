@@ -191,3 +191,10 @@ By creating an inclusive and welcoming communication space, the net demonstrates
 7 PM ET, weekly social net, open to all.<br/>
 [Roundtable Summary](/netsummary/#may13)<br/><br/><br/>
 
+**Tuesday, May 20**
+[<img align="right" width="395" src="/assets/img/net-2025-05-20.png">](./assets/img/net-2025-05-20.png)<br/>
+[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/>
+[Roundtable Summary](/netsummary/#may20)<br/><br/><br/>
+
