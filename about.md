@@ -60,7 +60,8 @@ Please check our [club calendar](/calendar.md) to verify our next in-person meet
 <span id="net">
 [<img align="right" width="240" src="/assets/img/scanner.jpg">](../netreports)
 **Weekly Community Net:**<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET Tuesdays, open to all.
 
