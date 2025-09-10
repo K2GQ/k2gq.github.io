@@ -65,13 +65,13 @@ Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/de
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET Tuesdays, open to all.
 
-We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr., W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the [St. Barnabas Amateur Radio Club](/sbarc/) & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of this repeater.
+We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmillburn.com/obituaries/Alvin-Friedland-MD?obId=29432650); [George Murillo Jr., W2PQC](https://www.legacy.com/us/obituaries/starledger/name/george-murillo-obituary?id=8886223); the [St. Barnabas Amateur Radio Club](/sbarc/) & [St. Barnabas Control Operators](/assets/img/nparc-ne2s-2007.png) for their contributions to Amateur Radio and for the use of their repeater for the weekly community net.
 
 <p><a href="../assets/img/SBARC-August-1984.png"> <img src="/assets/img/SBARC-August-1984.png" class="mx-auto d-block" width="375" alt="The Saint Barnabas Amateur Radio Club, composed of physicians, technicians and several teenagers, responded to roadside illnesses and auto accidents, and maintained a communications facility for emergencies at Saint Barnabas. Members shown here include, front, Louis Victor, and Michael and Emily Bahler; and rear, Jack Clark, Dan Keesee, M.D., Steven Victor, M.D., Alan Bahler, M.D., Dwight Sloehler, Howard Eisenhardt, M.D., Fred Jacobs, M.D., George Murillo, and Alvln Friedland, M.D." /></a></p>
 <p style="text-align: center;">SBARC - August 1984</p>
 <br/>
 
-We thank [NJIT’s Amateur Radio Club](https://k2mff.njit.edu/), K2MFF, which has been part of the Newark campus community for nearly a century. Based in Faculty Memorial Hall, it runs a wide-coverage VHF repeater (147.225 MHz, +0.600, PL 141.3; EchoLink K2MFF-R) and a multi-station shack, promotes licensing through regular testing and weekly nets, and supports public-service events like the NYC Marathon. The club is also active with HamSCI, hosting instruments such as the Grape SDR and engaging students in radio-science and STEM outreach.<br/>
+We thank [NJIT’s Amateur Radio Club](https://k2mff.njit.edu/), K2MFF, for the use of their repeater for the weekly community net.  K2MFF has been part of the Newark campus community for nearly a century. Based in Faculty Memorial Hall, it runs a wide-coverage VHF repeater (147.225 MHz, +0.600, PL 141.3; EchoLink K2MFF-R) and a multi-station shack, promotes licensing through regular testing and weekly nets, and supports public-service events like the NYC Marathon. The club is also active with HamSCI, hosting instruments such as the Grape SDR and engaging students in radio-science and STEM outreach.<br/>
 
 ---
 
