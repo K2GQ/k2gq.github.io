@@ -70,6 +70,8 @@ We thank and honor [Doctor Alvin Friedland, NE2S](https://www.menorahchapelsatmi
 <p><a href="../assets/img/SBARC-August-1984.png"> <img src="/assets/img/SBARC-August-1984.png" class="mx-auto d-block" width="375" alt="The Saint Barnabas Amateur Radio Club, composed of physicians, technicians and several teenagers, responded to roadside illnesses and auto accidents, and maintained a communications facility for emergencies at Saint Barnabas. Members shown here include, front, Louis Victor, and Michael and Emily Bahler; and rear, Jack Clark, Dan Keesee, M.D., Steven Victor, M.D., Alan Bahler, M.D., Dwight Sloehler, Howard Eisenhardt, M.D., Fred Jacobs, M.D., George Murillo, and Alvln Friedland, M.D." /></a></p>
 <p style="text-align: center;">SBARC - August 1984</p>
 
+<p>We thank [NJIT’s Amateur Radio Club](https://k2mff.njit.edu/), K2MFF, which has been part of the Newark campus community for nearly a century. Based in Faculty Memorial Hall, it runs a wide-coverage VHF repeater (147.225 MHz, +0.600, PL 141.3; EchoLink K2MFF-R) and a multi-station shack, promotes licensing through regular testing and weekly nets, and supports public-service events like the NYC Marathon. The club is also active with HamSCI, hosting instruments such as the Grape SDR and engaging students in radio-science and STEM outreach.</p>
+
 ---
 
 <h3 id="legacy" style="text-align: center;">Roseland Legacy Event Photos</h3>
