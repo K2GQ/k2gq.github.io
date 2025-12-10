@@ -408,3 +408,10 @@ Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeater
 Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, December 9**
+[<img align="right" width="395" src="/assets/img/net-2025-12-09.png">](./assets/img/net-2025-12-09.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
