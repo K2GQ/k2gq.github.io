@@ -27,7 +27,7 @@ We warmly invite you to join us at one of our [upcoming meetings](/calendar.md) 
 
 Stay tuned for more insights into our club's history and the significant moments that have shaped our journey.
 
-<p><a href="../assets/img/rarc-jan-2025-holiday-party.jpeg"> <img src="/assets/img/rarc-jan-2025-holiday-party.jpeg" class="mx-auto d-block" width="450" /></a></p>
+<p><a href="../assets/img/rarc-dec-2025-holiday-party.jpeg"> <img src="/assets/img/rarc-dec-2025-holiday-party.jpeg" class="mx-auto d-block" width="450" /></a></p>
 
 ---
 
