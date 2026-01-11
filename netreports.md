@@ -7,7 +7,7 @@ subtitle: Weekly Net Reports
 
 
 <p class="box-note">
-The Community Amateur Radio Social Net has been on the air since August 30, 2023, and meets every Tuesday at 7:00 PM ET. Join us on the KC2TXA (SBARC) repeater **146.595 MHz** or the K2MFF (NJIT) repeater **147.225 MHz**, and we are also linked via the **KC2TXA-R EchoLink node**. It’s a friendly, welcoming check-in where the conversation can range from weather, food, and gardening to plenty of ham radio talk, with the goal of building community in Essex County, NJ and beyond.</p>
+The Community Amateur Radio Social Net has been on the air since August 30, 2023, and meets every Tuesday at 7:00 PM ET. Join us on the KC2TXA (SBARC) repeater 146.595 MHz or the K2MFF (NJIT) repeater 147.225 MHz, and we are also linked via the KC2TXA-R EchoLink node. It’s a friendly, welcoming check-in where the conversation can range from weather, food, and gardening to plenty of ham radio talk, with the goal of building community in Essex County, NJ and beyond.</p>
 
 <p style="text-align: center;">
   <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a> ||
