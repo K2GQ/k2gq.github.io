@@ -7,11 +7,7 @@ subtitle: Weekly Net Reports
 
 
 <p class="box-note">
-The Community Amateur Radio Social Net, established on August 30th, 2023, meets every Tuesday at 7 PM ET. Utilizing the KC2TXA (SBARC) repeater on 146.595 MHz, K2MFF (NJIT) repeater on 147.225 MHz, and linked with the KC2TXA-R EchoLink node, the net extends its reach beyond traditional VHF radio boundaries, offering a vibrant and diverse communication platform for amateur radio operators.
-
-Far from being a strictly technical gathering, the net embraces a wide-ranging conversational approach. Participants engage in lively discussions that span multiple interests, including social interactions, local weather updates, culinary adventures, gardening tips, and of course, technical amateur radio topics. This eclectic mix of conversation topics reflects the net's primary goal of fostering genuine community connections among amateur radio operators in Essex County, New Jersey, and beyond.
-
-By creating an inclusive and welcoming communication space, the net demonstrates the true spirit of amateur radio - bringing people together through shared interests and technology. Whether participants want to share a new recipe, discuss their garden's latest bloom, talk about recent technical innovations, or simply catch up with fellow radio enthusiasts, the net provides a warm and engaging platform for communication.</p>
+The Community Amateur Radio Social Net has been on the air since August 30, 2023, and meets every Tuesday at 7:00 PM ET. Join us on the KC2TXA (SBARC) repeater **146.595 MHz** or the K2MFF (NJIT) repeater **147.225 MHz**, and we are also linked via the **KC2TXA-R EchoLink node**. It’s a friendly, welcoming check-in where the conversation can range from weather, food, and gardening to plenty of ham radio talk, with the goal of building community in Essex County, NJ and beyond.</p>
 
 <p style="text-align: center;">
   <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a> ||
@@ -418,6 +414,20 @@ Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/de
 
 **Tuesday, December 16**
 [<img align="right" width="395" src="/assets/img/net-2025-12-16.png">](./assets/img/net-2025-12-16.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, December 23**
+[<img align="right" width="395" src="/assets/img/net-2025-12-23.png">](./assets/img/net-2025-12-23.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, December 30**
+[<img align="right" width="395" src="/assets/img/net-2025-12-30.png">](./assets/img/net-2025-12-30.png)<br/>
 Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
