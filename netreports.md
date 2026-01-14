@@ -47,13 +47,14 @@ The Community Amateur Radio Social Net has been on the air since August 30, 2023
 
 **Tuesday, January 6**
 [<img align="right" width="395" src="/assets/img/net-2026-01-06.png">](./assets/img/net-2026-01-06.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
 
 **Tuesday, January 13**
 [<img align="right" width="395" src="/assets/img/net-2026-01-13.png">](./assets/img/net-2026-01-13.png)<br/>
-[146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
-
