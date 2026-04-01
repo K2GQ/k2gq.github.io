@@ -48,7 +48,7 @@ Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 **In-person Meetings:**<br/>
 The Roseland Office of Emergency Management<br/>
 [300 Eagle Rock Avenue, Roseland, NJ 07068-1719](https://maps.app.goo.gl/nUBc3FntGjyRNM9u7)<br/><br/>
-Join us via Zoom: [https://us06web.zoom.us/j/82056566411?pwd=vAeRMSWjVCsRWea1EpPdWWkEBHmKKo.1](https://us06web.zoom.us/j/82056566411?pwd=vAeRMSWjVCsRWea1EpPdWWkEBHmKKo.1)<br/>
+Join us via Zoom: [Zoom Meeting Link](https://us06web.zoom.us/j/82056566411?pwd=vAeRMSWjVCsRWea1EpPdWWkEBHmKKo.1)<br/>
 *guests and new members are always welcome!*<br/>
 
 Please check our [club calendar](/calendar.md) to verify our next in-person meeting date.<br/>
