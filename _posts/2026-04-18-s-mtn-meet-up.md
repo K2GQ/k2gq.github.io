@@ -3,8 +3,8 @@ layout: post
 title: South Mountain Reservation: Activation & Meet Up
 subtitle: RARC Club Event
 cover-img: /assets/img/2026-april-smtn/IMG_0742.jpeg
-thumbnail-img: /assets/img/2026-april-smtn/PXL_20260418_140743960.jpeg
-share-img: /assets/img/2026-april-smtn/PXL_20260418_140743960.jpeg
+thumbnail-img: /assets/img/2026-april-smtn/PXL_1.jpeg
+share-img: /assets/img/2026-april-smtn/PXL_1.jpeg
 tags: [south mountain, activation, meet up, hf]
 ---
 
@@ -25,6 +25,9 @@ Overall, it was a successful activation and a great opportunity to combine opera
 <br/>
 ## Photos from the Event
 
+[<img align="center" src="/assets/img/2026-april-smtn/IMG_0742.jpeg">](../assets/img/2026-april-smtn/IMG_0742.jpeg){: height="325" }<br/>
+<br/>
+<br/>
 [<img align="center" src="/assets/img/2026-april-smtn/IMG_0737.jpeg">](../assets/img/2026-april-smtn/IMG_0737.jpeg){: height="325" }<br/>
 <br/>
 <br/>
@@ -32,9 +35,6 @@ Overall, it was a successful activation and a great opportunity to combine opera
 <br/>
 <br/>
 [<img align="center" src="/assets/img/2026-april-smtn/IMG_0741.jpeg">](../assets/img/2026-april-smtn/IMG_0741.jpeg){: height="325" }<br/>
-<br/>
-<br/>
-[<img align="center" src="/assets/img/2026-april-smtn/IMG_0742.jpeg">](../assets/img/2026-april-smtn/IMG_0742.jpeg){: height="325" }<br/>
 <br/>
 <br/>
 [<img align="center" src="/assets/img/2026-april-smtn/IMG_0743.jpeg">](../assets/img/2026-april-smtn/IMG_0743.jpeg){: height="325" }<br/>
