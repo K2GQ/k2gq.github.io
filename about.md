@@ -39,6 +39,7 @@ Stay tuned for more insights into our club's history and the significant moments
 | Vice President | Ronald Reinhardt | WV2RJR |
 | Secretary | Maurice Naraine | KB2SUL |
 | Treasurer | Jesse Bertier | N1UGK |
+| License Custodian | Peter Summers | N2XTT |
 
 Email Contact: [roselandarc@gmail.com](mailto:roselandarc@gmail.com)
 
