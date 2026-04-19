@@ -1,10 +1,7 @@
 ---
 layout: post
-title: South Mountain Reservation: Activation and Meet Up
+title: South Mountain Reservation: Activation & Meet Up
 subtitle: RARC Club Event
-cover-img: /assets/img/2026-april-smtn/IMG_0742.jpeg
-thumbnail-img: /assets/img/2026-april-smtn/PXL_1.jpeg
-share-img: /assets/img/2026-april-smtn/PXL_1.jpeg
 tags: [south mountain, activation, meet up, hf]
 ---
 
