@@ -8,8 +8,6 @@ share-img: /assets/img/2026-april-smtn/PXL_1.jpeg
 tags: [south mountain, activation, meet up, hf]
 ---
 
-# South Mountain Reservation: Activation & Meet Up
-
 On Saturday, April 18, 2026, from 9 AM to 1 PM ET, members of Roseland ARC, WEARC, NPARC, and other local operators gathered at Bramhall Terrace in South Mountain Reservation, Maplewood, New Jersey, for a morning of radio, friendship, and portable HF operating.
 
 The goal of the meetup was simple: enjoy time together outdoors while practicing portable field HF operations. Two separate operating positions were set up, each with its own table, using two 100-watt modern HF stations powered by battery. Operators had multiple antenna choices available, including quarter-wave verticals for 20 and 40 meters, along with an end-fed half-wave antenna supported up in the trees.
