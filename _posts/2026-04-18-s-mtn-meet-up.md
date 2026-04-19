@@ -1,7 +1,7 @@
 ---
 layout: post
-title: South Mountain Reservation: Activation & Meet Up
-subtitle: RARC Club Event
+title: "South Mountain Reservation: Activation & Meet Up"
+subtitle: "RARC Club Event"
 tags: [south mountain, activation, meet up, hf]
 ---
 
