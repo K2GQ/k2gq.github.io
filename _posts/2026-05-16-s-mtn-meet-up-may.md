@@ -12,7 +12,7 @@ On Saturday, May 16, 2026, from 9 AM to 1 PM ET, members of Roseland ARC, WEARC,
 
 Following the success of the April meetup, many of the same operators gathered again, joined by several new participants. The objective remained straightforward: get outside, get on the air, test portable station setups, and enjoy time together as a local amateur radio community.
 
-This time, activity included HF phone operation on 17 and 20 meters, along with local VHF and UHF FM work on 2 meters and 70 centimeters. For VHF/UHF, operators used a directional log periodic antenna, which proved effective for making contacts across the New York City metro area. On HF, contacts were made within the United States, along with one especially enjoyable contact to a Parks on the Air site in the United Kingdom.
+This time, activity included HF phone operation on 17 and 20 meters, along with local VHF and UHF FM work on 2 meters and 70 centimeters. For VHF/UHF, operators used a directional log periodic antenna, which proved effective for making contacts across the New York City metropolitan area. On HF, contacts were made within the United States, along with one especially enjoyable contact to a Parks on the Air site in the United Kingdom.
 
 HF conditions were challenging. An active geomagnetic storm made the bands difficult, and 17 and 20 meters were not as productive as they might be under quieter solar conditions. Even so, the group was able to make successful contacts and gain useful experience operating under less-than-ideal propagation.
 
@@ -20,7 +20,7 @@ The weather, fortunately, was outstanding. Clear skies, a light breeze, and temp
 
 Overall, the May event was another successful and enjoyable portable operating session. It brought together returning operators and new participants, provided a chance to test equipment in the field, and reinforced the value of informal group operating as both a learning opportunity and a community-building activity.
 
-The next major group operating event will be Field Day 2026, hosted at the American Red Cross facility in Fairfield, New Jersey. Based on the energy and participation at both the April and May gatherings, it should be another excellent opportunity for local operators to get on the air together.
+The next major group operating event will be [Field Day 2026](https://www.arrl.org/field-day), June 27th - 28th, hosted at the American Red Cross facility in Fairfield, New Jersey. Based on the energy and participation at both the April and May gatherings, it should be another excellent opportunity for local operators to get on the air together.
 
 ---
 
