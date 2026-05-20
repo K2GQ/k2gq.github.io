@@ -177,14 +177,14 @@ Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/de
 Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/><br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
 
 **Tuesday, May 12**
 [<img align="right" width="395" src="/assets/img/net-2026-05-12.png">](./assets/img/net-2026-05-12.png)<br/>
 Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
-7 PM ET, weekly social net, open to all.<br/><br/><br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
 
 **Tuesday, May 19**
 [<img align="right" width="395" src="/assets/img/net-2026-05-19.png">](./assets/img/net-2026-05-19.png)<br/>
