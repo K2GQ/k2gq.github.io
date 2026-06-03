@@ -200,7 +200,7 @@ Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/de
 ░▒EchoLink: KC2TXA-R▒░<br/>
 7 PM ET, weekly social net, open to all.<br/><br/><br/>
 
-<span id="may" style="font-size:larger;text-decoration:underline;">**June 2026**
+<span id="june" style="font-size:larger;text-decoration:underline;">**June 2026**
 
 **Tuesday, June 2**
 [<img align="right" width="395" src="/assets/img/net-2026-06-02.png">](./assets/img/net-2026-06-02.png)<br/>
