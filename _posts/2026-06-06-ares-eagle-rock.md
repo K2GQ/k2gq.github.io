@@ -28,6 +28,8 @@ The June 6 activation also helped strengthen coordination among local amateur ra
 
 ARES exercises like this are not only for experienced emergency communicators. They are also a great way for newer operators to build confidence, learn net procedures, test portable equipment, and become more comfortable operating away from home.
 
+---
+
 ## Upcoming Net: FIFA Red Cross Prep Net
 
 All amateur radio operators are invited to participate in the upcoming FIFA Red Cross Prep Net on Saturday, June 13, 2026.
