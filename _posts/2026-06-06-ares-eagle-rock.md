@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Essex County ARES Participates in Exercise at Eagle Rock Reservation"
-subtitle: "Essex County ARES Event"
-cover-img: /assets/img/2026-june-ares/IMG_0824.jpeg
+subtitle: "Essex County ARES Activation"
+cover-img: /assets/img/2026-june-ares/IMG_0824_c.jpeg
 thumbnail-img: /assets/img/2026-june-ares/IMG_0826.jpeg
 share-img: /assets/img/2026-june/IMG_0826.jpeg
 tags: [ares, eagle rock, activation, public service, essex county]
