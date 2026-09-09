@@ -299,8 +299,15 @@ Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/de
 
 <span id="september" style="font-size:larger;text-decoration:underline;">**September 2026**
 
-**Tuesday, August 4**
+**Tuesday, September 1**
 [<img align="right" width="395" src="/assets/img/net-2026-09-01.png">](./assets/img/net-2026-09-01.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, September 8**
+[<img align="right" width="395" src="/assets/img/net-2026-09-08.png">](./assets/img/net-2026-09-08.png)<br/>
 Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
 Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
 ░▒EchoLink: KC2TXA-R▒░<br/>
