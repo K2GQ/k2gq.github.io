@@ -10,7 +10,7 @@ tags: [ares, eagle rock, activation, public service, essex county]
 
 On Saturday, June 6, 2026, amateur radio operators across the region participated in an ARES rapid deployment exercise that included both repeater-based and simplex net operations. The Essex County portion of the activation was centered at Eagle Rock Reservation, providing an excellent elevated operating location for portable and mobile radio testing.
 
-Representing the Essex County effort at Eagle Rock were Stan, K2EXX; Maurice, KB2SUL; Mike, KC2NJ; and Rich, KD2WJR. Many additional operators participated from Essex County and beyond, including members of WEARC, Roseland, and the broader amateur radio community.
+Representing the [Essex County ARES](https://ares.osi3.net/) effort at Eagle Rock were Stan, K2EXX; Maurice, KB2SUL; Mike, KC2NJ; and Rich, KD2WJR. Many additional operators participated from Essex County and beyond, including members of WEARC, Roseland, and the broader amateur radio community.
 
 The exercise focused on the fundamentals of emergency communications: rapid station setup, field power, portable antennas, simplex voice operations, and basic message handling. Operators were encouraged to deploy from realistic ARES service locations such as public buildings, assembly points, and other field locations where communications support might be needed during an actual emergency.
 
