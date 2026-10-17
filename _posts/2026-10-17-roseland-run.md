@@ -44,9 +44,9 @@ For the club, it was another successful morning of public service and an opportu
 
 ---
 
-## Photos from the 2026 Event
+<br>
 
-A few scenes from this year's Lou LaSalle Memorial 5K. Select any photograph to view it at full size.
+## Photos from the 2026 Event
 
 <style>
 /* Roseland 2026 event photo gallery */
@@ -78,6 +78,12 @@ A few scenes from this year's Lou LaSalle Memorial 5K. Select any photograph to 
   margin: 0;
 }
 
+/* Photo 2: Preserve the full image without cropping */
+.roseland-gallery img.runner-photo {
+  object-fit: contain;
+  object-position: center;
+}
+
 .roseland-gallery a:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 14px rgba(0, 0, 0, 0.16);
@@ -99,6 +105,11 @@ A few scenes from this year's Lou LaSalle Memorial 5K. Select any photograph to 
 
   .roseland-gallery img {
     height: 220px;
+  }
+
+  /* Additional vertical space for the runners in photo 2 */
+  .roseland-gallery img.runner-photo {
+    height: 280px;
   }
 }
 
@@ -132,8 +143,9 @@ A few scenes from this year's Lou LaSalle Memorial 5K. Select any photograph to 
      rel="noopener noreferrer"
      aria-label="View event photo 2 at full size">
     <img
+      class="runner-photo"
       src="/assets/img/2026-roseland-run/rr-2.jpeg"
-      alt="Lou LaSalle Memorial 5K 2026 - Event photo 2"
+      alt="Lou LaSalle Memorial 5K 2026 - Runners on the course"
       loading="lazy"
       decoding="async">
   </a>
