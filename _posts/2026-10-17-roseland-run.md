@@ -44,8 +44,6 @@ For the club, it was another successful morning of public service and an opportu
 
 ---
 
-<br>
-
 ## Photos from the 2026 Event
 
 <style>
