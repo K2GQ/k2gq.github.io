@@ -13,7 +13,7 @@ Welcome to the Roseland Amateur Radio Club, located in the borough of Roseland, 
 
 We are delighted to extend a warm invitation to you to explore our club, a diverse gathering of individuals united by our passion for amateur radio. As an [American Radio Relay League](https://www.arrl.org/) (ARRL) affiliated club, our membership proudly spans the spectrum from Technician to General and Amateur Extra class license holders. Our commitment to the growth and development of our community is reflected in our mentoring programs, where we provide comprehensive guidance and tutoring to those aspiring to attain their Technician and General license exams.
 
-The Roseland Amateur Radio Club, established in 1946, has been a part of the community for over 75 years, originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
+The Roseland Amateur Radio Club, established in 1946, has been a part of the community for over 75 years originating in the post-World War II era when it was founded by Doc Schwalbe. The club has been a consistent presence, offering its services to the community ever since.
 
 <img align="right" width="240" height="120" src="/assets/img/gonset.jpg">
 In 1958, the Roseland Club affiliated itself with the ARRL, marking our commitment to the world of amateur radio and the values it represents. This relationship has been carefully maintained over the years.
