@@ -8,8 +8,6 @@ share-img: /assets/img/2026-roseland-run/rr-1.jpeg
 tags: [public service, 5K, race, roseland, Lou LaSalle]
 ---
 
-*RARC Public Service | October 17, 2026*
-
 ROSELAND, N.J. — A few weeks after unfavorable weather forced a postponement, Roseland's annual 5K finally got its race day on Saturday, October 17. The temperature hovered around 49 degrees as the 9 a.m. start approached, with clearing skies and a cool breeze from the north providing a classic autumn backdrop for runners and walkers.
 
 The occasion was the borough's annual 5K run and community walk, an event that carried special significance this year.
@@ -45,9 +43,110 @@ The Roseland Amateur Radio Club thanks its participating members for volunteerin
 For the club, it was another successful morning of public service and an opportunity to demonstrate how amateur radio continues to serve a practical purpose in the community.
 
 ---
-## Photos from the 2026 Event
-<br/><br/>
-[<img align="center" src="/assets/img/2026-roseland-run/rr-1.jpeg">](../assets/img/2026-roseland-run/rr-1.jpeg){: height="325" }<br/><br/>
-[<img align="center" src="/assets/img/2026-roseland-run/rr-2.jpeg">](../assets/img/2026-roseland-run/rr-2.jpeg){: height="325" }<br/><br/>
-[<img align="center" src="/assets/img/2026-roseland-run/rr-3.jpeg">](../assets/img/2026-roseland-run/rr-3.jpeg){: height="325" }<br/><br/>
 
+## Photos from the 2026 Event
+
+A few scenes from this year's Lou LaSalle Memorial 5K. Select any photograph to view it at full size.
+
+<style>
+/* Roseland 2026 event photo gallery */
+
+.roseland-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 850px;
+  margin: 24px auto 32px;
+}
+
+.roseland-gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f5f5f5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.roseland-gallery img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+  margin: 0;
+}
+
+.roseland-gallery a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.16);
+}
+
+.roseland-gallery a:focus-visible {
+  outline: 3px solid #2674b8;
+  outline-offset: 3px;
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  .roseland-gallery {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    gap: 16px;
+    margin: 20px auto 28px;
+  }
+
+  .roseland-gallery img {
+    height: 220px;
+  }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .roseland-gallery a {
+    transition: none;
+  }
+
+  .roseland-gallery a:hover {
+    transform: none;
+  }
+}
+</style>
+
+<div class="roseland-gallery">
+
+  <a href="/assets/img/2026-roseland-run/rr-1.jpeg"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View event photo 1 at full size">
+    <img
+      src="/assets/img/2026-roseland-run/rr-1.jpeg"
+      alt="Lou LaSalle Memorial 5K 2026 - Event photo 1"
+      loading="lazy"
+      decoding="async">
+  </a>
+
+  <a href="/assets/img/2026-roseland-run/rr-2.jpeg"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View event photo 2 at full size">
+    <img
+      src="/assets/img/2026-roseland-run/rr-2.jpeg"
+      alt="Lou LaSalle Memorial 5K 2026 - Event photo 2"
+      loading="lazy"
+      decoding="async">
+  </a>
+
+  <a href="/assets/img/2026-roseland-run/rr-3.jpeg"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="View event photo 3 at full size">
+    <img
+      src="/assets/img/2026-roseland-run/rr-3.jpeg"
+      alt="Lou LaSalle Memorial 5K 2026 - Event photo 3"
+      loading="lazy"
+      decoding="async">
+  </a>
+
+</div>
