@@ -3,8 +3,8 @@ layout: post
 title: Lou LaSalle Memorial 5K - 2026
 subtitle: RARC Public Service
 cover-img: /assets/img/2026-roseland-run/rr-3.jpeg
-thumbnail-img: /assets/img/2026-roseland-run/rr-1.jpeg
-share-img: /assets/img/2026-roseland-run/rr-1.jpeg
+thumbnail-img: /assets/img/2026-roseland-run/rr-1c.jpeg
+share-img: /assets/img/2026-roseland-run/rr-1c.jpeg
 tags: [public service, 5K, race, roseland, Lou LaSalle]
 ---
 
