@@ -16,7 +16,7 @@ Renamed the Lou LaSalle Memorial 5K, the race honored a longtime Roseland reside
 
 While participants focused on the course ahead, another group of volunteers had a different assignment: keeping everyone connected.
 
-Members of the Roseland Amateur Radio Club once again supported the event, providing radio communications along the race route from 9 to 10 a.m.
+Members of the Roseland Amateur Radio Club once again supported the event, providing radio communications along the race route from 8:30 to 10 a.m.
 
 ### The Work Behind the Scenes
 
