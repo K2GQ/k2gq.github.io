@@ -144,7 +144,7 @@ Select a decade to read about documented club activities and follow links to his
     <p>The club identifies 1946 as its founding year and Dr. Milton I. “Doc” Schwalbe as its founder. The organization began in Irvington as the Irvington Radio Amateur Club (IRAC).</p>
     <p>Schwalbe previously held the call sign K2GQ. An April 1961 <em>QST</em> listing identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ. No contemporary founding notice from the 1940s has yet been located.</p>
     <ul class="rarc-decade-sources">
-      <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1961-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1961, p. 69</a> — Schwalbe's Silent Keys listing (later record).</li>
+      <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1961-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1961, p. 69</a> — Schwalbe's Silent Key listing.</li>
     </ul>
   </div>
 </details>
@@ -189,9 +189,9 @@ Select a decade to read about documented club activities and follow links to his
   <summary>1980s — The Annual Irvington Hamfest</summary>
   <div class="rarc-decade-body">
     <p>The Irvington Radio Amateur Club continued advertising its annual hamfest during the early 1980s. A March 1983 notice described the 11th annual event at the Irvington PAL building, 285 Union Avenue. Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, were listed as contacts.</p>
-    <p>Other club activities during the 1980s have not yet been documented in comparable detail.</p>
+    <p>Other club activities during the 1980s have not yet been documented in comparable detail. If you have information from this era, please reach out and share with us!</p>
     <ul class="rarc-decade-sources">
-      <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983 (page pending verification)</a> — 11th annual hamfest announcement.</li>
+      <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983, p. 48</a> — 11th annual hamfest announcement.</li>
     </ul>
   </div>
 </details>
@@ -200,7 +200,7 @@ Select a decade to read about documented club activities and follow links to his
   <summary>1990s — The Irvington-Roseland Name</summary>
   <div class="rarc-decade-body">
     <p>By 1991, the organization was advertising events as the Irvington-Roseland Amateur Radio Club. A February 1991 newsletter listed its March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, and gave a mailing address in Essex Fells. Walt Heineman was the contact.</p>
-    <p>The club was also listed in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. These sources establish use of the Irvington-Roseland name but do not establish the date of any physical relocation.</p>
+    <p>The club was also listed in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes under the Irvington-Roseland Amateur Radio Club name.</p>
     <ul class="rarc-decade-sources">
       <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — hamfest advertisement.</li>
       <li><a href="https://contests.arrl.org/ContestResults/1992/SS-Phone-1992-FinalQSTResults.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, May 1993, p. 112</a> — 1992 November Sweepstakes club listing.</li>
@@ -238,7 +238,7 @@ Select a decade to read about documented club activities and follow links to his
     <p>Members provided communications support for the May 2025 Caldwell Classic 5K. In June 2026, Roseland members joined an Essex County ARES rapid-deployment exercise at Eagle Rock Reservation involving portable stations, repeater and simplex contacts, and message handling.</p>
     <ul class="rarc-decade-sources">
       <li><a href="/2024-10-26-portable-operation/" target="_blank" rel="noopener noreferrer">October 2024 portable operation</a> — club report and photographs.</li>
-      <li><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">May 2025 Caldwell Classic 5K</a> — public-service report.</li>
+      <li><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">May 2025 Caldwell Classic 5K</a> — public service report.</li>
       <li><a href="/2026-06-06-ares-eagle-rock/" target="_blank" rel="noopener noreferrer">June 2026 ARES exercise</a> — field exercise report.</li>
     </ul>
   </div>
