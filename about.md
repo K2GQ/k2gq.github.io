@@ -68,6 +68,35 @@ subtitle: Roseland Amateur Radio Club
   height: auto;
   border-radius: 5px;
 }
+
+/* Expandable decade history: keyboard-accessible native details elements. */
+.rarc-decades { margin: 1rem 0 2rem; }
+.rarc-decade {
+  margin: .65rem 0;
+  border: 1px solid #d3dbe2;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.rarc-decade > summary {
+  display: list-item;
+  padding: .85rem 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.45;
+  background: rgba(120, 135, 150, .075);
+}
+.rarc-decade > summary:hover { background: rgba(120, 135, 150, .13); }
+.rarc-decade > summary:focus-visible { outline: 3px solid #357ebd; outline-offset: -3px; }
+.rarc-decade[open] > summary { border-bottom: 1px solid #d3dbe2; }
+.rarc-decade-body { padding: 1rem 1.15rem .75rem; }
+.rarc-decade-body p { margin: 0 0 .9rem; }
+.rarc-decade-sources { font-size: .92rem; line-height: 1.55; margin: 0 0 .8rem; }
+.rarc-decade-sources li { margin-bottom: .4rem; }
+@media (max-width: 640px) {
+  .rarc-decade > summary { padding: .85rem .85rem; }
+  .rarc-decade-body { padding: .9rem .85rem .5rem; }
+}
+
 @media (max-width: 640px) {
   .rarc-portrait,
   .rarc-side-image {
@@ -99,24 +128,123 @@ As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">
   <figcaption>Dr. Milton I. “Doc” Schwalbe, former holder of K2GQ</figcaption>
 </figure>
 
-The club traces its beginnings to 1946, when it was founded in Irvington, New Jersey, by Dr. Milton I. “Doc” Schwalbe. Originally known as the **Irvington Radio Amateur Club (IRAC)**, it was later called the Irvington-Roseland Amateur Radio Club before taking its present name. The club's call sign, K2GQ, was formerly held by Doc Schwalbe, as noted in <a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1961-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1961, p. 69</a>.
-
-Reports in *QST*, the ARRL's magazine, offer a glimpse into those early years. In 1955, the club held regular meetings, offered weekly Morse code and radio theory classes, and operated a Saturday amateur radio net on 28.7 MHz.
-
-Members were also active in ARRL Field Day. A photograph published in the December 1958 issue of *QST* shows Irvington club members gathered around a generator, working to keep their Field Day operation running. The club affiliated with the ARRL in 1958, and its longstanding traditions of learning, fellowship, and public service continue today.
+The club traces its beginnings to 1946 in Irvington, New Jersey. Originally known as the Irvington Radio Amateur Club (IRAC), it was later called the Irvington-Roseland Amateur Radio Club before adopting its current name. The precise dates of those name changes have not been established.
 
 <div class="rarc-clear"></div>
 
-### From the Archives
+### History by Decade
 
-These original publications document some of the club's early activities and names:
+Select a decade to read about documented club activities and follow links to historical records.
 
-<ul class="rarc-archives">
-  <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1955-01.pdf" target="_blank" rel="noopener noreferrer">QST, January 1955 (Station Activities, starting p. 76)</a> — meetings, code and theory classes, and the weekly net.</li>
-  <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1955-05.pdf" target="_blank" rel="noopener noreferrer">QST, May 1955 (p. 89)</a> — report on the club's code and theory classes.</li>
-  <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/50s/QST-1958-12.pdf" target="_blank" rel="noopener noreferrer">QST, December 1958 (p. 47)</a> — a photograph from the club's Field Day operation.</li>
-  <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf" target="_blank" rel="noopener noreferrer">Mountain Spark Gaps, February 1991 (p. 3)</a> — hamfest listing under the Irvington-Roseland name.</li>
-</ul>
+<div class="rarc-decades">
+
+<details class="rarc-decade">
+  <summary>1940s — Beginnings in Irvington</summary>
+  <div class="rarc-decade-body">
+    <p>The club identifies 1946 as its founding year and Dr. Milton I. “Doc” Schwalbe as its founder. The organization began in Irvington as the Irvington Radio Amateur Club (IRAC).</p>
+    <p>Schwalbe previously held the call sign K2GQ. An April 1961 <em>QST</em> listing identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ. No contemporary founding notice from the 1940s has yet been located.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1961-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1961, p. 69</a> — Schwalbe's Silent Keys listing (later record).</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>1950s — Classes, Radio Nets, and Field Day</summary>
+  <div class="rarc-decade-body">
+    <p>By January 1955, the Irvington club was meeting on the first and third Mondays and conducting weekly Morse code and radio theory classes. It used automatic tape machines for code practice and operated a Saturday net on 28.7 MHz.</p>
+    <p>The club also participated in ARRL Field Day. The December 1958 issue of <em>QST</em> published a photograph of members examining a failed generator during the 1958 event, identifying W2WDZ and chief operator W2ZMH. The club dates its ARRL affiliation to 1958.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1955-01.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, January 1955, Station Activities (beginning p. 76)</a> — meetings, classes, and net.</li>
+      <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/50s/QST-1958-12.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, December 1958, p. 47</a> — Field Day photograph.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>1960s — Auctions and Annual Dinners</summary>
+  <div class="rarc-decade-body">
+    <p>In 1962, <em>QST</em> reported that the Irvington club was organizing an auction to benefit the ARRL's headquarters building fund; club member K2RXH was named as auctioneer.</p>
+    <p>The club continued holding annual dinners in Irvington. Notices appeared for its October 1964 and October 1968 dinners, with David Rettig, K2VOB, listed as a contact.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1962-07.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, July 1962, p. 70</a> — auction announcement.</li>
+      <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1964-10.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, October 1964, p. 15</a> — annual dinner notice.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>1970s — Hamfests and Mentoring</summary>
+  <div class="rarc-decade-body">
+    <p>The club advertised an annual hamfest for May 19, 1974, at the Irvington Police Athletic League building, 285 Union Avenue. The notice listed equipment tables, refreshments, and door prizes.</p>
+    <p>Former member Mark Wiatroski, W2MSW, later recalled learning Morse code with help from IRAC members while in college. He described taking his Novice examination with Ed Surmaitis, WA2MYZ, and receiving his first call sign, WN2DUX, in early 1976.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/Archive-DX/73-magazine/73-magazine-1974/73-magazine-04-april-1974.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, April 1974, p. 14</a> — hamfest advertisement.</li>
+      <li><a href="https://cwops.org/wp-content/uploads/2021/02/solid-copy-2021.02.3.pdf#page=46" target="_blank" rel="noopener noreferrer"><em>Solid Copy</em>, February 2021, p. 46</a> — Wiatroski's later recollection of 1976.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>1980s — The Annual Irvington Hamfest</summary>
+  <div class="rarc-decade-body">
+    <p>The Irvington Radio Amateur Club continued advertising its annual hamfest during the early 1980s. A March 1983 notice described the 11th annual event at the Irvington PAL building, 285 Union Avenue. Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, were listed as contacts.</p>
+    <p>Other club activities during the 1980s have not yet been documented in comparable detail.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983 (page pending verification)</a> — 11th annual hamfest announcement.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>1990s — The Irvington-Roseland Name</summary>
+  <div class="rarc-decade-body">
+    <p>By 1991, the organization was advertising events as the Irvington-Roseland Amateur Radio Club. A February 1991 newsletter listed its March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, and gave a mailing address in Essex Fells. Walt Heineman was the contact.</p>
+    <p>The club was also listed in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. These sources establish use of the Irvington-Roseland name but do not establish the date of any physical relocation.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — hamfest advertisement.</li>
+      <li><a href="https://contests.arrl.org/ContestResults/1992/SS-Phone-1992-FinalQSTResults.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, May 1993, p. 112</a> — 1992 November Sweepstakes club listing.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>2000s — Sandy Hook Demonstrations</summary>
+  <div class="rarc-decade-body">
+    <p>The club was involved in amateur-radio special events and demonstrations at Sandy Hook. For the October 2008 Fort Hancock Days celebration, the National Park Service announced that Roseland Amateur Radio Club members would demonstrate shortwave communications on the grounds of Sandy Hook Lighthouse.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.nps.gov/gate/learn/news/2008-fort-hancock-days-at-sandy-hook.htm" target="_blank" rel="noopener noreferrer">National Park Service, 2008 Fort Hancock Days</a> — original event announcement.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>2010s — Special Events and the 70th Anniversary</summary>
+  <div class="rarc-decade-body">
+    <p>ARRL special-event listings record a September 2014 K2R operation at Eagle Rock Reservation in West Orange. In May 2016, the club advertised a 70th-anniversary QSO party using K2GQ, including planned activity on the 20- and 40-meter bands.</p>
+    <p>Local reporting in 2016 also described the club's emergency communications and community-service activities.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.arrl.org/special_events/search/page%3A17/Date.start%3A2014-07-01/Date.end%3A2023-03-21/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, September 2014</a> — K2R special-event listing.</li>
+      <li><a href="https://www.arrl.org/special_events/search/page%3A100/Date.start%3A2014-07-01/Date.end%3A2023-12-03/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, May 2016</a> — 70th-anniversary announcement.</li>
+      <li><a href="https://essexnewsdaily.com/news/roseland/explore-the-world-through-a-ham-radio/" target="_blank" rel="noopener noreferrer"><em>Essex News Daily</em>, May 2016</a> — club activities and anniversary reporting.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade">
+  <summary>2020s — Public Service and Portable Operating</summary>
+  <div class="rarc-decade-body">
+    <p>Recent club activities are documented in photographs and reports on this website. In October 2024, members operated portable from South Mountain Reservation using a 10-meter transceiver, SSB, and FT8.</p>
+    <p>Members provided communications support for the May 2025 Caldwell Classic 5K. In June 2026, Roseland members joined an Essex County ARES rapid-deployment exercise at Eagle Rock Reservation involving portable stations, repeater and simplex contacts, and message handling.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="/2024-10-26-portable-operation/" target="_blank" rel="noopener noreferrer">October 2024 portable operation</a> — club report and photographs.</li>
+      <li><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">May 2025 Caldwell Classic 5K</a> — public-service report.</li>
+      <li><a href="/2026-06-06-ares-eagle-rock/" target="_blank" rel="noopener noreferrer">June 2026 ARES exercise</a> — field exercise report.</li>
+    </ul>
+  </div>
+</details>
+
+</div>
 
 ## The Club Today
 
