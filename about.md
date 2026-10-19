@@ -78,10 +78,10 @@ subtitle: Roseland Amateur Radio Club
   border-left: 3px solid #bca884;
   background: #fcfaf6;
 }
-.rarc-prewar-decade { border-color: #d9cbb5; }
-.rarc-prewar-decade > summary { background: #f5ecde; }
-.rarc-prewar-decade > summary:hover { background: #eee1cb; }
-.rarc-prewar-decade[open] > summary { border-bottom-color: #d9cbb5; }
+.rarc-prewar-decades .rarc-prewar-decade { border-color: #d9cbb5; }
+.rarc-prewar-decades .rarc-prewar-decade > summary { background: #f5ecde; }
+.rarc-prewar-decades .rarc-prewar-decade > summary:hover { background: #eee1cb; }
+.rarc-prewar-decades .rarc-prewar-decade[open] > summary { border-bottom-color: #d9cbb5; }
 .rarc-prewar-decade .rarc-decade-body { background: #fffdf9; }
 .rarc-era-transition {
   margin: .9rem 0 1.5rem;
