@@ -214,8 +214,9 @@ Select a decade to read about documented club activities and follow links to his
   <summary>1990s — Club Events and WEARC's Founding</summary>
   <div class="rarc-decade-body">
     <p>We advertised a March 23, 1991 hamfest at West Orange High School, 600 Pleasant Valley Way. A February 1991 newsletter named Walt Heineman as our contact and gave a mailing address in Essex Fells.</p>
-    <p>Our club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. We continued advertising hamfests at West Orange High School; a March 1997 notice listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts.</p>
+    <p>Our club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes.</p>
     <p>In 1994, several of our members helped establish a separate organization, the West Essex Amateur Radio Club (WEARC). WEARC founding member Mike Hartmann, NI2S, later described its formation in a remembrance of John Weinfeldt, N2NO. Weinfeldt had participated in IRAC before joining WEARC, where he later served as president.</p>
+    <p>We continued advertising hamfests at West Orange High School. A March 1997 notice listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts.</p>
 
     <ul class="rarc-decade-sources">
       <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — West Orange hamfest announcement.</li>
