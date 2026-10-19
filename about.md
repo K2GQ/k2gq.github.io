@@ -157,7 +157,7 @@ Select a decade to read about documented club activities and follow links to his
     <p>We also took part in ARRL Field Day. A photograph in the December 1958 issue of <em>QST</em> shows our members examining a failed generator during that year's event. The caption identifies W2WDZ and our chief operator, W2ZMH. We became an ARRL-affiliated club in 1958.</p>
 
     <ul class="rarc-decade-sources">
-      <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1955-01.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, January 1955, Station Activities (beginning p. 76)</a> — meetings, classes, and net.</li>
+      <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1955-01.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, January 1955, p. 86</a> — meetings, classes, and net.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/50s/QST-1958-12.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, December 1958, p. 47</a> — Field Day photograph.</li>
     </ul>
   </div>
