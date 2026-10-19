@@ -200,13 +200,11 @@ subtitle: Roseland Amateur Radio Club
   <img src="/assets/img/log-1978.jpg" alt="Historical Roseland Amateur Radio Club logbook" loading="lazy">
 </figure>
 
-Amateur radio opens the door to a world of discovery. From making contacts across town or around the globe to exploring new technology and experimenting with radios and antennas, there's always something exciting to experience. But some of the best moments come from sharing that excitement with others.
+Amateur radio offers a remarkable mix of adventure, discovery, and human connection. You might reach someone halfway around the world, experiment with antennas and digital modes, or take your equipment outdoors for a portable operation. The possibilities are endless, and sharing those experiences with friends makes them even more rewarding.
 
-At the Roseland Amateur Radio Club, we bring together people who enjoy radio, technology, learning, and good company. Whether you're making your first contact, exploring a new operating mode, or simply enjoying a friendly conversation on the air, there's always something new to discover and someone happy to share the experience.
+At the Roseland Amateur Radio Club, we bring people together to exchange ideas, develop skills, and enjoy the camaraderie that makes this hobby special. Our members represent every license class, from recently licensed operators to those with decades of experience. Whatever your background, you'll find a friendly, welcoming community.
 
-Our members represent all amateur radio license classes, and we warmly welcome those who are just discovering the hobby. As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">ARRL-affiliated club</a>, we help aspiring operators prepare for their license exams and encourage everyone to learn, experiment, and get involved.
-
-You don't need years of experience to feel at home here. Just bring your curiosity and an interest in joining the fun. Come <a href="/calendar/" target="_blank" rel="noopener noreferrer">visit us at an upcoming meeting</a> and see what amateur radio is all about.
+As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">ARRL-affiliated club</a>, we help aspiring operators prepare for their license exams and encourage everyone to explore their interests and get involved. Come <a href="/calendar/" target="_blank" rel="noopener noreferrer">visit us at an upcoming meeting</a> and meet the people behind the call signs.
 
 ## Our History
 
@@ -368,7 +366,7 @@ Select a decade to read about documented club activities and follow links to his
 
 <section class="rarc-today-net" aria-labelledby="rarc-today-net-title">
   <h3 id="rarc-today-net-title">Join the conversation every Tuesday</h3>
-  <p>Since 2023, our Community Amateur Radio Social Net has connected local and regional operators for friendly conversation. Join us <strong>Tuesdays at 7:30 PM Eastern</strong> on <strong>KC2TXA/R (146.595 MHz)</strong> or through <strong>EchoLink KC2TXA-R</strong>. All licensed operators are welcome.</p>
+  <p>Since 2023, our Community Amateur Radio Social Net has connected local and regional operators for friendly conversation. Join us Tuesdays at 7:30 PM Eastern on KC2TXA/R (146.595 MHz) or through EchoLink KC2TXA-R. All licensed operators are welcome.</p>
   <p><a href="#net">Net frequencies and details</a> · <a href="/netreports/" target="_blank" rel="noopener noreferrer">Weekly net reports</a></p>
 </section>
 
