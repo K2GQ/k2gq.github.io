@@ -142,7 +142,7 @@ Select a decade to read about documented club activities and follow links to his
   <summary>1940s — Beginnings in Irvington</summary>
   <div class="rarc-decade-body">
     <p>The club identifies 1946 as its founding year and Dr. Milton I. “Doc” Schwalbe as its founder. The organization began in Irvington as the Irvington Radio Amateur Club (IRAC).</p>
-    <p>Schwalbe previously held the call sign K2GQ. An April 1961 <em>QST</em> listing identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ. No contemporary founding notice from the 1940s has yet been located.</p>
+    <p>Schwalbe previously held the call sign K2GQ. An April 1961 <em>QST</em> listing identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ.</p>
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1961-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1961, p. 69</a> — Schwalbe's Silent Key listing.</li>
     </ul>
@@ -177,7 +177,7 @@ Select a decade to read about documented club activities and follow links to his
 </details>
 
 <details class="rarc-decade">
-  <summary>1970s — Hamfests, Field Day, and Mentoring</summary>
+  <summary>1970s — Mentoring, Field Day, and Hamfests</summary>
   <div class="rarc-decade-body">
     <p>During the 1970s, the Irvington Radio Amateur Club organized hamfests at the Irvington Police Athletic League building, 285 Union Avenue. A 1974 advertisement listed equipment sales tables, refreshments, and door prizes.</p>
     <p>The club was also active in Field Day. The September 1977 issue of <em>QST</em> reported receiving Field Day messages from IRAC.</p>
@@ -191,7 +191,7 @@ Select a decade to read about documented club activities and follow links to his
 </details>
 
 <details class="rarc-decade">
-  <summary>1980s — Hamfests and Radio Contesting</summary>
+  <summary>1980s — Radio Contesting and Hamfests</summary>
   <div class="rarc-decade-body">
     <p>The Irvington Radio Amateur Club continued organizing hamfests in the 1980s. Its 11th annual event was advertised for March 1983 at the Irvington Police Athletic League building, 285 Union Avenue. Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, were listed as contacts.</p>
     <p>ARRL November Sweepstakes results document K2GQ participating in multioperator CW and phone contests. In 1985, K2GQ logged 161 contacts on CW and 414 on phone; operator lists included Walt Heineman, W2QR, and Ed Surmaitis, WA2MYZ. In the 1988 Phone Sweepstakes, the team completed 803 contacts across 75 ARRL sections, scoring 120,450 points.</p>
@@ -206,7 +206,7 @@ Select a decade to read about documented club activities and follow links to his
 </details>
 
 <details class="rarc-decade">
-  <summary>1990s — Hamfests and Contest Participation</summary>
+  <summary>1990s — Club Events and WEARC's Founding</summary>
   <div class="rarc-decade-body">
     <p>A February 1991 newsletter advertised the club's March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, with Walt Heineman as the contact and a mailing address in Essex Fells.</p>
     <p>The club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. Hamfests continued at West Orange High School during the decade; a March 1997 advertisement listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts for that year's event.</p>
@@ -216,7 +216,7 @@ Select a decade to read about documented club activities and follow links to his
       <li><a href="https://contests.arrl.org/ContestResults/1992/SS-Phone-1992-FinalQSTResults.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, May 1993, p. 112</a> — 1992 Sweepstakes club competition.</li>
       <li><a href="https://www.arimi.it/wp-content/73/03_March_1997.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, March 1997 (special events listing)</a> — West Orange hamfest notice.</li>
       <li><a href="https://wearc.org/about-us/" target="_blank" rel="noopener noreferrer">WEARC — About Us</a> — dates the club's founding to 1994.</li>
-      <li><a href="https://wearc.org/silent-keys/john-weinfeld-n2no/" target="_blank" rel="noopener noreferrer">WEARC — Remembering John Weinfeldt, N2NO</a> — Mike Hartmann's firsthand account of WEARC's formation.
+      <li><a href="https://wearc.org/silent-keys/john-weinfeld-n2no/" target="_blank" rel="noopener noreferrer">WEARC — Remembering John Weinfeldt, N2NO</a> — Mike Hartmann's firsthand account of WEARC's formation.</li>
     </ul>
   </div>
 </details>
@@ -225,10 +225,10 @@ Select a decade to read about documented club activities and follow links to his
   <summary>2000s — Special Events and Historic Sites</summary>
   <div class="rarc-decade-body">
     <p>During the 2000s, the Roseland Amateur Radio Club participated in special events and radio demonstrations at Sandy Hook, New Jersey. For October 2008's Fort Hancock Days, the National Park Service announced that club members would demonstrate shortwave communications on the grounds of Sandy Hook Lighthouse.</p>
-    <p>The club also advertised special-event station K2A for Fort Hancock Establishment Day on October 26, 2008, with planned operation on the 20- and 40-meter bands. The ARRL listing gave the club's contact address as 300 Eagle Rock Avenue, Roseland.</p>
+    <p>The club also advertised special-event station K2A for Fort Hancock Establishment Day on October 26, 2008, with planned operation on the 20- and 40-meter bands.</p>
     <ul class="rarc-decade-sources">
       <li><a href="https://www.nps.gov/gate/learn/news/2008-fort-hancock-days-at-sandy-hook.htm" target="_blank" rel="noopener noreferrer">National Park Service, October 2008</a> — Fort Hancock Days amateur radio demonstration.</li>
-      <li><a href="https://www.arrl.org/special_events/search/page%3A113/Date.start%3A1969-12-31/Date.end%3A2015-03-31/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, October 26, 2008</a> — K2A special-event listing and 300 Eagle Rock Avenue contact address.</li>
+      <li><a href="https://www.arrl.org/special_events/search/page%3A113/Date.start%3A1969-12-31/Date.end%3A2015-03-31/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, October 26, 2008</a> — K2A special-event listing.</li>
     </ul>
   </div>
 </details>
