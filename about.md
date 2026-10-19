@@ -109,6 +109,59 @@ subtitle: Roseland Amateur Radio Club
   .rarc-gallery { grid-template-columns: 1fr; gap: .85rem; }
   .rarc-archives { padding-left: 1.2rem; }
 }
+
+/* A compact, image-led introduction to today's club. */
+.rarc-today-intro { margin: .3rem 0 1.15rem; font-size: 1.05rem; line-height: 1.6; }
+.rarc-today-net {
+  margin: 1.1rem 0 1.5rem;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #47768e;
+  border-radius: 0 8px 8px 0;
+  background: #f4f7f9;
+}
+.rarc-today-net h3 { margin: 0 0 .45rem; font-size: 1.23rem; line-height: 1.35; }
+.rarc-today-net p { margin: 0 0 .6rem; line-height: 1.56; }
+.rarc-today-net p:last-child { margin-bottom: 0; }
+.rarc-today-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+  margin: 1.25rem 0 1.5rem;
+}
+.rarc-today-card {
+  min-width: 0;
+  border: 1px solid #d7e0e6;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+.rarc-today-card > a { display: block; background: #eef2f4; }
+.rarc-today-card img {
+  display: block;
+  width: 100%;
+  height: 174px;
+  object-fit: contain;
+  margin: 0;
+}
+.rarc-today-card-body { padding: .85rem .95rem 1rem; }
+.rarc-today-card h3 { margin: 0 0 .55rem; font-size: 1.12rem; line-height: 1.3; }
+.rarc-today-card p { margin: 0 0 .65rem; font-size: .96rem; line-height: 1.55; }
+.rarc-today-card p:last-child { margin-bottom: 0; }
+.rarc-today-links { font-size: .9rem !important; line-height: 1.7 !important; }
+.rarc-today-outro { margin: 1.2rem 0; line-height: 1.55; }
+@media (max-width: 860px) {
+  .rarc-today-grid { grid-template-columns: 1fr; }
+  .rarc-today-card { display: grid; grid-template-columns: minmax(0, 36%) minmax(0, 64%); }
+  .rarc-today-card > a { height: 100%; }
+  .rarc-today-card img { height: 100%; min-height: 175px; }
+}
+@media (max-width: 600px) {
+  .rarc-today-net { padding: .95rem 1rem; }
+  .rarc-today-card { display: block; }
+  .rarc-today-card img { height: 190px; min-height: 0; }
+  .rarc-today-card-body { padding: .95rem; }
+}
 </style>
 
 ## Welcome to the Roseland Amateur Radio Club
@@ -244,8 +297,8 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>2010s — Special Events and the 70th Anniversary</summary>
   <div class="rarc-decade-body">
-    <p>In September 2014, we advertised a K2R special-event operation at Eagle Rock Reservation in West Orange. For our 70th anniversary in May 2016, we planned a QSO party using K2GQ, with activity advertised on the 20- and 40-meter bands.</p>
-    <p>Local news coverage in 2016 also described our emergency communications and community service activities.</p>
+    <p>In September 2014, we advertised a K2R special-event operation at Eagle Rock Reservation in West Orange.</p>
+    <p>In 2015, we renewed our focus on emergency communications and service to our community, as highlighted in a 2016 local news feature. For our 70th anniversary in May 2016, we also planned a QSO party using K2GQ, with activity advertised on the 20- and 40-meter bands.</p>
 
     <ul class="rarc-decade-sources">
       <li><a href="https://www.arrl.org/special_events/search/page%3A17/Date.start%3A2014-07-01/Date.end%3A2023-03-21/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, September 2014</a> — K2R special-event listing.</li>
@@ -258,10 +311,12 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>2020s — Public Service and Portable Operating</summary>
   <div class="rarc-decade-body">
-    <p>We continue to get on the air and support local events. In October 2024, our members operated portable from South Mountain Reservation with a 10-meter transceiver, using SSB and FT8.</p>
+    <p>In 2023, we established our Community Amateur Radio Social Net, bringing local and regional operators together for a friendly weekly conversation.</p>
+    <p>In October 2024, our members operated portable from South Mountain Reservation with a 10-meter transceiver, using SSB and FT8.</p>
     <p>In May 2025, we provided communications support for the Caldwell Classic 5K. In June 2026, our members joined an Essex County ARES rapid-deployment exercise at Eagle Rock Reservation, using portable stations, repeater and simplex contacts, and message handling.</p>
 
     <ul class="rarc-decade-sources">
+      <li><a href="/2023-11-08-tuesday-night-net/" target="_blank" rel="noopener noreferrer">November 2023 Community Net report</a> — early check-ins on our weekly social net.</li>
       <li><a href="/2024-10-26-portable-operation/" target="_blank" rel="noopener noreferrer">October 2024 portable operation</a> — club report and photographs.</li>
       <li><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">May 2025 Caldwell Classic 5K</a> — public service report.</li>
       <li><a href="/2026-06-06-ares-eagle-rock/" target="_blank" rel="noopener noreferrer">June 2026 ARES exercise</a> — field exercise report.</li>
@@ -273,19 +328,50 @@ Select a decade to read about documented club activities and follow links to his
 
 ## The Club Today
 
-<img class="rarc-side-image" src="/assets/img/gonset.jpg" alt="Vintage Gonset amateur radio equipment" loading="lazy">
+<p class="rarc-today-intro">For us, amateur radio is about people as much as technology. We get on the air, share what we learn, and put our skills to work for neighbors throughout Essex County. There is always something to discover—and plenty of room for new faces.</p>
 
-In 2015, the club renewed its focus on emergency communications and community service, as described in this <a href="https://essexnewsdaily.com/news/roseland/explore-the-world-through-a-ham-radio/" target="_blank" rel="noopener noreferrer">local news article</a>. Members continue to share an interest in radio, technology, and helping their neighbors.
+<section class="rarc-today-net" aria-labelledby="rarc-today-net-title">
+  <h3 id="rarc-today-net-title">Join the conversation every Tuesday</h3>
+  <p>Since 2023, our Community Amateur Radio Social Net has connected local and regional operators for friendly conversation. Join us <strong>Tuesdays at 7:30 PM Eastern</strong> on <strong>KC2TXA/R (146.595 MHz)</strong> or through <strong>EchoLink KC2TXA-R</strong>. All licensed operators are welcome.</p>
+  <p><a href="#net">Net frequencies and details</a> · <a href="/netreports/" target="_blank" rel="noopener noreferrer">Weekly net reports</a></p>
+</section>
 
-<div class="rarc-clear"></div>
+<div class="rarc-today-grid">
+  <article class="rarc-today-card">
+    <a href="/2024-01-29-new-radio/" target="_blank" rel="noopener noreferrer" aria-label="Read about our Yaesu FTDX10 station upgrade">
+      <img src="/assets/img/ftdx10_club.jpg" alt="Amateur radio equipment at the Roseland ARC club station" loading="lazy">
+    </a>
+    <div class="rarc-today-card-body">
+      <h3>Learn and experiment</h3>
+      <p>Our members share experience through station projects, practical demonstrations, and talks on everything from propagation and Morse code to digital operating.</p>
+      <p class="rarc-today-links"><a href="/2024-03-21-gene-kji-presentation/" target="_blank" rel="noopener noreferrer">Propagation</a> · <a href="/2024-05-15-bob-auf-presentation/" target="_blank" rel="noopener noreferrer">CW</a> · <a href="/2024-07-17-jesse-ugk-presentation/" target="_blank" rel="noopener noreferrer">FT8</a> · <a href="/2024-01-29-new-radio/" target="_blank" rel="noopener noreferrer">Station upgrade</a></p>
+    </div>
+  </article>
 
-<img class="rarc-side-image" src="/assets/img/ftdx10_club.jpg" alt="Amateur radio equipment at a club gathering" loading="lazy">
+  <article class="rarc-today-card">
+    <a href="/2026-04-18-s-mtn-meet-up/" target="_blank" rel="noopener noreferrer" aria-label="Read about our South Mountain portable operating meetup">
+      <img src="/assets/img/2026-april-smtn/IMG_0742.jpeg" alt="A South Mountain Reservation amateur radio meetup" loading="lazy">
+    </a>
+    <div class="rarc-today-card-body">
+      <h3>Get outdoors and on the air</h3>
+      <p>Portable operations bring our members together to test antennas, batteries, and HF equipment—often alongside friends from WEARC, NPARC, and neighboring clubs.</p>
+      <p class="rarc-today-links"><a href="/2024-10-26-portable-operation/" target="_blank" rel="noopener noreferrer">2024 activation</a> · <a href="/2026-04-18-s-mtn-meet-up/" target="_blank" rel="noopener noreferrer">April meetup</a> · <a href="/2026-05-16-s-mtn-meet-up-may/" target="_blank" rel="noopener noreferrer">May meetup</a></p>
+    </div>
+  </article>
 
-Each year, our volunteers provide <a href="/2024-09-21-roseland-run/" target="_blank" rel="noopener noreferrer">communications support for community events</a>, including charity runs in Essex County. We also help new operators build their knowledge and confidence through mentoring and shared experience.
+  <article class="rarc-today-card">
+    <a href="/2026-10-17-roseland-run/" target="_blank" rel="noopener noreferrer" aria-label="Read about our communications support for the Lou LaSalle Memorial 5K">
+      <img src="/assets/img/2026-roseland-run/rr-1c.jpeg" alt="Roseland's 2026 community 5K event" loading="lazy">
+    </a>
+    <div class="rarc-today-card-body">
+      <h3>Serve our neighbors</h3>
+      <p>We support local races with reliable communications and build readiness through practical emergency communications exercises.</p>
+      <p class="rarc-today-links"><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">Caldwell Classic</a> · <a href="/2026-10-17-roseland-run/" target="_blank" rel="noopener noreferrer">Roseland 5K</a> · <a href="/2026-06-06-ares-eagle-rock/" target="_blank" rel="noopener noreferrer">ARES exercise</a></p>
+    </div>
+  </article>
+</div>
 
-We invite you to join us at an <a href="/calendar/" target="_blank" rel="noopener noreferrer">upcoming meeting</a> to meet members and learn more about amateur radio. Visitors and new members are always welcome.
-
-<div class="rarc-clear"></div>
+<p class="rarc-today-outro">The best part of our club is the people. Whether you're newly licensed, returning to radio, or have years of experience, we'd enjoy meeting you. <a href="/calendar/" target="_blank" rel="noopener noreferrer">Visit us at an upcoming meeting.</a></p>
 
 <figure class="rarc-group-photo">
   <a href="/assets/img/rarc-dec-2025-holiday-party.jpeg" target="_blank" rel="noopener noreferrer">
@@ -332,7 +418,7 @@ Guests and new members are always welcome. Please check the <a href="/calendar/"
 
 <a href="/netreports/" aria-label="View weekly net reports" target="_blank" rel="noopener noreferrer"><img class="rarc-side-image" src="/assets/img/scanner.jpg" alt="Radio scanner" loading="lazy"></a>
 
-**Tuesdays at 7:00 PM Eastern Time — open to all.**
+**Tuesdays at 7:30 PM Eastern Time — open to all.**
 
 Livingston: <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845" target="_blank" rel="noopener noreferrer">146.595 MHz (+1.0 MHz), 100.0 Hz</a>  
 Newark: <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847" target="_blank" rel="noopener noreferrer">147.225 MHz (+0.6 MHz), 141.3 Hz</a>  
