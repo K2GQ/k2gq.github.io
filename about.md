@@ -276,7 +276,7 @@ Select a decade to read about documented club activities and follow links to his
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-DX/73-magazine/73-magazine-1974/73-magazine-04-april-1974.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, April 1974, p. 14</a> — Irvington hamfest announcement.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983, p. 48</a> — describes IRAC's 1983 event as its 11th annual hamfest, supporting a 1973 starting year.</li>
-      <li><a href="https://irvingtonnj.gov/recreation-department/" target="_blank" rel="noopener noreferrer">Township of Irvington, Recreation Department</a> — confirms the Chris Gatling Recreation Center at 285 Union Avenue.</li>
+      <li><a href="https://irvingtonnj.gov/recreation-department/" target="_blank" rel="noopener noreferrer">Township of Irvington, Recreation Department</a> — Chris Gatling Recreation Center at 285 Union Avenue.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1977-09.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, September 1977 (Northern New Jersey section report)</a> — Field Day messages from IRAC.</li>
       <li><a href="https://cwops.org/wp-content/uploads/2021/02/solid-copy-2021.02.3.pdf#page=46" target="_blank" rel="noopener noreferrer"><em>Solid Copy</em>, February 2021, p. 46</a> — Wiatroski's recollection of 1976.</li>
     </ul>
