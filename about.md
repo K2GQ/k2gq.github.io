@@ -122,6 +122,8 @@ subtitle: Roseland Amateur Radio Club
 .rarc-today-net h3 { margin: 0 0 .45rem; font-size: 1.23rem; line-height: 1.35; }
 .rarc-today-net p { margin: 0 0 .6rem; line-height: 1.56; }
 .rarc-today-net p:last-child { margin-bottom: 0; }
+
+/* Keep each photograph and its caption together at every viewport width. */
 .rarc-today-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -130,38 +132,66 @@ subtitle: Roseland Amateur Radio Club
   margin: 1.25rem 0 1.5rem;
 }
 .rarc-today-card {
+  display: flex;
+  flex-direction: column;
   min-width: 0;
+  width: 100%;
+  margin: 0;
   border: 1px solid #d7e0e6;
   border-radius: 8px;
   overflow: hidden;
   background: #fff;
 }
-.rarc-today-card > a { display: block; background: #eef2f4; }
+.rarc-today-card > a {
+  display: block;
+  flex: 0 0 auto;
+  background: #eef2f4;
+}
 .rarc-today-card img {
   display: block;
   width: 100%;
-  height: 174px;
+  height: 172px;
+  max-height: 172px;
   object-fit: contain;
   margin: 0;
 }
-.rarc-today-card-body { padding: .85rem .95rem 1rem; }
-.rarc-today-card h3 { margin: 0 0 .55rem; font-size: 1.12rem; line-height: 1.3; }
-.rarc-today-card p { margin: 0 0 .65rem; font-size: .96rem; line-height: 1.55; }
-.rarc-today-card p:last-child { margin-bottom: 0; }
+.rarc-today-card-body {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: .85rem .95rem 1rem;
+  background: #fff;
+  color: #24313b;
+}
+.rarc-today-card-body h3 {
+  display: block;
+  color: #24313b;
+  margin: 0 0 .55rem;
+  font-size: 1.12rem;
+  line-height: 1.3;
+}
+.rarc-today-card-body p {
+  display: block;
+  color: #24313b;
+  margin: 0 0 .65rem;
+  font-size: .96rem;
+  line-height: 1.55;
+}
+.rarc-today-card-body p:last-child { margin-bottom: 0; }
 .rarc-today-links { font-size: .9rem !important; line-height: 1.7 !important; }
 .rarc-today-outro { margin: 1.2rem 0; line-height: 1.55; }
-@media (max-width: 860px) {
-  .rarc-today-grid { grid-template-columns: 1fr; }
-  .rarc-today-card { display: grid; grid-template-columns: minmax(0, 36%) minmax(0, 64%); }
-  .rarc-today-card > a { height: 100%; }
-  .rarc-today-card img { height: 100%; min-height: 175px; }
+
+/* Two cards on intermediate screens; one complete card per row on phones. */
+@media (max-width: 900px) {
+  .rarc-today-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .rarc-today-net { padding: .95rem 1rem; }
-  .rarc-today-card { display: block; }
-  .rarc-today-card img { height: 190px; min-height: 0; }
-  .rarc-today-card-body { padding: .95rem; }
+  .rarc-today-grid { grid-template-columns: minmax(0, 1fr); }
+  .rarc-today-card img { height: 180px; max-height: 180px; }
+  .rarc-today-card-body { padding: 1rem; }
 }
+
 </style>
 
 ## Welcome to the Roseland Amateur Radio Club
@@ -341,38 +371,38 @@ Select a decade to read about documented club activities and follow links to his
 </section>
 
 <div class="rarc-today-grid">
-  <article class="rarc-today-card">
+  <figure class="rarc-today-card">
     <a href="/2024-01-29-new-radio/" target="_blank" rel="noopener noreferrer" aria-label="Read about our Yaesu FTDX10 station upgrade">
       <img src="/assets/img/ftdx10_club.jpg" alt="Amateur radio equipment at the Roseland ARC club station" loading="lazy">
     </a>
-    <div class="rarc-today-card-body">
+    <figcaption class="rarc-today-card-body">
       <h3>Learn and experiment</h3>
       <p>Our members share experience through station projects, practical demonstrations, and talks on everything from propagation and Morse code to digital operating.</p>
       <p class="rarc-today-links"><a href="/2024-03-21-gene-kji-presentation/" target="_blank" rel="noopener noreferrer">Propagation</a> · <a href="/2024-05-15-bob-auf-presentation/" target="_blank" rel="noopener noreferrer">CW</a> · <a href="/2024-07-17-jesse-ugk-presentation/" target="_blank" rel="noopener noreferrer">FT8</a> · <a href="/2024-01-29-new-radio/" target="_blank" rel="noopener noreferrer">Station upgrade</a></p>
-    </div>
-  </article>
+    </figcaption>
+  </figure>
 
-  <article class="rarc-today-card">
+  <figure class="rarc-today-card">
     <a href="/2026-04-18-s-mtn-meet-up/" target="_blank" rel="noopener noreferrer" aria-label="Read about our South Mountain portable operating meetup">
       <img src="/assets/img/2026-april-smtn/IMG_0742.jpeg" alt="A South Mountain Reservation amateur radio meetup" loading="lazy">
     </a>
-    <div class="rarc-today-card-body">
+    <figcaption class="rarc-today-card-body">
       <h3>Get outdoors and on the air</h3>
       <p>Portable operations bring our members together to test antennas, batteries, and HF equipment—often alongside friends from WEARC, NPARC, and neighboring clubs.</p>
       <p class="rarc-today-links"><a href="/2024-10-26-portable-operation/" target="_blank" rel="noopener noreferrer">2024 activation</a> · <a href="/2026-04-18-s-mtn-meet-up/" target="_blank" rel="noopener noreferrer">April meetup</a> · <a href="/2026-05-16-s-mtn-meet-up-may/" target="_blank" rel="noopener noreferrer">May meetup</a></p>
-    </div>
-  </article>
+    </figcaption>
+  </figure>
 
-  <article class="rarc-today-card">
+  <figure class="rarc-today-card">
     <a href="/2026-10-17-roseland-run/" target="_blank" rel="noopener noreferrer" aria-label="Read about our communications support for the Lou LaSalle Memorial 5K">
       <img src="/assets/img/2026-roseland-run/rr-1c.jpeg" alt="Roseland's 2026 community 5K event" loading="lazy">
     </a>
-    <div class="rarc-today-card-body">
+    <figcaption class="rarc-today-card-body">
       <h3>Serve our neighbors</h3>
       <p>We support local races with reliable communications and build readiness through practical emergency communications exercises.</p>
       <p class="rarc-today-links"><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">Caldwell Classic</a> · <a href="/2026-10-17-roseland-run/" target="_blank" rel="noopener noreferrer">Roseland 5K</a> · <a href="/2026-06-06-ares-eagle-rock/" target="_blank" rel="noopener noreferrer">ARES exercise</a></p>
-    </div>
-  </article>
+    </figcaption>
+  </figure>
 </div>
 
 <p class="rarc-today-outro">The best part of our club is the people. Whether you're newly licensed, returning to radio, or have years of experience, we'd enjoy meeting you. <a href="/calendar/" target="_blank" rel="noopener noreferrer">Visit us at an upcoming meeting.</a></p>
