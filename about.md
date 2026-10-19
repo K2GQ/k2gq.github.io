@@ -269,7 +269,7 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1970s — Mentoring, Field Day, and Hamfests</summary>
   <div class="rarc-decade-body">
-    <p>Our first hamfest dates to 1973, when we operated as the Irvington Radio Amateur Club (IRAC). A 1983 notice described that year's gathering as our 11th annual hamfest, supporting 1973 as the starting year. We hosted later hamfests at the Irvington Police Athletic League building, 285 Union Avenue; a 1974 notice listed equipment sales tables, refreshments, and door prizes.</p>
+    <p>Our first hamfest dates to 1973, when we operated as the Irvington Radio Amateur Club (IRAC). A 1983 notice identified that year's gathering as our 11th annual hamfest. We hosted later hamfests at the Irvington Police Athletic League building, 285 Union Avenue; a 1974 notice listed equipment sales tables, refreshments, and door prizes.</p>
     <p>We continued helping newcomers obtain their licenses. In a later firsthand account, Mark Wiatroski, W2MSW, recalled learning Morse code with our members and taking his Novice examination with Ed Surmaitis, WA2MYZ. Mark received his first call sign, WN2DUX, in early 1976.</p>
     <p>Field Day remained part of our activities. The September 1977 issue of <em>QST</em> reported receiving Field Day messages from IRAC.</p>
 
