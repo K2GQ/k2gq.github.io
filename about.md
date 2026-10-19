@@ -269,12 +269,13 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1970s — Mentoring, Field Day, and Hamfests</summary>
   <div class="rarc-decade-body">
-    <p>We advertised hamfests at the Irvington Police Athletic League building, 285 Union Avenue. A 1974 advertisement listed equipment sales tables, refreshments, and door prizes.</p>
+    <p>Our first hamfest dates to 1973, when we operated as the Irvington Radio Amateur Club (IRAC). A 1983 notice identified that year's gathering as our 11th annual hamfest. We hosted later hamfests at the Irvington Police Athletic League building, 285 Union Avenue; a 1974 notice listed equipment sales tables, refreshments, and door prizes.</p>
     <p>We continued helping newcomers obtain their licenses. In a later firsthand account, Mark Wiatroski, W2MSW, recalled learning Morse code with our members and taking his Novice examination with Ed Surmaitis, WA2MYZ. Mark received his first call sign, WN2DUX, in early 1976.</p>
     <p>Field Day remained part of our activities. The September 1977 issue of <em>QST</em> reported receiving Field Day messages from IRAC.</p>
 
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-DX/73-magazine/73-magazine-1974/73-magazine-04-april-1974.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, April 1974, p. 14</a> — Irvington hamfest announcement.</li>
+      <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983, p. 48</a> — describes IRAC's 1983 event as its 11th annual hamfest, supporting a 1973 starting year.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1977-09.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, September 1977 (Northern New Jersey section report)</a> — Field Day messages from IRAC.</li>
       <li><a href="https://cwops.org/wp-content/uploads/2021/02/solid-copy-2021.02.3.pdf#page=46" target="_blank" rel="noopener noreferrer"><em>Solid Copy</em>, February 2021, p. 46</a> — Wiatroski's recollection of 1976.</li>
     </ul>
@@ -284,9 +285,9 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1980s — Radio Contesting and Hamfests</summary>
   <div class="rarc-decade-body">
-    <p>Our annual hamfests continued during the 1980s. We advertised the 11th annual event for March 1983 at the Irvington Police Athletic League building, 285 Union Avenue, with Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, as contacts.</p>
+    <p>Our annual hamfests continued during the 1980s. In March 1983, we hosted our 11th annual hamfest at the Irvington Police Athletic League building, 285 Union Avenue. Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, were the event contacts.</p>
     <p>Our K2GQ operators also entered the ARRL November Sweepstakes, including multioperator CW and phone contests. In 1985, we logged 161 contacts on CW and 414 on phone; the published operator lists included Walt Heineman, W2QR, and Ed Surmaitis, WA2MYZ. In the 1988 Phone Sweepstakes, our team completed 803 contacts across 75 ARRL sections, scoring 120,450 points.</p>
-    <p>In March 1988, we advertised a hamfest at American Legion Post 201, 305 Eisenhower Parkway, Livingston, New Jersey.</p>
+    <p>In March 1988, we hosted a hamfest at American Legion Post 201, 305 Eisenhower Parkway, Livingston, New Jersey.</p>
 
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983, p. 48</a> — 11th annual Irvington hamfest.</li>
@@ -300,10 +301,10 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1990s — Club Events and WEARC's Founding</summary>
   <div class="rarc-decade-body">
-    <p>We advertised a March 23, 1991 hamfest at West Orange High School, 600 Pleasant Valley Way. A February 1991 newsletter named Walt Heineman as our contact and gave a mailing address in Essex Fells.</p>
+    <p>On March 23, 1991, we hosted a hamfest at West Orange High School, 600 Pleasant Valley Way. A February newsletter named Walt Heineman as our contact and gave a mailing address in Essex Fells.</p>
     <p>Our club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes.</p>
     <p>In 1994, several of our members helped establish a separate organization, the West Essex Amateur Radio Club (WEARC). WEARC founding member Mike Hartmann, NI2S, later described its formation in a remembrance of John Weinfeldt, N2NO. Weinfeldt had participated in IRAC before joining WEARC, where he later served as president.</p>
-    <p>We continued advertising hamfests at West Orange High School. A March 1997 notice listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts.</p>
+    <p>We continued hosting hamfests at West Orange High School. A March 1997 notice listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts.</p>
 
     <ul class="rarc-decade-sources">
       <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — West Orange hamfest announcement.</li>
