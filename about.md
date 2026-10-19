@@ -210,10 +210,13 @@ Select a decade to read about documented club activities and follow links to his
   <div class="rarc-decade-body">
     <p>A February 1991 newsletter advertised the club's March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, with Walt Heineman as the contact and a mailing address in Essex Fells.</p>
     <p>The club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. Hamfests continued at West Orange High School during the decade; a March 1997 advertisement listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts for that year's event.</p>
+    <p>In 1994, several IRAC members helped establish a separate organization, the West Essex Amateur Radio Club (WEARC). WEARC founding member Mike Hartmann, NI2S, later described its formation in a remembrance of John Weinfeldt, N2NO. Weinfeldt had participated in IRAC and joined WEARC after its formation, eventually serving as its president.</p>
     <ul class="rarc-decade-sources">
       <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — West Orange hamfest announcement.</li>
       <li><a href="https://contests.arrl.org/ContestResults/1992/SS-Phone-1992-FinalQSTResults.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, May 1993, p. 112</a> — 1992 Sweepstakes club competition.</li>
       <li><a href="https://www.arimi.it/wp-content/73/03_March_1997.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, March 1997 (special events listing)</a> — West Orange hamfest notice.</li>
+      <li><a href="https://wearc.org/about-us/" target="_blank" rel="noopener noreferrer">WEARC — About Us</a> — dates the club's founding to 1994.</li>
+      <li><a href="https://wearc.org/silent-keys/john-weinfeld-n2no/" target="_blank" rel="noopener noreferrer">WEARC — Remembering John Weinfeldt, N2NO</a> — Mike Hartmann's firsthand account of WEARC's formation.
     </ul>
   </div>
 </details>
