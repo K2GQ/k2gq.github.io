@@ -128,7 +128,7 @@ As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">
   <figcaption>Dr. Milton I. “Doc” Schwalbe, former holder of K2GQ</figcaption>
 </figure>
 
-The club traces its beginnings to 1946 in Irvington, New Jersey. Originally known as the Irvington Radio Amateur Club (IRAC), it was later called the Irvington-Roseland Amateur Radio Club before adopting its current name.
+Our history began in Irvington, New Jersey, in 1946. Over time, we used the Irvington-Roseland Amateur Radio Club name before adopting our present name. The records below offer a look at the people and activities that have shaped our club.
 
 <div class="rarc-clear"></div>
 
@@ -141,8 +141,9 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1940s — Beginnings in Irvington</summary>
   <div class="rarc-decade-body">
-    <p>The club identifies 1946 as its founding year and Dr. Milton I. “Doc” Schwalbe as its founder. The organization began in Irvington as the Irvington Radio Amateur Club (IRAC).</p>
-    <p>Schwalbe previously held the call sign K2GQ. An April 1961 <em>QST</em> listing identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ.</p>
+    <p>In 1946, Dr. Milton I. “Doc” Schwalbe founded our club in Irvington as the Irvington Radio Amateur Club (IRAC).</p>
+    <p>Doc previously held K2GQ, the call sign we use today. The April 1961 issue of <em>QST</em> identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1961-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1961, p. 69</a> — Schwalbe's Silent Key listing.</li>
     </ul>
@@ -152,8 +153,9 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1950s — Classes, Radio Nets, and Field Day</summary>
   <div class="rarc-decade-body">
-    <p>By January 1955, the Irvington club was meeting on the first and third Mondays and conducting weekly Morse code and radio theory classes. It used automatic tape machines for code practice and operated a Saturday net on 28.7 MHz.</p>
-    <p>The club also participated in ARRL Field Day. The December 1958 issue of <em>QST</em> published a photograph of members examining a failed generator during the 1958 event, identifying W2WDZ and chief operator W2ZMH. The club dates its ARRL affiliation to 1958.</p>
+    <p>By January 1955, we were meeting on the first and third Mondays and offering weekly Morse code and radio theory classes. We used automatic tape machines for code practice and operated a Saturday net on 28.7 MHz.</p>
+    <p>We also took part in ARRL Field Day. A photograph in the December 1958 issue of <em>QST</em> shows our members examining a failed generator during that year's event. The caption identifies W2WDZ and our chief operator, W2ZMH. We became an ARRL-affiliated club in 1958.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1955-01.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, January 1955, Station Activities (beginning p. 76)</a> — meetings, classes, and net.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/50s/QST-1958-12.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, December 1958, p. 47</a> — Field Day photograph.</li>
@@ -164,9 +166,10 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1960s — Auctions, Field Day, and Annual Dinners</summary>
   <div class="rarc-decade-body">
-    <p>In 1962, <em>QST</em> reported that the Irvington Radio Amateur Club was organizing an auction to benefit the ARRL's headquarters building fund. Club member K2RXH was identified as the auctioneer.</p>
-    <p>The club continued holding annual dinners in Irvington, with notices published in 1964 and 1968. David Rettig, K2VOB, was listed as a contact.</p>
-    <p>The club was also active in Field Day. The September 1967 issue of <em>QST</em> listed K2GQ among Northern New Jersey stations that sent Field Day messages to the Section Manager.</p>
+    <p>In 1962, we announced plans for an auction to benefit the ARRL's headquarters building fund, with our member K2RXH named as auctioneer in <em>QST</em>.</p>
+    <p>We continued holding annual dinners in Irvington, with notices appearing in 1964 and 1968. David Rettig, K2VOB, was a contact for these events.</p>
+    <p>We also took part in Field Day. The September 1967 issue of <em>QST</em> lists K2GQ among Northern New Jersey stations that sent Field Day messages to the Section Manager.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1962-07.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, July 1962, p. 70</a> — club auction announcement.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1964-10.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, October 1964, p. 15</a> — annual dinner notice.</li>
@@ -179,9 +182,10 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1970s — Mentoring, Field Day, and Hamfests</summary>
   <div class="rarc-decade-body">
-    <p>During the 1970s, the Irvington Radio Amateur Club organized hamfests at the Irvington Police Athletic League building, 285 Union Avenue. A 1974 advertisement listed equipment sales tables, refreshments, and door prizes.</p>
-    <p>The club was also active in Field Day. The September 1977 issue of <em>QST</em> reported receiving Field Day messages from IRAC.</p>
-    <p>Members continued helping prospective operators obtain their licenses. In a later firsthand account, Mark Wiatroski, W2MSW, recalled learning Morse code through the club and taking his Novice examination with Ed Surmaitis, WA2MYZ. He received his first call sign, WN2DUX, in early 1976.</p>
+    <p>We advertised hamfests at the Irvington Police Athletic League building, 285 Union Avenue. A 1974 advertisement listed equipment sales tables, refreshments, and door prizes.</p>
+    <p>We continued helping newcomers obtain their licenses. In a later firsthand account, Mark Wiatroski, W2MSW, recalled learning Morse code with our members and taking his Novice examination with Ed Surmaitis, WA2MYZ. Mark received his first call sign, WN2DUX, in early 1976.</p>
+    <p>Field Day remained part of our activities. The September 1977 issue of <em>QST</em> reported receiving Field Day messages from IRAC.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-DX/73-magazine/73-magazine-1974/73-magazine-04-april-1974.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, April 1974, p. 14</a> — Irvington hamfest announcement.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1977-09.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, September 1977 (Northern New Jersey section report)</a> — Field Day messages from IRAC.</li>
@@ -193,9 +197,10 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1980s — Radio Contesting and Hamfests</summary>
   <div class="rarc-decade-body">
-    <p>The Irvington Radio Amateur Club continued organizing hamfests in the 1980s. Its 11th annual event was advertised for March 1983 at the Irvington Police Athletic League building, 285 Union Avenue. Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, were listed as contacts.</p>
-    <p>ARRL November Sweepstakes results document K2GQ participating in multioperator CW and phone contests. In 1985, K2GQ logged 161 contacts on CW and 414 on phone; operator lists included Walt Heineman, W2QR, and Ed Surmaitis, WA2MYZ. In the 1988 Phone Sweepstakes, the team completed 803 contacts across 75 ARRL sections, scoring 120,450 points.</p>
-    <p>In March 1988, the club advertised a hamfest at American Legion Post 201, 305 Eisenhower Parkway, Livingston, New Jersey.</p>
+    <p>Our annual hamfests continued during the 1980s. We advertised the 11th annual event for March 1983 at the Irvington Police Athletic League building, 285 Union Avenue, with Ed Surmaitis, WA2MYZ, and Joe Barnes, WB2SRY, as contacts.</p>
+    <p>Our K2GQ operators also entered the ARRL November Sweepstakes, including multioperator CW and phone contests. In 1985, we logged 161 contacts on CW and 414 on phone; the published operator lists included Walt Heineman, W2QR, and Ed Surmaitis, WA2MYZ. In the 1988 Phone Sweepstakes, our team completed 803 contacts across 75 ARRL sections, scoring 120,450 points.</p>
+    <p>In March 1988, we advertised a hamfest at American Legion Post 201, 305 Eisenhower Parkway, Livingston, New Jersey.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983, p. 48</a> — 11th annual Irvington hamfest.</li>
       <li><a href="https://contests.arrl.org/ContestResults/1985/SS-CW-1985-FinalQSTResults.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>QST</em>, May 1986, pp. 82 and 84</a> — 1985 CW and phone Sweepstakes results and operator listings.</li>
@@ -208,9 +213,10 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1990s — Club Events and WEARC's Founding</summary>
   <div class="rarc-decade-body">
-    <p>A February 1991 newsletter advertised the club's March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, with Walt Heineman as the contact and a mailing address in Essex Fells.</p>
-    <p>The club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. Hamfests continued at West Orange High School during the decade; a March 1997 advertisement listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts for that year's event.</p>
-    <p>In 1994, several IRAC members helped establish a separate organization, the West Essex Amateur Radio Club (WEARC). WEARC founding member Mike Hartmann, NI2S, later described its formation in a remembrance of John Weinfeldt, N2NO. Weinfeldt had participated in IRAC and joined WEARC after its formation, eventually serving as its president.</p>
+    <p>We advertised a March 23, 1991 hamfest at West Orange High School, 600 Pleasant Valley Way. A February 1991 newsletter named Walt Heineman as our contact and gave a mailing address in Essex Fells.</p>
+    <p>Our club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. We continued advertising hamfests at West Orange High School; a March 1997 notice listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts.</p>
+    <p>In 1994, several of our members helped establish a separate organization, the West Essex Amateur Radio Club (WEARC). WEARC founding member Mike Hartmann, NI2S, later described its formation in a remembrance of John Weinfeldt, N2NO. Weinfeldt had participated in IRAC before joining WEARC, where he later served as president.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — West Orange hamfest announcement.</li>
       <li><a href="https://contests.arrl.org/ContestResults/1992/SS-Phone-1992-FinalQSTResults.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, May 1993, p. 112</a> — 1992 Sweepstakes club competition.</li>
@@ -224,8 +230,9 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>2000s — Special Events and Historic Sites</summary>
   <div class="rarc-decade-body">
-    <p>During the 2000s, the Roseland Amateur Radio Club participated in special events and radio demonstrations at Sandy Hook, New Jersey. For October 2008's Fort Hancock Days, the National Park Service announced that club members would demonstrate shortwave communications on the grounds of Sandy Hook Lighthouse.</p>
-    <p>The club also advertised special-event station K2A for Fort Hancock Establishment Day on October 26, 2008, with planned operation on the 20- and 40-meter bands.</p>
+    <p>During the 2000s, we participated in special events and radio demonstrations at Sandy Hook, New Jersey. For Fort Hancock Days in October 2008, the National Park Service announced plans for our members to demonstrate shortwave communications on the grounds of Sandy Hook Lighthouse.</p>
+    <p>We also advertised our K2A special-event station for Fort Hancock Establishment Day on October 26, 2008, with plans to operate on the 20- and 40-meter bands.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.nps.gov/gate/learn/news/2008-fort-hancock-days-at-sandy-hook.htm" target="_blank" rel="noopener noreferrer">National Park Service, October 2008</a> — Fort Hancock Days amateur radio demonstration.</li>
       <li><a href="https://www.arrl.org/special_events/search/page%3A113/Date.start%3A1969-12-31/Date.end%3A2015-03-31/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, October 26, 2008</a> — K2A special-event listing.</li>
@@ -236,8 +243,9 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>2010s — Special Events and the 70th Anniversary</summary>
   <div class="rarc-decade-body">
-    <p>ARRL special-event listings record a September 2014 K2R operation at Eagle Rock Reservation in West Orange. In May 2016, the club advertised a 70th-anniversary QSO party using K2GQ, including planned activity on the 20- and 40-meter bands.</p>
-    <p>Local reporting in 2016 also described the club's emergency communications and community-service activities.</p>
+    <p>In September 2014, we advertised a K2R special-event operation at Eagle Rock Reservation in West Orange. For our 70th anniversary in May 2016, we planned a QSO party using K2GQ, with activity advertised on the 20- and 40-meter bands.</p>
+    <p>Local news coverage in 2016 also described our emergency communications and community service activities.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="https://www.arrl.org/special_events/search/page%3A17/Date.start%3A2014-07-01/Date.end%3A2023-03-21/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, September 2014</a> — K2R special-event listing.</li>
       <li><a href="https://www.arrl.org/special_events/search/page%3A100/Date.start%3A2014-07-01/Date.end%3A2023-12-03/model%3AEvent" target="_blank" rel="noopener noreferrer">ARRL, May 2016</a> — 70th-anniversary announcement.</li>
@@ -249,8 +257,9 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>2020s — Public Service and Portable Operating</summary>
   <div class="rarc-decade-body">
-    <p>Recent club activities are documented in photographs and reports on this website. In October 2024, members operated portable from South Mountain Reservation using a 10-meter transceiver, SSB, and FT8.</p>
-    <p>Members provided communications support for the May 2025 Caldwell Classic 5K. In June 2026, Roseland members joined an Essex County ARES rapid-deployment exercise at Eagle Rock Reservation involving portable stations, repeater and simplex contacts, and message handling.</p>
+    <p>We continue to get on the air and support local events. In October 2024, our members operated portable from South Mountain Reservation with a 10-meter transceiver, using SSB and FT8.</p>
+    <p>In May 2025, we provided communications support for the Caldwell Classic 5K. In June 2026, our members joined an Essex County ARES rapid-deployment exercise at Eagle Rock Reservation, using portable stations, repeater and simplex contacts, and message handling.</p>
+
     <ul class="rarc-decade-sources">
       <li><a href="/2024-10-26-portable-operation/" target="_blank" rel="noopener noreferrer">October 2024 portable operation</a> — club report and photographs.</li>
       <li><a href="/2025-05-17-caldwell-classic/" target="_blank" rel="noopener noreferrer">May 2025 Caldwell Classic 5K</a> — public service report.</li>
