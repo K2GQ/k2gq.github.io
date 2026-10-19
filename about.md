@@ -128,7 +128,7 @@ As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">
   <figcaption>Dr. Milton I. “Doc” Schwalbe, former holder of K2GQ</figcaption>
 </figure>
 
-The club traces its beginnings to 1946 in Irvington, New Jersey. Originally known as the Irvington Radio Amateur Club (IRAC), it was later called the Irvington-Roseland Amateur Radio Club before adopting its current name. The precise dates of those name changes have not been established.
+The club traces its beginnings to 1946 in Irvington, New Jersey. Originally known as the Irvington Radio Amateur Club (IRAC), it was later called the Irvington-Roseland Amateur Radio Club before adopting its current name.
 
 <div class="rarc-clear"></div>
 
@@ -208,7 +208,7 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1990s — Hamfests and Contest Participation</summary>
   <div class="rarc-decade-body">
-    <p>By 1991, the club was advertising events as the Irvington-Roseland Amateur Radio Club. A February 1991 newsletter listed its March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, with Walt Heineman as the contact and a mailing address in Essex Fells.</p>
+    <p>A February 1991 newsletter advertised the club's March 23 hamfest at West Orange High School, 600 Pleasant Valley Way, with Walt Heineman as the contact and a mailing address in Essex Fells.</p>
     <p>The club appeared in the ARRL Affiliated Club Competition results for the 1992 November Sweepstakes. Hamfests continued at West Orange High School during the decade; a March 1997 advertisement listed Jim Howe, N2TDI, and Liz Howe, N2WGH, as contacts for that year's event.</p>
     <ul class="rarc-decade-sources">
       <li><a href="https://nparc.org/newsletters/Jan91MSG.pdf#page=3" target="_blank" rel="noopener noreferrer"><em>Mountain Spark Gaps</em>, February 1991, p. 3</a> — West Orange hamfest announcement.</li>
