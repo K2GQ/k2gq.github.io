@@ -69,6 +69,32 @@ subtitle: Roseland Amateur Radio Club
   border-radius: 5px;
 }
 
+
+/* Earlier Irvington history has a separate, muted parchment treatment. */
+.rarc-prewar-heading { margin: 1rem 0 .45rem; font-weight: 600; color: #695437; }
+.rarc-prewar-decades {
+  margin: 0 0 1.35rem;
+  padding: .15rem .8rem;
+  border-left: 3px solid #bca884;
+  background: #fcfaf6;
+}
+.rarc-prewar-decades .rarc-prewar-decade { border-color: #d9cbb5; }
+.rarc-prewar-decades .rarc-prewar-decade > summary { background: #f5ecde; }
+.rarc-prewar-decades .rarc-prewar-decade > summary:hover { background: #eee1cb; }
+.rarc-prewar-decades .rarc-prewar-decade[open] > summary { border-bottom-color: #d9cbb5; }
+.rarc-prewar-decade .rarc-decade-body { background: #fffdf9; }
+.rarc-era-transition {
+  margin: .9rem 0 1.5rem;
+  padding: .1rem .05rem .85rem;
+  border-bottom: 1px solid #d3dbe2;
+}
+.rarc-era-transition p { margin: .55rem 0; line-height: 1.6; }
+.rarc-era-sources { font-size: .9rem; }
+@media (max-width: 640px) {
+  .rarc-prewar-decades { padding: .1rem .45rem; }
+  .rarc-prewar-heading { line-height: 1.45; }
+}
+
 /* Expandable decade history: keyboard-accessible native details elements. */
 .rarc-decades { margin: 1rem 0 2rem; }
 .rarc-decade {
@@ -213,18 +239,62 @@ As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">
   <figcaption>Dr. Milton I. “Doc” Schwalbe, former holder of K2GQ</figcaption>
 </figure>
 
-Our history began in Irvington, New Jersey, in 1946. Over time, we used the Irvington-Roseland Amateur Radio Club name before adopting our present name. The records below offer a look at the people and activities that have shaped our club.
+Our club was founded in Irvington, New Jersey, in 1946. Over time, we used the Irvington-Roseland Amateur Radio Club name before adopting our present name. Irvington had a radio community decades before IRAC began, and the earlier records below tell that separate local story.
 
 <div class="rarc-clear"></div>
 
 ### History by Decade
 
-Select a decade to read about documented club activities and follow links to historical records.
+Select a decade to explore original records. The shaded entries before 1940 describe Irvington's earlier radio community, not established chapters of IRAC. No direct organizational connection between that early Radio Club of Irvington and our club has been documented.
 
 <div class="rarc-decades">
 
+
+<p class="rarc-prewar-heading">Before IRAC: Irvington's early radio community</p>
+
+<div class="rarc-prewar-decades" aria-label="Irvington radio history before IRAC">
+<details class="rarc-decade rarc-prewar-decade">
+  <summary>1910s — Early Radio Clubs in Irvington</summary>
+  <div class="rarc-decade-body">
+    <p>Radio enthusiasts were organizing in Irvington decades before IRAC began. In August 1916, <em>The Wireless Age</em> referred to an existing Radio Club of Irvington, correcting an earlier report to clarify that the organization was in New Jersey, not New York.</p>
+    <p>This establishes an early local radio community but does not establish a connection with our club, founded in 1946.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/UK/Wireless-Age/Wireless-Age-1916-08.pdf" target="_blank" rel="noopener noreferrer"><em>The Wireless Age</em>, August 1916</a> — identifies the Radio Club of Irvington as a New Jersey organization.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade rarc-prewar-decade">
+  <summary>1920s — A Clubhouse, Demonstrations, and Community</summary>
+  <div class="rarc-decade-body">
+    <p>By 1921, the Radio Club of Irvington met on Thursday evenings at its clubhouse at 55 Linden Avenue. Members held lectures, discussed technology, and demonstrated radio to the public. A contemporary report describes their coverage of the 1920 presidential election returns and the 1921 Dempsey–Carpentier boxing match, using loudspeakers in Newark and Irvington.</p>
+    <p>In 1922, <em>QST</em> reported on Edward W. Heim's talk about audio amplification and the club's willingness to answer newcomers' questions. In February 1926, approximately 80 members attended a reunion at the Irvington Elks Club. The published report described it as one of the country's oldest radio organizations.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.worldradiohistory.com/Archive-Radio-News/20s/Radio-News-1921-09-R.pdf" target="_blank" rel="noopener noreferrer"><em>Radio News</em>, September 1921, p. 215</a> — clubhouse, meetings, and public radio demonstrations.</li>
+      <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1922-09.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, September 1922</a> — Edward W. Heim's presentation and help for new operators.</li>
+      <li><a href="https://www.worldradiohistory.com/INTERNATIONAL/QST/QST-1926-04.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, April 1926</a> — the February 1926 club reunion.</li>
+    </ul>
+  </div>
+</details>
+
+<details class="rarc-decade rarc-prewar-decade">
+  <summary>1930s — Between the Early Clubs and IRAC</summary>
+  <div class="rarc-decade-body">
+    <p>Amateur radio continued developing nationally during the 1930s, with ARRL Sweepstakes and Field Day becoming established traditions. However, we have not located reliable records showing whether the earlier Radio Club of Irvington remained active during this decade. Its relationship, if any, to the postwar IRAC remains unknown.</p>
+    <ul class="rarc-decade-sources">
+      <li><a href="https://www.arrl.org/files/file/About%20ARRL/Ham_Radio_100_Years.pdf" target="_blank" rel="noopener noreferrer">ARRL, <em>Amateur Radio: 100 Years of Discovery</em></a> — national amateur radio history during the 1930s and 1940s.</li>
+    </ul>
+  </div>
+</details>
+</div>
+
+<div class="rarc-era-transition">
+  <p><strong>World War II interrupted amateur radio.</strong> In December 1941, after the attack on Pearl Harbor, the FCC suspended ordinary amateur transmitting throughout the United States. Authorized wartime communications services continued, and amateur privileges began returning in stages in 1945. As radio activity revived after the war, a new chapter in Irvington began with IRAC's founding in 1946.</p>
+  <p class="rarc-era-sources"><a href="https://its.ntia.gov/this-month-in-its-history/december-1941" target="_blank" rel="noopener noreferrer">NTIA: the 1941 amateur radio shutdown</a> · <a href="https://www.arrl.org/files/file/About%20ARRL/Ham_Radio_100_Years.pdf" target="_blank" rel="noopener noreferrer">ARRL: World War II and postwar reopening</a></p>
+</div>
+
 <details class="rarc-decade">
-  <summary>1940s — Beginnings in Irvington</summary>
+  <summary>1940s — IRAC Beginnings in Irvington</summary>
   <div class="rarc-decade-body">
     <p>In 1946, Dr. Milton I. “Doc” Schwalbe founded our club in Irvington as the Irvington Radio Amateur Club (IRAC).</p>
     <p>Doc previously held K2GQ, the call sign we use today. The April 1961 issue of <em>QST</em> identifies him as Dr. Milton I. Schwalbe, W4VP, formerly K2GQ.</p>
