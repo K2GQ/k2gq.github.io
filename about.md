@@ -269,12 +269,13 @@ Select a decade to read about documented club activities and follow links to his
 <details class="rarc-decade">
   <summary>1970s — Mentoring, Field Day, and Hamfests</summary>
   <div class="rarc-decade-body">
-    <p>Our hamfest tradition dates to the early 1970s, when we operated as the Irvington Radio Amateur Club (IRAC). We hosted hamfests at the Irvington Police Athletic League building, 285 Union Avenue. A 1974 event notice listed equipment sales tables, refreshments, and door prizes.</p>
+    <p>Our first hamfest dates to 1973, when we operated as the Irvington Radio Amateur Club (IRAC). A 1983 notice described that year's gathering as our 11th annual hamfest, supporting 1973 as the starting year. We hosted later hamfests at the Irvington Police Athletic League building, 285 Union Avenue; a 1974 notice listed equipment sales tables, refreshments, and door prizes.</p>
     <p>We continued helping newcomers obtain their licenses. In a later firsthand account, Mark Wiatroski, W2MSW, recalled learning Morse code with our members and taking his Novice examination with Ed Surmaitis, WA2MYZ. Mark received his first call sign, WN2DUX, in early 1976.</p>
     <p>Field Day remained part of our activities. The September 1977 issue of <em>QST</em> reported receiving Field Day messages from IRAC.</p>
 
     <ul class="rarc-decade-sources">
       <li><a href="https://www.worldradiohistory.com/Archive-DX/73-magazine/73-magazine-1974/73-magazine-04-april-1974.pdf" target="_blank" rel="noopener noreferrer"><em>73 Magazine</em>, April 1974, p. 14</a> — Irvington hamfest announcement.</li>
+      <li><a href="https://www.worldradiohistory.com/Archive-All-Amateur/World-Radio/80s/World-Radio-1983-03.pdf" target="_blank" rel="noopener noreferrer"><em>Worldradio</em>, March 1983, p. 48</a> — describes IRAC's 1983 event as its 11th annual hamfest, supporting a 1973 starting year.</li>
       <li><a href="https://www.worldradiohistory.com/Archive-DX/QST/60s/QST-1977-09.pdf" target="_blank" rel="noopener noreferrer"><em>QST</em>, September 1977 (Northern New Jersey section report)</a> — Field Day messages from IRAC.</li>
       <li><a href="https://cwops.org/wp-content/uploads/2021/02/solid-copy-2021.02.3.pdf#page=46" target="_blank" rel="noopener noreferrer"><em>Solid Copy</em>, February 2021, p. 46</a> — Wiatroski's recollection of 1976.</li>
     </ul>
