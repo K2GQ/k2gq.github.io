@@ -170,9 +170,13 @@ subtitle: Roseland Amateur Radio Club
   <img src="/assets/img/log-1978.jpg" alt="Historical Roseland Amateur Radio Club logbook" loading="lazy">
 </figure>
 
-The Roseland Amateur Radio Club is based in Roseland, Essex County, New Jersey. We bring together people who enjoy amateur radio, communications, electronics, and learning from one another. Our members include Technician, General, and Amateur Extra license holders, and we welcome newcomers who are just getting started.
+Amateur radio opens the door to a world of discovery. From making contacts across town or around the globe to exploring new technology and experimenting with radios and antennas, there's always something exciting to experience. But some of the best moments come from sharing that excitement with others.
 
-As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">ARRL-affiliated club</a>, we help aspiring operators prepare for their license exams and encourage members to explore all that amateur radio has to offer.
+At the Roseland Amateur Radio Club, we bring together people who enjoy radio, technology, learning, and good company. Whether you're making your first contact, exploring a new operating mode, or simply enjoying a friendly conversation on the air, there's always something new to discover and someone happy to share the experience.
+
+Our members represent all amateur radio license classes, and we warmly welcome those who are just discovering the hobby. As an <a href="https://www.arrl.org/" target="_blank" rel="noopener noreferrer">ARRL-affiliated club</a>, we help aspiring operators prepare for their license exams and encourage everyone to learn, experiment, and get involved.
+
+You don't need years of experience to feel at home here. Just bring your curiosity and an interest in joining the fun. Come <a href="/calendar/" target="_blank" rel="noopener noreferrer">visit us at an upcoming meeting</a> and see what amateur radio is all about.
 
 ## Our History
 
