@@ -37,6 +37,21 @@ jobs:
       - name: Extract four sample dates in one OCR pass
         run: |
           python netreports-dev/scripts/extract.py --root .
+      - name: Capture temporary image previews for OCR layout review
+        run: |
+          python - <<'PY'
+          import base64
+          from io import BytesIO
+          from pathlib import Path
+          from PIL import Image
+          out = Path("netreports-dev/data")
+          for day in ("2023-09-06", "2026-10-20"):
+              image = Image.open("assets/img/net-" + day + ".png").convert("RGB")
+              image.thumbnail((1650, 1400))
+              stream = BytesIO()
+              image.save(stream, "JPEG", quality=79, optimize=True)
+              (out / ("diagnostic-" + day + ".base64.txt")).write_text(base64.b64encode(stream.getvalue()).decode("ascii"))
+          PY
       - name: Validate JSON format
         run: |
           python - <<'PY'
@@ -53,7 +68,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add netreports-dev/data/preview.json netreports-dev/data/ocr-review.txt
+          git add netreports-dev/data/preview.json netreports-dev/data/ocr-review.txt netreports-dev/data/diagnostic-*.base64.txt
           if ! git diff --cached --quiet; then
             git commit -m "Generate provisional netreports-dev OCR sample data"
             git push origin HEAD:feature/netreports-dev-poc
