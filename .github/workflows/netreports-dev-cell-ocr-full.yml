@@ -33,8 +33,9 @@ jobs:
       - name: Install OCR tools
         run: |
           if ! command -v tesseract >/dev/null 2>&1; then
-            timeout 120 sudo apt-get update -qq
-            timeout 120 sudo apt-get install -y -qq tesseract-ocr
+            # Runner apt indices are already present. A global apt update has
+            # intermittently stalled on Ubuntu mirrors, so install directly.
+            timeout 180 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq tesseract-ocr
           fi
           python -m pip install --disable-pip-version-check pillow pytesseract numpy opencv-python-headless
       - name: Run regression tests
