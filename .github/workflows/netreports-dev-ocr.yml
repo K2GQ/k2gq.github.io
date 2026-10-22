@@ -45,7 +45,7 @@ jobs:
           from pathlib import Path
           from PIL import Image
           out = Path("netreports-dev/data")
-          for day in ("2023-09-06", "2026-10-20"):
+          for day in ("2023-09-06", "2024-08-20", "2025-06-10", "2026-10-20"):
               image = Image.open("assets/img/net-" + day + ".png").convert("RGB")
               image.thumbnail((1650, 1400))
               stream = BytesIO()
