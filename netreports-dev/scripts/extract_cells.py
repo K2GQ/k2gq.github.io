@@ -65,7 +65,8 @@ def detect_rows(rgb):
             continue
         n = max(1, round(distance / pitch))
         if n > 1 and distance / n >= 16 and distance / n <= 40:
-            edges.extend(round(edges[-1] + (distance / n) * i) for i in range(1, n + 1))
+            origin = edges[-1]
+            edges.extend(round(origin + (distance / n) * i) for i in range(1, n + 1))
         else:
             edges.append(int(boundary))
     if h - edges[-1] >= max(16, pitch * .63):
@@ -109,8 +110,6 @@ def read_sheet(cell_rows):
     """One Tesseract call for each reconstructed screenshot."""
     # OCR a clean grayscale image with individual cells aligned to known
     # coordinates and separated by gutters: avoids column-shift artifacts.
-    widths = [max(cell.shape[1] for cell in row[i:i+1])
-              for i in range(9) for row in cell_rows]
     widths = [max(cell_rows[r][c].shape[1] for r in range(len(cell_rows)))
               for c in range(9)]
     yheight = max(cell.shape[0] for row in cell_rows for cell in row) + 9
@@ -161,9 +160,10 @@ def recognize_callsign(cell):
 
 
 def extract_image(path, *, call_reread=True):
-    rgb = cv2.cvtColor(cv2.imread(str(path)), cv2.COLOR_BGR2RGB)
-    if rgb is None:
+    bgr = cv2.imread(str(path))
+    if bgr is None:
         raise ValueError(f"Unreadable image {path}")
+    rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
     image = Image.fromarray(rgb)
     borders = find_borders(image)
     if len(borders) != 10:
