@@ -23,6 +23,69 @@ HEADER = {"call": "callsign", "callsign": "callsign", "status": "status",
           "comments": "remarks", "comment": "remarks", "notes": "remarks"}
 WANTED = ["callsign", "status", "name", "city", "county", "state", "country", "remarks"]
 
+
+def preprocess(original):
+    """Normalize dark/white text on NetLogger's various highlight colors."""
+    gray = ImageOps.grayscale(original)
+    w, h = gray.size
+    out = Image.new("L", (w, h), 255)
+    source, target = gray.load(), out.load()
+    for y in range(h):
+        # Text covers relatively little horizontal space; median gives row fill.
+        values = sorted(source[x, y] for x in range(0, w, max(1, w // 100)))
+        bg = values[len(values)//2]
+        # Pink/gray highlighted rows have white text; aqua/white rows have dark text.
+        invert = bg < 158
+        for x in range(w):
+            value = source[x, y]
+            target[x, y] = (0 if value > bg + 35 else 255) if invert else (0 if value < bg - 35 else 255)
+    return out.convert("RGB")
+
+def find_borders(original):
+    """Locate long vertical separators across the NetLogger header region."""
+    gray = ImageOps.grayscale(original)
+    w, h = gray.size
+    pixels = gray.load()
+    start, stop = 23, min(56, h - 1)
+    scored = []
+    for x in range(7, w-3):
+        count = 0
+        for y in range(start, stop):
+            if abs(pixels[x,y]-pixels[x+2,y]) > 21 and abs(pixels[x,y]-pixels[x-2,y]) > 12:
+                count += 1
+        if count >= (stop-start) * .62:
+            scored.append((x, count))
+    clusters = []
+    for x, n in scored:
+        if clusters and x <= clusters[-1][-1][0]+3:
+            clusters[-1].append((x,n))
+        else:
+            clusters.append([(x,n)])
+    borders = [max(cluster, key=lambda x:x[1])[0] for cluster in clusters]
+    # Edges are also legitimate separators but sometimes do not show two-sided contrast.
+    if len(borders) >= 7:
+        if borders[0] > 22:
+            borders.insert(0, 10)
+        if borders[-1] < w-7:
+            borders.append(w-1)
+    # Reuse the stable NetLogger geometry if edge detection is too noisy.
+    if len(borders) != 10:
+        ref = [11,35,180,234,423,566,674,762,904,1027] if w >= 980 else [12,35,161,240,422,573,670,724,867,919]
+        borders = [min(w, round(x*w/ref[-1])) for x in ref]
+    return borders
+
+def fields_from_grid(line, borders):
+    """Use real cell boundaries, not centered heading positions."""
+    import bisect
+    col_names = ["number", "callsign", "status", "name", "city", "county", "state", "country", "remarks"]
+    cells = {k: [] for k in col_names}
+    for word in line["words"]:
+        x = (word["x"] - 8 + word["w"] / 2)/2
+        index = bisect.bisect_right(borders, x) - 1
+        if 0 <= index < len(col_names):
+            cells[col_names[index]].append(word["text"])
+    return {key:" ".join(values).strip() for key,values in cells.items()}
+
 def image_for(root, day):
     return root / "assets" / "img" / ("net-" + day + ".png")
 
@@ -35,8 +98,7 @@ def prepare(root, days):
             raise FileNotFoundError(path)
         img = Image.open(path).convert("RGB")
         # OCR can benefit from larger type; avoid destructive thresholding.
-        scaled = img.resize((img.width * 2, img.height * 2), Image.Resampling.LANCZOS)
-        scaled = ImageOps.autocontrast(scaled, cutoff=1)
+        scaled = preprocess(img).resize((img.width * 2, img.height * 2), Image.Resampling.NEAREST)
         pictures.append((day, img, scaled))
     width = max(im.width for _, _, im in pictures) + 16
     height = sum(im.height + 64 for _, _, im in pictures)
@@ -103,56 +165,50 @@ def find_header(lines):
         unique[key] = min(x, unique.get(key, x))
     return sorted(unique.items(), key=lambda p: p[1])
 
-def parse_day(day, lines):
+def parse_day(day, lines, original):
     headers = find_header(lines)
+    borders = find_borders(original)
     entries = []
     rejected = []
     for ln in lines:
-        text = ln["text"].upper().replace("|", " ")
-        matches = CALL.findall(text)
+        cells = fields_from_grid(ln, borders)
+        raw_call = cells["callsign"].upper()
+        matches = CALL.findall(raw_call)
         if not matches:
             continue
-        # A status / heading / software title may contain a callsign; keep it
-        # reviewable but avoid silently adding it to the participation totals.
         cs = matches[0]
-        cswords = [w for w in ln["words"] if cs in w["text"].upper()]
-        if not cswords:
-            rejected.append(ln["text"])
+        # Do not mistake headings or loose text for complete rows.
+        if "CHECK" in ln["text"].upper() and "INS" in ln["text"].upper():
             continue
-        callsign_word = cswords[0]
         confidence = min((w["confidence"] for w in ln["words"]), default=0)
-        raw_fields = {}
-        if headers:
-            for word in ln["words"]:
-                if word is callsign_word:
-                    continue
-                key = headers[0][0]
-                for col, x in headers:
-                    if word["x"] >= x - 16:
-                        key = col
-                raw_fields.setdefault(key, []).append(word["text"])
-        fields = {k: " ".join(raw_fields.get(k, [])).strip() for k in WANTED if k != "callsign"}
-        # Duplicates within the same screenshot need manual inspection.
-        entries.append({
-            "date": day, "callsign": cs,
-            "number": int(ln["words"][0]["text"]) if ln["words"][0]["text"].isdigit() else None,
-            "status": fields.get("status", ""), "name": fields.get("name", ""),
-            "city": fields.get("city", ""), "county": fields.get("county", ""),
-            "state": fields.get("state", ""), "country": fields.get("country", ""),
-            "remarks": fields.get("remarks", ""),
+        num_match = re.search(r"\d+", cells["number"])
+        row_num = int(num_match.group()) if num_match else None
+        name = cells["name"]
+        location = [cells["city"], cells["county"], cells["state"], cells["country"]]
+        record = {
+            "date": day, "callsign": cs, "number": row_num,
+            "status": cells["status"], "name": name,
+            "city": cells["city"], "county": cells["county"],
+            "state": cells["state"], "country": cells["country"],
+            "remarks": cells["remarks"],
             "raw_text": ln["text"], "confidence": confidence,
-            "reviewed": False
-        })
+            "reviewed": False,
+        }
+        record["needs_review"] = (
+            confidence < 65 or not row_num or
+            not name or not cells["state"] or
+            len(cs.split("/")[0].split(str(next((c for c in cs if c.isdigit()), "")))[-1]) > 3
+        )
+        entries.append(record)
     seen = Counter(e["callsign"] for e in entries)
     for entry in entries:
-        # Initial OCR is not validated. Highlight very weak / duplicate rows.
-        entry["needs_review"] = entry["confidence"] < 65 or seen[entry["callsign"]] > 1 or not headers
+        if seen[entry["callsign"]] > 1:
+            entry["needs_review"] = True
     return entries, {
         "date": day, "image": "/assets/img/net-" + day + ".png",
-        "ocr_rows": len(entries), "detected_columns": [k for k, _ in headers],
-        "low_confidence_rows": sum(e["needs_review"] for e in entries),
-        "rejected_lines": rejected[:20],
-        "sample_only": True
+        "ocr_rows": len(entries), "detected_columns": list(fields_from_grid({"words":[]},borders).keys()),
+        "borders": borders, "low_confidence_rows": sum(e["needs_review"] for e in entries),
+        "rejected_lines": rejected[:20], "sample_only": True
     }
 
 def main():
@@ -169,11 +225,12 @@ def main():
     records, nets = [], []
     output = []
     for day in days:
-        entries, net = parse_day(day, lines[day])
+        entries, net = parse_day(day, lines[day], next(image for d, start, stop, image in bounds if d == day))
         nets.append(net)
         records.extend(entries)
         output.append("=== " + day + " ===")
         output.append("Detected columns: " + ", ".join(net["detected_columns"]))
+        output.append("Detected image grid borders: " + repr(net["borders"]))
         output.extend(ln["text"] for ln in lines[day])
         output.append("")
     payload = {
