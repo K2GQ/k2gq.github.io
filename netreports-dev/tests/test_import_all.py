@@ -76,6 +76,23 @@ class TestFullImport(unittest.TestCase):
         obj = json.loads((self.root/"netreports-dev/data/import-audit.json").read_text())
         self.assertEqual(obj["nets_with_no_recognized_rows"], ["2026-10-20"])
 
+    def test_suspected_callsign_variants_are_audited_not_merged(self):
+        dates = ["2023-09-06", "2024-08-20"]
+        nets = [{"date":d, "image":f"/assets/img/net-{d}.png",
+                 "reviewed":False} for d in dates]
+        rows = [
+            {"date":"2023-09-06", "callsign":"KD2DMO", "name":"Mar Christiano"},
+            {"date":"2024-08-20", "callsign":"KD2BDMO", "name":"Mar Christiano"},
+        ]
+        audit = app.audit_archive(dates, nets, rows)
+        groups = audit["possible_callsign_variants_by_name"]
+        self.assertEqual(len(groups), 1)
+        self.assertEqual(groups[0]["operator_name"], "MAR CHRISTIANO")
+        self.assertEqual({c["call"] for c in groups[0]["callsigns"]},
+                         {"KD2DMO", "KD2BDMO"})
+        self.assertEqual([r["callsign"] for r in rows],
+                         ["KD2DMO", "KD2BDMO"])
+
     def test_rejects_unknown_day(self):
         with self.assertRaises(SystemExit):
             app.main(["--root", str(self.root), "--dates", "2023-09-01"])
