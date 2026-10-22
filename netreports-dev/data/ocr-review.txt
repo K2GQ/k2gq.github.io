@@ -1,58 +1,65 @@
 === 2023-09-06 ===
-Detected columns: callsign, status, name, city, county, state, country
-Check-ins
+Detected columns: number, callsign, status, name, city, county, state, country, remarks
+Detected image grid borders: [12, 35, 161, 240, 422, 574, 671, 725, 868, 920]
+Checkaris
 # Call Sign Status Name City County State Country
-1, WV2RJR Ronald J Reinhardt Roseland Essex NJ United States RF
-2 KC2NJ Michael A Abbey Short Hills Essex NJ United States RF
-3) KD2CAK Ari H Levine Vauxhall Passaic NJ United States RF
-4 N1UGK Jesse B Bertier South Orange Essex NJ United States RF
-5|/KD2STE Terry Friedman Livingston Essex NJ United States RF
-6, KB2SUL Maurice A Naraine ORANGE Essex NJ United States RF
+1;WV2RJR Ronald J Reinhardt Roseland Essex NJ United States RF
+2|KC2NJ Michael A Abbey Short Hills Essex NJ United States RF
+3/KD2CAK Ari H Levine Vauxhall Passaic NJ United States RF
+4)/N1UGK Jesse B Bertier South Orange Essex NJ United States RF
+5|KD2STE Terry Friedman Livingston Essex NJ United States RF
+6|KB25UL |Maurice A Naraine ORANGE Essex NJ United States RF
 
 === 2024-08-20 ===
-Detected columns: callsign, status, name, city, county, state, country
-Check-ins
-# Call Sign Status Name City County State Country
-KB2SUL (nc) __—|Maurice ANaraine _| Essex _|NJ_|United States |EchoLink |
-FAWV2RJR_ (c/o) |Ronaldj Reinhardt [Roseland Essex NJ United States (RF
+Detected columns: number, callsign, status, name, city, county, state, country, remarks
+Detected image grid borders: [11, 34, 176, 229, 414, 554, 660, 746, 886, 1006]
+—_
+7 Eheckine
+Ve Call Sign | Status | Name City | County | State Country
+CRIS line) [Maurice A Naraine |ORONGE [Facey {nly [United States |Frhal Ink
+WV2RJR |{c/o} |Ronald J Reinhardt [Roseland |Essex NJ |United States |RF
 3 KC2NJ (u),(op) Mike Abbey Short Hills Essex NJ United States RF
-4 a EchoLink |
-5 N2RCP (u) John J Milarski ORANGE Essex NJ United States RF
-6 N2LMW (u) Robert Zerilli Toms river Ocean United States EchoLink
-7 WB4AIZ (u) Chuck F Huber mr Kenneth city Pinellas FL United States EchoLink
+| | | | |
+5 N2RCP (u) John J Milarskl ORANGE Essex NJ United States RF
+6 N2LMW (u) Robert Zerillli Toms river Ocean NJ United States EchoLink
+re (uj Cnack Fr niber ma; —___ Kenneth city Pineiias Fe United States —EchoLink—
 8 K2AUF (u) Robert A Calandra ELIZABETH Union NJ United States RF
-9 WA2IEK (u) Robert I Baker Lancaster Lancaster PA United States EchoLink
-MM) KD2ZSW_ (c/o) Michael F Smith Nj United States (RF |
-11 WD2X Jose J Mercado POMPTON LAKES Passaic NJ United States RF
+Sita FER faa} ae ae nase nie Po nib States Pein
+E KD2zZSw |{c/o} |Michael F Smith |Denville |Morris NJ |United States |RF
+wb2x | |Jose J Mercado |POMPTON LAKES [Passaic NJ |United States |RF
 
 === 2025-06-10 ===
-Detected columns: callsign, status, name, city, county, state, country
-Check-ins
-# Call Sign Status Name City County State Country Rem
-1, KB2SUL Maurice A Naraine ORANGE Essex NJ United States RF
-2 KA2PUN (u) Matt Couper Pittsfield Berkshire MA United States EchoLink
-3 KD2DMO (u),(log) Mar Christiano Summit Union NJ United States EchoLink
-4 WB2GZL (u) Jerry Scola Lincoln Park Morris NJ United States RF
-5 KC2NJ (u),(log) Mike Abbey Short Hills Essex NJ United States RF
-6 N2RCP (u) John J Milarski ORANGE Essex NJ United States RF
-7 KC2QLE (u) Werner J Staehle West Caldwell Essex NJ United States EchoLink
-8 KD2VLP (u) Allan C Spera South Orange Essex NJ United States EchoLink
+Detected columns: number, callsign, status, name, city, county, state, country, remarks
+Detected image grid borders: [11, 36, 185, 240, 434, 581, 692, 782, 928, 1054]
+—
+7 Checker
+# Call Sign | Status | Name City | County State | Country | Rem
+Bf i|kKe2suL | |Maurice A Naraine | ORANGE | Essex [NJ |United States |RF
+2 KAZPUN {u) Matt Couper Pittsfield Berkshire MA United States EchoLink
+3 KD2BDMO {u).{log) Mar Christiano Summit Union NJ United States EchoLink
+4 WB2GZL {u) Jerry Scola Lincoln Park Morris NJ United States RF
+5 KC2NJ {u),{log)... Mike Abbey Short Hills Essex NJ United States RF
+6 N2RCP {u) John J Milarski ORANGE Essex NJ United States RF
+7 KC2QLE {u) Werner | Staehle West Caldwell Essex NJ United States EchoLink
+8 KD2VLP {u) Allan C Spera South Orange Essex NJ United States EchoLink
 
 === 2026-10-20 ===
-Detected columns: callsign, status, name, city, county, state, country, remarks
-Check-ins
-# Call Sign Status Name City County State Country Remarks
-yf ce2suL __ic)_ Maurice A Naraine _/ORANGE —_[Essex_JNJ_\nitenStates_/RF-TXA_|
-(c/o) |BillMehle [MACEDONIA Summit
-HAOECZ (clo) Walter Johnson [Shippensburg Berkeley PA Unitedstates Echotink
-4 KC3DZG (u) Avanti K Borucki EAST ORANGE Essex NJ United States EchoLink
-5 WB2GZL (u) Jerry Scola Lincoln Park Morris NJ United States EchoLink
-6 KD2VLP (u) Allan C Spera South Orange Essex NJ United States EchoLink
-7 KD2DMO (u),( Mar Christiano Summit Union NJ United States EchoLink
-8 KE2ZHPS (u) Todd M Gutnick South Orange Essex NJ United States EchoLink
-9 N2RCP (u) John J Milarski ORANGE Essex NJ United States RF - TXA
-10 KE2GVV (u) Steve Giampaolo Livingston Essex NJ United States RF - TXA
-11 KC2NJ (u),( Mike Abbey Short Hills Essex NJ United States RF - TXA
-12 KE9DQS (u) Todd N Owen Camby Morgan IN United States EchoLink
-13) KC2QLE Werner J Staehle West Caldwell Essex NJ United States EchoLink
+Detected columns: number, callsign, status, name, city, county, state, country, remarks
+Detected image grid borders: [11, 35, 180, 234, 423, 565, 673, 761, 903, 1026]
+Checkaris
+# Call Sign seatus Name | City | County | State | Country | Remarks
+KB2SUL |{nc) | Maurice A Naraine | ORANGE | Essex [NJ |United States |RF-TXA
+N7WAM |{cfo) |Bill Mehle | MACEDONIA |Summit |OH |United States |EchoLink
+AD&cZ |{cfa) |Walter 5 Johnson |Shippensburg | Berkeley |PA |United States |EchoLink
+4 KC3D2G {u)} Avanti K Borucki EAST ORANGE Essex NJ United States EchoLink
+5 WB2GZL {u)} Jerry Scola Lincoln Park Morris NJ United States EchoLink
+6 KD2VLP {u)} Allan C Spera South Orange Essex NJ United States EchoLink
+7 KD2DMO {u).(-.. Mar Christiano Summit Union NJ United States EchoLink
+& KE2HPS {u)} Todd M Gutnick South Orange Essex NJ United States EchoLink
+9 N2RCP {u)} John J Milarski ORANGE Essex NJ United States RF - TXA
+10 KE2GV¥ {u)} Steve Giampaclo Livingston Essex NJ United States RF - TXA
+11 KC2NJ {u).(-.. Mike Abbey Short Hills Essex NJ United States RF - TXA
+12 KESDQS {u)} Todd N Owen Camby Morgan IN United States EchoLink
+13|Kc2que |Werner J Staehle |West Caldwell Essex NJ |United States EchoLink
+|
 
