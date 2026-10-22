@@ -35,8 +35,8 @@ permalink: /netreports-dev/
 #nr-dev .nr-pill { display:inline-block; font-size:.78rem; padding:.2rem .55rem; border-radius:1rem; background:#f9ecdc; color:#694111; }
 #nr-dev .nr-preview { display:flex; gap:.9rem; align-items:center; flex-wrap:wrap; justify-content:space-between; }
 #nr-dev .nr-small { font-size:.85rem; color:var(--muted); }
-#nr-dev .nr-chart { display:flex; gap:.6rem; align-items:end; overflow:auto; min-height:210px; padding:1rem .45rem; border:1px solid var(--line); border-radius:.55rem; }
-#nr-dev .nr-barbox { flex:1 0 105px; text-align:center; font-size:.8rem; }
+#nr-dev .nr-chart { display:flex; gap:.35rem; align-items:end; overflow-x:hidden; min-height:210px; padding:1rem .45rem; border:1px solid var(--line); border-radius:.55rem; }
+#nr-dev .nr-barbox { flex:1 1 0; min-width:0; text-align:center; font-size:clamp(.65rem,.77vw,.85rem); }
 #nr-dev .nr-bar { width:58%; margin:auto; min-height:2px; background:#2479a5; border-radius:.25rem .25rem 0 0; }
 #nr-dev .nr-barbox strong { display:block; margin:.2rem 0; }
 #nr-dev a { color:#11658c; }
@@ -55,7 +55,7 @@ permalink: /netreports-dev/
   #nr-dev #nr-weekly-table th:nth-child(7) { width:14%; }
   #nr-dev #nr-weekly-table th:nth-child(8) { width:15%; }
 }
-@media(max-width:760px) { #nr-dev #nr-weekly-table { min-width:760px; } #nr-dev .nr-tablewrap { overflow-x:auto; } }
+@media(max-width:760px) { #nr-dev #nr-weekly-table { min-width:760px; } #nr-dev .nr-tablewrap, #nr-dev .nr-chart { overflow-x:auto; } #nr-dev .nr-barbox { flex:1 0 62px; font-size:.75rem; } }
 #nr-dev .nr-footer { margin-top:1.6rem; border-top:1px solid var(--line); padding-top:1rem; color:var(--muted); font-size:.9rem; }
 @media(max-width:650px) { #nr-dev .nr-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } #nr-dev .nr-metric strong {font-size:1.3rem;} #nr-dev .nr-controls { display:block; } #nr-dev .nr-controls label { margin-bottom:.75rem; } #nr-dev input[type=search], #nr-dev select {width:100%;} }
 </style>
@@ -153,7 +153,7 @@ permalink: /netreports-dev/
     items.forEach(function(n){var key=n.date.slice(5,7);if(!months[key])months[key]={nets:0,rows:0};months[key].nets++;months[key].rows+=(n.ocr_rows||0);});
     var sums=Object.keys(months).sort().map(function(m){return {month:m,nets:months[m].nets,rows:months[m].rows};});
     var max=Math.max(1,...sums.map(function(s){return s.rows;})),chart=byId('nr-chart');clear(chart);
-    sums.forEach(function(m){var box=node('div');box.className='nr-barbox';box.appendChild(node('strong',m.rows));var bar=node('div');bar.className='nr-bar';bar.style.height=Math.max(2,140*m.rows/max)+'px';bar.title=chosen+'-'+m.month+': '+m.rows+' extracted check-ins over '+m.nets+' nets';box.appendChild(bar);box.appendChild(node('span',chosen+'-'+m.month));chart.appendChild(box);});
+    sums.forEach(function(m){var box=node('div');box.className='nr-barbox';box.appendChild(node('strong',m.rows));var bar=node('div');bar.className='nr-bar';bar.style.height=Math.max(2,140*m.rows/max)+'px';bar.title=chosen+'-'+m.month+': '+m.rows+' extracted check-ins over '+m.nets+' nets';box.appendChild(bar);box.appendChild(node('span',['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Number(m.month)-1]));chart.appendChild(box);});
     var groups={};dates().forEach(function(n){var y=n.date.slice(0,4);if(!groups[y])groups[y]={year:y,nets:0,rows:0};groups[y].nets++;groups[y].rows+=(n.ocr_rows||0);});
     var yearRows=Object.keys(groups).sort().map(function(y){var x=groups[y];x.average=(x.rows/x.nets).toFixed(1);return x;});
     table('nr-year-table',[['year','Year'],['nets','Nets'],['rows','Extracted check-ins'],['average','Average per net']],yearRows,{key:'year',asc:true},function(){});
