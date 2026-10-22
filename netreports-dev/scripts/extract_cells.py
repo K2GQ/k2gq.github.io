@@ -52,15 +52,17 @@ def detect_columns(rgb):
     found = [max(group, key=lambda x: strength[x]) for group in groups]
     # Use the actual screenshot outer edges where the rightmost rule can be
     # clipped and the left border sometimes lies outside the title box.
-    interior = [x for x in found if 19 <= x <= w - 18]
-    if len(interior) != 8:
-        # Distinguish "bad geometry" from failed text OCR in diagnostics.
-        # Fall back only when the header grid is not fully recoverable.
+    # The first row-number/callsign divider at x≈34 is absent from the
+    # header line detection because the # cell is merged with its label.
+    # The remaining seven dividers are reliably present in every reference
+    # layout, even when the widths differ substantially by year.
+    interior = [x for x in found if 100 <= x <= w - 18]
+    if len(interior) != 7:
         from extract import find_borders
         fallback = find_borders(Image.fromarray(rgb))
         return fallback, {"method": "legacy-fallback",
                           "header_candidates": found, "header_grid_score": len(interior)}
-    return [10] + interior + [w - 1], {
+    return [10, 34] + interior + [w - 1], {
         "method": "header-vertical-lines",
         "header_candidates": found, "header_grid_score": len(interior)
     }
