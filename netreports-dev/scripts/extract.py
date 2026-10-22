@@ -233,11 +233,34 @@ def main():
         output.append("Detected image grid borders: " + repr(net["borders"]))
         output.extend(ln["text"] for ln in lines[day])
         output.append("")
+    # Keep the raw OCR diagnostics, but overlay entries reviewed against the PNG.
+    reviewed_path = root / "netreports-dev/data/reviewed.json"
+    reviewed_count = 0
+    if reviewed_path.exists():
+        reviewed_payload = json.loads(reviewed_path.read_text(encoding="utf-8"))
+        reviewed = reviewed_payload.get("rows", [])
+        reviewed_dates = {r["date"] for r in reviewed}
+        for day in reviewed_dates:
+            group = [dict(r) for r in reviewed if r["date"] == day]
+            assert len(group) == len({r["number"] for r in group}), "Duplicate reviewed row numbers"
+            assert len(group) == len({r["callsign"] for r in group}), "Duplicate reviewed callsigns"
+            assert {r["number"] for r in group} == set(range(1, len(group) + 1)), "Gaps in reviewed numbering"
+            records = [r for r in records if r["date"] != day] + group
+            net = next(n for n in nets if n["date"] == day)
+            net["ocr_candidate_rows"] = net["ocr_rows"]
+            net["ocr_rows"] = len(group)
+            net["reviewed"] = True
+            net["low_confidence_rows"] = 0
+            reviewed_count += len(group)
+    for row in records:
+        if not row["reviewed"]:
+            row["review_status"] = "OCR only — not reviewed"
+    records.sort(key=lambda r: (r["date"], r.get("number") or 999, r["callsign"]))
     payload = {
         "kind": "ocr-proof-of-concept", "sample_only": True,
         "generated_utc": datetime.now(timezone.utc).isoformat(),
-        "reviewed": False,
-        "limitations": "Unreviewed OCR. Callsign and column assignments are provisional. Statistics are sample-only.",
+        "reviewed": False, "reviewed_rows": reviewed_count,
+        "limitations": "Only rows explicitly marked reviewed were compared with source screenshots. Other candidate OCR rows are provisional. Statistics are sample-only.",
         "nets": nets, "checkins": records
     }
     outfile = root / args.out
