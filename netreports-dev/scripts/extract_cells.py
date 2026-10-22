@@ -243,6 +243,139 @@ def extract_image(path, *, call_reread=True):
     return records, geometry
 
 
+def edit_distance(a, b):
+    """Small Levenshtein metric for OCR variants; not a license validator."""
+    if len(a) < len(b):
+        a, b = b, a
+    prev = list(range(len(b) + 1))
+    for i, x in enumerate(a, 1):
+        current = [i]
+        for j, y in enumerate(b, 1):
+            current.append(min(current[-1] + 1, prev[j] + 1,
+                               prev[j - 1] + (x != y)))
+        prev = current
+    return prev[-1]
+
+
+def us_call(text):
+    """Restrictive US callsign grammar for preference, not for exclusion."""
+    return bool(re.fullmatch(
+        r"(?:[KNW][A-Z]?[0-9][A-Z]{1,3}|A[A-L][0-9][A-Z]{1,3})(?:/[A-Z0-9]{1,5})?",
+        text))
+
+
+def repair_ocr_candidates(text):
+    """Offer one-edit alternatives for familiar Tesseract confusions."""
+    t = re.sub(r"[^A-Z0-9/]", "", str(text or "").upper())
+    if not t:
+        return set()
+    values = {t}
+    # Common bleed of punctuation/status at the right of a callsign.
+    for pos in range(len(t)):
+        shortened = t[:pos] + t[pos + 1:]
+        if us_call(shortened):
+            values.add(shortened)
+    before_digit = re.match(r"^([A-Z]{1,3})(.*)$", t)
+    if before_digit:
+        prefix, tail = before_digit.groups()
+        for index, ch in enumerate(prefix):
+            for new in {"I": ("1",), "L": ("1",), "S": ("5", "9"),
+                        "O": ("0",)}.get(ch, ()):
+                maybe = prefix[:index] + new + prefix[index + 1:] + tail
+                if us_call(maybe):
+                    values.add(maybe)
+    # Suffix cannot contain digits in ordinary unsuffixed US callsigns.
+    m = re.match(r"^([A-Z]{1,2}[0-9])([A-Z0-9]{1,5})$", t)
+    if m:
+        pfx, tail = m.groups()
+        for i, ch in enumerate(tail):
+            for replacement in {"2": ("Z",), "0": ("O",),
+                                "1": ("I", "L"), "5": ("S",),
+                                "8": ("B",)}.get(ch, ()):
+                maybe = pfx + tail[:i] + replacement + tail[i+1:]
+                if us_call(maybe):
+                    values.add(maybe)
+    return values
+
+
+def same_person_hint(a, b):
+    """Require matching first and nearly matching last name; no auto-link."""
+    first = key_name(a).split()
+    second = key_name(b).split()
+    if not first or not second or first[0] != second[0]:
+        return False
+    return edit_distance(first[-1], second[-1]) <= 2
+
+
+def score_callsign_candidates(row, seen, references):
+    """Rank OCR variants using OTHER net dates; preserve raw and alternatives.
+
+    Reviewed records from the same net are deliberately excluded so benchmark
+    scoring cannot directly read the answer being measured.
+    """
+    raw = str(row.get("raw_callsign") or "").upper()
+    alt = str(row.get("alternate_callsign") or "").upper()
+    originals = [raw, alt]
+    generated = set()
+    for text in originals:
+        generated.update(repair_ocr_candidates(text))
+    contenders = sorted(c for c in generated if us_call(c))
+    # Include a raw unparseable transcription for review, never fabricate
+    # a callsign if no plausible candidate exists.
+    if not contenders:
+        row["interpretation"] = "ambiguous-ocr"
+        row["interpreted_callsign"] = row["callsign"]
+        row["candidate_callsigns"] = []
+        row["uncertain"] = True
+        row["needs_review"] = True
+        return
+    supporting = Counter()
+    for ref in references:
+        if ref.get("date") == row["date"]:
+            continue
+        if same_person_hint(row.get("name"), ref.get("name")):
+            supporting[ref["callsign"]] += 1
+    frequent = Counter()
+    for ref in seen:
+        if ref is row or ref.get("date") == row["date"]:
+            continue
+        if same_person_hint(row.get("name"), ref.get("name")):
+            for c in {ref.get("raw_callsign"), ref.get("alternate_callsign")}:
+                if c and us_call(c):
+                    frequent[c] += 1
+    ranking = {}
+    for c in contenders:
+        score = 0
+        if c == raw: score += 12
+        if c == alt: score += 14
+        if c == raw and c == alt: score += 14
+        if c in supporting: score += 25 + min(supporting[c], 5)
+        if c in frequent: score += 7 + min(frequent[c], 5)
+        # Extra generated edits should not outrank a valid literal read.
+        if c != raw and c != alt: score -= 4
+        # When one raw read is a prefix of another, the more complete
+        # callsign may still be ambiguous; use other-net support to decide.
+        ranking[c] = score
+    ranked = sorted(contenders, key=lambda c:(-ranking[c], c))
+    best = ranked[0]
+    second = ranked[1] if len(ranked)>1 else None
+    row["candidate_callsigns"] = [
+        {"callsign": c, "score": ranking[c]} for c in ranked[:8]]
+    row["interpreted_callsign"] = best
+    evidence = (("cross-net-reviewed" if supporting[best] else
+                 "cross-net-repeated" if frequent[best] else
+                 "both-ocr-readings" if best == raw and best == alt else
+                 "single-ocr-reading" if best in originals else
+                 "one-edit-ocr-repair"))
+    row["interpretation"] = evidence
+    # Keep an audit trail. Do not mark contextual decisions "reviewed".
+    row["callsign"] = best
+    if (best != raw or best != alt or
+            (second is not None and ranking[best] - ranking[second] < 7)):
+        row["needs_review"] = True
+        row["uncertain"] = True
+
+
 def key_name(s):
     return " ".join(re.sub("[^A-Z ]", "", str(s or "").upper()).split())
 
@@ -305,9 +438,12 @@ def main(argv=None):
         print(day, len(rows), "rows,", sum(not x["uncertain"] for x in rows),
               "unflagged", flush=True)
     references = json.loads((root / "netreports-dev/data/reviewed.json").read_text(encoding="utf-8"))["rows"]
+    for row in all_rows:
+        score_callsign_candidates(row, all_rows, references)
     suggestions = suggest_participants(all_rows, references)
     by_day_row = {(r["date"], r["number"]): r for r in references}
     compared, correct_call, correct_name = 0, 0, 0
+    correct_any_reading = 0
     per_day = defaultdict(lambda: {"reference": 0, "recognized": 0,
                                    "callsign_matches": 0, "name_matches": 0})
     for n in nets:
@@ -319,6 +455,8 @@ def main(argv=None):
         ref = by_day_row.get((row["date"], row["image_row"]))
         if ref:
             compared += 1
+            if ref["callsign"] in (row["raw_callsign"], row["alternate_callsign"]):
+                correct_any_reading += 1
             if row["callsign"] == ref["callsign"]:
                 correct_call += 1
                 per_day[row["date"]]["callsign_matches"] += 1
@@ -334,10 +472,11 @@ def main(argv=None):
         "evaluation": {
             "reviewed_reference_rows": sum(v["reference"] for v in per_day.values()),
             "compared_rows": compared,
-            "correct_raw_callsign": correct_call,
+            "correct_interpreted_callsign": correct_call,
+            "correct_either_literal_reading": correct_any_reading,
             "correct_raw_name": correct_name,
             "per_date": dict(per_day),
-            "method": "Exact callsign/name compared by physical row position; suggestions not applied."
+            "method": "Callsign interpretation ranked against other net dates only (no same-date reviewed record); OCR values and alternate candidates retained."
         },
         "limitations": "All new OCR rows are unreviewed. Participant suggestions are hints, never verified substitutions."
     }
@@ -345,7 +484,7 @@ def main(argv=None):
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
                    encoding="utf-8")
-    print("Total:",len(all_rows),"exact callsigns:",correct_call,"/",compared,
+    print("Total:",len(all_rows),"interpreted callsigns:",correct_call,"/",compared,
           "exact names:",correct_name,"/",compared,"suggestions:",len(suggestions))
 
 
