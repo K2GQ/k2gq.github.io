@@ -63,5 +63,6 @@ jobs:
           git add netreports-dev/data/cell-ocr-poc.json
           if ! git diff --cached --quiet; then
             git commit -m "Record experimental per-cell OCR benchmark on 10 net screenshots"
+            git pull --rebase origin feature/netreports-dev-cell-ocr-v2
             git push origin HEAD:feature/netreports-dev-cell-ocr-v2
           fi
