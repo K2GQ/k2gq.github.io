@@ -50,6 +50,37 @@ jobs:
           print("Net sample dates:", [n["date"] for n in p["nets"]])
           print("Unreviewed candidate OCR rows:", len(p["checkins"]))
           PY
+      - name: Check development JavaScript syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          page = Path("netreports-dev/index.html").read_text(encoding="utf-8")
+          script = re.search(r"<script>(.*?)</script>", page, re.S)
+          assert script, "Expected standalone page script"
+          Path("/tmp/netreports-dev.js").write_text(script.group(1), encoding="utf-8")
+          PY
+          node --check /tmp/netreports-dev.js
+      - name: Verify reviewed samples
+        run: |
+          python - <<'PY'
+          import json
+          from collections import defaultdict
+          from pathlib import Path
+          p = json.loads(Path("netreports-dev/data/preview.json").read_text())
+          reviewed = json.loads(Path("netreports-dev/data/reviewed.json").read_text())
+          assert len(reviewed["rows"]) == 38
+          assert p["reviewed_rows"] == 38
+          counts = defaultdict(set)
+          for row in p["checkins"]:
+              if row["reviewed"]:
+                  assert row["review_status"] == "Reviewed from image"
+                  counts[row["date"]].add(row["callsign"])
+          assert {d:len(calls) for d,calls in counts.items()} == {
+              "2023-09-06":6, "2024-08-20":11, "2025-06-10":8, "2026-10-20":13
+          }
+          print("Reviewed sample participation counts:", {d: len(c) for d,c in counts.items()})
+          PY
       - name: Commit sample development JSON and OCR diagnostics
         run: |
           git config user.name "github-actions[bot]"
