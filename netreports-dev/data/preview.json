@@ -4,7 +4,7 @@
   "generated_utc": "2026-10-22T21:14:24.612079+00:00",
   "reviewed": false,
   "reviewed_rows": 19,
-  "limitations": "Only rows explicitly marked reviewed were compared with source screenshots. Other candidate OCR rows are provisional. Statistics are sample-only.",
+  "limitations": "Two dates manually reviewed against their images; two dates remain unreviewed OCR candidates. Sample-only statistics.",
   "nets": [
     {
       "date": "2023-09-06",
@@ -36,7 +36,7 @@
       "low_confidence_rows": 0,
       "rejected_lines": [],
       "sample_only": true,
-      "ocr_candidate_rows": 5,
+      "ocr_candidate_rows": 6,
       "reviewed": true
     },
     {
@@ -131,7 +131,7 @@
       "low_confidence_rows": 0,
       "rejected_lines": [],
       "sample_only": true,
-      "ocr_candidate_rows": 10,
+      "ocr_candidate_rows": 13,
       "reviewed": true
     }
   ],
