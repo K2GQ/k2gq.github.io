@@ -26,8 +26,8 @@ permalink: /netreports-dev/
 #nr-dev .nr-action { background:white; border:1px solid #9eafbf; border-radius:.4rem; padding:.47rem .75rem; min-height:2.5rem; cursor:pointer; }
 #nr-dev .nr-action:hover { background:var(--soft); }
 #nr-dev .nr-tablewrap { width:100%; overflow:auto; border:1px solid var(--line); border-radius:.55rem; margin:1rem 0; }
-#nr-dev table { width:100%; min-width:880px; border-collapse:collapse; margin:0; background:#fff; font-size:.9rem; }
-#nr-dev th, #nr-dev td { text-align:left; padding:.6rem .7rem; border-bottom:1px solid var(--line); vertical-align:top; white-space:nowrap; }
+#nr-dev table { width:100%; border-collapse:collapse; margin:0; background:#fff; font-size:.88rem; }
+#nr-dev th, #nr-dev td { text-align:left; padding:.55rem .45rem; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:break-word; }
 #nr-dev thead th { background:#ecf3f8; position:sticky; top:0; }
 #nr-dev th button { appearance:none; border:0; padding:0; font-weight:700; background:transparent; color:inherit; cursor:pointer; text-align:left; }
 #nr-dev tbody tr:nth-child(even) { background:#f9fbfd; }
@@ -35,11 +35,27 @@ permalink: /netreports-dev/
 #nr-dev .nr-pill { display:inline-block; font-size:.78rem; padding:.2rem .55rem; border-radius:1rem; background:#f9ecdc; color:#694111; }
 #nr-dev .nr-preview { display:flex; gap:.9rem; align-items:center; flex-wrap:wrap; justify-content:space-between; }
 #nr-dev .nr-small { font-size:.85rem; color:var(--muted); }
-#nr-dev .nr-chart { display:flex; gap:.6rem; align-items:end; overflow:auto; min-height:210px; padding:1rem .45rem; border:1px solid var(--line); border-radius:.55rem; }
-#nr-dev .nr-barbox { flex:1 0 105px; text-align:center; font-size:.8rem; }
+#nr-dev .nr-chart { display:flex; gap:.35rem; align-items:end; overflow-x:hidden; min-height:210px; padding:1rem .45rem; border:1px solid var(--line); border-radius:.55rem; }
+#nr-dev .nr-barbox { flex:1 1 0; min-width:0; text-align:center; font-size:clamp(.65rem,.77vw,.85rem); }
 #nr-dev .nr-bar { width:58%; margin:auto; min-height:2px; background:#2479a5; border-radius:.25rem .25rem 0 0; }
 #nr-dev .nr-barbox strong { display:block; margin:.2rem 0; }
 #nr-dev a { color:#11658c; }
+#nr-dev .nr-call-link { font-weight:600; text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:.12em; }
+#nr-dev .nr-call-link:hover, #nr-dev .nr-call-link:focus { color:#0b4765; }
+@media(min-width:761px) {
+  #nr-dev .nr-tablewrap { overflow-x:visible; }
+  #nr-dev table { table-layout:fixed; font-size:clamp(.73rem, .83vw, .88rem); min-width:0; }
+  #nr-dev th, #nr-dev td { padding:.5rem .28rem; white-space:normal; }
+  #nr-dev #nr-weekly-table th:nth-child(1) { width:4%; }
+  #nr-dev #nr-weekly-table th:nth-child(2) { width:11%; }
+  #nr-dev #nr-weekly-table th:nth-child(3) { width:21%; }
+  #nr-dev #nr-weekly-table th:nth-child(4) { width:17%; }
+  #nr-dev #nr-weekly-table th:nth-child(5) { width:12%; }
+  #nr-dev #nr-weekly-table th:nth-child(6) { width:6%; }
+  #nr-dev #nr-weekly-table th:nth-child(7) { width:14%; }
+  #nr-dev #nr-weekly-table th:nth-child(8) { width:15%; }
+}
+@media(max-width:760px) { #nr-dev #nr-weekly-table { min-width:760px; } #nr-dev .nr-tablewrap, #nr-dev .nr-chart { overflow-x:auto; } #nr-dev .nr-barbox { flex:1 0 62px; font-size:.75rem; } }
 #nr-dev .nr-footer { margin-top:1.6rem; border-top:1px solid var(--line); padding-top:1rem; color:var(--muted); font-size:.9rem; }
 @media(max-width:650px) { #nr-dev .nr-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } #nr-dev .nr-metric strong {font-size:1.3rem;} #nr-dev .nr-controls { display:block; } #nr-dev .nr-controls label { margin-bottom:.75rem; } #nr-dev input[type=search], #nr-dev select {width:100%;} }
 </style>
@@ -48,10 +64,10 @@ permalink: /netreports-dev/
   <p class="nr-intro">Explore weekly check-ins, find a station's appearances, and preview attendance statistics. This development page is separate from the existing net report archives.</p>
   <div id="nr-message" class="nr-notice" role="status">Loading OCR proof-of-concept data…</div>
   <div class="nr-metrics" aria-label="Sample overview">
-    <div class="nr-metric"><strong id="nr-nets">—</strong><span>Sample net images</span></div>
-    <div class="nr-metric"><strong id="nr-rows">—</strong><span>Imported sample rows</span></div>
-    <div class="nr-metric"><strong id="nr-unique">—</strong><span>Reviewed unique callsigns</span></div>
-    <div class="nr-metric"><strong id="nr-flags">—</strong><span>Unreviewed OCR rows</span></div>
+    <div class="nr-metric"><strong id="nr-nets">—</strong><span>Archived nets</span></div>
+    <div class="nr-metric"><strong id="nr-rows">—</strong><span>Extracted check-ins</span></div>
+    <div class="nr-metric"><strong id="nr-unique">—</strong><span>Distinct callsigns (estimated)</span></div>
+    <div class="nr-metric"><strong id="nr-flags">—</strong><span>Nets needing verification</span></div>
   </div>
   <div class="nr-tabs" role="tablist" aria-label="Net report views">
     <button class="nr-tab" role="tab" id="nr-tab-weekly" aria-controls="nr-panel-weekly" aria-selected="true" data-panel="weekly">Weekly reports</button>
@@ -62,11 +78,10 @@ permalink: /netreports-dev/
     <div class="nr-controls">
       <label>Choose a net date <select id="nr-date"></select></label>
       <label>Search this net <input type="search" id="nr-search" placeholder="Callsign, town, name…" autocomplete="off"></label>
-      <button class="nr-action" id="nr-export">Export visible rows (CSV)</button>
     </div>
     <div class="nr-preview"><div id="nr-net-count" class="nr-subtext"></div><a id="nr-source" href="#" target="_blank" rel="noopener">View original NetLogger screenshot ↗</a></div>
     <div class="nr-tablewrap"><table id="nr-weekly-table"><thead><tr></tr></thead><tbody></tbody></table></div>
-    <p class="nr-small">Original row order is preserved when available. Table headings sort by column; Rows marked reviewed were checked against their screenshot. Other OCR-only values remain provisional.</p>
+    <p class="nr-small">Original row order is preserved where recognized. Select a callsign to view its history. OCR-derived entries are provisional until verified against their original screenshot.</p>
   </section>
   <section id="nr-panel-stations" class="nr-panel" role="tabpanel" aria-labelledby="nr-tab-stations" hidden>
     <div class="nr-controls"><label>Find a callsign <input type="search" id="nr-callsign" list="nr-callsigns" placeholder="Type a callsign" autocomplete="off"><datalist id="nr-callsigns"></datalist></label></div>
@@ -75,19 +90,20 @@ permalink: /netreports-dev/
     <h3>Check-in history</h3><div class="nr-tablewrap"><table id="nr-history-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
   <section id="nr-panel-trends" class="nr-panel" role="tabpanel" aria-labelledby="nr-tab-trends" hidden>
-    <p class="nr-subtext">Attendance by sampled report date. These are isolated samples, not a complete historical trend. Unreviewed OCR counts may be incomplete.</p>
-    <div class="nr-chart" id="nr-chart" role="img" aria-label="Candidate OCR check-ins by sampled net date"></div>
-    <h3>Sample statistics by year</h3><div class="nr-tablewrap"><table id="nr-year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
+    <p class="nr-subtext">Monthly candidate check-ins from the archive. Figures are provisional where screenshots have not been manually verified.</p>
+    <div class="nr-controls"><label>View year <select id="nr-trend-year"></select></label></div>
+    <div class="nr-chart" id="nr-chart" role="img" aria-label="Extracted check-ins by month for selected year"></div>
+    <h3>Annual participation (provisional)</h3><div class="nr-tablewrap"><table id="nr-year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
-  <div class="nr-footer">Development preview · Source screenshots remain authoritative · Existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages have not been replaced. Statistics intentionally exclude unprocessed net images and may change after OCR correction.</div>
+  <div class="nr-footer">Development preview · Original screenshots remain authoritative · Existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages have not been replaced. Statistics include unreviewed OCR records and may change as they are corrected.</div>
 </div>
 
 <script>
 (function () {
   'use strict';
   var root=document.getElementById('nr-dev'), data=null, selectedDate='', weeklySort={key:'number',asc:true}, leaderboardSort={key:'total',asc:false}, search='', station='';
-  var colsWeekly=[['number','#'],['callsign','Call sign'],['status','Status'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks'],['review_status','Review status']];
-  var colsBoard=[['callsign','Call sign'],['total','Sample nets'],['first','First sample'],['last','Last sample']];
+  var colsWeekly=[['number','#'],['callsign','Call sign'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks']];
+  var colsBoard=[['callsign','Call sign'],['total','Nets'],['first','First seen'],['last','Last seen']];
   function byId(id){return document.getElementById(id);}
   function txt(id,value){byId(id).textContent=value;}
   function clear(el){while(el.firstChild)el.removeChild(el.firstChild);}
@@ -99,20 +115,20 @@ permalink: /netreports-dev/
     var tab=byId(tableId),head=tab.tHead.rows[0],body=tab.tBodies[0];clear(head);clear(body);
     cols.forEach(function(pair){var th=node('th');th.scope='col';var button=node('button',pair[1]+(spec&&spec.key===pair[0]?(spec.asc?' ↑':' ↓'):''));button.type='button';button.addEventListener('click',function(){onSort(pair[0]);});th.appendChild(button);head.appendChild(th);});
     if(!rows.length){var tr=node('tr'),td=node('td','No matching records.');td.colSpan=cols.length;tr.appendChild(td);body.appendChild(tr);return;}
-    rows.forEach(function(row){var tr=node('tr');cols.forEach(function(pair){var td=node('td',row[pair[0]]==null?'':row[pair[0]]);if(pair[0]==='callsign'&&onClick){clear(td);var b=node('button',row.callsign);b.type='button';b.className='nr-action';b.addEventListener('click',function(){onClick(row.callsign);});td.appendChild(b);}tr.appendChild(td);});body.appendChild(tr);});
+    rows.forEach(function(row){var tr=node('tr');cols.forEach(function(pair){var td=node('td',row[pair[0]]==null?'':row[pair[0]]);if(pair[0]==='callsign'&&onClick){clear(td);var a=node('a',row.callsign);a.href='#nr-panel-stations';a.className='nr-call-link';a.addEventListener('click',function(event){event.preventDefault();onClick(row.callsign);});td.appendChild(a);}tr.appendChild(td);});body.appendChild(tr);});
   }
   function dates(){return (data.nets||[]).slice().sort(function(a,b){return b.date.localeCompare(a.date);});}
   function netRows(){return (data.checkins||[]).filter(function(r){return r.date===selectedDate&&(!search||Object.keys(r).some(function(k){return String(r[k]||'').toUpperCase().indexOf(search)>=0;}));});}
   function renderWeekly(){
     var current=(data.nets||[]).find(function(n){return n.date===selectedDate;});
     var rows=sortRows(netRows(),weeklySort);
-    txt('nr-net-count',rows.length+' visible candidate check-ins'+(current?' · '+rows.filter(function(r){return !r.reviewed;}).length+' unreviewed':''));
+    txt('nr-net-count',rows.length+' check-ins'+(current&&!current.reviewed?' · OCR estimate; verify with source image':''));
     var link=byId('nr-source');link.href=current&&/^\/assets\/img\/net-\d{4}-\d{2}-\d{2}\.png$/.test(current.image)?current.image:'#';
     table('nr-weekly-table',colsWeekly,rows,weeklySort,function(k){weeklySort={key:k,asc:weeklySort.key===k?!weeklySort.asc:true};renderWeekly();},function(call){station=call;byId('nr-callsign').value=call;activate('stations');});
   }
   function boardRows(){
     var m=new Map();
-    (data.checkins||[]).filter(function(r){return r.reviewed;}).forEach(function(r){
+    (data.checkins||[]).forEach(function(r){
       var call=String(r.callsign||'').toUpperCase();if(!call)return;
       if(!m.has(call))m.set(call,new Set());m.get(call).add(r.date);
     });
@@ -121,41 +137,47 @@ permalink: /netreports-dev/
   function renderStations(){
     var q=(byId('nr-callsign').value||'').trim().toUpperCase();station=q;
     var records=sortRows(boardRows().filter(function(r){return !q||r.callsign.indexOf(q)!==-1;}),leaderboardSort);
-    txt('nr-station-summary',q?'Matching stations: '+records.length+' · Select a callsign to see its reviewed sampled check-ins.':'Showing reviewed callsigns in the sample only.');
+    txt('nr-station-summary',q?'Matching stations: '+records.length+' · Select a callsign to see its provisional check-in history.':'Showing imported callsigns; totals may change after verification.');
     table('nr-stations-table',colsBoard,records,leaderboardSort,function(k){leaderboardSort={key:k,asc:leaderboardSort.key===k?!leaderboardSort.asc:true};renderStations();},function(call){byId('nr-callsign').value=call;station=call;renderStations();});
-    var hits=(data.checkins||[]).filter(function(r){return r.reviewed&&r.callsign===station;}).sort(function(a,b){return b.date.localeCompare(a.date);});
-    table('nr-history-table',[['date','Net date'],['callsign','Call sign'],['name','Name'],['city','City'],['state','State'],['status','Status'],['review_status','Review status']],hits,{key:'date',asc:false},function(){});
+    var hits=(data.checkins||[]).filter(function(r){return r.callsign===station;}).sort(function(a,b){return b.date.localeCompare(a.date);});
+    table('nr-history-table',[['date','Net date'],['callsign','Call sign'],['name','Name'],['city','City'],['state','State'],['remarks','Remarks']],hits,{key:'date',asc:false},function(){});
   }
   function renderTrends(){
-    var chart=byId('nr-chart');clear(chart);var items=dates().reverse(),max=Math.max(1,...items.map(function(n){return n.ocr_rows||0;}));
-    items.forEach(function(n){var box=node('div');box.className='nr-barbox';box.appendChild(node('strong',n.ocr_rows||0));var bar=node('div');bar.className='nr-bar';bar.style.height=Math.max(2,140*(n.ocr_rows||0)/max)+'px';bar.title=n.date+': '+n.ocr_rows+' OCR rows';box.appendChild(bar);box.appendChild(node('span',n.date));chart.appendChild(box);});
-    var groups={};items.forEach(function(n){var y=n.date.slice(0,4);if(!groups[y])groups[y]={year:y,nets:0,rows:0};groups[y].nets++;groups[y].rows+=(n.ocr_rows||0);});
-    var years=Object.keys(groups).sort().map(function(k){var x=groups[k];x.average=(x.rows/x.nets).toFixed(1);return x;});
-    table('nr-year-table',[['year','Year'],['nets','Sample nets'],['rows','Candidate check-ins'],['average','Average per sampled net']],years,{key:'year',asc:true},function(){});
+    var years=uniqueSorted(dates().map(function(n){return n.date.slice(0,4);}));
+    var picker=byId('nr-trend-year'), chosen=picker.value;
+    if(!chosen||years.indexOf(chosen)<0)chosen=years[years.length-1];
+    clear(picker);
+    years.slice().reverse().forEach(function(y){var o=node('option',y);o.value=y;picker.appendChild(o);});
+    picker.value=chosen;
+    var months={}, items=dates().filter(function(n){return n.date.slice(0,4)===chosen;});
+    items.forEach(function(n){var key=n.date.slice(5,7);if(!months[key])months[key]={nets:0,rows:0};months[key].nets++;months[key].rows+=(n.ocr_rows||0);});
+    var sums=Object.keys(months).sort().map(function(m){return {month:m,nets:months[m].nets,rows:months[m].rows};});
+    var max=Math.max(1,...sums.map(function(s){return s.rows;})),chart=byId('nr-chart');clear(chart);
+    sums.forEach(function(m){var box=node('div');box.className='nr-barbox';box.appendChild(node('strong',m.rows));var bar=node('div');bar.className='nr-bar';bar.style.height=Math.max(2,140*m.rows/max)+'px';bar.title=chosen+'-'+m.month+': '+m.rows+' extracted check-ins over '+m.nets+' nets';box.appendChild(bar);box.appendChild(node('span',['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Number(m.month)-1]));chart.appendChild(box);});
+    var groups={};dates().forEach(function(n){var y=n.date.slice(0,4);if(!groups[y])groups[y]={year:y,nets:0,rows:0};groups[y].nets++;groups[y].rows+=(n.ocr_rows||0);});
+    var yearRows=Object.keys(groups).sort().map(function(y){var x=groups[y];x.average=(x.rows/x.nets).toFixed(1);return x;});
+    table('nr-year-table',[['year','Year'],['nets','Nets'],['rows','Extracted check-ins'],['average','Average per net']],yearRows,{key:'year',asc:true},function(){});
   }
   function activate(which){
     root.querySelectorAll('[role="tab"]').forEach(function(t){var yes=t.getAttribute('data-panel')===which;t.setAttribute('aria-selected',yes?'true':'false');});
     root.querySelectorAll('.nr-panel').forEach(function(panel){panel.hidden=panel.id!=='nr-panel-'+which;});
     if(which==='stations')renderStations();if(which==='trends')renderTrends();if(which==='weekly')renderWeekly();
   }
-  function exportCSV(){
-    var cols=['date'].concat(colsWeekly.map(function(p){return p[0];}));var rows=netRows();var csv=[cols.join(',')].concat(rows.map(function(r){return cols.map(function(key){var value=String(r[key]==null?'':r[key]);if(/^[=+\-@\t\r]/.test(value))value="'"+value;return '"'+value.replace(/"/g,'""')+'"';}).join(',');})).join('\r\n');
-    var url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'})),a=node('a');a.href=url;a.download='net-checkins-'+selectedDate+'-unreviewed.csv';a.click();setTimeout(function(){URL.revokeObjectURL(url);},1000);
-  }
   function initialize(payload){
     if(!payload || !Array.isArray(payload.nets) || !Array.isArray(payload.checkins))throw Error('Unexpected OCR data format');
-    data=payload;var netlist=dates();if(!netlist.length)throw Error('No OCR samples have been generated yet');
+    data=payload;var netlist=dates();if(!netlist.length)throw Error('No net reports have been imported yet');
     selectedDate=netlist[0].date;
-    var picker=byId('nr-date');netlist.forEach(function(n){var o=node('option',n.date+' ('+n.ocr_rows+' OCR rows)');o.value=n.date;picker.appendChild(o);});
-    var unique=uniqueSorted(data.checkins.filter(function(r){return r.reviewed;}).map(function(r){return r.callsign;}));
+    var picker=byId('nr-date');netlist.forEach(function(n){var o=node('option',n.date+' ('+n.ocr_rows+' extracted)');o.value=n.date;picker.appendChild(o);});
+    var unique=uniqueSorted(data.checkins.map(function(r){return r.callsign;}));
     var dl=byId('nr-callsigns');unique.forEach(function(call){var opt=node('option');opt.value=call;dl.appendChild(opt);});
     txt('nr-nets',netlist.length);txt('nr-rows',data.checkins.length);txt('nr-unique',unique.length);
-    txt('nr-flags',data.checkins.filter(function(r){return !r.reviewed;}).length);
-    txt('nr-message','PROOF OF CONCEPT · '+netlist.length+' selected images only. '+data.checkins.filter(function(r){return r.reviewed;}).length+' rows reviewed against their screenshots; remaining rows are provisional OCR. Leaderboard/history use reviewed records only. This is not an archive-wide statistic.');
+    txt('nr-flags',data.nets.filter(function(n){return !n.reviewed;}).length);
+    txt('nr-message','DEVELOPMENT ARCHIVE · '+netlist.length+' dated screenshots imported. '+data.checkins.filter(function(r){return r.reviewed;}).length+' check-ins were manually verified; the remainder are provisional OCR. Check the original screenshot for uncertain entries or statistics.');
+    byId('nr-trend-year').addEventListener('change',renderTrends);
     picker.addEventListener('change',function(){selectedDate=picker.value;renderWeekly();});
     byId('nr-search').addEventListener('input',function(){search=this.value.trim().toUpperCase();renderWeekly();});
     byId('nr-callsign').addEventListener('input',renderStations);
-    byId('nr-export').addEventListener('click',exportCSV);
+    
     root.querySelectorAll('[role="tab"]').forEach(function(b){b.addEventListener('click',function(){activate(b.getAttribute('data-panel'));});});
     activate('weekly');
   }
