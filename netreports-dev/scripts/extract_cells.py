@@ -18,7 +18,6 @@ from PIL import Image
 import pytesseract
 from pytesseract import Output
 
-from extract import find_borders
 
 ROOT = Path(__file__).resolve().parents[2]
 SAMPLE = ("2023-09-06", "2023-11-07", "2024-04-02", "2024-08-20",
@@ -28,6 +27,43 @@ COLUMNS = ("number", "callsign", "status", "name", "city", "county",
            "state", "country", "remarks")
 CALL = re.compile(r"^(?:[AKNW][A-Z]?[0-9][A-Z]{1,4}|[A-Z]{2,3}[0-9][A-Z]{1,4})(?:/[A-Z0-9]{1,5})?$")
 WHITELIST = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/"
+
+
+def detect_columns(rgb):
+    """Read persistent 1px NetLogger gridlines in the HEADER, not row text.
+
+    Header cells are pale backgrounds with full-height vertical grey rules.
+    Unlike text, these rules survive a 22px morphological vertical opening.
+    """
+    h, w, _ = rgb.shape
+    gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
+    top, bottom = 19, min(h-3, 61)
+    region = np.uint8(gray[top:bottom] < 218) * 255
+    vertical = cv2.morphologyEx(
+        region, cv2.MORPH_OPEN, np.ones((23, 1), np.uint8))
+    strength = np.mean(vertical > 0, axis=0)
+    hits = np.where(strength >= .67)[0]
+    groups = []
+    for x in hits:
+        if not groups or x > groups[-1][-1] + 3:
+            groups.append([int(x)])
+        else:
+            groups[-1].append(int(x))
+    found = [max(group, key=lambda x: strength[x]) for group in groups]
+    # Use the actual screenshot outer edges where the rightmost rule can be
+    # clipped and the left border sometimes lies outside the title box.
+    interior = [x for x in found if 19 <= x <= w - 18]
+    if len(interior) != 8:
+        # Distinguish "bad geometry" from failed text OCR in diagnostics.
+        # Fall back only when the header grid is not fully recoverable.
+        from extract import find_borders
+        fallback = find_borders(Image.fromarray(rgb))
+        return fallback, {"method": "legacy-fallback",
+                          "header_candidates": found, "header_grid_score": len(interior)}
+    return [10] + interior + [w - 1], {
+        "method": "header-vertical-lines",
+        "header_candidates": found, "header_grid_score": len(interior)
+    }
 
 
 def detect_rows(rgb):
@@ -165,7 +201,7 @@ def extract_image(path, *, call_reread=True):
         raise ValueError(f"Unreadable image {path}")
     rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
     image = Image.fromarray(rgb)
-    borders = find_borders(image)
+    borders, column_info = detect_columns(rgb)
     if len(borders) != 10:
         raise ValueError("Expected nine table columns")
     spans, geometry = detect_rows(rgb)
@@ -200,6 +236,8 @@ def extract_image(path, *, call_reread=True):
                                 not row["name"])
         row["needs_review"] = row["uncertain"]
         row["review_status"] = "Unreviewed cell OCR"
+    geometry["columns"] = borders
+    geometry["column_detection"] = column_info
     return records, geometry
 
 
