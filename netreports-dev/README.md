@@ -59,3 +59,40 @@ development files to that branch. It is not a production weekly-update job.
 Changes require Codex review and explicit human approval before merging.
 Do not replace production pages until the revised UI, extraction and statistics
 have been accepted.
+
+## Experimental cell OCR v2 (PR #18)
+
+The original `preview.json` and live development-page dataset remain
+unchanged by the v2 evaluation. V2 creates separate evidence files:
+
+- `data/cell-ocr-poc.json`: ten historical screenshot comparison, including
+  exact held-out call/name matches on 38 previously reviewed check-ins.
+- `data/cell-ocr-archive.json`: experimental full-archive extraction.
+- `data/cell-ocr-audit.json`: per-net quality report and counts of uncertain
+  OCR candidates.
+
+The ten-image proof of concept identified all 38 reference rows and
+interpreted 37/38 callsigns correctly (97.4%). Only 34/38 correct callsigns
+appeared verbatim in an OCR reading: the remainder were supported by
+cross-net repeat-participant evidence and constrained OCR repairs. It is
+important **not to call inferred records verified**. The single known
+reference callsign miss was KE9DQS, an ambiguous S/9 reading.
+
+Exact names were correct in 27/38 baseline rows. The parser flags low
+name OCR confidence and retains the raw original; names are not silently
+overwritten from a registry.
+
+This is a small, repeat-participant-heavy evaluation set, *not* an
+archive-wide accuracy guarantee. Review uncommon and first-time station
+callsigns particularly carefully. No automatic promotion into
+`preview.json` or public site statistics is enabled.
+
+Local usage (Tesseract, OpenCV, Pillow, NumPy and pytesseract required):
+
+```bash
+python netreports-dev/scripts/extract_cells.py --root . --dates 2026-10-20
+python netreports-dev/scripts/import_cells_all.py --root .
+```
+
+**Release:** Codex review plus explicit human approval required before PR
+merge; separate approval required before publishing new data or statistics.
