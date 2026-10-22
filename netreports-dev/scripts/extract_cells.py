@@ -193,11 +193,11 @@ def extract_image(path, *, call_reread=True):
         row["image_row"] = i + 1
         row["source_image"] = f"/assets/img/{path.name}"
         row["reviewed"] = False
-        row["uncertain"] = (not CALL.fullmatch(selected) or
-                            (len(set(candidates)) > 1) or
-                            row["confidence"] < 65 or
-                            row["number"] != i + 1 or
-                            not row["name"])
+        row["uncertain"] = bool(not CALL.fullmatch(selected) or
+                                (len(set(candidates)) > 1) or
+                                row["confidence"] < 65 or
+                                row["number"] != i + 1 or
+                                not row["name"])
         row["needs_review"] = row["uncertain"]
         row["review_status"] = "Unreviewed cell OCR"
     return records, geometry
