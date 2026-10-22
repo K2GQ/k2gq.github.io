@@ -1,7 +1,7 @@
 {
   "kind": "ocr-proof-of-concept",
   "sample_only": true,
-  "generated_utc": "2026-10-22T21:02:34.976600+00:00",
+  "generated_utc": "2026-10-22T21:05:43.163012+00:00",
   "reviewed": false,
   "limitations": "Unreviewed OCR. Callsign and column assignments are provisional. Statistics are sample-only.",
   "nets": [
