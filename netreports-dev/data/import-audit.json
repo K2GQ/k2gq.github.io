@@ -1,11 +1,837 @@
 {
-  "generated_utc": "2026-10-22T21:39:56.014353+00:00",
+  "generated_utc": "2026-10-22T21:48:14.026994+00:00",
   "source_image_count": 162,
   "imported_net_count": 162,
   "extracted_checkin_rows": 1436,
   "reviewed_nets": 4,
   "unreviewed_nets": 158,
   "nets_with_no_recognized_rows": [],
+  "possible_callsign_variants_by_name": [
+    {
+      "operator_name": "MIKE ABBEY",
+      "callsigns": [
+        {
+          "call": "KC2NJ",
+          "net_count": 102
+        },
+        {
+          "call": "KC2N",
+          "net_count": 5
+        },
+        {
+          "call": "KC2NY",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "MAURICE A NARAINE",
+      "callsigns": [
+        {
+          "call": "KB2SUL",
+          "net_count": 59
+        },
+        {
+          "call": "KE2SUT",
+          "net_count": 29
+        },
+        {
+          "call": "KB2SUUL",
+          "net_count": 3
+        },
+        {
+          "call": "KE2ZSUT",
+          "net_count": 3
+        },
+        {
+          "call": "KE2SU",
+          "net_count": 2
+        },
+        {
+          "call": "KE2SUN",
+          "net_count": 2
+        },
+        {
+          "call": "AKB2SUL",
+          "net_count": 1
+        },
+        {
+          "call": "KE2SSUL",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "MAR CHRISTIANO",
+      "callsigns": [
+        {
+          "call": "KD2DMO",
+          "net_count": 62
+        },
+        {
+          "call": "KD2BDMO",
+          "net_count": 32
+        },
+        {
+          "call": "KO2BDMO",
+          "net_count": 2
+        },
+        {
+          "call": "KO2DMO",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "JERRY SCOLA",
+      "callsigns": [
+        {
+          "call": "WB2GZL",
+          "net_count": 54
+        },
+        {
+          "call": "WE2GZL",
+          "net_count": 11
+        },
+        {
+          "call": "WEB2GZL",
+          "net_count": 2
+        },
+        {
+          "call": "WE2AZ",
+          "net_count": 1
+        },
+        {
+          "call": "WE2EZI",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "ALLAN C SPERA",
+      "callsigns": [
+        {
+          "call": "KD2VLP",
+          "net_count": 60
+        },
+        {
+          "call": "KDZ2VLP",
+          "net_count": 1
+        },
+        {
+          "call": "KP2VIP",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "TERRY FRIEDMAN",
+      "callsigns": [
+        {
+          "call": "KD2STE",
+          "net_count": 48
+        },
+        {
+          "call": "KP2STE",
+          "net_count": 1
+        },
+        {
+          "call": "KPD2STE",
+          "net_count": 1
+        },
+        {
+          "call": "XP2STE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "WERNER J STAEHLE",
+      "callsigns": [
+        {
+          "call": "KC2QLE",
+          "net_count": 43
+        },
+        {
+          "call": "KC2Q",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "MATT COUPER",
+      "callsigns": [
+        {
+          "call": "KA2PUN",
+          "net_count": 37
+        },
+        {
+          "call": "KA2ZPUN",
+          "net_count": 3
+        }
+      ]
+    },
+    {
+      "operator_name": "CHUCK HUBER",
+      "callsigns": [
+        {
+          "call": "WB4AIZ",
+          "net_count": 24
+        },
+        {
+          "call": "WB4ARZ",
+          "net_count": 1
+        },
+        {
+          "call": "WE4AAIZ",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "BOB CALANDRA",
+      "callsigns": [
+        {
+          "call": "K2AUF",
+          "net_count": 21
+        },
+        {
+          "call": "K2AUR",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "RICHARD C SCHONBERG",
+      "callsigns": [
+        {
+          "call": "KE2KE",
+          "net_count": 12
+        },
+        {
+          "call": "KE2FKE",
+          "net_count": 4
+        },
+        {
+          "call": "KE2ZFKE",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "MAURICE NARAINE",
+      "callsigns": [
+        {
+          "call": "KB2SUL",
+          "net_count": 9
+        },
+        {
+          "call": "KE2SUT",
+          "net_count": 2
+        },
+        {
+          "call": "KS2SUT",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "PHIL MADISON",
+      "callsigns": [
+        {
+          "call": "KD2PQZ",
+          "net_count": 10
+        },
+        {
+          "call": "KD2PQZZ",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "MICHAEL F SMITH",
+      "callsigns": [
+        {
+          "call": "KD2ZSW",
+          "net_count": 9
+        },
+        {
+          "call": "KD2ZZSW",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "WERNER J STAEHLE WEST",
+      "callsigns": [
+        {
+          "call": "KC2QLE",
+          "net_count": 8
+        },
+        {
+          "call": "KC2ATE",
+          "net_count": 1
+        },
+        {
+          "call": "KC2ZQLE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "MICHAEL A ABBEY",
+      "callsigns": [
+        {
+          "call": "KC2NJ",
+          "net_count": 7
+        },
+        {
+          "call": "KC2N",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "STEVE GIAMPACLO",
+      "callsigns": [
+        {
+          "call": "KE2GV",
+          "net_count": 6
+        },
+        {
+          "call": "KE2GVV",
+          "net_count": 3
+        }
+      ]
+    },
+    {
+      "operator_name": "WILL DONAWAY",
+      "callsigns": [
+        {
+          "call": "KE2IXZ",
+          "net_count": 8
+        },
+        {
+          "call": "KE2KXZ",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "ABBEY SHORT",
+      "callsigns": [
+        {
+          "call": "KC2NJ",
+          "net_count": 6
+        },
+        {
+          "call": "KC2N",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "JOHN E BECK SR",
+      "callsigns": [
+        {
+          "call": "KD2WGN",
+          "net_count": 6
+        },
+        {
+          "call": "KO2WEN",
+          "net_count": 1
+        },
+        {
+          "call": "KP2WEN",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "A ABBEY SHORT",
+      "callsigns": [
+        {
+          "call": "KC2NJ",
+          "net_count": 4
+        },
+        {
+          "call": "KC2N",
+          "net_count": 3
+        }
+      ]
+    },
+    {
+      "operator_name": "PAUL MOLINARI",
+      "callsigns": [
+        {
+          "call": "N2MVK",
+          "net_count": 6
+        },
+        {
+          "call": "KE2HOV",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "RICH SCHONBERG",
+      "callsigns": [
+        {
+          "call": "KE2KE",
+          "net_count": 5
+        },
+        {
+          "call": "KE2FKE",
+          "net_count": 1
+        },
+        {
+          "call": "KE2RKE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "A NARAINE ORANGE",
+      "callsigns": [
+        {
+          "call": "KB2SUL",
+          "net_count": 5
+        },
+        {
+          "call": "KB2SUUL",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "ANNETTE KEEFER",
+      "callsigns": [
+        {
+          "call": "KK7YBP",
+          "net_count": 4
+        },
+        {
+          "call": "KK7VEE",
+          "net_count": 1
+        },
+        {
+          "call": "KX7VEP",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "COUPER WEST",
+      "callsigns": [
+        {
+          "call": "KA2PUN",
+          "net_count": 5
+        },
+        {
+          "call": "KAA2PUNN",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "KEVIN K WU",
+      "callsigns": [
+        {
+          "call": "KD2RME",
+          "net_count": 5
+        },
+        {
+          "call": "KO2RME",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "RONALD J REINHARDT",
+      "callsigns": [
+        {
+          "call": "WV2RJR",
+          "net_count": 5
+        },
+        {
+          "call": "WV2RIR",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "CHRISTIANO SUMMIT",
+      "callsigns": [
+        {
+          "call": "KD2DMO",
+          "net_count": 4
+        },
+        {
+          "call": "KD2BDMO",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "J MILARSKI ORANGE",
+      "callsigns": [
+        {
+          "call": "N2RCP",
+          "net_count": 4
+        },
+        {
+          "call": "N2ZRCP",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "JESSE B BERTIER",
+      "callsigns": [
+        {
+          "call": "N1UGK",
+          "net_count": 4
+        },
+        {
+          "call": "NI1UGK",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "MAURICE A NARALNE",
+      "callsigns": [
+        {
+          "call": "KB2SUUL",
+          "net_count": 3
+        },
+        {
+          "call": "KB2SUL",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "MILARSKI ORANGE",
+      "callsigns": [
+        {
+          "call": "N2RCP",
+          "net_count": 4
+        },
+        {
+          "call": "EJN2RCP",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "RICHARD SCHONBERG",
+      "callsigns": [
+        {
+          "call": "KE2KE",
+          "net_count": 3
+        },
+        {
+          "call": "KE2FKE",
+          "net_count": 2
+        }
+      ]
+    },
+    {
+      "operator_name": "STEVE GIAMPAOLA",
+      "callsigns": [
+        {
+          "call": "KE2GV",
+          "net_count": 4
+        },
+        {
+          "call": "KE2GVV",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "B BERTIER SOUTH",
+      "callsigns": [
+        {
+          "call": "N1UGK",
+          "net_count": 3
+        },
+        {
+          "call": "N1LUGK",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "CHUCK F HUBER MR",
+      "callsigns": [
+        {
+          "call": "WB4AIZ",
+          "net_count": 3
+        },
+        {
+          "call": "WE4AIZ",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "J MILARSKI",
+      "callsigns": [
+        {
+          "call": "N2RCP",
+          "net_count": 3
+        },
+        {
+          "call": "FAN2RCP",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "STEVE GIAMPAOLO",
+      "callsigns": [
+        {
+          "call": "KE2GVV",
+          "net_count": 2
+        },
+        {
+          "call": "KE2GVVV",
+          "net_count": 1
+        },
+        {
+          "call": "KE2ZGVV",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "C MELHORN",
+      "callsigns": [
+        {
+          "call": "NE2S",
+          "net_count": 2
+        },
+        {
+          "call": "KD2TZX",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "F SMITH DENVILLE",
+      "callsigns": [
+        {
+          "call": "KD2ZSW",
+          "net_count": 2
+        },
+        {
+          "call": "KD2ZZSW",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "FRIEDMAN LIVINGSTON",
+      "callsigns": [
+        {
+          "call": "KD2STE",
+          "net_count": 2
+        },
+        {
+          "call": "KP2STE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "M SWARTZ",
+      "callsigns": [
+        {
+          "call": "WA2ZEGE",
+          "net_count": 2
+        },
+        {
+          "call": "WA2EGE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "M SWARTZ EDISON",
+      "callsigns": [
+        {
+          "call": "WA2ZEGE",
+          "net_count": 2
+        },
+        {
+          "call": "WA2EGE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "MATTHEW COUPER",
+      "callsigns": [
+        {
+          "call": "KA2ZPUN",
+          "net_count": 2
+        },
+        {
+          "call": "KA2PUN",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "SCOLA LINCOLN",
+      "callsigns": [
+        {
+          "call": "WB2GZL",
+          "net_count": 1
+        },
+        {
+          "call": "WE2GCZ",
+          "net_count": 1
+        },
+        {
+          "call": "WE2GZL",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "SCOTT MCDERMOTT",
+      "callsigns": [
+        {
+          "call": "KY4NB",
+          "net_count": 2
+        },
+        {
+          "call": "KY4NE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "BARRY L HAMPTON",
+      "callsigns": [
+        {
+          "call": "WB2KLF",
+          "net_count": 1
+        },
+        {
+          "call": "WE2KLF",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "BRAD D LOW",
+      "callsigns": [
+        {
+          "call": "K5BDL",
+          "net_count": 1
+        },
+        {
+          "call": "KS5BDL",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "HONGEN LIU",
+      "callsigns": [
+        {
+          "call": "KE2HAX",
+          "net_count": 1
+        },
+        {
+          "call": "KE2ZHAX",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "J STAEHLE WEST",
+      "callsigns": [
+        {
+          "call": "KC2QLE",
+          "net_count": 1
+        },
+        {
+          "call": "KC2QLEE",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "MAURICE A NARAINE ORANGE",
+      "callsigns": [
+        {
+          "call": "KB2SUL",
+          "net_count": 1
+        },
+        {
+          "call": "KE2SUT",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "ROBERT BAKER",
+      "callsigns": [
+        {
+          "call": "WA2IEK",
+          "net_count": 1
+        },
+        {
+          "call": "WA2LEX",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "RON REINHARDT",
+      "callsigns": [
+        {
+          "call": "WV2RIR",
+          "net_count": 1
+        },
+        {
+          "call": "WV2RJR",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "SCOTT CLARK",
+      "callsigns": [
+        {
+          "call": "KQ4VY",
+          "net_count": 1
+        },
+        {
+          "call": "KQ4VYU",
+          "net_count": 1
+        }
+      ]
+    },
+    {
+      "operator_name": "TYLER THAI",
+      "callsigns": [
+        {
+          "call": "KE2HBD",
+          "net_count": 1
+        },
+        {
+          "call": "KE2HED",
+          "net_count": 1
+        }
+      ]
+    }
+  ],
   "nets_flagged_for_review": 158,
   "limitations": "OCR candidates have not been compared against source images except explicit reviewed dates. Missing check-ins and callsign errors remain possible.",
   "findings": [
