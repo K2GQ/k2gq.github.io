@@ -32,7 +32,7 @@ class TestCellOCRV2(unittest.TestCase):
         self.assertGreater(int(np.count_nonzero(cell < 50)), 50)
 
     def test_geometry_detects_several_colored_rows(self):
-        image = np.zeros((218, 600, 3), np.uint8)
+        image = np.zeros((220, 600, 3), np.uint8)
         image[:] = [238,238,238]
         backgrounds = [
             (255,255,255), (255, 0, 255), (45,255,255),
