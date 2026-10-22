@@ -105,6 +105,29 @@ def audit_archive(days, nets, rows):
             "duplicate_callsigns": duplicates, "invalid_callsigns": invalid_calls,
             "issues": issue
         })
+    # Identify possible misread callsigns without silently merging different stations.
+    # Exact normalized names are only a review hint, not proof of station identity.
+    names = defaultdict(lambda: defaultdict(set))
+    for row in rows:
+        name = re.sub(r"[^A-Z ]", "", str(row.get("name") or "").upper())
+        name = " ".join(name.split())
+        call = str(row.get("callsign") or "").upper()
+        if len(name) >= 8 and CALL_RE.fullmatch(call):
+            names[name][call].add(row["date"])
+    possible_aliases = [
+        {
+            "operator_name": name,
+            "callsigns": [
+                {"call": call, "net_count": len(dates)}
+                for call, dates in sorted(calls.items(),
+                                         key=lambda p: (-len(p[1]), p[0]))
+            ]
+        }
+        for name, calls in names.items() if len(calls) > 1
+    ]
+    possible_aliases.sort(
+        key=lambda item: (-sum(c["net_count"] for c in item["callsigns"]),
+                          item["operator_name"]))
     return {
         "generated_utc": datetime.now(timezone.utc).isoformat(),
         "source_image_count": len(days),
@@ -113,6 +136,7 @@ def audit_archive(days, nets, rows):
         "reviewed_nets": sum(bool(n.get("reviewed")) for n in nets),
         "unreviewed_nets": sum(not n.get("reviewed") for n in nets),
         "nets_with_no_recognized_rows": [n["date"] for n in nets if not by_date[n["date"]]],
+        "possible_callsign_variants_by_name": possible_aliases,
         "nets_flagged_for_review": sum(bool(f["issues"]) or not f["reviewed"] for f in findings),
         "limitations": "OCR candidates have not been compared against source images except explicit reviewed dates. Missing check-ins and callsign errors remain possible.",
         "findings": findings
