@@ -1,14 +1,15 @@
 {
   "kind": "ocr-proof-of-concept",
   "sample_only": true,
-  "generated_utc": "2026-10-22T21:10:11.659619+00:00",
+  "generated_utc": "2026-10-22T21:14:24.612079+00:00",
   "reviewed": false,
-  "limitations": "Unreviewed OCR. Callsign and column assignments are provisional. Statistics are sample-only.",
+  "reviewed_rows": 19,
+  "limitations": "Only rows explicitly marked reviewed were compared with source screenshots. Other candidate OCR rows are provisional. Statistics are sample-only.",
   "nets": [
     {
       "date": "2023-09-06",
       "image": "/assets/img/net-2023-09-06.png",
-      "ocr_rows": 5,
+      "ocr_rows": 6,
       "detected_columns": [
         "number",
         "callsign",
@@ -32,9 +33,11 @@
         868,
         920
       ],
-      "low_confidence_rows": 5,
+      "low_confidence_rows": 0,
       "rejected_lines": [],
-      "sample_only": true
+      "sample_only": true,
+      "ocr_candidate_rows": 5,
+      "reviewed": true
     },
     {
       "date": "2024-08-20",
@@ -101,7 +104,7 @@
     {
       "date": "2026-10-20",
       "image": "/assets/img/net-2026-10-20.png",
-      "ocr_rows": 10,
+      "ocr_rows": 13,
       "detected_columns": [
         "number",
         "callsign",
@@ -125,16 +128,18 @@
         903,
         1026
       ],
-      "low_confidence_rows": 10,
+      "low_confidence_rows": 0,
       "rejected_lines": [],
-      "sample_only": true
+      "sample_only": true,
+      "ocr_candidate_rows": 10,
+      "reviewed": true
     }
   ],
   "checkins": [
     {
       "date": "2023-09-06",
+      "number": 1,
       "callsign": "WV2RJR",
-      "number": null,
       "status": "",
       "name": "Ronald J Reinhardt",
       "city": "Roseland",
@@ -142,15 +147,16 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "RF",
-      "raw_text": "1;WV2RJR Ronald J Reinhardt Roseland Essex NJ United States RF",
-      "confidence": 0,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2023-09-06",
+      "number": 2,
       "callsign": "KC2NJ",
-      "number": null,
       "status": "",
       "name": "Michael A Abbey",
       "city": "Short Hills",
@@ -158,15 +164,16 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "RF",
-      "raw_text": "2|KC2NJ Michael A Abbey Short Hills Essex NJ United States RF",
-      "confidence": 54,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2023-09-06",
+      "number": 3,
       "callsign": "KD2CAK",
-      "number": null,
       "status": "",
       "name": "Ari H Levine",
       "city": "Vauxhall",
@@ -174,15 +181,16 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "RF",
-      "raw_text": "3/KD2CAK Ari H Levine Vauxhall Passaic NJ United States RF",
-      "confidence": 58,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2023-09-06",
+      "number": 4,
       "callsign": "N1UGK",
-      "number": null,
       "status": "",
       "name": "Jesse B Bertier",
       "city": "South Orange",
@@ -190,15 +198,16 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "RF",
-      "raw_text": "4)/N1UGK Jesse B Bertier South Orange Essex NJ United States RF",
-      "confidence": 4,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2023-09-06",
+      "number": 5,
       "callsign": "KD2STE",
-      "number": null,
       "status": "",
       "name": "Terry Friedman",
       "city": "Livingston",
@@ -206,26 +215,28 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "RF",
-      "raw_text": "5|KD2STE Terry Friedman Livingston Essex NJ United States RF",
-      "confidence": 44,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
-      "date": "2024-08-20",
-      "callsign": "WV2RJR",
-      "number": null,
+      "date": "2023-09-06",
+      "number": 6,
+      "callsign": "KB2SUL",
       "status": "",
-      "name": "|Ronald J Reinhardt",
-      "city": "[Roseland",
-      "county": "|Essex",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
       "state": "NJ",
-      "country": "|United States",
-      "remarks": "|RF",
-      "raw_text": "WV2RJR |{c/o} |Ronald J Reinhardt [Roseland |Essex NJ |United States |RF",
-      "confidence": 0,
-      "reviewed": false,
-      "needs_review": true
+      "country": "United States",
+      "remarks": "RF",
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2024-08-20",
@@ -241,7 +252,8 @@
       "raw_text": "3 KC2NJ (u),(op) Mike Abbey Short Hills Essex NJ United States RF",
       "confidence": 26,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2024-08-20",
@@ -257,7 +269,8 @@
       "raw_text": "5 N2RCP (u) John J Milarskl ORANGE Essex NJ United States RF",
       "confidence": 58,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2024-08-20",
@@ -273,7 +286,8 @@
       "raw_text": "6 N2LMW (u) Robert Zerillli Toms river Ocean NJ United States EchoLink",
       "confidence": 58,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2024-08-20",
@@ -289,7 +303,8 @@
       "raw_text": "8 K2AUF (u) Robert A Calandra ELIZABETH Union NJ United States RF",
       "confidence": 37,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2024-08-20",
@@ -305,7 +320,8 @@
       "raw_text": "E KD2zZSw |{c/o} |Michael F Smith |Denville |Morris NJ |United States |RF",
       "confidence": 25,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2024-08-20",
@@ -321,23 +337,25 @@
       "raw_text": "wb2x | |Jose J Mercado |POMPTON LAKES [Passaic NJ |United States |RF",
       "confidence": 0,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
-      "date": "2025-06-10",
-      "callsign": "KKE2SUL",
+      "date": "2024-08-20",
+      "callsign": "WV2RJR",
       "number": null,
       "status": "",
-      "name": "|Maurice A Naraine",
-      "city": "| ORANGE",
-      "county": "| Essex",
-      "state": "",
-      "country": "[NJ |United States",
+      "name": "|Ronald J Reinhardt",
+      "city": "[Roseland",
+      "county": "|Essex",
+      "state": "NJ",
+      "country": "|United States",
       "remarks": "|RF",
-      "raw_text": "Bf i|kKe2suL | |Maurice A Naraine | ORANGE | Essex [NJ |United States |RF",
+      "raw_text": "WV2RJR |{c/o} |Ronald J Reinhardt [Roseland |Essex NJ |United States |RF",
       "confidence": 0,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2025-06-10",
@@ -353,7 +371,8 @@
       "raw_text": "3 KD2BDMO {u).{log) Mar Christiano Summit Union NJ United States EchoLink",
       "confidence": 39,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2025-06-10",
@@ -369,7 +388,8 @@
       "raw_text": "4 WB2GZL {u) Jerry Scola Lincoln Park Morris NJ United States RF",
       "confidence": 59,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2025-06-10",
@@ -385,7 +405,8 @@
       "raw_text": "5 KC2NJ {u),{log)... Mike Abbey Short Hills Essex NJ United States RF",
       "confidence": 60,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2025-06-10",
@@ -401,7 +422,8 @@
       "raw_text": "6 N2RCP {u) John J Milarski ORANGE Essex NJ United States RF",
       "confidence": 60,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2025-06-10",
@@ -417,7 +439,8 @@
       "raw_text": "7 KC2QLE {u) Werner | Staehle West Caldwell Essex NJ United States EchoLink",
       "confidence": 60,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2025-06-10",
@@ -433,167 +456,246 @@
       "raw_text": "8 KD2VLP {u) Allan C Spera South Orange Essex NJ United States EchoLink",
       "confidence": 51,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
-      "date": "2026-10-20",
-      "callsign": "KB2SUL",
+      "date": "2025-06-10",
+      "callsign": "KKE2SUL",
       "number": null,
-      "status": "|{nc)",
-      "name": "| Maurice A Naraine",
+      "status": "",
+      "name": "|Maurice A Naraine",
       "city": "| ORANGE",
       "county": "| Essex",
-      "state": "[NJ",
-      "country": "|United States",
-      "remarks": "|RF-TXA",
-      "raw_text": "KB2SUL |{nc) | Maurice A Naraine | ORANGE | Essex [NJ |United States |RF-TXA",
+      "state": "",
+      "country": "[NJ |United States",
+      "remarks": "|RF",
+      "raw_text": "Bf i|kKe2suL | |Maurice A Naraine | ORANGE | Essex [NJ |United States |RF",
       "confidence": 0,
       "reviewed": false,
-      "needs_review": true
+      "needs_review": true,
+      "review_status": "OCR only — not reviewed"
     },
     {
       "date": "2026-10-20",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "status": "(nc)",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA",
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
+    },
+    {
+      "date": "2026-10-20",
+      "number": 2,
       "callsign": "N7WAM",
-      "number": null,
-      "status": "|{cfo)",
-      "name": "|Bill Mehle",
-      "city": "| MACEDONIA",
-      "county": "|Summit",
-      "state": "|OH",
-      "country": "|United States",
-      "remarks": "|EchoLink",
-      "raw_text": "N7WAM |{cfo) |Bill Mehle | MACEDONIA |Summit |OH |United States |EchoLink",
-      "confidence": 43,
-      "reviewed": false,
-      "needs_review": true
+      "status": "(c/o)",
+      "name": "Bill Mehle",
+      "city": "MACEDONIA",
+      "county": "Summit",
+      "state": "OH",
+      "country": "United States",
+      "remarks": "EchoLink",
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "WB2GZL",
+      "number": 3,
+      "callsign": "AD8CZ",
+      "status": "(c/o)",
+      "name": "Walter S Johnson",
+      "city": "Shippensburg",
+      "county": "Berkeley",
+      "state": "PA",
+      "country": "United States",
+      "remarks": "EchoLink",
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
+    },
+    {
+      "date": "2026-10-20",
+      "number": 4,
+      "callsign": "KC3DZG",
+      "status": "(u)",
+      "name": "Avanti K Borucki",
+      "city": "EAST ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink",
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
+    },
+    {
+      "date": "2026-10-20",
       "number": 5,
-      "status": "{u)}",
+      "callsign": "WB2GZL",
+      "status": "(u)",
       "name": "Jerry Scola",
       "city": "Lincoln Park",
       "county": "Morris",
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink",
-      "raw_text": "5 WB2GZL {u)} Jerry Scola Lincoln Park Morris NJ United States EchoLink",
-      "confidence": 35,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "KD2VLP",
       "number": 6,
-      "status": "{u)}",
+      "callsign": "KD2VLP",
+      "status": "(u)",
       "name": "Allan C Spera",
       "city": "South Orange",
       "county": "Essex",
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink",
-      "raw_text": "6 KD2VLP {u)} Allan C Spera South Orange Essex NJ United States EchoLink",
-      "confidence": 35,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "KD2DMO",
       "number": 7,
-      "status": "{u).(-..",
+      "callsign": "KD2DMO",
+      "status": "(u),…",
       "name": "Mar Christiano",
       "city": "Summit",
       "county": "Union",
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink",
-      "raw_text": "7 KD2DMO {u).(-.. Mar Christiano Summit Union NJ United States EchoLink",
-      "confidence": 48,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
+      "number": 8,
       "callsign": "KE2HPS",
-      "number": null,
-      "status": "{u)}",
+      "status": "(u)",
       "name": "Todd M Gutnick",
       "city": "South Orange",
       "county": "Essex",
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink",
-      "raw_text": "& KE2HPS {u)} Todd M Gutnick South Orange Essex NJ United States EchoLink",
-      "confidence": 35,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "N2RCP",
       "number": 9,
-      "status": "{u)}",
+      "callsign": "N2RCP",
+      "status": "(u)",
       "name": "John J Milarski",
       "city": "ORANGE",
       "county": "Essex",
       "state": "NJ",
       "country": "United States",
       "remarks": "RF - TXA",
-      "raw_text": "9 N2RCP {u)} John J Milarski ORANGE Essex NJ United States RF - TXA",
-      "confidence": 35,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "KE2GV",
       "number": 10,
-      "status": "{u)}",
-      "name": "Steve Giampaclo",
+      "callsign": "KE2GVV",
+      "status": "(u)",
+      "name": "Steve Giampaolo",
       "city": "Livingston",
       "county": "Essex",
       "state": "NJ",
       "country": "United States",
       "remarks": "RF - TXA",
-      "raw_text": "10 KE2GV¥ {u)} Steve Giampaclo Livingston Essex NJ United States RF - TXA",
-      "confidence": 35,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "KC2NJ",
       "number": 11,
-      "status": "{u).(-..",
+      "callsign": "KC2NJ",
+      "status": "(u),…",
       "name": "Mike Abbey",
       "city": "Short Hills",
       "county": "Essex",
       "state": "NJ",
       "country": "United States",
       "remarks": "RF - TXA",
-      "raw_text": "11 KC2NJ {u).(-.. Mike Abbey Short Hills Essex NJ United States RF - TXA",
-      "confidence": 48,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     },
     {
       "date": "2026-10-20",
-      "callsign": "KC2QUE",
-      "number": null,
+      "number": 12,
+      "callsign": "KE9DQS",
+      "status": "(u)",
+      "name": "Todd N Owen",
+      "city": "Camby",
+      "county": "Morgan",
+      "state": "IN",
+      "country": "United States",
+      "remarks": "EchoLink",
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
+    },
+    {
+      "date": "2026-10-20",
+      "number": 13,
+      "callsign": "KC2QLE",
       "status": "",
-      "name": "|Werner J Staehle",
-      "city": "|West Caldwell",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
       "county": "Essex",
       "state": "NJ",
-      "country": "|United States",
+      "country": "United States",
       "remarks": "EchoLink",
-      "raw_text": "13|Kc2que |Werner J Staehle |West Caldwell Essex NJ |United States EchoLink",
-      "confidence": 15,
-      "reviewed": false,
-      "needs_review": true
+      "reviewed": true,
+      "review_status": "Reviewed from image",
+      "needs_review": false,
+      "confidence": null,
+      "raw_text": ""
     }
   ]
 }
