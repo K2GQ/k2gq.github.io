@@ -234,6 +234,7 @@ def extract_image(path, *, call_reread=True):
         row["uncertain"] = bool(not CALL.fullmatch(selected) or
                                 (len(set(candidates)) > 1) or
                                 row["confidence"] < 65 or
+                                row["name_confidence"] < 75 or
                                 row["number"] != i + 1 or
                                 not row["name"])
         row["needs_review"] = row["uncertain"]
