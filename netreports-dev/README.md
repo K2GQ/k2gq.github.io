@@ -27,7 +27,7 @@ highlighted text and OCR mistakes. The source PNGs are always authoritative.
 - `data/import-audit.json` – generated per-net review findings, including missing
   row numbers, duplicate callsigns and possible misread variants.
 - `data/ocr-review.txt` – raw recognized lines, used for troubleshooting.
-- `tests/` – unit tests for the exporter, subset handling and full import.
+- `tests/` – unit tests for the extractor, subset handling and full import.
 
 ## Data verification
 
