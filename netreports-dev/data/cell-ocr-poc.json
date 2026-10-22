@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-22T22:34:06.821227+00:00",
+  "generated_utc": "2026-10-22T22:37:57.622350+00:00",
   "version": "cell-ocr-v2-experimental",
   "test_only": true,
   "sample_dates": [
@@ -23,7 +23,33 @@
         "header_bottom": 69,
         "pitch": 26,
         "raw_peaks": 9,
-        "detected_rows": 6
+        "detected_rows": 6,
+        "columns": [
+          12,
+          35,
+          161,
+          240,
+          422,
+          574,
+          671,
+          725,
+          868,
+          920
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            161,
+            240,
+            421,
+            572,
+            671,
+            726,
+            866
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -34,7 +60,33 @@
         "header_bottom": 69,
         "pitch": 26,
         "raw_peaks": 12,
-        "detected_rows": 9
+        "detected_rows": 9,
+        "columns": [
+          12,
+          35,
+          161,
+          240,
+          422,
+          574,
+          671,
+          725,
+          868,
+          920
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            161,
+            240,
+            421,
+            572,
+            671,
+            726,
+            866
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -45,7 +97,33 @@
         "header_bottom": 66,
         "pitch": 21,
         "raw_peaks": 17,
-        "detected_rows": 14
+        "detected_rows": 14,
+        "columns": [
+          11,
+          36,
+          183,
+          238,
+          431,
+          576,
+          686,
+          776,
+          921,
+          1046
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            142,
+            217,
+            423,
+            576,
+            723,
+            779,
+            950
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -56,7 +134,33 @@
         "header_bottom": 62,
         "pitch": 21,
         "raw_peaks": 14,
-        "detected_rows": 11
+        "detected_rows": 11,
+        "columns": [
+          11,
+          34,
+          176,
+          229,
+          414,
+          554,
+          660,
+          746,
+          886,
+          1006
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            152,
+            238,
+            444,
+            612,
+            714,
+            770,
+            911
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -67,7 +171,33 @@
         "header_bottom": 70,
         "pitch": 26,
         "raw_peaks": 11,
-        "detected_rows": 8
+        "detected_rows": 8,
+        "columns": [
+          11,
+          36,
+          183,
+          238,
+          430,
+          576,
+          686,
+          775,
+          920,
+          1045
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            164,
+            243,
+            437,
+            588,
+            687,
+            742,
+            882
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -78,7 +208,33 @@
         "header_bottom": 71,
         "pitch": 26,
         "raw_peaks": 11,
-        "detected_rows": 8
+        "detected_rows": 8,
+        "columns": [
+          11,
+          36,
+          185,
+          240,
+          434,
+          581,
+          692,
+          782,
+          928,
+          1054
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            161,
+            242,
+            477,
+            628,
+            773,
+            828,
+            968
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -89,7 +245,33 @@
         "header_bottom": 69,
         "pitch": 26,
         "raw_peaks": 12,
-        "detected_rows": 9
+        "detected_rows": 9,
+        "columns": [
+          11,
+          36,
+          186,
+          242,
+          437,
+          584,
+          696,
+          786,
+          933,
+          1060
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            164,
+            245,
+            480,
+            631,
+            776,
+            831,
+            971
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -100,7 +282,33 @@
         "header_bottom": 69,
         "pitch": 25,
         "raw_peaks": 15,
-        "detected_rows": 12
+        "detected_rows": 12,
+        "columns": [
+          11,
+          35,
+          178,
+          231,
+          418,
+          559,
+          665,
+          752,
+          893,
+          1014
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            179,
+            234,
+            422,
+            566,
+            671,
+            760,
+            903
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -111,7 +319,33 @@
         "header_bottom": 71,
         "pitch": 25,
         "raw_peaks": 13,
-        "detected_rows": 10
+        "detected_rows": 10,
+        "columns": [
+          11,
+          35,
+          178,
+          231,
+          417,
+          558,
+          665,
+          752,
+          892,
+          1013
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            177,
+            232,
+            420,
+            564,
+            669,
+            758,
+            901
+          ],
+          "header_grid_score": 7
+        }
       }
     },
     {
@@ -122,7 +356,33 @@
         "header_bottom": 68,
         "pitch": 25,
         "raw_peaks": 16,
-        "detected_rows": 13
+        "detected_rows": 13,
+        "columns": [
+          11,
+          35,
+          180,
+          234,
+          423,
+          565,
+          673,
+          761,
+          903,
+          1026
+        ],
+        "column_detection": {
+          "method": "legacy-fallback",
+          "header_candidates": [
+            0,
+            180,
+            235,
+            423,
+            567,
+            672,
+            761,
+            904
+          ],
+          "header_grid_score": 7
+        }
       }
     }
   ],
