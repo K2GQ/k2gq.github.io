@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-22T22:42:38.403802+00:00",
+  "generated_utc": "2026-10-22T22:54:57.423777+00:00",
   "version": "cell-ocr-v2-experimental",
   "test_only": true,
   "sample_dates": [
@@ -407,7 +407,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WV2RJR",
+          "score": 75
+        },
+        {
+          "callsign": "W2RJR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2JR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RJ",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RR",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WV2RJR",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
@@ -429,7 +453,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 48
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        },
+        {
+          "callsign": "KC2N",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 3,
@@ -451,7 +495,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2CAK",
+          "score": 48
+        },
+        {
+          "callsign": "K2CAK",
+          "score": -4
+        },
+        {
+          "callsign": "KD2AK",
+          "score": -4
+        },
+        {
+          "callsign": "KD2CA",
+          "score": -4
+        },
+        {
+          "callsign": "KD2CK",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2CAK",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 4,
@@ -473,7 +541,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N1UGK",
+          "score": 22
+        },
+        {
+          "callsign": "N1GK",
+          "score": -4
+        },
+        {
+          "callsign": "N1UG",
+          "score": -4
+        },
+        {
+          "callsign": "N1UK",
+          "score": -4
+        },
+        {
+          "callsign": "NI1UGK",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N1UGK",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 5,
@@ -495,7 +587,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2STE",
+          "score": 49
+        },
+        {
+          "callsign": "K2STE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2SE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ST",
+          "score": -4
+        },
+        {
+          "callsign": "KD2TE",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2STE",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 6,
@@ -517,7 +633,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 80
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -539,11 +679,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 81
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
-      "callsign": "WV2RIJR",
+      "callsign": "WV2RJR",
       "status": "",
       "name": "Ronald J Reinhardt",
       "city": "Roseland",
@@ -561,7 +725,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WV2RJR",
+          "score": 50
+        },
+        {
+          "callsign": "W2RJR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2IJR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2JR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RIJ",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RIR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RJ",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RR",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WV2RJR",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 3,
@@ -583,7 +783,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 74
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        },
+        {
+          "callsign": "KC2N",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
@@ -605,7 +825,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "K2AUF",
+          "score": 74
+        },
+        {
+          "callsign": "K2AF",
+          "score": -4
+        },
+        {
+          "callsign": "K2AU",
+          "score": -4
+        },
+        {
+          "callsign": "K2UF",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "K2AUF",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
@@ -627,7 +867,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KA2PUN",
+          "score": 40
+        },
+        {
+          "callsign": "K2PUN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PU",
+          "score": -4
+        },
+        {
+          "callsign": "KA2UN",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KA2PUN",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 6,
@@ -649,7 +913,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2STE",
+          "score": 75
+        },
+        {
+          "callsign": "K2STE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2SE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ST",
+          "score": -4
+        },
+        {
+          "callsign": "KD2TE",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2STE",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
@@ -671,7 +959,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2WYH",
+          "score": 40
+        },
+        {
+          "callsign": "K2WYH",
+          "score": -4
+        },
+        {
+          "callsign": "KC2WH",
+          "score": -4
+        },
+        {
+          "callsign": "KC2WY",
+          "score": -4
+        },
+        {
+          "callsign": "KC2YH",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2WYH",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 8,
@@ -693,7 +1005,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 80
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 9,
@@ -715,7 +1047,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N1UGK",
+          "score": 48
+        },
+        {
+          "callsign": "N1GK",
+          "score": -4
+        },
+        {
+          "callsign": "N1UG",
+          "score": -4
+        },
+        {
+          "callsign": "N1UK",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N1UGK",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -737,7 +1089,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 81
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
@@ -759,7 +1135,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2YOE",
+          "score": 40
+        },
+        {
+          "callsign": "K2YOE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2OE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2YE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2YO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2YOE",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 2,
@@ -781,7 +1181,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 79
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
@@ -803,7 +1227,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2WGN",
+          "score": 40
+        },
+        {
+          "callsign": "K2WGN",
+          "score": -4
+        },
+        {
+          "callsign": "KD2GN",
+          "score": -4
+        },
+        {
+          "callsign": "KD2WG",
+          "score": -4
+        },
+        {
+          "callsign": "KD2WN",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2WGN",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 5,
@@ -823,9 +1271,33 @@
       "image_row": 5,
       "source_image": "/assets/img/net-2024-04-02.png",
       "reviewed": false,
-      "uncertain": false,
-      "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "uncertain": true,
+      "needs_review": true,
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KA2PUN",
+          "score": 48
+        },
+        {
+          "callsign": "K2PUN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PU",
+          "score": -4
+        },
+        {
+          "callsign": "KA2UN",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KA2PUN",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 6,
@@ -847,7 +1319,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 52
+        },
+        {
+          "callsign": "K2DMO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DM",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2MO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
@@ -869,11 +1365,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 52
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 8,
-      "callsign": "NLUGK",
+      "callsign": "N1UGK",
       "status": "(u}",
       "name": "Jesse EB Bertler",
       "city": "South Grange",
@@ -891,7 +1407,15 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N1UGK",
+          "score": 31
+        }
+      ],
+      "interpreted_callsign": "N1UGK",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 9,
@@ -913,7 +1437,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 80
+        },
+        {
+          "callsign": "KC2N",
+          "score": 7
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -935,7 +1479,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2ZSW",
+          "score": 74
+        },
+        {
+          "callsign": "K2ZSW",
+          "score": -4
+        },
+        {
+          "callsign": "KD2SW",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZS",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZW",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2ZSW",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 11,
@@ -957,7 +1525,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2CAK",
+          "score": 74
+        },
+        {
+          "callsign": "K2CAK",
+          "score": -4
+        },
+        {
+          "callsign": "KD2AK",
+          "score": -4
+        },
+        {
+          "callsign": "KD2CA",
+          "score": -4
+        },
+        {
+          "callsign": "KD2CK",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2CAK",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 12,
@@ -979,7 +1571,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2STE",
+          "score": 75
+        },
+        {
+          "callsign": "K2STE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2SE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ST",
+          "score": -4
+        },
+        {
+          "callsign": "KD2TE",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2STE",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -1001,7 +1617,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WA2EGE",
+          "score": 40
+        },
+        {
+          "callsign": "W2EGE",
+          "score": -4
+        },
+        {
+          "callsign": "WA2EE",
+          "score": -4
+        },
+        {
+          "callsign": "WA2EG",
+          "score": -4
+        },
+        {
+          "callsign": "WA2GE",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WA2EGE",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 14,
@@ -1023,7 +1663,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2QLE",
+          "score": 76
+        },
+        {
+          "callsign": "K2QLE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2LE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2QE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2QL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2QLE",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -1045,11 +1709,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 80
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
-      "callsign": "WY2RJR",
+      "callsign": "WV2RJR",
       "status": "{c/o}",
       "name": "Ronald |] Reinhardt",
       "city": "Roseland",
@@ -1067,11 +1755,47 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WV2RJR",
+          "score": 49
+        },
+        {
+          "callsign": "WY2RJR",
+          "score": 12
+        },
+        {
+          "callsign": "W2RJR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2JR",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RJ",
+          "score": -4
+        },
+        {
+          "callsign": "WV2RR",
+          "score": -4
+        },
+        {
+          "callsign": "WY2JR",
+          "score": -4
+        },
+        {
+          "callsign": "WY2RJ",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WV2RJR",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 3,
-      "callsign": "KC2N",
+      "callsign": "KC2NJ",
       "status": "(uj,{op)",
       "name": "Mike Abbey",
       "city": "Short Hills",
@@ -1090,12 +1814,34 @@
       "uncertain": true,
       "needs_review": true,
       "review_status": "Unreviewed cell OCR",
-      "suggested_callsign": "KC2NJ",
-      "suggestion_basis": "Same normalized name; 3/3 observations of KC2NJ"
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 53
+        },
+        {
+          "callsign": "KC2N",
+          "score": 22
+        },
+        {
+          "callsign": "K2N",
+          "score": -4
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
-      "callsign": "KDZ2DMO",
+      "callsign": "KD2DMO",
       "status": "(log)",
       "name": "Mar Christlano",
       "city": "Summit",
@@ -1113,11 +1859,23 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 35
+        },
+        {
+          "callsign": "KZ2DMO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
-      "callsign": "N2ZRCP",
+      "callsign": "N2RCP",
       "status": "(u}",
       "name": "John J Milarskl",
       "city": "ORANGE",
@@ -1135,11 +1893,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 53
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZCP",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZRC",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZRP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 6,
-      "callsign": "N2ZLMW",
+      "callsign": "N2LMW",
       "status": "(u}",
       "name": "Robert Zerllli",
       "city": "Toms river",
@@ -1157,7 +1947,39 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2LMW",
+          "score": 14
+        },
+        {
+          "callsign": "N2LM",
+          "score": -4
+        },
+        {
+          "callsign": "N2LW",
+          "score": -4
+        },
+        {
+          "callsign": "N2MW",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZLM",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZLW",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZMW",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2LMW",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 7,
@@ -1179,7 +2001,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WB4AIZ",
+          "score": 40
+        },
+        {
+          "callsign": "W4AIZ",
+          "score": -4
+        },
+        {
+          "callsign": "WB4AI",
+          "score": -4
+        },
+        {
+          "callsign": "WB4AZ",
+          "score": -4
+        },
+        {
+          "callsign": "WB4IZ",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WB4AIZ",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 8,
@@ -1201,7 +2047,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "K2AUF",
+          "score": 48
+        },
+        {
+          "callsign": "K2AF",
+          "score": -4
+        },
+        {
+          "callsign": "K2AU",
+          "score": -4
+        },
+        {
+          "callsign": "K2UF",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "K2AUF",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 9,
@@ -1223,11 +2089,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WA2IEK",
+          "score": 40
+        },
+        {
+          "callsign": "W2IEK",
+          "score": -4
+        },
+        {
+          "callsign": "WA2EK",
+          "score": -4
+        },
+        {
+          "callsign": "WA2IE",
+          "score": -4
+        },
+        {
+          "callsign": "WA2IK",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WA2IEK",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 10,
-      "callsign": "KD22SW",
+      "callsign": "KD2ZSW",
       "status": "{c/o}",
       "name": "Michael F Smith",
       "city": "Denville",
@@ -1245,7 +2135,19 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2ZSW",
+          "score": 5
+        },
+        {
+          "callsign": "KD2SW",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2ZSW",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 11,
@@ -1267,7 +2169,19 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WD2X",
+          "score": 40
+        },
+        {
+          "callsign": "W2X",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WD2X",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 1,
@@ -1289,11 +2203,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 81
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
-      "callsign": "KC2N",
+      "callsign": "KC2NJ",
       "status": "(uj(op})",
       "name": "Mike Abbey",
       "city": "Short Hills",
@@ -1312,8 +2250,30 @@
       "uncertain": true,
       "needs_review": true,
       "review_status": "Unreviewed cell OCR",
-      "suggested_callsign": "KC2NJ",
-      "suggestion_basis": "Same normalized name; 3/3 observations of KC2NJ"
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 54
+        },
+        {
+          "callsign": "KC2N",
+          "score": 22
+        },
+        {
+          "callsign": "K2N",
+          "score": -4
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 3,
@@ -1335,7 +2295,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WI0Y",
+          "score": 12
+        },
+        {
+          "callsign": "W0Y",
+          "score": -4
+        },
+        {
+          "callsign": "W1OY",
+          "score": -4
+        },
+        {
+          "callsign": "W1Y",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WI0Y",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 4,
@@ -1357,7 +2337,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 80
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
@@ -1379,7 +2379,23 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "AC2NI",
+          "score": 40
+        },
+        {
+          "callsign": "AC2I",
+          "score": -4
+        },
+        {
+          "callsign": "AC2N",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "AC2NI",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 6,
@@ -1401,7 +2417,39 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2ZSW",
+          "score": 48
+        },
+        {
+          "callsign": "K2ZSW",
+          "score": -4
+        },
+        {
+          "callsign": "KD2SW",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZS",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZW",
+          "score": -4
+        },
+        {
+          "callsign": "KO2ZSW",
+          "score": -4
+        },
+        {
+          "callsign": "KO2ZW",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2ZSW",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
@@ -1423,7 +2471,10 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "interpretation": "ambiguous-ocr",
+      "interpreted_callsign": "KK/YBP",
+      "candidate_callsigns": []
     },
     {
       "number": 8,
@@ -1445,7 +2496,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 79
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -1467,11 +2542,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 80
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
-      "callsign": "KA2ZPUN",
+      "callsign": "KA2PUN",
       "status": "{u)",
       "name": "Matt Couper",
       "city": "Pittsfield",
@@ -1489,11 +2588,47 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KA2PUN",
+          "score": 24
+        },
+        {
+          "callsign": "K2PUN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PU",
+          "score": -4
+        },
+        {
+          "callsign": "KA2UN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2ZPN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2ZPU",
+          "score": -4
+        },
+        {
+          "callsign": "KA2ZUN",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KA2PUN",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 3,
-      "callsign": "KDB2BMO",
+      "callsign": "KD2DMO",
       "status": "{uj)(log)",
       "name": "Mar Christiano",
       "city": "Summit",
@@ -1512,12 +2647,42 @@
       "uncertain": true,
       "needs_review": true,
       "review_status": "Unreviewed cell OCR",
-      "suggested_callsign": "KD2DMO",
-      "suggestion_basis": "Same normalized name; 3/3 observations of KD2DMO"
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 53
+        },
+        {
+          "callsign": "KB2BMO",
+          "score": 4
+        },
+        {
+          "callsign": "K2DMO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2BMO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DM",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2MO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
-      "callsign": "WB2G2L",
+      "callsign": "WB2GZL",
       "status": "{u)",
       "name": "Jerry Scola",
       "city": "Lincoln Park",
@@ -1535,11 +2700,23 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WB2GZL",
+          "score": 33
+        },
+        {
+          "callsign": "WB2GL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WB2GZL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
-      "callsign": "KC2N",
+      "callsign": "KC2NJ",
       "status": "(u),(log)...",
       "name": "Mike Abbey",
       "city": "Short Hills",
@@ -1558,8 +2735,30 @@
       "uncertain": true,
       "needs_review": true,
       "review_status": "Unreviewed cell OCR",
-      "suggested_callsign": "KC2NJ",
-      "suggestion_basis": "Same normalized name; 3/3 observations of KC2NJ"
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 53
+        },
+        {
+          "callsign": "KC2N",
+          "score": 22
+        },
+        {
+          "callsign": "K2N",
+          "score": -4
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 6,
@@ -1581,7 +2780,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 79
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
@@ -1603,7 +2822,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2QLE",
+          "score": 75
+        },
+        {
+          "callsign": "K2QLE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2LE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2QE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2QL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2QLE",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 8,
@@ -1625,7 +2868,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 78
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -1647,11 +2914,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 81
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
-      "callsign": "KD3BX",
+      "callsign": "KD3BXJ",
       "status": "{u)",
       "name": "Martin Roldan",
       "city": "Milford",
@@ -1669,11 +2960,47 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD3BXJ",
+          "score": 14
+        },
+        {
+          "callsign": "KD3BX",
+          "score": 12
+        },
+        {
+          "callsign": "K3BX",
+          "score": -4
+        },
+        {
+          "callsign": "K3BXJ",
+          "score": -4
+        },
+        {
+          "callsign": "KD3B",
+          "score": -4
+        },
+        {
+          "callsign": "KD3BJ",
+          "score": -4
+        },
+        {
+          "callsign": "KD3X",
+          "score": -4
+        },
+        {
+          "callsign": "KD3XJ",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD3BXJ",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 3,
-      "callsign": "KB2BMO",
+      "callsign": "KD2DMO",
       "status": "{u)",
       "name": "Mar Christiano",
       "city": "Summit",
@@ -1692,12 +3019,46 @@
       "uncertain": true,
       "needs_review": true,
       "review_status": "Unreviewed cell OCR",
-      "suggested_callsign": "KD2DMO",
-      "suggestion_basis": "Same normalized name; 3/3 observations of KD2DMO"
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 54
+        },
+        {
+          "callsign": "KB2BMO",
+          "score": 12
+        },
+        {
+          "callsign": "K2BMO",
+          "score": -4
+        },
+        {
+          "callsign": "K2DMO",
+          "score": -4
+        },
+        {
+          "callsign": "KB2BM",
+          "score": -4
+        },
+        {
+          "callsign": "KB2BO",
+          "score": -4
+        },
+        {
+          "callsign": "KB2MO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DM",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
-      "callsign": "KC2N",
+      "callsign": "KC2NJ",
       "status": "{u)",
       "name": "Mike Abbey",
       "city": "Short Hills",
@@ -1716,8 +3077,30 @@
       "uncertain": true,
       "needs_review": true,
       "review_status": "Unreviewed cell OCR",
-      "suggested_callsign": "KC2NJ",
-      "suggestion_basis": "Same normalized name; 3/3 observations of KC2NJ"
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 54
+        },
+        {
+          "callsign": "KC2N",
+          "score": 22
+        },
+        {
+          "callsign": "K2N",
+          "score": -4
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
@@ -1739,11 +3122,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE2GVB",
+          "score": 40
+        },
+        {
+          "callsign": "K2GVB",
+          "score": -4
+        },
+        {
+          "callsign": "KE2GB",
+          "score": -4
+        },
+        {
+          "callsign": "KE2GV",
+          "score": -4
+        },
+        {
+          "callsign": "KE2VB",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE2GVB",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 6,
-      "callsign": "KO2VLP",
+      "callsign": "KD2VLP",
       "status": "{u)",
       "name": "Allan C Spera",
       "city": "South Orange",
@@ -1761,7 +3168,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 53
+        },
+        {
+          "callsign": "KO2VLP",
+          "score": 12
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        },
+        {
+          "callsign": "KO2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KO2VL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
@@ -1783,7 +3226,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WB2GZL",
+          "score": 51
+        },
+        {
+          "callsign": "W2GZL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GZ",
+          "score": -4
+        },
+        {
+          "callsign": "WB2ZL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WB2GZL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 8,
@@ -1805,7 +3272,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 80
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 9,
@@ -1827,7 +3314,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "K2AUF",
+          "score": 48
+        },
+        {
+          "callsign": "K2AF",
+          "score": -4
+        },
+        {
+          "callsign": "K2AU",
+          "score": -4
+        },
+        {
+          "callsign": "K2UF",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "K2AUF",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 1,
@@ -1847,9 +3354,37 @@
       "image_row": 1,
       "source_image": "/assets/img/net-2026-03-24.png",
       "reviewed": false,
-      "uncertain": false,
-      "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "uncertain": true,
+      "needs_review": true,
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 53
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        },
+        {
+          "callsign": "KB5UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
@@ -1871,7 +3406,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KA2PUN",
+          "score": 76
+        },
+        {
+          "callsign": "K2PUN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PU",
+          "score": -4
+        },
+        {
+          "callsign": "KA2UN",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KA2PUN",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 3,
@@ -1893,7 +3452,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 80
+        },
+        {
+          "callsign": "K2DMO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DM",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2MO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
@@ -1915,11 +3498,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 80
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
-      "callsign": "WNJ5SR",
+      "callsign": "NJ5R",
       "status": "fu)",
       "name": "Jeff H Regan",
       "city": "Union",
@@ -1937,7 +3540,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "NJ5R",
+          "score": -4
+        },
+        {
+          "callsign": "NJ5SR",
+          "score": -4
+        },
+        {
+          "callsign": "NJ9R",
+          "score": -4
+        },
+        {
+          "callsign": "WJ5SR",
+          "score": -4
+        },
+        {
+          "callsign": "WN5SR",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "NJ5R",
+      "interpretation": "one-edit-ocr-repair"
     },
     {
       "number": 6,
@@ -1959,11 +3586,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 80
+        },
+        {
+          "callsign": "KC2N",
+          "score": 7
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
-      "callsign": "KD2ZVLP",
+      "callsign": "KD2VLP",
       "status": "{u)}",
       "name": "Allan C Spera",
       "city": "South Orange",
@@ -1981,11 +3628,47 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 53
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZVL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZVP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 8,
-      "callsign": "KD2ZRME",
+      "callsign": "KD2RME",
       "status": "{u)}",
       "name": "Kevin K Wu",
       "city": "Guttenberg",
@@ -2003,7 +3686,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2RME",
+          "score": 14
+        },
+        {
+          "callsign": "K2RME",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ME",
+          "score": -4
+        },
+        {
+          "callsign": "KD2RE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2RM",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZME",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZRE",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZRM",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2RME",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 9,
@@ -2025,7 +3744,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "K2AUF",
+          "score": 48
+        },
+        {
+          "callsign": "K2AF",
+          "score": -4
+        },
+        {
+          "callsign": "K2AU",
+          "score": -4
+        },
+        {
+          "callsign": "K2UF",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "K2AUF",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 10,
@@ -2045,9 +3784,33 @@
       "image_row": 10,
       "source_image": "/assets/img/net-2026-03-24.png",
       "reviewed": false,
-      "uncertain": false,
-      "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "uncertain": true,
+      "needs_review": true,
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WB2GZL",
+          "score": 49
+        },
+        {
+          "callsign": "W2GZL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GZ",
+          "score": -4
+        },
+        {
+          "callsign": "WB2ZL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WB2GZL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 11,
@@ -2069,7 +3832,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE2KE",
+          "score": 40
+        },
+        {
+          "callsign": "K2KE",
+          "score": -4
+        },
+        {
+          "callsign": "KE2E",
+          "score": -4
+        },
+        {
+          "callsign": "KE2K",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE2KE",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 12,
@@ -2091,7 +3874,10 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "interpretation": "ambiguous-ocr",
+      "interpreted_callsign": "JQ3AAL",
+      "candidate_callsigns": []
     },
     {
       "number": 1,
@@ -2111,13 +3897,37 @@
       "image_row": 1,
       "source_image": "/assets/img/net-2026-07-14.png",
       "reviewed": false,
-      "uncertain": false,
-      "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "uncertain": true,
+      "needs_review": true,
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 53
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
-      "callsign": "N1IUGK",
+      "callsign": "N1UGK",
       "status": "fu)",
       "name": "Jesse EB Bertier",
       "city": "South Orange",
@@ -2135,11 +3945,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N1UGK",
+          "score": 31
+        },
+        {
+          "callsign": "N1IGK",
+          "score": -4
+        },
+        {
+          "callsign": "N1IUG",
+          "score": -4
+        },
+        {
+          "callsign": "N1IUK",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N1UGK",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 3,
-      "callsign": "KD2ZVLP",
+      "callsign": "KD2VLP",
       "status": "{u)}",
       "name": "Allan C Spera",
       "city": "South Orange",
@@ -2157,7 +3987,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 53
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZVL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZVP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 4,
@@ -2179,11 +4045,35 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 80
+        },
+        {
+          "callsign": "K2DMO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DM",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2MO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 5,
-      "callsign": "N2ZRCP",
+      "callsign": "N2RCP",
       "status": "fu)",
       "name": "John ] Milarski",
       "city": "ORANGE",
@@ -2201,11 +4091,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 54
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZCP",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZRC",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZRP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 6,
-      "callsign": "KE2ZHPS",
+      "callsign": "KE2HPS",
       "status": "{u)}",
       "name": "Todd M Gutnick",
       "city": "South Orange",
@@ -2223,11 +4145,47 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE2HPS",
+          "score": 48
+        },
+        {
+          "callsign": "K2HPS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2HP",
+          "score": -4
+        },
+        {
+          "callsign": "KE2HS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2PS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2ZHP",
+          "score": -4
+        },
+        {
+          "callsign": "KE2ZHS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2ZPS",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE2HPS",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
-      "callsign": "KE2GV",
+      "callsign": "KE2GVV",
       "status": "{u)}",
       "name": "Steven C Glampaolo",
       "city": "Livingston",
@@ -2245,7 +4203,39 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE2GVV",
+          "score": 14
+        },
+        {
+          "callsign": "KE2GV",
+          "score": 12
+        },
+        {
+          "callsign": "K2GV",
+          "score": -4
+        },
+        {
+          "callsign": "K2GVV",
+          "score": -4
+        },
+        {
+          "callsign": "KE2G",
+          "score": -4
+        },
+        {
+          "callsign": "KE2V",
+          "score": -4
+        },
+        {
+          "callsign": "KE2VV",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE2GVV",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 8,
@@ -2267,7 +4257,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 80
+        },
+        {
+          "callsign": "KC2N",
+          "score": 7
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 9,
@@ -2289,7 +4299,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WB2GZL",
+          "score": 77
+        },
+        {
+          "callsign": "W2GZL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GZ",
+          "score": -4
+        },
+        {
+          "callsign": "WB2ZL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WB2GZL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 10,
@@ -2311,7 +4345,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KA2PUN",
+          "score": 76
+        },
+        {
+          "callsign": "K2PUN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PN",
+          "score": -4
+        },
+        {
+          "callsign": "KA2PU",
+          "score": -4
+        },
+        {
+          "callsign": "KA2UN",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KA2PUN",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 1,
@@ -2333,7 +4391,31 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KB2SUL",
+          "score": 80
+        },
+        {
+          "callsign": "K2SUL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SL",
+          "score": -4
+        },
+        {
+          "callsign": "KB2SU",
+          "score": -4
+        },
+        {
+          "callsign": "KB2UL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KB2SUL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 2,
@@ -2355,7 +4437,27 @@
       "reviewed": false,
       "uncertain": false,
       "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N7WAM",
+          "score": 40
+        },
+        {
+          "callsign": "N7AM",
+          "score": -4
+        },
+        {
+          "callsign": "N7WA",
+          "score": -4
+        },
+        {
+          "callsign": "N7WM",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N7WAM",
+      "interpretation": "both-ocr-readings"
     },
     {
       "number": 4,
@@ -2377,7 +4479,23 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "AD8CZ",
+          "score": 14
+        },
+        {
+          "callsign": "AD8C",
+          "score": -4
+        },
+        {
+          "callsign": "AD8Z",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "AD8CZ",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 4,
@@ -2399,7 +4517,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC3DZG",
+          "score": 12
+        },
+        {
+          "callsign": "K3DZG",
+          "score": -4
+        },
+        {
+          "callsign": "KC3DG",
+          "score": -4
+        },
+        {
+          "callsign": "KC3DZ",
+          "score": -4
+        },
+        {
+          "callsign": "KC3ZG",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC3DZG",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 5,
@@ -2419,13 +4561,37 @@
       "image_row": 5,
       "source_image": "/assets/img/net-2026-10-20.png",
       "reviewed": false,
-      "uncertain": false,
-      "needs_review": false,
-      "review_status": "Unreviewed cell OCR"
+      "uncertain": true,
+      "needs_review": true,
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "WB2GZL",
+          "score": 48
+        },
+        {
+          "callsign": "W2GZL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GL",
+          "score": -4
+        },
+        {
+          "callsign": "WB2GZ",
+          "score": -4
+        },
+        {
+          "callsign": "WB2ZL",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "WB2GZL",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 6,
-      "callsign": "KD2ZVLP",
+      "callsign": "KD2VLP",
       "status": "{u)}",
       "name": "Allan C Spera",
       "city": "South Orange",
@@ -2443,7 +4609,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2VLP",
+          "score": 52
+        },
+        {
+          "callsign": "K2VLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2LP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2VP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZLP",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZVL",
+          "score": -4
+        },
+        {
+          "callsign": "KD2ZVP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2VLP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 7,
@@ -2465,11 +4667,35 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KD2DMO",
+          "score": 53
+        },
+        {
+          "callsign": "K2DMO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DM",
+          "score": -4
+        },
+        {
+          "callsign": "KD2DO",
+          "score": -4
+        },
+        {
+          "callsign": "KD2MO",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KD2DMO",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 8,
-      "callsign": "KE2ZHPS",
+      "callsign": "KE2HPS",
       "status": "{u)}",
       "name": "Todd M Gutnick",
       "city": "South Orange",
@@ -2487,11 +4713,47 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE2HPS",
+          "score": 22
+        },
+        {
+          "callsign": "K2HPS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2HP",
+          "score": -4
+        },
+        {
+          "callsign": "KE2HS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2PS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2ZHP",
+          "score": -4
+        },
+        {
+          "callsign": "KE2ZHS",
+          "score": -4
+        },
+        {
+          "callsign": "KE2ZPS",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE2HPS",
+      "interpretation": "cross-net-repeated"
     },
     {
       "number": 9,
-      "callsign": "N2ZRCP",
+      "callsign": "N2RCP",
       "status": "fu)",
       "name": "John ] Milarski",
       "city": "ORANGE",
@@ -2509,11 +4771,43 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "N2RCP",
+          "score": 53
+        },
+        {
+          "callsign": "N2CP",
+          "score": -4
+        },
+        {
+          "callsign": "N2RC",
+          "score": -4
+        },
+        {
+          "callsign": "N2RP",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZCP",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZRC",
+          "score": -4
+        },
+        {
+          "callsign": "N2ZRP",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "N2RCP",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 10,
-      "callsign": "KE2GV",
+      "callsign": "KE2GVV",
       "status": "{u)}",
       "name": "Steve Glampaclo",
       "city": "Livingston",
@@ -2531,7 +4825,39 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE2GVV",
+          "score": 14
+        },
+        {
+          "callsign": "KE2GV",
+          "score": 12
+        },
+        {
+          "callsign": "K2GV",
+          "score": -4
+        },
+        {
+          "callsign": "K2GVV",
+          "score": -4
+        },
+        {
+          "callsign": "KE2G",
+          "score": -4
+        },
+        {
+          "callsign": "KE2V",
+          "score": -4
+        },
+        {
+          "callsign": "KE2VV",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE2GVV",
+      "interpretation": "single-ocr-reading"
     },
     {
       "number": 11,
@@ -2553,11 +4879,31 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2NJ",
+          "score": 53
+        },
+        {
+          "callsign": "KC2N",
+          "score": 7
+        },
+        {
+          "callsign": "K2NJ",
+          "score": -4
+        },
+        {
+          "callsign": "KC2J",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2NJ",
+      "interpretation": "cross-net-reviewed"
     },
     {
       "number": 12,
-      "callsign": "KESDOS",
+      "callsign": "KE5DOS",
       "status": "{u)}",
       "name": "Todd N Owen",
       "city": "Camby",
@@ -2575,7 +4921,27 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KE5DOS",
+          "score": -4
+        },
+        {
+          "callsign": "KE5DQS",
+          "score": -4
+        },
+        {
+          "callsign": "KE9DOS",
+          "score": -4
+        },
+        {
+          "callsign": "KE9DQS",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KE5DOS",
+      "interpretation": "one-edit-ocr-repair"
     },
     {
       "number": 13,
@@ -2597,57 +4963,51 @@
       "reviewed": false,
       "uncertain": true,
       "needs_review": true,
-      "review_status": "Unreviewed cell OCR"
+      "review_status": "Unreviewed cell OCR",
+      "candidate_callsigns": [
+        {
+          "callsign": "KC2QLE",
+          "score": 47
+        },
+        {
+          "callsign": "KC7QLE",
+          "score": 14
+        },
+        {
+          "callsign": "K2QLE",
+          "score": -4
+        },
+        {
+          "callsign": "K7QLE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2LE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2QE",
+          "score": -4
+        },
+        {
+          "callsign": "KC2QL",
+          "score": -4
+        },
+        {
+          "callsign": "KC7LE",
+          "score": -4
+        }
+      ],
+      "interpreted_callsign": "KC2QLE",
+      "interpretation": "cross-net-reviewed"
     }
   ],
-  "identity_suggestions": [
-    {
-      "date": "2024-08-20",
-      "image_row": 3,
-      "extracted": "KC2N",
-      "suggested": "KC2NJ",
-      "name": "Mike Abbey"
-    },
-    {
-      "date": "2024-12-24",
-      "image_row": 2,
-      "extracted": "KC2N",
-      "suggested": "KC2NJ",
-      "name": "Mike Abbey"
-    },
-    {
-      "date": "2025-06-10",
-      "image_row": 3,
-      "extracted": "KDB2BMO",
-      "suggested": "KD2DMO",
-      "name": "Mar Christiano"
-    },
-    {
-      "date": "2025-06-10",
-      "image_row": 5,
-      "extracted": "KC2N",
-      "suggested": "KC2NJ",
-      "name": "Mike Abbey"
-    },
-    {
-      "date": "2025-12-09",
-      "image_row": 3,
-      "extracted": "KB2BMO",
-      "suggested": "KD2DMO",
-      "name": "Mar Christiano"
-    },
-    {
-      "date": "2025-12-09",
-      "image_row": 4,
-      "extracted": "KC2N",
-      "suggested": "KC2NJ",
-      "name": "Mike Abbey"
-    }
-  ],
+  "identity_suggestions": [],
   "evaluation": {
     "reviewed_reference_rows": 38,
     "compared_rows": 38,
-    "correct_raw_callsign": 23,
+    "correct_interpreted_callsign": 37,
+    "correct_either_literal_reading": 34,
     "correct_raw_name": 27,
     "per_date": {
       "2023-09-06": {
@@ -2671,7 +5031,7 @@
       "2024-08-20": {
         "reference": 11,
         "recognized": 11,
-        "callsign_matches": 5,
+        "callsign_matches": 11,
         "name_matches": 4
       },
       "2024-12-24": {
@@ -2683,7 +5043,7 @@
       "2025-06-10": {
         "reference": 8,
         "recognized": 8,
-        "callsign_matches": 4,
+        "callsign_matches": 8,
         "name_matches": 7
       },
       "2025-12-09": {
@@ -2707,11 +5067,11 @@
       "2026-10-20": {
         "reference": 13,
         "recognized": 13,
-        "callsign_matches": 8,
+        "callsign_matches": 12,
         "name_matches": 10
       }
     },
-    "method": "Exact callsign/name compared by physical row position; suggestions not applied."
+    "method": "Callsign interpretation ranked against other net dates only (no same-date reviewed record); OCR values and alternate candidates retained."
   },
   "limitations": "All new OCR rows are unreviewed. Participant suggestions are hints, never verified substitutions."
 }
