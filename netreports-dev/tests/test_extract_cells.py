@@ -46,6 +46,36 @@ class TestCellOCRV2(unittest.TestCase):
         self.assertGreaterEqual(len(spans), 5)
         self.assertLessEqual(len(spans), 7)
 
+    def test_repair_digit_letter_confusions(self):
+        self.assertIn("WB2GZL", module.repair_ocr_candidates("WB2G2L"))
+        self.assertIn("KD2ZSW", module.repair_ocr_candidates("KD22SW"))
+        self.assertIn("KD2DMO", module.repair_ocr_candidates("KD2DMO0"))
+
+    def test_cross_net_reference_improves_call_without_certifying_it(self):
+        row = {"date":"2025-06-10", "image_row":5,
+               "callsign":"KC2N", "raw_callsign":"KC2N",
+               "alternate_callsign":"KC2NJ", "name":"Mike Abbey",
+               "reviewed":False,"needs_review":True}
+        reference = [{"date":"2024-08-20", "name":"Mike Abbey",
+                      "callsign":"KC2NJ"}]
+        module.score_callsign_candidates(row, [row], reference)
+        self.assertEqual(row["interpreted_callsign"], "KC2NJ")
+        self.assertEqual(row["raw_callsign"], "KC2N")
+        self.assertEqual(row["interpretation"], "cross-net-reviewed")
+        self.assertFalse(row["reviewed"])
+        self.assertTrue(row["needs_review"])
+
+    def test_same_day_reference_cannot_leak_into_accuracy(self):
+        row = {"date":"2025-06-10", "image_row":5,
+               "callsign":"KC2N", "raw_callsign":"KC2N",
+               "alternate_callsign":"KC2NJ", "name":"Mike Abbey",
+               "reviewed":False,"needs_review":True}
+        same_date = [{"date":"2025-06-10", "name":"Mike Abbey",
+                      "callsign":"KC2NJ"}]
+        module.score_callsign_candidates(row, [row], same_date)
+        self.assertNotEqual(row["interpretation"], "cross-net-reviewed")
+        self.assertFalse(row["reviewed"])
+
     def test_same_name_variants_only_suggested(self):
         reviewed = [{"name":"Mike Abbey", "callsign":"KC2NJ"}]*4
         new = [
