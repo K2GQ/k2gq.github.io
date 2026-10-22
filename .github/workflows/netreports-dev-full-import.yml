@@ -20,6 +20,7 @@ concurrency:
 
 jobs:
   full-import:
+    if: github.ref == 'refs/heads/feature/netreports-dev-full-archive'
     name: Import historical net screenshots (development only)
     runs-on: ubuntu-latest
     timeout-minutes: 50
@@ -27,6 +28,7 @@ jobs:
       - name: Check out development branch
         uses: actions/checkout@v4
         with:
+          ref: feature/netreports-dev-full-archive
           persist-credentials: true
       - name: Set up Python
         uses: actions/setup-python@v5
