@@ -239,7 +239,9 @@ def main():
     if reviewed_path.exists():
         reviewed_payload = json.loads(reviewed_path.read_text(encoding="utf-8"))
         reviewed = reviewed_payload.get("rows", [])
-        reviewed_dates = {r["date"] for r in reviewed}
+        # Restrict overlays to the dates processed by this invocation. A partial
+        # --dates run must not search for nets that were never created.
+        reviewed_dates = sorted({r["date"] for r in reviewed}.intersection(days))
         for day in reviewed_dates:
             group = [dict(r) for r in reviewed if r["date"] == day]
             assert len(group) == len({r["number"] for r in group}), "Duplicate reviewed row numbers"
