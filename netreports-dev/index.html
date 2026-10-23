@@ -101,7 +101,7 @@ permalink: /netreports-dev/
     <h3>Annual participation (provisional)</h3><div class="nr-tablewrap"><table id="nr-year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
   <section id="nr-panel-compare" class="nr-panel" role="tabpanel" aria-labelledby="nr-tab-compare" hidden>
-    <p class="nr-subtext">Compare the original OCR extractor with the new cell-by-cell method. These figures count <strong>recognized rows</strong>, not independently verified check-ins. Positive changes indicate more detected rows, not proof that every row is correct.</p>
+    <p class="nr-subtext">Compare the previous archive import with the new cell-by-cell method. These figures count extracted rows, not independently verified check-ins. The previous import already included 38 manually reviewed rows on four sample dates. Positive changes mean more detected rows, not proof that each row is correct.</p>
     <div class="nr-controls">
       <label>Year <select id="nr-compare-year"><option value="all">All years</option></select></label>
       <label>Difference <select id="nr-compare-filter">
@@ -113,7 +113,7 @@ permalink: /netreports-dev/
     </div>
     <p id="nr-compare-summary" class="nr-subtext" aria-live="polite"></p>
     <div class="nr-tablewrap"><table id="nr-compare-table"><thead><tr>
-      <th scope="col">Net date</th><th scope="col">Original OCR</th><th scope="col">Cell OCR v2</th>
+      <th scope="col">Net date</th><th scope="col">Previous import</th><th scope="col">Cell OCR v2</th>
       <th scope="col">Change</th><th scope="col">Flagged rows</th><th scope="col">Original image</th>
     </tr></thead><tbody></tbody></table></div>
     <p class="nr-small">A flagged OCR row needs verification; an unflagged OCR row is not necessarily verified. No automatic edits are made to the screenshots or to the original OCR data.</p>
@@ -196,7 +196,7 @@ permalink: /netreports-dev/
     var loss=items.filter(function(r){return r.delta<0;}).length;
     var before=items.reduce(function(n,r){return n+r.original;},0);
     var after=items.reduce(function(n,r){return n+r.improved;},0);
-    txt('nr-compare-summary',items.length+' nets · Original: '+before+' candidate rows · Cell OCR v2: '+after+
+    txt('nr-compare-summary',items.length+' nets · Previous import: '+before+' candidate rows · Cell OCR v2: '+after+
         ' candidate rows · Change: '+(after-before>=0?'+':'')+(after-before)+
         ' · More: '+gain+' · Same: '+same+' · Fewer: '+loss+'.');
     var body=byId('nr-compare-table').tBodies[0];clear(body);
@@ -233,7 +233,7 @@ permalink: /netreports-dev/
     txt('nr-nets',netlist.length);txt('nr-rows',data.checkins.length);txt('nr-unique',unique.length);
     txt('nr-flags',data.stats.cell_review_flags);
     txt('nr-message','IMPROVED OCR v2 · '+netlist.length+' dated screenshots · '+data.stats.cell_rows+
-      ' candidate check-ins, up from '+data.stats.original_rows+' with original OCR. '+
+      ' candidate check-ins, up from '+data.stats.original_rows+' in the previous import. '+
       data.stats.verified_rows+' records on '+data.stats.verified_nets+
       ' nets were manually verified and take precedence over OCR. '+
       data.stats.cell_review_flags+' of the OCR candidates are flagged for review. '+
