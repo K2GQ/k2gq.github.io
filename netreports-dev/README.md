@@ -96,3 +96,39 @@ python netreports-dev/scripts/import_cells_all.py --root .
 
 **Release:** Codex review plus explicit human approval required before PR
 merge; separate approval required before publishing new data or statistics.
+
+## Development page OCR v2 display (PR #19)
+
+The **development page only** loads three static JSON resources:
+
+1. `data/cell-ocr-archive.json`: 162 dated screenshots and 1,724 OCR v2
+   candidates, including the original/alternate readings, confidence and
+   inferred callsigns. These data are **unverified**.
+2. `data/preview.json`: earlier archive import (1,436 rows) used strictly
+   for comparing coverage. Note that its four manually reviewed sample dates
+   already had corrected check-ins overlaid.
+3. `data/reviewed.json`: 38 manually checked screenshot transcriptions.
+   **All rows on these four dates override v2 OCR** in the displayed weekly,
+   station, and trends views. The source files are immutable.
+
+The adapter at `scripts/view-data.js` performs this composition in the
+browser, validates dates and net coverage, and retains the unmodified
+provisional OCR counts for the comparison tab. The main table omits Status
+and Review Status fields, offers text-link callsigns and no CSV export.
+
+The comparison tab lists **previous import vs cell OCR v2 row counts** for
+each net, a per-date difference, number of flagged v2 OCR rows, and links to
+source PNGs. A flagged row requires additional inspection, but an unflagged
+row must **not** be considered verified. Compare using the latest source
+snapshots: the page does not run OCR itself.
+
+Verification before merge: `node netreports-dev/tests/test_view_data.js`.
+This checks all 162 dates, 1,724 candidate rows, 38 manual overrides,
+1,128 OCR review flags, and guards against schema drift or unexpected source
+modification. A dedicated read-only GitHub Actions workflow also runs this
+test on pull requests.
+
+Do not deploy these numbers as authoritative net attendance statistics, and
+do not change production `/netreports/`. PR #19 requires Codex review and
+explicit human approval to merge. OCR v2 is **not** yet automatically run
+when a new weekly net PNG is published.

@@ -1,0 +1,23 @@
+name: Net Reports Development OCR v2 Display Tests
+
+on:
+  pull_request:
+    paths:
+      - 'netreports-dev/index.html'
+      - 'netreports-dev/scripts/view-data.js'
+      - 'netreports-dev/tests/test_view_data.js'
+      - 'netreports-dev/data/**'
+      - '.github/workflows/netreports-dev-view.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-ui-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out proposed changes
+        uses: actions/checkout@v4
+      - name: Validate OCR adapter against historical data and verified rosters
+        run: node netreports-dev/tests/test_view_data.js
