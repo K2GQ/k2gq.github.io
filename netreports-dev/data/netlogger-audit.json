@@ -1,10 +1,10 @@
 {
   "source_type": "Original NetLogger CheckIns exports ONLY",
   "batch_status": "1 of 3 batches received; coverage INCOMPLETE",
-  "source_file_count": 41,
-  "matched_export_count": 38,
-  "net_count": 37,
-  "checkin_count": 459,
+  "source_file_count": 156,
+  "matched_export_count": 143,
+  "net_count": 142,
+  "checkin_count": 1571,
   "screenshot_net_dates": 162,
   "missing_native_dates": [
     "2023-09-06",
@@ -15,126 +15,441 @@
     "2023-10-25",
     "2023-11-01",
     "2023-11-07",
-    "2023-11-14",
-    "2023-11-21",
-    "2023-11-28",
-    "2023-12-05",
-    "2023-12-12",
-    "2023-12-19",
-    "2023-12-26",
-    "2024-01-02",
-    "2024-01-09",
-    "2024-01-16",
-    "2024-01-23",
-    "2024-01-30",
-    "2024-02-06",
-    "2024-02-13",
-    "2024-02-20",
-    "2024-02-27",
-    "2024-03-05",
-    "2024-03-12",
-    "2024-03-19",
-    "2024-03-26",
-    "2024-04-02",
-    "2024-04-09",
-    "2024-04-16",
-    "2024-04-23",
-    "2024-04-30",
-    "2024-05-07",
-    "2024-05-14",
-    "2024-05-21",
-    "2024-05-28",
     "2024-06-04",
-    "2024-06-11",
-    "2024-06-18",
-    "2024-06-25",
-    "2024-07-02",
-    "2024-07-09",
-    "2024-07-16",
-    "2024-07-23",
-    "2024-07-30",
-    "2024-08-06",
-    "2024-08-13",
-    "2024-08-20",
-    "2024-08-27",
     "2024-09-03",
-    "2024-09-10",
-    "2024-09-17",
     "2024-09-24",
-    "2024-10-01",
-    "2024-10-08",
-    "2024-10-15",
-    "2024-10-22",
-    "2024-10-29",
-    "2024-11-05",
-    "2024-11-12",
-    "2024-11-19",
-    "2024-11-26",
-    "2024-12-03",
-    "2024-12-10",
-    "2024-12-17",
-    "2024-12-24",
-    "2024-12-31",
-    "2025-01-07",
-    "2025-01-14",
-    "2025-01-21",
-    "2025-01-28",
-    "2025-02-04",
     "2025-02-11",
-    "2025-02-18",
-    "2025-02-25",
-    "2025-03-04",
-    "2025-03-11",
-    "2025-03-18",
-    "2025-03-25",
-    "2025-04-01",
-    "2025-04-08",
-    "2025-04-15",
-    "2025-04-22",
-    "2025-04-29",
-    "2025-05-06",
     "2025-05-13",
-    "2025-05-20",
-    "2025-05-27",
-    "2025-06-03",
-    "2025-06-10",
-    "2025-06-17",
-    "2025-06-24",
-    "2025-07-01",
-    "2025-07-08",
-    "2025-07-15",
-    "2025-07-22",
-    "2025-07-29",
     "2025-08-05",
-    "2025-08-12",
-    "2025-08-19",
-    "2025-08-26",
-    "2025-09-02",
-    "2025-09-09",
     "2025-09-16",
-    "2025-09-23",
     "2025-09-30",
-    "2025-10-07",
-    "2025-10-14",
-    "2025-10-21",
-    "2025-10-28",
-    "2025-11-04",
-    "2025-11-11",
-    "2025-11-18",
-    "2025-11-25",
-    "2025-12-02",
-    "2025-12-09",
-    "2025-12-16",
     "2025-12-23",
     "2025-12-30",
-    "2026-01-06",
     "2026-07-07",
-    "2026-08-11",
-    "2026-08-18",
-    "2026-09-01"
+    "2026-08-11"
   ],
   "native_dates_without_screenshot": [],
   "possibly_early_snapshots": [
+    {
+      "date": "2023-11-14",
+      "source_file": "CheckInsOn11-14-2023-23-38.log",
+      "source_time_et": "18:38"
+    },
+    {
+      "date": "2023-11-21",
+      "source_file": "CheckInsOn11-21-2023-23-51.log",
+      "source_time_et": "18:51"
+    },
+    {
+      "date": "2023-11-28",
+      "source_file": "CheckInsOn11-29-2023-00-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2023-12-05",
+      "source_file": "CheckInsOn12-06-2023-00-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2023-12-12",
+      "source_file": "CheckInsOn12-13-2023-00-58.log",
+      "source_time_et": "19:58"
+    },
+    {
+      "date": "2023-12-19",
+      "source_file": "CheckInsOn12-20-2023-00-09.log",
+      "source_time_et": "19:09"
+    },
+    {
+      "date": "2023-12-26",
+      "source_file": "CheckInsOn12-26-2023-23-54.log",
+      "source_time_et": "18:54"
+    },
+    {
+      "date": "2024-01-02",
+      "source_file": "CheckInsOn01-02-2024-23-50.log",
+      "source_time_et": "18:50"
+    },
+    {
+      "date": "2024-01-09",
+      "source_file": "CheckInsOn01-10-2024-00-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2024-01-16",
+      "source_file": "CheckInsOn01-17-2024-00-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2024-01-23",
+      "source_file": "CheckInsOn01-24-2024-00-02.log",
+      "source_time_et": "19:02"
+    },
+    {
+      "date": "2024-01-30",
+      "source_file": "CheckInsOn01-30-2024-23-57.log",
+      "source_time_et": "18:57"
+    },
+    {
+      "date": "2024-02-06",
+      "source_file": "CheckInsOn02-06-2024-23-49.log",
+      "source_time_et": "18:49"
+    },
+    {
+      "date": "2024-02-13",
+      "source_file": "CheckInsOn02-14-2024-00-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2024-02-20",
+      "source_file": "CheckInsOn02-21-2024-00-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2024-02-27",
+      "source_file": "CheckInsOn02-28-2024-00-08.log",
+      "source_time_et": "19:08"
+    },
+    {
+      "date": "2024-03-05",
+      "source_file": "CheckInsOn03-05-2024-23-50.log",
+      "source_time_et": "18:50"
+    },
+    {
+      "date": "2024-03-12",
+      "source_file": "CheckInsOn03-12-2024-23-06.log",
+      "source_time_et": "19:06"
+    },
+    {
+      "date": "2024-03-19",
+      "source_file": "CheckInsOn03-19-2024-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2024-03-26",
+      "source_file": "CheckInsOn03-26-2024-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2024-04-02",
+      "source_file": "CheckInsOn04-02-2024-23-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2024-04-09",
+      "source_file": "CheckInsOn04-09-2024-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2024-04-16",
+      "source_file": "CheckInsOn04-16-2024-23-20.log",
+      "source_time_et": "19:20"
+    },
+    {
+      "date": "2024-04-23",
+      "source_file": "CheckInsOn04-23-2024-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2024-04-30",
+      "source_file": "CheckInsOn04-30-2024-23-02.log",
+      "source_time_et": "19:02"
+    },
+    {
+      "date": "2024-05-07",
+      "source_file": "CheckInsOn05-07-2024-23-23.log",
+      "source_time_et": "19:23"
+    },
+    {
+      "date": "2024-05-14",
+      "source_file": "CheckInsOn05-14-2024-22-58.log",
+      "source_time_et": "18:58"
+    },
+    {
+      "date": "2024-05-21",
+      "source_file": "CheckInsOn05-21-2024-23-19.log",
+      "source_time_et": "19:19"
+    },
+    {
+      "date": "2024-05-28",
+      "source_file": "CheckInsOn05-28-2024-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2024-06-11",
+      "source_file": "CheckInsOn06-11-2024-23-59.log",
+      "source_time_et": "19:59"
+    },
+    {
+      "date": "2024-06-18",
+      "source_file": "CheckInsOn06-18-2024-23-55.log",
+      "source_time_et": "19:55"
+    },
+    {
+      "date": "2024-07-02",
+      "source_file": "CheckInsOn07-02-2024-23-10.log",
+      "source_time_et": "19:10"
+    },
+    {
+      "date": "2024-07-09",
+      "source_file": "CheckInsOn07-09-2024-23-56.log",
+      "source_time_et": "19:56"
+    },
+    {
+      "date": "2024-08-06",
+      "source_file": "CheckInsOn08-06-2024-23-35.log",
+      "source_time_et": "19:35"
+    },
+    {
+      "date": "2024-08-27",
+      "source_file": "CheckInsOn08-27-2024-23-14.log",
+      "source_time_et": "19:14"
+    },
+    {
+      "date": "2024-09-10",
+      "source_file": "CheckInsOn09-10-2024-23-37.log",
+      "source_time_et": "19:37"
+    },
+    {
+      "date": "2024-09-17",
+      "source_file": "CheckInsOn09-17-2024-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2024-10-01",
+      "source_file": "CheckInsOn10-01-2024-23-08.log",
+      "source_time_et": "19:08"
+    },
+    {
+      "date": "2024-10-08",
+      "source_file": "CheckInsOn10-08-2024-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2024-10-15",
+      "source_file": "CheckInsOn10-15-2024-22-58.log",
+      "source_time_et": "18:58"
+    },
+    {
+      "date": "2024-10-22",
+      "source_file": "CheckInsOn10-22-2024-23-38.log",
+      "source_time_et": "19:38"
+    },
+    {
+      "date": "2024-10-29",
+      "source_file": "CheckInsOn10-29-2024-22-58.log",
+      "source_time_et": "18:58"
+    },
+    {
+      "date": "2024-11-05",
+      "source_file": "CheckInsOn11-06-2024-00-29.log",
+      "source_time_et": "19:29"
+    },
+    {
+      "date": "2024-11-12",
+      "source_file": "CheckInsOn11-12-2024-23-58.log",
+      "source_time_et": "18:58"
+    },
+    {
+      "date": "2024-11-26",
+      "source_file": "CheckInsOn11-27-2024-00-38.log",
+      "source_time_et": "19:38"
+    },
+    {
+      "date": "2024-12-03",
+      "source_file": "CheckInsOn12-04-2024-00-19.log",
+      "source_time_et": "19:19"
+    },
+    {
+      "date": "2024-12-10",
+      "source_file": "CheckInsOn12-11-2024-00-49.log",
+      "source_time_et": "19:49"
+    },
+    {
+      "date": "2024-12-24",
+      "source_file": "CheckInsOn12-25-2024-00-27.log",
+      "source_time_et": "19:27"
+    },
+    {
+      "date": "2025-01-07",
+      "source_file": "CheckInsOn01-08-2025-00-31.log",
+      "source_time_et": "19:31"
+    },
+    {
+      "date": "2025-01-14",
+      "source_file": "CheckInsOn01-15-2025-00-18.log",
+      "source_time_et": "19:18"
+    },
+    {
+      "date": "2025-01-21",
+      "source_file": "CheckInsOn01-22-2025-00-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2025-01-28",
+      "source_file": "CheckInsOn01-28-2025-23-57.log",
+      "source_time_et": "18:57"
+    },
+    {
+      "date": "2025-02-04",
+      "source_file": "CheckInsOn02-05-2025-00-17.log",
+      "source_time_et": "19:17"
+    },
+    {
+      "date": "2025-02-18",
+      "source_file": "CheckInsOn02-19-2025-00-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2025-02-25",
+      "source_file": "CheckInsOn02-26-2025-00-08.log",
+      "source_time_et": "19:08"
+    },
+    {
+      "date": "2025-03-04",
+      "source_file": "CheckInsOn03-05-2025-00-55.log",
+      "source_time_et": "19:55"
+    },
+    {
+      "date": "2025-03-11",
+      "source_file": "CheckInsOn03-11-2025-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2025-03-18",
+      "source_file": "CheckInsOn03-18-2025-22-51.log",
+      "source_time_et": "18:51"
+    },
+    {
+      "date": "2025-03-25",
+      "source_file": "CheckInsOn03-25-2025-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2025-04-01",
+      "source_file": "CheckInsOn04-01-2025-23-17.log",
+      "source_time_et": "19:17"
+    },
+    {
+      "date": "2025-04-08",
+      "source_file": "CheckInsOn04-08-2025-23-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2025-04-22",
+      "source_file": "CheckInsOn04-22-2025-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2025-04-29",
+      "source_file": "CheckInsOn04-29-2025-22-56.log",
+      "source_time_et": "18:56"
+    },
+    {
+      "date": "2025-05-20",
+      "source_file": "CheckInsOn05-20-2025-23-07.log",
+      "source_time_et": "19:07"
+    },
+    {
+      "date": "2025-06-03",
+      "source_file": "CheckInsOn06-03-2025-23-06.log",
+      "source_time_et": "19:06"
+    },
+    {
+      "date": "2025-06-10",
+      "source_file": "CheckInsOn06-10-2025-23-00.log",
+      "source_time_et": "19:00"
+    },
+    {
+      "date": "2025-06-17",
+      "source_file": "CheckInsOn06-17-2025-23-02.log",
+      "source_time_et": "19:02"
+    },
+    {
+      "date": "2025-06-24",
+      "source_file": "CheckInsOn06-24-2025-23-16.log",
+      "source_time_et": "19:16"
+    },
+    {
+      "date": "2025-07-01",
+      "source_file": "CheckInsOn07-01-2025-23-10.log",
+      "source_time_et": "19:10"
+    },
+    {
+      "date": "2025-07-08",
+      "source_file": "CheckInsOn07-08-2025-23-11.log",
+      "source_time_et": "19:11"
+    },
+    {
+      "date": "2025-07-15",
+      "source_file": "CheckInsOn07-15-2025-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2025-07-22",
+      "source_file": "CheckInsOn07-22-2025-23-01.log",
+      "source_time_et": "19:01"
+    },
+    {
+      "date": "2025-07-29",
+      "source_file": "CheckInsOn07-29-2025-23-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2025-08-19",
+      "source_file": "CheckInsOn08-19-2025-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2025-08-26",
+      "source_file": "CheckInsOn08-26-2025-23-49.log",
+      "source_time_et": "19:49"
+    },
+    {
+      "date": "2025-09-09",
+      "source_file": "CheckInsOn09-09-2025-23-49.log",
+      "source_time_et": "19:49"
+    },
+    {
+      "date": "2025-10-21",
+      "source_file": "CheckInsOn10-21-2025-23-02.log",
+      "source_time_et": "19:02"
+    },
+    {
+      "date": "2025-11-04",
+      "source_file": "CheckInsOn11-05-2025-00-01.log",
+      "source_time_et": "19:01"
+    },
+    {
+      "date": "2025-11-11",
+      "source_file": "CheckInsOn11-12-2025-00-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2025-11-18",
+      "source_file": "CheckInsOn11-19-2025-00-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2025-12-02",
+      "source_file": "CheckInsOn12-03-2025-00-07.log",
+      "source_time_et": "19:07"
+    },
+    {
+      "date": "2025-12-09",
+      "source_file": "CheckInsOn12-10-2025-00-15.log",
+      "source_time_et": "19:15"
+    },
+    {
+      "date": "2025-12-16",
+      "source_file": "CheckInsOn12-17-2025-00-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2026-01-06",
+      "source_file": "CheckInsOn01-07-2026-00-59.log",
+      "source_time_et": "19:59"
+    },
     {
       "date": "2026-01-13",
       "source_file": "CheckInsOn01-14-2026-00-04.log",
@@ -221,6 +536,11 @@
       "source_time_et": "19:39"
     },
     {
+      "date": "2026-09-01",
+      "source_file": "CheckInsOn09-01-2026-23-07.log",
+      "source_time_et": "19:07"
+    },
+    {
       "date": "2026-09-08",
       "source_file": "CheckInsOn09-08-2026-23-02.log",
       "source_time_et": "19:02"
@@ -254,16 +574,76 @@
       "nonblank_rows": 6
     },
     {
+      "file": "CheckInsOn04-11-2025-00-10.log",
+      "timestamp_date_et": "2025-04-10",
+      "reason": "Not on the Tuesday net schedule: 2025-04-10 (Thu)",
+      "nonblank_rows": 14
+    },
+    {
+      "file": "CheckInsOn05-09-2025-00-06.log",
+      "timestamp_date_et": "2025-05-08",
+      "reason": "Not on the Tuesday net schedule: 2025-05-08 (Thu)",
+      "nonblank_rows": 7
+    },
+    {
       "file": "CheckInsOn06-09-2026-00-04.log",
       "timestamp_date_et": "2026-06-08",
       "reason": "Not on the Tuesday net schedule: 2026-06-08 (Mon)",
       "nonblank_rows": 6
     },
     {
+      "file": "CheckInsOn06-12-2025-23-52.log",
+      "timestamp_date_et": "2025-06-12",
+      "reason": "Not on the Tuesday net schedule: 2025-06-12 (Thu)",
+      "nonblank_rows": 5
+    },
+    {
+      "file": "CheckInsOn07-11-2025-00-31.log",
+      "timestamp_date_et": "2025-07-10",
+      "reason": "Not on the Tuesday net schedule: 2025-07-10 (Thu)",
+      "nonblank_rows": 10
+    },
+    {
       "file": "CheckInsOn08-12-2026-23-33.log",
       "timestamp_date_et": "2026-08-12",
       "reason": "Not on the Tuesday net schedule: 2026-08-12 (Wed)",
       "nonblank_rows": 10
+    },
+    {
+      "file": "CheckInsOn08-15-2025-00-04.log",
+      "timestamp_date_et": "2025-08-14",
+      "reason": "Not on the Tuesday net schedule: 2025-08-14 (Thu)",
+      "nonblank_rows": 8
+    },
+    {
+      "file": "CheckInsOn09-12-2025-00-44.log",
+      "timestamp_date_et": "2025-09-11",
+      "reason": "Not on the Tuesday net schedule: 2025-09-11 (Thu)",
+      "nonblank_rows": 11
+    },
+    {
+      "file": "CheckInsOn10-14-2025-00-11.log",
+      "timestamp_date_et": "2025-10-13",
+      "reason": "Not on the Tuesday net schedule: 2025-10-13 (Mon)",
+      "nonblank_rows": 12
+    },
+    {
+      "file": "CheckInsOn11-11-2025-01-06.log",
+      "timestamp_date_et": "2025-11-10",
+      "reason": "Not on the Tuesday net schedule: 2025-11-10 (Mon)",
+      "nonblank_rows": 6
+    },
+    {
+      "file": "CheckInsOn11-13-2023-02-06.log",
+      "timestamp_date_et": "2023-11-12",
+      "reason": "Not on the Tuesday net schedule: 2023-11-12 (Sun)",
+      "nonblank_rows": 9
+    },
+    {
+      "file": "CheckInsOn12-09-2025-01-03.log",
+      "timestamp_date_et": "2025-12-08",
+      "reason": "Not on the Tuesday net schedule: 2025-12-08 (Mon)",
+      "nonblank_rows": 6
     }
   ],
   "duplicate_exports": [
