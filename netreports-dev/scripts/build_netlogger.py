@@ -7,6 +7,7 @@ No OCR files are read. Net report screenshots are used ONLY to report dates
 whose corresponding native logs have not yet been uploaded.
 """
 import argparse
+import csv
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 import io
@@ -23,6 +24,59 @@ PNG = re.compile(r"net-(\d{4}-\d{2}-\d{2})\.png$")
 CALLSIGN = re.compile(r"^[A-Z0-9]{2,12}(?:/[A-Z0-9]{1,5})?$")
 MAX_MEMBER = 4 * 1024 * 1024
 MAX_ARCHIVE_MEMBERS = 5000
+MANUAL_FIELDS = ("date", "number", "callsign", "name", "city", "county",
+                 "state", "country", "remarks")
+
+
+def read_approved_manual(root):
+    """Validate approved transcription CSV, never synthesize participant data.
+
+    The CSV is a permanent, human-approved record, separate from raw
+    NetLogger exports. Each missing date has one complete roster.
+    """
+    path = root / "netreports-dev/data/manual-checkins.csv"
+    if not path.exists():
+        return {}
+    groups = defaultdict(list)
+    with path.open("r", encoding="utf-8-sig", newline="") as stream:
+        reader = csv.DictReader(stream)
+        if tuple(reader.fieldnames or ()) != MANUAL_FIELDS:
+            raise ValueError("Manual check-in CSV has unexpected fields")
+        used = set()
+        for csv_line, source in enumerate(reader, start=2):
+            if None in source or any(value is None for value in source.values()):
+                raise ValueError(f"Malformed approved CSV line {csv_line}")
+            row = {key: str(source[key]).strip() for key in MANUAL_FIELDS}
+            day = row["date"]
+            try:
+                if datetime.strptime(day, "%Y-%m-%d").strftime("%Y-%m-%d") != day:
+                    raise ValueError("Noncanonical date")
+            except ValueError as exc:
+                raise ValueError(f"Invalid approved net date at line {csv_line}") from exc
+            try:
+                number = int(row["number"])
+            except ValueError as exc:
+                raise ValueError(f"Invalid approved check-in number on {day}") from exc
+            if number < 1 or str(number) != row["number"]:
+                raise ValueError(f"Invalid approved row number on {day}")
+            call = row["callsign"].upper()
+            if not CALLSIGN.fullmatch(call):
+                raise ValueError(f"Invalid approved callsign on {day}, row {number}")
+            if not row["name"]:
+                raise ValueError(f"Approved name is empty on {day}, row {number}")
+            key = (day, number)
+            if key in used:
+                raise ValueError(f"Duplicate approved row number on {day}: {number}")
+            used.add(key)
+            row["number"] = number
+            row["callsign"] = call
+            groups[day].append(row)
+    for day, rows in groups.items():
+        rows.sort(key=lambda r: r["number"])
+        if [r["number"] for r in rows] != list(range(1, len(rows) + 1)):
+            raise ValueError(f"Incomplete approved net sequence on {day}")
+    return dict(groups)
+
 
 
 def parse_filename(filename):
@@ -182,17 +236,41 @@ def build(root):
         })
         for row in chosen["rows"]:
             checkins.append({"date": date, **row})
-    all_dates = set(groups)
+    # Original NetLogger check-ins are always the primary source.
+    # Approved manual reconstructions fill ONLY dates without native logs.
+    approved = read_approved_manual(root)
+    native_dates = set(groups)
+    unused_manual_dates = sorted(native_dates.intersection(approved))
+    manual_dates = sorted(set(approved).difference(native_dates))
+    for day in manual_dates:
+        rows = approved[day]
+        output_nets.append({
+            "date": day, "checkin_count": len(rows),
+            "source_file": "netreports-dev/data/manual-checkins.csv",
+            "source_time_et": None, "possibly_early_snapshot": False,
+            "other_exports": 0, "source_warning_count": 0,
+            "source": "User-approved manual reconstruction",
+            "manual": True,
+        })
+        checkins.extend(rows)
+    output_nets.sort(key=lambda n: n["date"])
+    checkins.sort(key=lambda r: (r["date"], r["number"]))
+    all_dates = native_dates.union(manual_dates)
     audit = {
-        "source_type": "Original NetLogger CheckIns exports ONLY",
+        "source_type": "Original NetLogger CheckIns exports and approved manual records",
         "batch_status": "Uploads complete; gap review in progress",
         "source_file_count": len(sources),
         "matched_export_count": sum(len(g) for g in groups.values()),
         "net_count": len(output_nets),
         "checkin_count": len(checkins),
         "screenshot_net_dates": len(existing),
-        "missing_native_dates": sorted(existing-all_dates),
-        "native_dates_without_screenshot": sorted(all_dates-existing),
+        "missing_native_dates": sorted(existing-native_dates),
+        "missing_report_dates": sorted(existing-all_dates),
+        "approved_manual_net_count": len(manual_dates),
+        "approved_manual_checkin_count": sum(len(approved[d]) for d in manual_dates),
+        "approved_manual_dates": manual_dates,
+        "approved_manual_superseded_by_native": unused_manual_dates,
+        "native_dates_without_screenshot": sorted(native_dates-existing),
         "possibly_early_snapshots": [
             {"date": n["date"], "source_file": n["source_file"],
              "source_time_et": n["source_time_et"]}
@@ -208,17 +286,24 @@ def build(root):
             {"file": p["source"], "warnings": p["warnings"]}
             for p in parsed if p["warnings"]
         ],
-        "limitations": ("All uploaded native files have been evaluated. Filename timestamps are UTC "
-                        "and mapped to Eastern net dates. Files outside the regular "
-                        "Tuesday schedule are quarantined. Snapshots before 8:00 p.m. "
-                        "ET may be incomplete. Historical dates without uploaded native "
-                        "sources remain missing. No OCR data is used."),
+        "limitations": ("Native NetLogger logs are authoritative when available. "
+                        "Manually reconstructed check-ins come exclusively from the "
+                        "user-approved CSV and are never auto-generated from OCR. "
+                        "UTC log timestamps are mapped to Eastern net dates. "
+                        "Off-schedule files remain quarantined; early snapshots "
+                        "may be incomplete."),
     }
     payload = {
         "kind": "netlogger-native-checkins", "version": 1,
-        "source": "Original NetLogger CheckIns logs only",
+        "source": "Original NetLogger logs plus approved manual check-ins",
         "batch_status": "Uploads complete; gap review in progress",
         "nets": output_nets, "checkins": checkins,
+        "source_counts": {
+            "native_nets": len(native_dates),
+            "native_checkins": len(checkins) - audit["approved_manual_checkin_count"],
+            "manual_nets": len(manual_dates),
+            "manual_checkins": audit["approved_manual_checkin_count"],
+        },
     }
     return payload, audit
 
@@ -236,10 +321,11 @@ def main(argv=None):
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n",
                         encoding="utf-8")
     print("Source files:", audit["source_file_count"])
-    print("Distinct matched nets:", audit["net_count"])
-    print("Native check-ins:", audit["checkin_count"])
+    print("Total net dates:", audit["net_count"])
+    print("Total check-ins:", audit["checkin_count"])
+    print("Approved manual net dates:", audit["approved_manual_net_count"])
     print("Unmatched exports:", len(audit["quarantined_exports"]))
-    print("Missing source net dates (preliminary):", len(audit["missing_native_dates"]))
+    print("Uncovered screenshot net dates:", len(audit["missing_report_dates"]))
     # Safety: Never print original log data, including postal addresses.
 
 
