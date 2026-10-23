@@ -120,16 +120,20 @@ def build(root):
             rows, warnings = parse_log(blob, file_id)
             # Explicitly quarantine out-of-schedule files rather than guess.
             # Their contents remain untouched for manual evaluation.
-            in_scope = metadata["date"] in existing
+            # A valid Tuesday original log is authoritative even when the
+            # screenshot directory has no matching PNG. Screenshots are only
+            # used to identify outstanding/missing coverage later.
+            normal_net_day = metadata["weekday"] == "Tue"
             reason = None
-            if not in_scope:
-                reason = ("Not a screenshot net date / nonstandard day: " +
+            if not normal_net_day:
+                reason = ("Not on the Tuesday net schedule: " +
                           metadata["date"] + " (" + metadata["weekday"] + ")")
             if not rows:
                 reason = reason or "No nonblank check-ins"
             parsed.append({**metadata, "source": file_id, "rows": rows,
                            "count": len(rows), "warnings": warnings,
-                           "eligible": in_scope and bool(rows), "quarantine": reason})
+                           "eligible": normal_net_day and bool(rows),
+                           "quarantine": reason})
         except (ValueError, UnicodeError) as exc:
             parsed.append({"source": file_id, "eligible": False, "date": None,
                            "count": 0, "quarantine": str(exc), "warnings": []})
@@ -156,6 +160,8 @@ def build(root):
         output_nets.append({
             "date": date, "checkin_count": chosen["count"],
             "source_file": chosen["source"],
+            "source_time_et": chosen["local_time"],
+            "possibly_early_snapshot": chosen["local_time"] < "20:00",
             "other_exports": len(group)-1,
             "source_warning_count": len(chosen["warnings"]),
             "source": "NetLogger original check-in file"
@@ -173,6 +179,11 @@ def build(root):
         "screenshot_net_dates": len(existing),
         "missing_native_dates": sorted(existing-all_dates),
         "native_dates_without_screenshot": sorted(all_dates-existing),
+        "possibly_early_snapshots": [
+            {"date": n["date"], "source_file": n["source_file"],
+             "source_time_et": n["source_time_et"]}
+            for n in output_nets if n["possibly_early_snapshot"]
+        ],
         "quarantined_exports": [
             {"file": p["source"], "timestamp_date_et": p.get("date"),
              "reason": p["quarantine"], "nonblank_rows": p["count"]}
@@ -185,7 +196,8 @@ def build(root):
         ],
         "limitations": ("Preliminary batch only. Native filenames are treated as UTC "
                         "and mapped to Eastern net date. Files whose date does not "
-                        "match a historical net screenshot are quarantined. "
+                        "fall outside the regular Tuesday schedule are quarantined. "
+                        "Snapshots before 8:00 p.m. ET may be incomplete. "
                         "Other laptops may contain missing or more complete logs. "
                         "No OCR data is used."),
     }
