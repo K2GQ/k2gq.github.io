@@ -176,6 +176,32 @@ class TestNetLoggerNative(unittest.TestCase):
         self.assertEqual(audit["approved_manual_superseded_by_native"],
                          ["2026-01-13"])
 
+    def test_historical_wednesday_original_supersedes_manual(self):
+        self.create_net("2023-09-06")
+        self.create_log("CheckInsOn09-07-2023-00-00.log",
+                        log_row(1, "KC2NJ", "Michael Original Name"))
+        self.manual_file(
+            "2023-09-06,1,KC2NJ,Approved Manual Name,Short Hills,Essex,NJ,United States,RF\n"
+        )
+        payload, audit = native.build(self.root)
+        self.assertEqual(len(payload["nets"]), 1)
+        self.assertNotIn("manual", payload["nets"][0])
+        self.assertEqual(payload["checkins"][0]["name"], "Michael Original Name")
+        self.assertEqual(payload["source_counts"]["native_nets"], 1)
+        self.assertEqual(payload["source_counts"]["manual_nets"], 0)
+        self.assertEqual(audit["approved_manual_superseded_by_native"],
+                         ["2023-09-06"])
+        self.assertEqual(audit["quarantined_exports"], [])
+
+    def test_unrelated_wednesday_is_still_quarantined(self):
+        self.create_net("2026-08-12")
+        self.create_log("CheckInsOn08-12-2026-23-33.log", log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["nets"], [])
+        self.assertEqual(len(audit["quarantined_exports"]), 1)
+        self.assertIn("historical net schedule",
+                      audit["quarantined_exports"][0]["reason"])
+
     def test_reject_bad_approved_date_or_duplicate_row(self):
         for content in [
             "09-06-23,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n",
