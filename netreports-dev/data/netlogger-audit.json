@@ -1,10 +1,10 @@
 {
-  "source_type": "Original NetLogger CheckIns exports ONLY",
+  "source_type": "Original NetLogger CheckIns exports and approved manual records",
   "batch_status": "Uploads complete; gap review in progress",
   "source_file_count": 165,
   "matched_export_count": 152,
-  "net_count": 151,
-  "checkin_count": 1655,
+  "net_count": 162,
+  "checkin_count": 1721,
   "screenshot_net_dates": 162,
   "missing_native_dates": [
     "2023-09-06",
@@ -19,6 +19,23 @@
     "2025-12-23",
     "2025-12-30"
   ],
+  "missing_report_dates": [],
+  "approved_manual_net_count": 11,
+  "approved_manual_checkin_count": 66,
+  "approved_manual_dates": [
+    "2023-09-06",
+    "2023-09-13",
+    "2023-10-04",
+    "2023-10-11",
+    "2023-10-18",
+    "2023-10-25",
+    "2023-11-01",
+    "2023-11-07",
+    "2025-05-13",
+    "2025-12-23",
+    "2025-12-30"
+  ],
+  "approved_manual_superseded_by_native": [],
   "native_dates_without_screenshot": [],
   "possibly_early_snapshots": [
     {
@@ -667,5 +684,5 @@
     }
   ],
   "parse_warnings": [],
-  "limitations": "All uploaded native files have been evaluated. Filename timestamps are UTC and mapped to Eastern net dates. Files outside the regular Tuesday schedule are quarantined. Snapshots before 8:00 p.m. ET may be incomplete. Historical dates without uploaded native sources remain missing. No OCR data is used."
+  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined; early snapshots may be incomplete."
 }
