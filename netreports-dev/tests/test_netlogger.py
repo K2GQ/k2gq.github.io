@@ -140,15 +140,15 @@ class TestNetLoggerNative(unittest.TestCase):
         target = self.root / "netreports-dev/data/manual-checkins.csv"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(
-            "date,number,callsign,name,city,county,state,country,remarks\\n"
+            "date,number,callsign,name,city,county,state,country,remarks\n"
             + content, encoding="utf-8"
         )
 
     def test_approved_manual_fills_date_missing_native_log(self):
         self.create_net("2023-09-06")
         self.manual_file(
-            "2023-09-06,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\\n"
-            "2023-09-06,2,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF\\n"
+            "2023-09-06,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n"
+            "2023-09-06,2,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF\n"
         )
         payload, audit = native.build(self.root)
         self.assertEqual(len(payload["nets"]), 1)
@@ -166,7 +166,7 @@ class TestNetLoggerNative(unittest.TestCase):
         self.create_net("2026-01-13")
         self.create_log("CheckInsOn01-14-2026-00-04.log", log_row(1))
         self.manual_file(
-            "2026-01-13,1,KC2NJ,Other Name,Other City,Essex,NJ,United States,RF\\n"
+            "2026-01-13,1,KC2NJ,Other Name,Other City,Essex,NJ,United States,RF\n"
         )
         payload, audit = native.build(self.root)
         self.assertEqual(len(payload["checkins"]), 1)
@@ -178,9 +178,9 @@ class TestNetLoggerNative(unittest.TestCase):
 
     def test_reject_bad_approved_date_or_duplicate_row(self):
         for content in [
-            "09-06-23,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\\n",
-            "2023-09-06,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\\n"
-            "2023-09-06,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF\\n",
+            "09-06-23,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n",
+            "2023-09-06,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n"
+            "2023-09-06,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF\n",
         ]:
             with self.subTest(content=content[:20]):
                 self.manual_file(content)
