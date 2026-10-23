@@ -1,0 +1,1480 @@
+{
+  "generated_utc": "2026-10-22T23:04:57.394446+00:00",
+  "source_nets": 162,
+  "candidate_checkin_rows": 1724,
+  "unverified_rows": 1724,
+  "review_needed_rows": 1128,
+  "nets_with_zero_rows": [],
+  "nets_with_duplicate_callsigns": [],
+  "reviewed_reference_rows_in_scope": 38,
+  "matched_reference_rows": 38,
+  "reference_callsign_matches": 37,
+  "reference_name_matches": 27,
+  "reference_rows_by_date": {
+    "2023-09-06": 6,
+    "2024-08-20": 11,
+    "2025-06-10": 8,
+    "2026-10-20": 13
+  },
+  "net_findings": [
+    {
+      "date": "2023-09-06",
+      "source_image": "/assets/img/net-2023-09-06.png",
+      "detected_rows": 6,
+      "review_needed_rows": 2,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-09-13",
+      "source_image": "/assets/img/net-2023-09-13.png",
+      "detected_rows": 6,
+      "review_needed_rows": 3,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-10-04",
+      "source_image": "/assets/img/net-2023-10-04.png",
+      "detected_rows": 4,
+      "review_needed_rows": 1,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-10-11",
+      "source_image": "/assets/img/net-2023-10-11.png",
+      "detected_rows": 5,
+      "review_needed_rows": 2,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-10-18",
+      "source_image": "/assets/img/net-2023-10-18.png",
+      "detected_rows": 5,
+      "review_needed_rows": 2,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-10-25",
+      "source_image": "/assets/img/net-2023-10-25.png",
+      "detected_rows": 5,
+      "review_needed_rows": 1,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-11-01",
+      "source_image": "/assets/img/net-2023-11-01.png",
+      "detected_rows": 4,
+      "review_needed_rows": 1,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-11-07",
+      "source_image": "/assets/img/net-2023-11-07.png",
+      "detected_rows": 9,
+      "review_needed_rows": 3,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-11-14",
+      "source_image": "/assets/img/net-2023-11-14.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-11-21",
+      "source_image": "/assets/img/net-2023-11-21.png",
+      "detected_rows": 7,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-11-28",
+      "source_image": "/assets/img/net-2023-11-28.png",
+      "detected_rows": 10,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-12-05",
+      "source_image": "/assets/img/net-2023-12-05.png",
+      "detected_rows": 11,
+      "review_needed_rows": 11,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-12-12",
+      "source_image": "/assets/img/net-2023-12-12.png",
+      "detected_rows": 6,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-12-19",
+      "source_image": "/assets/img/net-2023-12-19.png",
+      "detected_rows": 8,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2023-12-26",
+      "source_image": "/assets/img/net-2023-12-26.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-01-02",
+      "source_image": "/assets/img/net-2024-01-02.png",
+      "detected_rows": 9,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-01-09",
+      "source_image": "/assets/img/net-2024-01-09.png",
+      "detected_rows": 9,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-01-16",
+      "source_image": "/assets/img/net-2024-01-16.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-01-23",
+      "source_image": "/assets/img/net-2024-01-23.png",
+      "detected_rows": 12,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-01-30",
+      "source_image": "/assets/img/net-2024-01-30.png",
+      "detected_rows": 11,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-02-06",
+      "source_image": "/assets/img/net-2024-02-06.png",
+      "detected_rows": 15,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-02-13",
+      "source_image": "/assets/img/net-2024-02-13.png",
+      "detected_rows": 16,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-02-20",
+      "source_image": "/assets/img/net-2024-02-20.png",
+      "detected_rows": 15,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-02-27",
+      "source_image": "/assets/img/net-2024-02-27.png",
+      "detected_rows": 16,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-03-05",
+      "source_image": "/assets/img/net-2024-03-05.png",
+      "detected_rows": 17,
+      "review_needed_rows": 11,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-03-12",
+      "source_image": "/assets/img/net-2024-03-12.png",
+      "detected_rows": 13,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-03-19",
+      "source_image": "/assets/img/net-2024-03-19.png",
+      "detected_rows": 12,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-03-26",
+      "source_image": "/assets/img/net-2024-03-26.png",
+      "detected_rows": 12,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-04-02",
+      "source_image": "/assets/img/net-2024-04-02.png",
+      "detected_rows": 14,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-04-09",
+      "source_image": "/assets/img/net-2024-04-09.png",
+      "detected_rows": 14,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-04-16",
+      "source_image": "/assets/img/net-2024-04-16.png",
+      "detected_rows": 12,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-04-23",
+      "source_image": "/assets/img/net-2024-04-23.png",
+      "detected_rows": 11,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-04-30",
+      "source_image": "/assets/img/net-2024-04-30.png",
+      "detected_rows": 17,
+      "review_needed_rows": 11,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-05-07",
+      "source_image": "/assets/img/net-2024-05-07.png",
+      "detected_rows": 21,
+      "review_needed_rows": 16,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-05-14",
+      "source_image": "/assets/img/net-2024-05-14.png",
+      "detected_rows": 16,
+      "review_needed_rows": 11,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-05-21",
+      "source_image": "/assets/img/net-2024-05-21.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-05-28",
+      "source_image": "/assets/img/net-2024-05-28.png",
+      "detected_rows": 16,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-06-04",
+      "source_image": "/assets/img/net-2024-06-04.png",
+      "detected_rows": 12,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-06-11",
+      "source_image": "/assets/img/net-2024-06-11.png",
+      "detected_rows": 10,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-06-18",
+      "source_image": "/assets/img/net-2024-06-18.png",
+      "detected_rows": 12,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-06-25",
+      "source_image": "/assets/img/net-2024-06-25.png",
+      "detected_rows": 13,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-07-02",
+      "source_image": "/assets/img/net-2024-07-02.png",
+      "detected_rows": 14,
+      "review_needed_rows": 11,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-07-09",
+      "source_image": "/assets/img/net-2024-07-09.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-07-16",
+      "source_image": "/assets/img/net-2024-07-16.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-07-23",
+      "source_image": "/assets/img/net-2024-07-23.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-07-30",
+      "source_image": "/assets/img/net-2024-07-30.png",
+      "detected_rows": 7,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-08-06",
+      "source_image": "/assets/img/net-2024-08-06.png",
+      "detected_rows": 9,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-08-13",
+      "source_image": "/assets/img/net-2024-08-13.png",
+      "detected_rows": 9,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-08-20",
+      "source_image": "/assets/img/net-2024-08-20.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-08-27",
+      "source_image": "/assets/img/net-2024-08-27.png",
+      "detected_rows": 9,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-09-03",
+      "source_image": "/assets/img/net-2024-09-03.png",
+      "detected_rows": 7,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-09-10",
+      "source_image": "/assets/img/net-2024-09-10.png",
+      "detected_rows": 7,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-09-17",
+      "source_image": "/assets/img/net-2024-09-17.png",
+      "detected_rows": 7,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-09-24",
+      "source_image": "/assets/img/net-2024-09-24.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-10-01",
+      "source_image": "/assets/img/net-2024-10-01.png",
+      "detected_rows": 12,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-10-08",
+      "source_image": "/assets/img/net-2024-10-08.png",
+      "detected_rows": 10,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-10-15",
+      "source_image": "/assets/img/net-2024-10-15.png",
+      "detected_rows": 11,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-10-22",
+      "source_image": "/assets/img/net-2024-10-22.png",
+      "detected_rows": 9,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-10-29",
+      "source_image": "/assets/img/net-2024-10-29.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-11-05",
+      "source_image": "/assets/img/net-2024-11-05.png",
+      "detected_rows": 7,
+      "review_needed_rows": 3,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-11-12",
+      "source_image": "/assets/img/net-2024-11-12.png",
+      "detected_rows": 11,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-11-19",
+      "source_image": "/assets/img/net-2024-11-19.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-11-26",
+      "source_image": "/assets/img/net-2024-11-26.png",
+      "detected_rows": 11,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-12-03",
+      "source_image": "/assets/img/net-2024-12-03.png",
+      "detected_rows": 12,
+      "review_needed_rows": 12,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-12-10",
+      "source_image": "/assets/img/net-2024-12-10.png",
+      "detected_rows": 10,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-12-17",
+      "source_image": "/assets/img/net-2024-12-17.png",
+      "detected_rows": 17,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-12-24",
+      "source_image": "/assets/img/net-2024-12-24.png",
+      "detected_rows": 8,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2024-12-31",
+      "source_image": "/assets/img/net-2024-12-31.png",
+      "detected_rows": 13,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-01-07",
+      "source_image": "/assets/img/net-2025-01-07.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-01-14",
+      "source_image": "/assets/img/net-2025-01-14.png",
+      "detected_rows": 8,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-01-21",
+      "source_image": "/assets/img/net-2025-01-21.png",
+      "detected_rows": 13,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-01-28",
+      "source_image": "/assets/img/net-2025-01-28.png",
+      "detected_rows": 11,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-02-04",
+      "source_image": "/assets/img/net-2025-02-04.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-02-11",
+      "source_image": "/assets/img/net-2025-02-11.png",
+      "detected_rows": 9,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-02-18",
+      "source_image": "/assets/img/net-2025-02-18.png",
+      "detected_rows": 12,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-02-25",
+      "source_image": "/assets/img/net-2025-02-25.png",
+      "detected_rows": 13,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-03-04",
+      "source_image": "/assets/img/net-2025-03-04.png",
+      "detected_rows": 11,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-03-11",
+      "source_image": "/assets/img/net-2025-03-11.png",
+      "detected_rows": 9,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-03-18",
+      "source_image": "/assets/img/net-2025-03-18.png",
+      "detected_rows": 8,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-03-25",
+      "source_image": "/assets/img/net-2025-03-25.png",
+      "detected_rows": 8,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-04-01",
+      "source_image": "/assets/img/net-2025-04-01.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-04-08",
+      "source_image": "/assets/img/net-2025-04-08.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-04-15",
+      "source_image": "/assets/img/net-2025-04-15.png",
+      "detected_rows": 11,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-04-22",
+      "source_image": "/assets/img/net-2025-04-22.png",
+      "detected_rows": 13,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-04-29",
+      "source_image": "/assets/img/net-2025-04-29.png",
+      "detected_rows": 13,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-05-06",
+      "source_image": "/assets/img/net-2025-05-06.png",
+      "detected_rows": 9,
+      "review_needed_rows": 1,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-05-13",
+      "source_image": "/assets/img/net-2025-05-13.png",
+      "detected_rows": 9,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-05-20",
+      "source_image": "/assets/img/net-2025-05-20.png",
+      "detected_rows": 12,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-05-27",
+      "source_image": "/assets/img/net-2025-05-27.png",
+      "detected_rows": 7,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-06-03",
+      "source_image": "/assets/img/net-2025-06-03.png",
+      "detected_rows": 12,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-06-10",
+      "source_image": "/assets/img/net-2025-06-10.png",
+      "detected_rows": 8,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-06-17",
+      "source_image": "/assets/img/net-2025-06-17.png",
+      "detected_rows": 10,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-06-24",
+      "source_image": "/assets/img/net-2025-06-24.png",
+      "detected_rows": 9,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-07-01",
+      "source_image": "/assets/img/net-2025-07-01.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-07-08",
+      "source_image": "/assets/img/net-2025-07-08.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-07-15",
+      "source_image": "/assets/img/net-2025-07-15.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-07-22",
+      "source_image": "/assets/img/net-2025-07-22.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-07-29",
+      "source_image": "/assets/img/net-2025-07-29.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-08-05",
+      "source_image": "/assets/img/net-2025-08-05.png",
+      "detected_rows": 10,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-08-12",
+      "source_image": "/assets/img/net-2025-08-12.png",
+      "detected_rows": 8,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-08-19",
+      "source_image": "/assets/img/net-2025-08-19.png",
+      "detected_rows": 9,
+      "review_needed_rows": 3,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-08-26",
+      "source_image": "/assets/img/net-2025-08-26.png",
+      "detected_rows": 7,
+      "review_needed_rows": 3,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-09-02",
+      "source_image": "/assets/img/net-2025-09-02.png",
+      "detected_rows": 9,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-09-09",
+      "source_image": "/assets/img/net-2025-09-09.png",
+      "detected_rows": 8,
+      "review_needed_rows": 4,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-09-16",
+      "source_image": "/assets/img/net-2025-09-16.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-09-23",
+      "source_image": "/assets/img/net-2025-09-23.png",
+      "detected_rows": 11,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-09-30",
+      "source_image": "/assets/img/net-2025-09-30.png",
+      "detected_rows": 10,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-10-07",
+      "source_image": "/assets/img/net-2025-10-07.png",
+      "detected_rows": 10,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-10-14",
+      "source_image": "/assets/img/net-2025-10-14.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-10-21",
+      "source_image": "/assets/img/net-2025-10-21.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-10-28",
+      "source_image": "/assets/img/net-2025-10-28.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-11-04",
+      "source_image": "/assets/img/net-2025-11-04.png",
+      "detected_rows": 8,
+      "review_needed_rows": 3,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-11-11",
+      "source_image": "/assets/img/net-2025-11-11.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-11-18",
+      "source_image": "/assets/img/net-2025-11-18.png",
+      "detected_rows": 9,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-11-25",
+      "source_image": "/assets/img/net-2025-11-25.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-12-02",
+      "source_image": "/assets/img/net-2025-12-02.png",
+      "detected_rows": 11,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-12-09",
+      "source_image": "/assets/img/net-2025-12-09.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-12-16",
+      "source_image": "/assets/img/net-2025-12-16.png",
+      "detected_rows": 9,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-12-23",
+      "source_image": "/assets/img/net-2025-12-23.png",
+      "detected_rows": 6,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2025-12-30",
+      "source_image": "/assets/img/net-2025-12-30.png",
+      "detected_rows": 7,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-01-06",
+      "source_image": "/assets/img/net-2026-01-06.png",
+      "detected_rows": 13,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-01-13",
+      "source_image": "/assets/img/net-2026-01-13.png",
+      "detected_rows": 9,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-01-20",
+      "source_image": "/assets/img/net-2026-01-20.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-01-27",
+      "source_image": "/assets/img/net-2026-01-27.png",
+      "detected_rows": 9,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-02-03",
+      "source_image": "/assets/img/net-2026-02-03.png",
+      "detected_rows": 12,
+      "review_needed_rows": 12,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-02-10",
+      "source_image": "/assets/img/net-2026-02-10.png",
+      "detected_rows": 14,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-02-17",
+      "source_image": "/assets/img/net-2026-02-17.png",
+      "detected_rows": 14,
+      "review_needed_rows": 11,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-02-24",
+      "source_image": "/assets/img/net-2026-02-24.png",
+      "detected_rows": 11,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-03-03",
+      "source_image": "/assets/img/net-2026-03-03.png",
+      "detected_rows": 9,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-03-10",
+      "source_image": "/assets/img/net-2026-03-10.png",
+      "detected_rows": 9,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-03-17",
+      "source_image": "/assets/img/net-2026-03-17.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-03-24",
+      "source_image": "/assets/img/net-2026-03-24.png",
+      "detected_rows": 12,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-03-31",
+      "source_image": "/assets/img/net-2026-03-31.png",
+      "detected_rows": 12,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-04-07",
+      "source_image": "/assets/img/net-2026-04-07.png",
+      "detected_rows": 11,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-04-14",
+      "source_image": "/assets/img/net-2026-04-14.png",
+      "detected_rows": 10,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-04-21",
+      "source_image": "/assets/img/net-2026-04-21.png",
+      "detected_rows": 14,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-04-28",
+      "source_image": "/assets/img/net-2026-04-28.png",
+      "detected_rows": 20,
+      "review_needed_rows": 14,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-05-05",
+      "source_image": "/assets/img/net-2026-05-05.png",
+      "detected_rows": 20,
+      "review_needed_rows": 18,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-05-12",
+      "source_image": "/assets/img/net-2026-05-12.png",
+      "detected_rows": 17,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-05-19",
+      "source_image": "/assets/img/net-2026-05-19.png",
+      "detected_rows": 14,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-05-26",
+      "source_image": "/assets/img/net-2026-05-26.png",
+      "detected_rows": 13,
+      "review_needed_rows": 13,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-06-02",
+      "source_image": "/assets/img/net-2026-06-02.png",
+      "detected_rows": 19,
+      "review_needed_rows": 14,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-06-09",
+      "source_image": "/assets/img/net-2026-06-09.png",
+      "detected_rows": 17,
+      "review_needed_rows": 12,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-06-16",
+      "source_image": "/assets/img/net-2026-06-16.png",
+      "detected_rows": 12,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-06-23",
+      "source_image": "/assets/img/net-2026-06-23.png",
+      "detected_rows": 12,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-06-30",
+      "source_image": "/assets/img/net-2026-06-30.png",
+      "detected_rows": 10,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-07-07",
+      "source_image": "/assets/img/net-2026-07-07.png",
+      "detected_rows": 8,
+      "review_needed_rows": 5,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-07-14",
+      "source_image": "/assets/img/net-2026-07-14.png",
+      "detected_rows": 10,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-07-21",
+      "source_image": "/assets/img/net-2026-07-21.png",
+      "detected_rows": 12,
+      "review_needed_rows": 10,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-07-28",
+      "source_image": "/assets/img/net-2026-07-28.png",
+      "detected_rows": 10,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-08-04",
+      "source_image": "/assets/img/net-2026-08-04.png",
+      "detected_rows": 13,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-08-11",
+      "source_image": "/assets/img/net-2026-08-11.png",
+      "detected_rows": 10,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-08-18",
+      "source_image": "/assets/img/net-2026-08-18.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-08-25",
+      "source_image": "/assets/img/net-2026-08-25.png",
+      "detected_rows": 13,
+      "review_needed_rows": 12,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-09-01",
+      "source_image": "/assets/img/net-2026-09-01.png",
+      "detected_rows": 11,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-09-08",
+      "source_image": "/assets/img/net-2026-09-08.png",
+      "detected_rows": 11,
+      "review_needed_rows": 7,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-09-15",
+      "source_image": "/assets/img/net-2026-09-15.png",
+      "detected_rows": 12,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-09-22",
+      "source_image": "/assets/img/net-2026-09-22.png",
+      "detected_rows": 11,
+      "review_needed_rows": 9,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-09-29",
+      "source_image": "/assets/img/net-2026-09-29.png",
+      "detected_rows": 7,
+      "review_needed_rows": 6,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-10-06",
+      "source_image": "/assets/img/net-2026-10-06.png",
+      "detected_rows": 11,
+      "review_needed_rows": 8,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-10-13",
+      "source_image": "/assets/img/net-2026-10-13.png",
+      "detected_rows": 14,
+      "review_needed_rows": 12,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    },
+    {
+      "date": "2026-10-20",
+      "source_image": "/assets/img/net-2026-10-20.png",
+      "detected_rows": 13,
+      "review_needed_rows": 12,
+      "missing_callsign_rows": [],
+      "duplicate_callsigns": [],
+      "geometry_method": "header-vertical-lines"
+    }
+  ],
+  "warning": "All derived callsigns and attendance figures are provisional, including repeat-participant interpretations; they are not verified historical facts."
+}

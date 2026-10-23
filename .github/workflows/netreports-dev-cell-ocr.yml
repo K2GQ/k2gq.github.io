@@ -1,0 +1,71 @@
+name: Net Reports Cell OCR v2 Evaluation
+
+on:
+  push:
+    branches:
+      - feature/netreports-dev-cell-ocr-v2
+    paths:
+      - "netreports-dev/scripts/extract_cells.py"
+      - "netreports-dev/tests/test_extract_cells.py"
+      - ".github/workflows/netreports-dev-cell-ocr.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: netreports-dev-cell-ocr-v2
+  cancel-in-progress: true
+
+jobs:
+  compare:
+    if: github.ref == 'refs/heads/feature/netreports-dev-cell-ocr-v2'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout isolated development branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/netreports-dev-cell-ocr-v2
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          if ! command -v tesseract >/dev/null 2>&1; then
+            timeout 120 sudo apt-get update -qq
+            timeout 120 sudo apt-get install -y -qq tesseract-ocr
+          fi
+          python -m pip install --disable-pip-version-check pillow pytesseract numpy opencv-python-headless
+          tesseract --version
+      - name: Run segmentation and repeat-participant tests
+        run: python -m unittest discover -s netreports-dev/tests -v
+      - name: Evaluate cell OCR on ten historical screenshots
+        run: |
+          python -u netreports-dev/scripts/extract_cells.py --root .
+      - name: Inspect evaluation coverage
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('netreports-dev/data/cell-ocr-poc.json').read_text())
+          assert len(d['nets']) == 10
+          assert d['evaluation']['reviewed_reference_rows'] == 38
+          assert len(d['checkins']) >= 30
+          for net in d['nets']:
+              assert net['rows'] > 0, net['date']
+          print('Rows scanned:',len(d['checkins']))
+          print('Comparison:', d['evaluation'])
+          print('Recurring participant suggestions:', len(d['identity_suggestions']))
+          PY
+      - name: Save experimental evaluation to this PR branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add netreports-dev/data/cell-ocr-poc.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record experimental per-cell OCR benchmark on 10 net screenshots"
+            git pull --rebase origin feature/netreports-dev-cell-ocr-v2
+            git push origin HEAD:feature/netreports-dev-cell-ocr-v2
+          fi
