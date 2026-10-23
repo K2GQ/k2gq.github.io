@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Net Reports Lab
-subtitle: Native NetLogger check-in database · development preview
+subtitle: Historical check-in database · development preview
 permalink: /netreports-dev/
 ---
 
@@ -64,12 +64,12 @@ permalink: /netreports-dev/
 </style>
 
 <div id="net-db">
-  <p class="intro">Browse the Roseland club's historical net check-ins directly imported from original NetLogger files. This is a development database, separate from the published net reports.</p>
-  <div id="load-message" class="notice" role="status">Loading original NetLogger check-ins…</div>
+  <p class="intro">Browse the Roseland club's historical check-ins, using original NetLogger logs and separately approved manual reconstructions for dates without native files. This development page is separate from the published net reports.</p>
+  <div id="load-message" class="notice" role="status">Loading historical check-ins…</div>
   <div class="metrics" aria-label="Imported source data summary">
-    <div class="metric"><strong id="total-nets">—</strong><span>Imported nets</span></div>
-    <div class="metric"><strong id="total-rows">—</strong><span>Native check-ins</span></div>
-    <div class="metric"><strong id="total-calls">—</strong><span>Distinct callsigns in uploaded files</span></div>
+    <div class="metric"><strong id="total-nets">—</strong><span>Historical net reports</span></div>
+    <div class="metric"><strong id="total-rows">—</strong><span>Recorded check-ins</span></div>
+    <div class="metric"><strong id="total-calls">—</strong><span>Distinct callsigns</span></div>
   </div>
   <div class="tabs" role="tablist" aria-label="Net report views">
     <button class="tab" role="tab" id="tab-weekly" aria-controls="panel-weekly" aria-selected="true" data-view="weekly">Weekly reports</button>
@@ -83,7 +83,7 @@ permalink: /netreports-dev/
     </div>
     <p id="weekly-count" class="muted" aria-live="polite"></p>
     <div class="tablewrap"><table id="weekly-table"><thead><tr></tr></thead><tbody></tbody></table></div>
-    <p class="muted">The check-in sequence and station details come from the uploaded NetLogger files. Select a callsign to see its appearances in the imported records.</p>
+    <p class="muted">NetLogger check-ins are used where available; otherwise, the approved manual transcription supplies the historical record. Select a callsign to see all documented appearances.</p>
   </section>
   <section id="panel-stations" class="panel" role="tabpanel" aria-labelledby="tab-stations" hidden>
     <div class="controls"><label>Find a callsign <input type="search" id="search-call" list="all-calls" placeholder="Type a callsign" autocomplete="off"><datalist id="all-calls"></datalist></label></div>
@@ -93,13 +93,13 @@ permalink: /netreports-dev/
     <div class="tablewrap"><table id="history-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
   <section id="panel-trends" class="panel" role="tabpanel" aria-labelledby="tab-trends" hidden>
-    <p class="muted">Statistics represent only the uploaded original NetLogger records. Some historical net dates remain without original files and may require reviewed manual reconstruction.</p>
+    <p class="muted">Statistics combine original NetLogger check-ins with 11 separately approved manual reconstructions. No unapproved OCR results are included.</p>
     <div class="controls"><label>View year <select id="trend-year"></select></label></div>
     <div class="chart" id="trend-chart" role="img" aria-label="Native check-ins per month by year"></div>
-    <h3>Annual summary (uploaded logs only)</h3>
+    <h3>Annual summary (documented nets)</h3>
     <div class="tablewrap"><table id="year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
-  <div class="footer">Source: original NetLogger check-in files only. No screenshot transcription or inferred station data is included. The source screenshots remain available as the independent inventory of net dates. The existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages are unchanged.</div>
+  <div class="footer">Sources: original NetLogger files (primary) and the explicitly approved manual reconstruction CSV for 11 missing-file dates. No unapproved OCR data is included. Screenshots remain available for historical reference. The existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages are unchanged.</div>
 </div>
 
 <script>
@@ -147,7 +147,7 @@ permalink: /netreports-dev/
     var net=data.nets.find(function(n){return n.date===selectedDate;});
     var rows=sorted(weeklyRows(),weeklySort);
     text('weekly-count',rows.length+' displayed check-ins'+
-      (net?' · '+net.checkin_count+' in original saved roster'+
+      (net?' · '+net.checkin_count+(net.manual?' in approved manual reconstruction':' in original NetLogger roster')+
       (net.possibly_early_snapshot?' · POSSIBLY INCOMPLETE (saved '+net.source_time_et+' ET)':''):''));
     table('weekly-table',columns,rows,weeklySort,function(k){weeklySort={key:k,asc:weeklySort.key===k?!weeklySort.asc:true};renderWeekly();},openCall);
   }
@@ -167,7 +167,7 @@ permalink: /netreports-dev/
   function renderStations(){
     var query=el('search-call').value.trim().toUpperCase();
     var records=sorted(totals().filter(function(r){return !query||r.callsign.includes(query);}),stationSort);
-    text('station-summary',records.length+' matching callsigns · History includes only uploaded native records.');
+    text('station-summary',records.length+' matching callsigns · History includes native and manually approved check-ins.');
     table('stations-table',stationColumns,records,stationSort,function(k){stationSort={key:k,asc:stationSort.key===k?!stationSort.asc:true};renderStations();},openCall);
     var hits=data.checkins.filter(function(r){return query&&r.callsign===query;}).sort(function(a,b){return b.date.localeCompare(a.date);});
     table('history-table',[['date','Net date'],['callsign','Call sign'],['name','Name'],['city','City'],['state','State'],['remarks','Remarks']],hits,{key:'date',asc:false},function(){});
@@ -198,7 +198,7 @@ permalink: /netreports-dev/
     });
     var annual=Object.values(groups).sort(function(a,b){return a.year.localeCompare(b.year);});
     annual.forEach(function(r){r.average=(r.checkins/r.nets).toFixed(1);});
-    table('year-table',[['year','Year'],['nets','Nets in uploads'],['checkins','Check-ins'],['average','Average per imported net']],annual,{key:'year',asc:true},function(){});
+    table('year-table',[['year','Year'],['nets','Documented nets'],['checkins','Check-ins'],['average','Average per net']],annual,{key:'year',asc:true},function(){});
   }
   function activate(which){
     root.querySelectorAll('[role="tab"]').forEach(function(t){t.setAttribute('aria-selected',t.getAttribute('data-view')===which?'true':'false');});
@@ -217,11 +217,14 @@ permalink: /netreports-dev/
     var unique=Array.from(new Set(data.checkins.map(function(r){return r.callsign;}).filter(Boolean))).sort();
     var datalist=el('all-calls');unique.forEach(function(call){var o=node('option');o.value=call;datalist.appendChild(o);});
     text('total-nets',nets.length);text('total-rows',data.checkins.length);text('total-calls',unique.length);
-    text('load-message','ORIGINAL NETLOGGER FILES · Uploaded logs reconciled. '+nets.length+
-      ' net dates imported and '+data.checkins.length+' check-ins loaded from native files. '+
-      'The uploaded logs are complete, but some historical dates still lack native records. '+
-      'Some early-saved rosters may be incomplete. '+
-      'Unmatched exports and missing dates will be reconciled after all uploads are complete.');
+    var counts=data.source_counts||{};
+    text('load-message','HISTORICAL NET REPORTS · '+nets.length+' documented nets with '+
+      data.checkins.length+' check-ins. '+(counts.native_nets||0)+' nets ('+
+      (counts.native_checkins||0)+' check-ins) come from original NetLogger files; '+
+      (counts.manual_nets||0)+' nets ('+(counts.manual_checkins||0)+
+      ' check-ins) use your approved manual reconstructions. '+
+      'Original NetLogger records remain authoritative if recovered later. '+
+      'Some early-saved native rosters may be incomplete.');
     selector.addEventListener('change',function(){selectedDate=this.value;renderWeekly();});
     el('search-weekly').addEventListener('input',function(){weeklySearch=this.value.trim().toUpperCase();renderWeekly();});
     el('search-call').addEventListener('input',renderStations);

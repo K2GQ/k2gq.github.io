@@ -135,6 +135,93 @@ class TestNetLoggerNative(unittest.TestCase):
         self.assertEqual(payload["checkins"][0]["name"], "Mike Abbey")
         self.assertTrue(audit["duplicate_exports"][0]["conflicting_rows"])
 
+
+    def manual_file(self, content):
+        target = self.root / "netreports-dev/data/manual-checkins.csv"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(
+            "date,number,callsign,name,city,county,state,country,remarks\n"
+            + content, encoding="utf-8"
+        )
+
+    def test_approved_manual_fills_date_missing_native_log(self):
+        self.create_net("2023-09-06")
+        self.manual_file(
+            "2023-09-06,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n"
+            "2023-09-06,2,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF\n"
+        )
+        payload, audit = native.build(self.root)
+        self.assertEqual(len(payload["nets"]), 1)
+        self.assertEqual(payload["nets"][0]["date"], "2023-09-06")
+        self.assertTrue(payload["nets"][0]["manual"])
+        self.assertEqual(payload["checkins"][0]["name"], "Mike Abbey")
+        self.assertEqual(audit["approved_manual_net_count"], 1)
+        self.assertEqual(audit["approved_manual_checkin_count"], 2)
+        self.assertEqual(audit["missing_native_dates"], ["2023-09-06"])
+        self.assertEqual(audit["missing_report_dates"], [])
+        self.assertEqual(payload["source_counts"]["native_nets"], 0)
+        self.assertEqual(payload["source_counts"]["manual_nets"], 1)
+
+    def test_native_log_takes_precedence_over_manual_for_same_date(self):
+        self.create_net("2026-01-13")
+        self.create_log("CheckInsOn01-14-2026-00-04.log", log_row(1))
+        self.manual_file(
+            "2026-01-13,1,KC2NJ,Other Name,Other City,Essex,NJ,United States,RF\n"
+        )
+        payload, audit = native.build(self.root)
+        self.assertEqual(len(payload["checkins"]), 1)
+        self.assertEqual(payload["checkins"][0]["name"], "Mike Abbey")
+        self.assertEqual(payload["source_counts"]["manual_nets"], 0)
+        self.assertEqual(payload["source_counts"]["native_nets"], 1)
+        self.assertEqual(audit["approved_manual_superseded_by_native"],
+                         ["2026-01-13"])
+
+    def test_historical_wednesday_original_supersedes_manual(self):
+        self.create_net("2023-09-06")
+        self.create_log("CheckInsOn09-07-2023-00-00.log",
+                        log_row(1, "KC2NJ", "Michael Original Name"))
+        self.manual_file(
+            "2023-09-06,1,KC2NJ,Approved Manual Name,Short Hills,Essex,NJ,United States,RF\n"
+        )
+        payload, audit = native.build(self.root)
+        self.assertEqual(len(payload["nets"]), 1)
+        self.assertNotIn("manual", payload["nets"][0])
+        self.assertEqual(payload["checkins"][0]["name"], "Michael Original Name")
+        self.assertEqual(payload["source_counts"]["native_nets"], 1)
+        self.assertEqual(payload["source_counts"]["manual_nets"], 0)
+        self.assertEqual(audit["approved_manual_superseded_by_native"],
+                         ["2023-09-06"])
+        self.assertEqual(audit["quarantined_exports"], [])
+
+    def test_unrelated_wednesday_is_still_quarantined(self):
+        self.create_net("2026-08-12")
+        self.create_log("CheckInsOn08-12-2026-23-33.log", log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["nets"], [])
+        self.assertEqual(len(audit["quarantined_exports"]), 1)
+        self.assertIn("historical net schedule",
+                      audit["quarantined_exports"][0]["reason"])
+
+    def test_reject_bad_approved_date_or_duplicate_row(self):
+        for content in [
+            "09-06-23,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n",
+            "2023-09-06,1,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF\n"
+            "2023-09-06,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF\n",
+        ]:
+            with self.subTest(content=content[:20]):
+                self.manual_file(content)
+                with self.assertRaises(ValueError):
+                    native.build(self.root)
+
+    def test_source_counts_empty_when_no_manual_csv(self):
+        self.create_net("2026-01-13")
+        self.create_log("CheckInsOn01-14-2026-00-04.log", log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["source_counts"],
+                         {"native_nets": 1, "native_checkins": 1,
+                          "manual_nets": 0, "manual_checkins": 0})
+        self.assertEqual(audit["approved_manual_net_count"], 0)
+
     def test_missing_dates_are_preliminary_and_all_native(self):
         self.create_net("2026-01-13")
         self.create_net("2026-01-20")

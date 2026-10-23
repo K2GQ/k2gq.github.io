@@ -1,0 +1,67 @@
+date,number,callsign,name,city,county,state,country,remarks
+2023-09-06,1,WV2RJR,Ronald J Reinhardt,Roseland,Essex,NJ,United States,RF
+2023-09-06,2,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-09-06,3,KD2CAK,Ari H Levine,Vauxhall,Passaic,NJ,United States,RF
+2023-09-06,4,N1UGK,Jesse B Bertier,South Orange,Essex,NJ,United States,RF
+2023-09-06,5,KD2STE,Terry Friedman,Livingston,Essex,NJ,United States,RF
+2023-09-06,6,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-09-13,1,WV2RJR,Ronald J Reinhardt,Roseland,Essex,NJ,United States,RF
+2023-09-13,2,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-09-13,3,KD2CAK,Ari H Levine,Vauxhall,Passaic,NJ,United States,RF
+2023-09-13,4,N1UGK,Jesse B Bertier,South Orange,Essex,NJ,United States,RF
+2023-09-13,5,WA2FVF,Frank V Ferrer,Palisades Park,Bergen,NJ,United States,RF
+2023-09-13,6,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-10-04,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-10-04,2,WV2RJR,Ronald J Reinhardt,Roseland,Essex,NJ,United States,RF
+2023-10-04,3,KA2PUN,Matthew Couper,Pittsfield,Berkshire,MA,United States,RF
+2023-10-04,4,KD2CAK,Ari H Levine,Vauxhall,Passaic,NJ,United States,RF
+2023-10-11,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-10-11,2,KA2PUN,Matthew Couper,West Orange,Essex,NJ,United States,RF
+2023-10-11,3,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-10-11,4,KD2CAK,Ari H Levine,Vauxhall,Passaic,NJ,United States,RF
+2023-10-11,5,N1UGK,Jesse B Bertier,South Orange,Essex,NJ,United States,RF
+2023-10-18,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-10-18,2,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF
+2023-10-18,3,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-10-18,4,KD2STE,Terry Friedman,Livingston,Essex,NJ,United States,RF
+2023-10-18,5,KD2CAK,Ari H Levine,Vauxhall,Passaic,NJ,United States,RF
+2023-10-25,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-10-25,2,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF
+2023-10-25,3,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-10-25,4,KD2STE,Terry Friedman,Livingston,Essex,NJ,United States,RF
+2023-10-25,5,KC2MMC,Terry Rutledge,ORANGE,Essex,NJ,United States,RF
+2023-11-01,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-11-01,2,KD2STE,Terry Friedman,Livingston,Essex,NJ,United States,RF
+2023-11-01,3,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF
+2023-11-01,4,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-11-07,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2023-11-07,2,WV2RJR,Ronald J Reinhardt,Roseland,Essex,NJ,United States,RF
+2023-11-07,3,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2023-11-07,4,K2AUF,Robert A Calandra,ELIZABETH,Union,NJ,United States,RF
+2023-11-07,5,KA2PUN,Matthew Couper,West Orange,Essex,NJ,United States,RF
+2023-11-07,6,KD2STE,Terry Friedman,Livingston,Essex,NJ,United States,RF
+2023-11-07,7,KC2WYH,Robert J Kovacs,VERONA,Essex,NJ,United States,RF
+2023-11-07,8,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF
+2023-11-07,9,N1UGK,Jesse B Bertier,South Orange,Essex,NJ,United States,RF
+2025-05-13,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF
+2025-05-13,2,KA2PUN,Matt Couper,Pittsfield,Berkshire,MA,United States,EchoLink
+2025-05-13,3,KD2DMO,Mar Christiano,Summit,Union,NJ,United States,EchoLink
+2025-05-13,4,KD2STE,Terry Friedman,Livingston,Essex,NJ,United States,EchoLink
+2025-05-13,5,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,RF
+2025-05-13,6,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF
+2025-05-13,7,KD2VLP,Allan C Spera,South Orange,Essex,NJ,United States,EchoLink
+2025-05-13,8,KD2YDP,John A Barbato,Yonkers,Westchester,NY,United States,EchoLink
+2025-05-13,9,KD2WGN,John E Beck Sr,Parsippany,Morris,NJ,United States,EchoLink
+2025-12-23,1,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF - TXA
+2025-12-23,2,KD2VLP,Allan C Spera,South Orange,Essex,NJ,United States,EchoLink
+2025-12-23,3,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,EchoLink
+2025-12-23,4,KA2PUN,Matt Couper,Pittsfield,Berkshire,MA,United States,EchoLink
+2025-12-23,5,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF - TXA
+2025-12-23,6,KK7YBP,Annette Keefer,Twin Falls,Twin Falls,ID,United States,EchoLink
+2025-12-30,1,KD2VLP,Allan C Spera,South Orange,Essex,NJ,United States,EchoLink
+2025-12-30,2,KB2SUL,Maurice A Naraine,ORANGE,Essex,NJ,United States,RF - TXA
+2025-12-30,3,WB2GZL,Jerry Scola,Lincoln Park,Morris,NJ,United States,EchoLink
+2025-12-30,4,KA2PUN,Matt Couper,Pittsfield,Berkshire,MA,United States,EchoLink
+2025-12-30,5,KE2GVV,Steve Giampaolo,Livingston,Essex,NJ,United States,RF - TXA
+2025-12-30,6,N2RCP,John J Milarski,ORANGE,Essex,NJ,United States,RF - TXA
+2025-12-30,7,KC2NJ,Mike Abbey,Short Hills,Essex,NJ,United States,EchoLink
