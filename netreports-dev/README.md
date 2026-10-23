@@ -40,9 +40,12 @@ selects the export with the most nonblank rows, then the latest UTC time
 as a tiebreaker. It preserves an audit trail of all competing source files
 and flags disagreement rather than merging identities or inventing rows.
 
-An export saved on a date not appearing in the historical net screenshot
-list is quarantined for manual review. The screenshots themselves are
-retained strictly as a **date inventory**, not as check-in source data.
+An export whose timestamp falls **outside the usual Tuesday schedule** is
+quarantined for manual review. Valid Tuesday native files are imported even
+when no matching screenshot exists; the missing screenshot is reported for
+audit. Early roster snapshots saved before 8:00 p.m. Eastern are flagged
+because the net may not yet have finished. The screenshots are retained
+strictly as a **date inventory**, not as a check-in source.
 
 ## Privacy
 
