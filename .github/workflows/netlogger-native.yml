@@ -1,0 +1,134 @@
+name: NetLogger Native Check-in Import (development)
+
+on:
+  push:
+    branches:
+      - feature/netlogger-native-import-batch1
+    paths:
+      - '_netlogger-checkins/**'
+      - 'netreports-dev/scripts/build_netlogger.py'
+      - 'netreports-dev/tests/test_netlogger.py'
+      - '.github/workflows/netlogger-native.yml'
+  pull_request:
+    paths:
+      - '_netlogger-checkins/**'
+      - 'netreports-dev/**'
+      - '.github/workflows/netlogger-native.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: netlogger-native-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-native:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test NetLogger parsing and privacy controls
+        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger.py' -v
+      - name: Rebuild native records in a temporary location
+        run: |
+          python netreports-dev/scripts/build_netlogger.py --root . \
+            --out /tmp/netlogger-verified.json --audit /tmp/netlogger-audit-verified.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('/tmp/netlogger-verified.json').read_text())
+          audit=json.loads(Path('/tmp/netlogger-audit-verified.json').read_text())
+          assert data['kind'] == 'netlogger-native-checkins'
+          assert data['batch_status'].startswith('1 of 3')
+          assert len(data['nets']) > 0
+          assert len(data['checkins']) == audit['checkin_count']
+          assert all(r['date'] in {n['date'] for n in data['nets']} for r in data['checkins'])
+          assert not any(key in r for r in data['checkins'] for key in (
+              'address','zip','zipcode','frn','email','phone','postal_address','street'))
+          print('NetLogger native nets:', len(data['nets']))
+          print('Source records:', len(data['checkins']))
+          print('Quarantined files:',len(audit['quarantined_exports']))
+          PY
+      - name: Validate development page script and retired pipeline removal
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          page=Path('netreports-dev/index.html').read_text()
+          script=re.search(r'<script>(.*?)</script>',page,re.S)
+          assert script, "Development page script missing"
+          Path('/tmp/netlogger-dev-page.js').write_text(script.group(1))
+          assert 'data/netlogger.json' in page
+          assert 'preview.json' not in page
+          assert 'cell-ocr' not in page
+          assert 'exportCSV' not in page
+          retired=[
+              'netreports-dev/scripts/extract.py',
+              'netreports-dev/scripts/extract_cells.py',
+              'netreports-dev/scripts/import_all.py',
+              'netreports-dev/scripts/import_cells_all.py',
+              'netreports-dev/scripts/view-data.js',
+              'netreports-dev/data/preview.json',
+              'netreports-dev/data/cell-ocr-archive.json',
+              '.github/workflows/netreports-dev-ocr.yml',
+              '.github/workflows/netreports-dev-cell-ocr-full.yml',
+          ]
+          assert not any(Path(p).exists() for p in retired), "Retired extraction files remain"
+          PY
+          node --check /tmp/netlogger-dev-page.js
+      - name: Verify committed outputs when present
+        if: github.event_name == 'pull_request'
+        run: |
+          if test -f netreports-dev/data/netlogger.json; then
+            diff -u netreports-dev/data/netlogger.json /tmp/netlogger-verified.json
+            diff -u netreports-dev/data/netlogger-audit.json /tmp/netlogger-audit-verified.json
+          fi
+
+  build-on-staging:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/netlogger-native-import-batch1'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out exact staging branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/netlogger-native-import-batch1
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run native parser unit tests
+        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger.py' -v
+      - name: Build source-only provisional data and coverage audit
+        run: python netreports-dev/scripts/build_netlogger.py --root .
+      - name: Inspect generated dataset for sensitive fields
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          payload=json.loads(Path('netreports-dev/data/netlogger.json').read_text())
+          audit=json.loads(Path('netreports-dev/data/netlogger-audit.json').read_text())
+          assert payload['kind'] == 'netlogger-native-checkins'
+          assert audit['source_file_count'] > 0
+          assert all(r['date'] in {n['date'] for n in payload['nets']} for r in payload['checkins'])
+          for row in payload['checkins']:
+              assert set(row)=={'date','number','callsign','name','city','county','state','country','remarks'}, row
+          print('Native imported nets:',audit['net_count'])
+          print('Native check-in rows:',audit['checkin_count'])
+          print('Unmatched files:',len(audit['quarantined_exports']))
+          PY
+      - name: Commit only sanitized native datasets to staging branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add netreports-dev/data/netlogger.json netreports-dev/data/netlogger-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate partial native NetLogger check-in database"
+            git pull --rebase origin feature/netlogger-native-import-batch1
+            git push origin HEAD:feature/netlogger-native-import-batch1
+          fi
