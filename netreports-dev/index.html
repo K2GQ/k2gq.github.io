@@ -146,7 +146,7 @@ permalink: /netreports-dev/
   function renderWeekly(){
     var current=(data.nets||[]).find(function(n){return n.date===selectedDate;});
     var rows=sortRows(netRows(),weeklySort);
-    txt('nr-net-count',rows.length+' check-ins'+(current&&!current.reviewed?' · OCR estimate; verify with source image':''));
+    txt('nr-net-count',rows.length+' check-ins'+(current?(current.reviewed?' · manually verified roster':' · cell OCR v2 estimate · '+current.cell_review_flags+' rows flagged for review'):''));
     var link=byId('nr-source');link.href=current&&/^\/assets\/img\/net-\d{4}-\d{2}-\d{2}\.png$/.test(current.image)?current.image:'#';
     table('nr-weekly-table',colsWeekly,rows,weeklySort,function(k){weeklySort={key:k,asc:weeklySort.key===k?!weeklySort.asc:true};renderWeekly();},function(call){station=call;byId('nr-callsign').value=call;activate('stations');});
   }
@@ -161,7 +161,7 @@ permalink: /netreports-dev/
   function renderStations(){
     var q=(byId('nr-callsign').value||'').trim().toUpperCase();station=q;
     var records=sortRows(boardRows().filter(function(r){return !q||r.callsign.indexOf(q)!==-1;}),leaderboardSort);
-    txt('nr-station-summary',q?'Matching stations: '+records.length+' · Select a callsign to see its provisional check-in history.':'Showing imported callsigns; totals may change after verification.');
+    txt('nr-station-summary',q?'Matching stations: '+records.length+' · Select a callsign to see check-in dates (provisional outside reviewed nets).':'Showing callsigns from improved OCR, with reviewed dates preserved. Station totals are provisional.');
     table('nr-stations-table',colsBoard,records,leaderboardSort,function(k){leaderboardSort={key:k,asc:leaderboardSort.key===k?!leaderboardSort.asc:true};renderStations();},function(call){byId('nr-callsign').value=call;station=call;renderStations();});
     var hits=(data.checkins||[]).filter(function(r){return r.callsign===station;}).sort(function(a,b){return b.date.localeCompare(a.date);});
     table('nr-history-table',[['date','Net date'],['callsign','Call sign'],['name','Name'],['city','City'],['state','State'],['remarks','Remarks']],hits,{key:'date',asc:false},function(){});
@@ -182,10 +182,46 @@ permalink: /netreports-dev/
     var yearRows=Object.keys(groups).sort().map(function(y){var x=groups[y];x.average=(x.rows/x.nets).toFixed(1);return x;});
     table('nr-year-table',[['year','Year'],['nets','Nets'],['rows','Extracted check-ins'],['average','Average per net']],yearRows,{key:'year',asc:true},function(){});
   }
+  function renderComparison(){
+    var year=byId('nr-compare-year').value, filter=byId('nr-compare-filter').value;
+    var items=data.comparison.filter(function(r){
+      if(year!=='all' && r.date.slice(0,4)!==year)return false;
+      if(filter==='gained')return r.delta>0;
+      if(filter==='same')return r.delta===0;
+      if(filter==='lost')return r.delta<0;
+      return true;
+    }).sort(function(a,b){return b.date.localeCompare(a.date);});
+    var gain=items.filter(function(r){return r.delta>0;}).length;
+    var same=items.filter(function(r){return r.delta===0;}).length;
+    var loss=items.filter(function(r){return r.delta<0;}).length;
+    var before=items.reduce(function(n,r){return n+r.original;},0);
+    var after=items.reduce(function(n,r){return n+r.improved;},0);
+    txt('nr-compare-summary',items.length+' nets · Original: '+before+' candidate rows · Cell OCR v2: '+after+
+        ' candidate rows · Change: '+(after-before>=0?'+':'')+(after-before)+
+        ' · More: '+gain+' · Same: '+same+' · Fewer: '+loss+'.');
+    var body=byId('nr-compare-table').tBodies[0];clear(body);
+    if(!items.length){var tr=node('tr'),td=node('td','No matching dates.');td.colSpan=6;tr.appendChild(td);body.appendChild(tr);return;}
+    items.forEach(function(r){
+      var tr=node('tr');
+      var dateCell=node('td'),dateLink=node('a',r.date);
+      dateLink.href='#nr-panel-weekly';
+      dateLink.addEventListener('click',function(event){
+        event.preventDefault();selectedDate=r.date;byId('nr-date').value=r.date;search='';byId('nr-search').value='';activate('weekly');
+      });
+      dateCell.appendChild(dateLink);tr.appendChild(dateCell);
+      tr.appendChild(node('td',r.original));
+      tr.appendChild(node('td',r.improved));
+      var diff=node('td',(r.delta>0?'+':'')+r.delta);if(r.delta>0)diff.className='nr-positive';if(r.delta<0)diff.className='nr-negative';tr.appendChild(diff);
+      tr.appendChild(node('td',r.flagged));
+      var source=node('td'),link=node('a','View PNG ↗');
+      link.href=r.image;link.target='_blank';link.rel='noopener';source.appendChild(link);tr.appendChild(source);
+      body.appendChild(tr);
+    });
+  }
   function activate(which){
     root.querySelectorAll('[role="tab"]').forEach(function(t){var yes=t.getAttribute('data-panel')===which;t.setAttribute('aria-selected',yes?'true':'false');});
     root.querySelectorAll('.nr-panel').forEach(function(panel){panel.hidden=panel.id!=='nr-panel-'+which;});
-    if(which==='stations')renderStations();if(which==='trends')renderTrends();if(which==='weekly')renderWeekly();
+    if(which==='stations')renderStations();if(which==='trends')renderTrends();if(which==='weekly')renderWeekly();if(which==='compare')renderComparison();
   }
   function initialize(payload){
     if(!payload || !Array.isArray(payload.nets) || !Array.isArray(payload.checkins))throw Error('Unexpected OCR data format');
@@ -195,8 +231,19 @@ permalink: /netreports-dev/
     var unique=uniqueSorted(data.checkins.map(function(r){return r.callsign;}));
     var dl=byId('nr-callsigns');unique.forEach(function(call){var opt=node('option');opt.value=call;dl.appendChild(opt);});
     txt('nr-nets',netlist.length);txt('nr-rows',data.checkins.length);txt('nr-unique',unique.length);
-    txt('nr-flags',data.nets.filter(function(n){return !n.reviewed;}).length);
-    txt('nr-message','DEVELOPMENT ARCHIVE · '+netlist.length+' dated screenshots imported. '+data.checkins.filter(function(r){return r.reviewed;}).length+' check-ins were manually verified; the remainder are provisional OCR. Check the original screenshot for uncertain entries or statistics.');
+    txt('nr-flags',data.stats.cell_review_flags);
+    txt('nr-message','IMPROVED OCR v2 · '+netlist.length+' dated screenshots · '+data.stats.cell_rows+
+      ' candidate check-ins, up from '+data.stats.original_rows+' with original OCR. '+
+      data.stats.verified_rows+' records on '+data.stats.verified_nets+
+      ' nets were manually verified and take precedence over OCR. '+
+      data.stats.cell_review_flags+' of the OCR candidates are flagged for review. '+
+      'All non-verified records and station statistics are provisional.');
+    var compareYears=uniqueSorted(netlist.map(function(n){return n.date.slice(0,4);})).reverse();
+    var comparePicker=byId('nr-compare-year');compareYears.forEach(function(y){
+      var opt=node('option',y);opt.value=y;comparePicker.appendChild(opt);
+    });
+    comparePicker.addEventListener('change',renderComparison);
+    byId('nr-compare-filter').addEventListener('change',renderComparison);
     byId('nr-trend-year').addEventListener('change',renderTrends);
     picker.addEventListener('change',function(){selectedDate=picker.value;renderWeekly();});
     byId('nr-search').addEventListener('input',function(){search=this.value.trim().toUpperCase();renderWeekly();});
@@ -205,6 +252,22 @@ permalink: /netreports-dev/
     root.querySelectorAll('[role="tab"]').forEach(function(b){b.addEventListener('click',function(){activate(b.getAttribute('data-panel'));});});
     activate('weekly');
   }
-  fetch("{{ '/netreports-dev/data/preview.json' | relative_url }}",{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('OCR data file not available ('+r.status+')');return r.json();}).then(initialize).catch(function(err){txt('nr-message','Development data is not yet available: '+err.message+'. The OCR action must generate the sample JSON first.');txt('nr-nets','0');txt('nr-rows','0');txt('nr-unique','0');txt('nr-flags','0');});
+  function fetchJSON(url){
+    return fetch(url,{cache:'no-store'}).then(function(response){
+      if(!response.ok)throw Error('Data unavailable ('+response.status+'): '+url);
+      return response.json();
+    });
+  }
+  Promise.all([
+    fetchJSON("{{ '/netreports-dev/data/cell-ocr-archive.json' | relative_url }}"),
+    fetchJSON("{{ '/netreports-dev/data/preview.json' | relative_url }}"),
+    fetchJSON("{{ '/netreports-dev/data/reviewed.json' | relative_url }}")
+  ]).then(function(sources){
+    if(!window.NetReportsDevData)throw Error('Development OCR adapter did not load');
+    initialize(window.NetReportsDevData.build(sources[0],sources[1],sources[2]));
+  }).catch(function(err){
+    txt('nr-message','Could not load the improved OCR archive: '+err.message);
+    txt('nr-nets','0');txt('nr-rows','0');txt('nr-unique','0');txt('nr-flags','0');
+  });
 })();
 </script>
