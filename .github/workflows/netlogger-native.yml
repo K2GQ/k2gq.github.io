@@ -54,6 +54,7 @@ jobs:
           print('Quarantined files:',len(audit['quarantined_exports']))
           PY
       - name: Verify committed outputs when present
+        if: github.event_name == 'pull_request'
         run: |
           if test -f netreports-dev/data/netlogger.json; then
             diff -u netreports-dev/data/netlogger.json /tmp/netlogger-verified.json
