@@ -134,23 +134,135 @@
     "2026-09-01"
   ],
   "native_dates_without_screenshot": [],
+  "possibly_early_snapshots": [
+    {
+      "date": "2026-01-13",
+      "source_file": "CheckInsOn01-14-2026-00-04.log",
+      "source_time_et": "19:04"
+    },
+    {
+      "date": "2026-01-20",
+      "source_file": "CheckInsOn01-21-2026-00-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2026-01-27",
+      "source_file": "CheckInsOn01-28-2026-00-03.log",
+      "source_time_et": "19:03"
+    },
+    {
+      "date": "2026-03-17",
+      "source_file": "CheckInsOn03-17-2026-23-25.log",
+      "source_time_et": "19:25"
+    },
+    {
+      "date": "2026-03-24",
+      "source_file": "CheckInsOn03-24-2026-23-44.log",
+      "source_time_et": "19:44"
+    },
+    {
+      "date": "2026-03-31",
+      "source_file": "CheckInsOn03-31-2026-23-19.log",
+      "source_time_et": "19:19"
+    },
+    {
+      "date": "2026-04-14",
+      "source_file": "CheckInsOn04-14-2026-23-09.log",
+      "source_time_et": "19:09"
+    },
+    {
+      "date": "2026-04-21",
+      "source_file": "CheckInsOn04-21-2026-23-39.log",
+      "source_time_et": "19:39"
+    },
+    {
+      "date": "2026-04-28",
+      "source_file": "CheckInsOn04-28-2026-23-37.log",
+      "source_time_et": "19:37"
+    },
+    {
+      "date": "2026-05-05",
+      "source_file": "CheckInsOn05-05-2026-23-30.log",
+      "source_time_et": "19:30"
+    },
+    {
+      "date": "2026-05-19",
+      "source_file": "CheckInsOn05-19-2026-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2026-06-02",
+      "source_file": "CheckInsOn06-02-2026-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2026-06-09",
+      "source_file": "CheckInsOn06-09-2026-23-22.log",
+      "source_time_et": "19:22"
+    },
+    {
+      "date": "2026-06-23",
+      "source_file": "CheckInsOn06-23-2026-22-57.log",
+      "source_time_et": "18:57"
+    },
+    {
+      "date": "2026-07-14",
+      "source_file": "CheckInsOn07-14-2026-22-52.log",
+      "source_time_et": "18:52"
+    },
+    {
+      "date": "2026-08-04",
+      "source_file": "CheckInsOn08-04-2026-23-05.log",
+      "source_time_et": "19:05"
+    },
+    {
+      "date": "2026-08-25",
+      "source_file": "CheckInsOn08-25-2026-23-39.log",
+      "source_time_et": "19:39"
+    },
+    {
+      "date": "2026-09-08",
+      "source_file": "CheckInsOn09-08-2026-23-02.log",
+      "source_time_et": "19:02"
+    },
+    {
+      "date": "2026-09-15",
+      "source_file": "CheckInsOn09-15-2026-23-54.log",
+      "source_time_et": "19:54"
+    },
+    {
+      "date": "2026-09-22",
+      "source_file": "CheckInsOn09-22-2026-23-55.log",
+      "source_time_et": "19:55"
+    },
+    {
+      "date": "2026-10-06",
+      "source_file": "CheckInsOn10-06-2026-23-07.log",
+      "source_time_et": "19:07"
+    },
+    {
+      "date": "2026-10-13",
+      "source_file": "CheckInsOn10-13-2026-23-00.log",
+      "source_time_et": "19:00"
+    }
+  ],
   "quarantined_exports": [
     {
       "file": "CheckInsOn01-13-2026-01-04.log",
       "timestamp_date_et": "2026-01-12",
-      "reason": "Not a screenshot net date / nonstandard day: 2026-01-12 (Mon)",
+      "reason": "Not on the Tuesday net schedule: 2026-01-12 (Mon)",
       "nonblank_rows": 6
     },
     {
       "file": "CheckInsOn06-09-2026-00-04.log",
       "timestamp_date_et": "2026-06-08",
-      "reason": "Not a screenshot net date / nonstandard day: 2026-06-08 (Mon)",
+      "reason": "Not on the Tuesday net schedule: 2026-06-08 (Mon)",
       "nonblank_rows": 6
     },
     {
       "file": "CheckInsOn08-12-2026-23-33.log",
       "timestamp_date_et": "2026-08-12",
-      "reason": "Not a screenshot net date / nonstandard day: 2026-08-12 (Wed)",
+      "reason": "Not on the Tuesday net schedule: 2026-08-12 (Wed)",
       "nonblank_rows": 10
     }
   ],
@@ -174,5 +286,5 @@
     }
   ],
   "parse_warnings": [],
-  "limitations": "Preliminary batch only. Native filenames are treated as UTC and mapped to Eastern net date. Files whose date does not match a historical net screenshot are quarantined. Other laptops may contain missing or more complete logs. No OCR data is used."
+  "limitations": "Preliminary batch only. Native filenames are treated as UTC and mapped to Eastern net date. Files whose date does not fall outside the regular Tuesday schedule are quarantined. Snapshots before 8:00 p.m. ET may be incomplete. Other laptops may contain missing or more complete logs. No OCR data is used."
 }

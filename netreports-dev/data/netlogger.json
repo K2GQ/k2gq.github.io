@@ -8,6 +8,8 @@
       "date": "2026-01-13",
       "checkin_count": 9,
       "source_file": "CheckInsOn01-14-2026-00-04.log",
+      "source_time_et": "19:04",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -16,6 +18,8 @@
       "date": "2026-01-20",
       "checkin_count": 11,
       "source_file": "CheckInsOn01-21-2026-00-03.log",
+      "source_time_et": "19:03",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -24,6 +28,8 @@
       "date": "2026-01-27",
       "checkin_count": 9,
       "source_file": "CheckInsOn01-28-2026-00-03.log",
+      "source_time_et": "19:03",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -32,6 +38,8 @@
       "date": "2026-02-03",
       "checkin_count": 12,
       "source_file": "CheckInsOn02-04-2026-01-08.log",
+      "source_time_et": "20:08",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -40,6 +48,8 @@
       "date": "2026-02-10",
       "checkin_count": 14,
       "source_file": "CheckInsOn02-11-2026-01-04Tues2_10_2026.log",
+      "source_time_et": "20:04",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -48,6 +58,8 @@
       "date": "2026-02-17",
       "checkin_count": 14,
       "source_file": "CheckInsOn02-18-2026-02-29.log",
+      "source_time_et": "21:29",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -56,6 +68,8 @@
       "date": "2026-02-24",
       "checkin_count": 11,
       "source_file": "CheckInsOn02-25-2026-01-01.log",
+      "source_time_et": "20:01",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -64,6 +78,8 @@
       "date": "2026-03-03",
       "checkin_count": 9,
       "source_file": "CheckInsOn03-04-2026-01-02.log",
+      "source_time_et": "20:02",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -72,6 +88,8 @@
       "date": "2026-03-10",
       "checkin_count": 9,
       "source_file": "CheckInsOn03-11-2026-00-11.log",
+      "source_time_et": "20:11",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -80,6 +98,8 @@
       "date": "2026-03-17",
       "checkin_count": 11,
       "source_file": "CheckInsOn03-17-2026-23-25.log",
+      "source_time_et": "19:25",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -88,6 +108,8 @@
       "date": "2026-03-24",
       "checkin_count": 12,
       "source_file": "CheckInsOn03-24-2026-23-44.log",
+      "source_time_et": "19:44",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -96,6 +118,8 @@
       "date": "2026-03-31",
       "checkin_count": 12,
       "source_file": "CheckInsOn03-31-2026-23-19.log",
+      "source_time_et": "19:19",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -104,6 +128,8 @@
       "date": "2026-04-07",
       "checkin_count": 11,
       "source_file": "CheckInsOn04-08-2026-01-24.log",
+      "source_time_et": "21:24",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -112,6 +138,8 @@
       "date": "2026-04-14",
       "checkin_count": 10,
       "source_file": "CheckInsOn04-14-2026-23-09.log",
+      "source_time_et": "19:09",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -120,6 +148,8 @@
       "date": "2026-04-21",
       "checkin_count": 14,
       "source_file": "CheckInsOn04-21-2026-23-39.log",
+      "source_time_et": "19:39",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -128,6 +158,8 @@
       "date": "2026-04-28",
       "checkin_count": 20,
       "source_file": "CheckInsOn04-28-2026-23-37.log",
+      "source_time_et": "19:37",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -136,6 +168,8 @@
       "date": "2026-05-05",
       "checkin_count": 20,
       "source_file": "CheckInsOn05-05-2026-23-30.log",
+      "source_time_et": "19:30",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -144,6 +178,8 @@
       "date": "2026-05-12",
       "checkin_count": 17,
       "source_file": "CheckInsOn05-13-2026-00-08.log",
+      "source_time_et": "20:08",
+      "possibly_early_snapshot": false,
       "other_exports": 1,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -152,6 +188,8 @@
       "date": "2026-05-19",
       "checkin_count": 14,
       "source_file": "CheckInsOn05-19-2026-23-05.log",
+      "source_time_et": "19:05",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -160,6 +198,8 @@
       "date": "2026-05-26",
       "checkin_count": 13,
       "source_file": "CheckInsOn05-27-2026-00-39.log",
+      "source_time_et": "20:39",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -168,6 +208,8 @@
       "date": "2026-06-02",
       "checkin_count": 19,
       "source_file": "CheckInsOn06-02-2026-23-05.log",
+      "source_time_et": "19:05",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -176,6 +218,8 @@
       "date": "2026-06-09",
       "checkin_count": 17,
       "source_file": "CheckInsOn06-09-2026-23-22.log",
+      "source_time_et": "19:22",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -184,6 +228,8 @@
       "date": "2026-06-16",
       "checkin_count": 12,
       "source_file": "CheckInsOn06-17-2026-02-55.log",
+      "source_time_et": "22:55",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -192,6 +238,8 @@
       "date": "2026-06-23",
       "checkin_count": 12,
       "source_file": "CheckInsOn06-23-2026-22-57.log",
+      "source_time_et": "18:57",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -200,6 +248,8 @@
       "date": "2026-06-30",
       "checkin_count": 10,
       "source_file": "CheckInsOn07-01-2026-00-25.log",
+      "source_time_et": "20:25",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -208,6 +258,8 @@
       "date": "2026-07-14",
       "checkin_count": 10,
       "source_file": "CheckInsOn07-14-2026-22-52.log",
+      "source_time_et": "18:52",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -216,6 +268,8 @@
       "date": "2026-07-21",
       "checkin_count": 12,
       "source_file": "CheckInsOn07-22-2026-01-18.log",
+      "source_time_et": "21:18",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -224,6 +278,8 @@
       "date": "2026-07-28",
       "checkin_count": 10,
       "source_file": "CheckInsOn07-29-2026-00-55.log",
+      "source_time_et": "20:55",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -232,6 +288,8 @@
       "date": "2026-08-04",
       "checkin_count": 13,
       "source_file": "CheckInsOn08-04-2026-23-05.log",
+      "source_time_et": "19:05",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -240,6 +298,8 @@
       "date": "2026-08-25",
       "checkin_count": 13,
       "source_file": "CheckInsOn08-25-2026-23-39.log",
+      "source_time_et": "19:39",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -248,6 +308,8 @@
       "date": "2026-09-08",
       "checkin_count": 11,
       "source_file": "CheckInsOn09-08-2026-23-02.log",
+      "source_time_et": "19:02",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -256,6 +318,8 @@
       "date": "2026-09-15",
       "checkin_count": 12,
       "source_file": "CheckInsOn09-15-2026-23-54.log",
+      "source_time_et": "19:54",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -264,6 +328,8 @@
       "date": "2026-09-22",
       "checkin_count": 11,
       "source_file": "CheckInsOn09-22-2026-23-55.log",
+      "source_time_et": "19:55",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -272,6 +338,8 @@
       "date": "2026-09-29",
       "checkin_count": 7,
       "source_file": "CheckInsOn09-30-2026-00-00.log",
+      "source_time_et": "20:00",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -280,6 +348,8 @@
       "date": "2026-10-06",
       "checkin_count": 11,
       "source_file": "CheckInsOn10-06-2026-23-07.log",
+      "source_time_et": "19:07",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -288,6 +358,8 @@
       "date": "2026-10-13",
       "checkin_count": 14,
       "source_file": "CheckInsOn10-13-2026-23-00.log",
+      "source_time_et": "19:00",
+      "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -296,6 +368,8 @@
       "date": "2026-10-20",
       "checkin_count": 13,
       "source_file": "CheckInsOn10-21-2026-00-07.log",
+      "source_time_et": "20:07",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
