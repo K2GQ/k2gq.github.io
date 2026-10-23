@@ -588,79 +588,79 @@
     {
       "file": "CheckInsOn01-13-2026-01-04.log",
       "timestamp_date_et": "2026-01-12",
-      "reason": "Not on the Tuesday net schedule: 2026-01-12 (Mon)",
+      "reason": "Not on the historical net schedule: 2026-01-12 (Mon)",
       "nonblank_rows": 6
     },
     {
       "file": "CheckInsOn04-11-2025-00-10.log",
       "timestamp_date_et": "2025-04-10",
-      "reason": "Not on the Tuesday net schedule: 2025-04-10 (Thu)",
+      "reason": "Not on the historical net schedule: 2025-04-10 (Thu)",
       "nonblank_rows": 14
     },
     {
       "file": "CheckInsOn05-09-2025-00-06.log",
       "timestamp_date_et": "2025-05-08",
-      "reason": "Not on the Tuesday net schedule: 2025-05-08 (Thu)",
+      "reason": "Not on the historical net schedule: 2025-05-08 (Thu)",
       "nonblank_rows": 7
     },
     {
       "file": "CheckInsOn06-09-2026-00-04.log",
       "timestamp_date_et": "2026-06-08",
-      "reason": "Not on the Tuesday net schedule: 2026-06-08 (Mon)",
+      "reason": "Not on the historical net schedule: 2026-06-08 (Mon)",
       "nonblank_rows": 6
     },
     {
       "file": "CheckInsOn06-12-2025-23-52.log",
       "timestamp_date_et": "2025-06-12",
-      "reason": "Not on the Tuesday net schedule: 2025-06-12 (Thu)",
+      "reason": "Not on the historical net schedule: 2025-06-12 (Thu)",
       "nonblank_rows": 5
     },
     {
       "file": "CheckInsOn07-11-2025-00-31.log",
       "timestamp_date_et": "2025-07-10",
-      "reason": "Not on the Tuesday net schedule: 2025-07-10 (Thu)",
+      "reason": "Not on the historical net schedule: 2025-07-10 (Thu)",
       "nonblank_rows": 10
     },
     {
       "file": "CheckInsOn08-12-2026-23-33.log",
       "timestamp_date_et": "2026-08-12",
-      "reason": "Not on the Tuesday net schedule: 2026-08-12 (Wed)",
+      "reason": "Not on the historical net schedule: 2026-08-12 (Wed)",
       "nonblank_rows": 10
     },
     {
       "file": "CheckInsOn08-15-2025-00-04.log",
       "timestamp_date_et": "2025-08-14",
-      "reason": "Not on the Tuesday net schedule: 2025-08-14 (Thu)",
+      "reason": "Not on the historical net schedule: 2025-08-14 (Thu)",
       "nonblank_rows": 8
     },
     {
       "file": "CheckInsOn09-12-2025-00-44.log",
       "timestamp_date_et": "2025-09-11",
-      "reason": "Not on the Tuesday net schedule: 2025-09-11 (Thu)",
+      "reason": "Not on the historical net schedule: 2025-09-11 (Thu)",
       "nonblank_rows": 11
     },
     {
       "file": "CheckInsOn10-14-2025-00-11.log",
       "timestamp_date_et": "2025-10-13",
-      "reason": "Not on the Tuesday net schedule: 2025-10-13 (Mon)",
+      "reason": "Not on the historical net schedule: 2025-10-13 (Mon)",
       "nonblank_rows": 12
     },
     {
       "file": "CheckInsOn11-11-2025-01-06.log",
       "timestamp_date_et": "2025-11-10",
-      "reason": "Not on the Tuesday net schedule: 2025-11-10 (Mon)",
+      "reason": "Not on the historical net schedule: 2025-11-10 (Mon)",
       "nonblank_rows": 6
     },
     {
       "file": "CheckInsOn11-13-2023-02-06.log",
       "timestamp_date_et": "2023-11-12",
-      "reason": "Not on the Tuesday net schedule: 2023-11-12 (Sun)",
+      "reason": "Not on the historical net schedule: 2023-11-12 (Sun)",
       "nonblank_rows": 9
     },
     {
       "file": "CheckInsOn12-09-2025-01-03.log",
       "timestamp_date_et": "2025-12-08",
-      "reason": "Not on the Tuesday net schedule: 2025-12-08 (Mon)",
+      "reason": "Not on the historical net schedule: 2025-12-08 (Mon)",
       "nonblank_rows": 6
     }
   ],
@@ -684,5 +684,5 @@
     }
   ],
   "parse_warnings": [],
-  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined; early snapshots may be incomplete."
+  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined (historical Wednesday nets from August to November 2023 are accepted); early snapshots may be incomplete."
 }
