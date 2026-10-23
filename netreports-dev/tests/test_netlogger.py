@@ -141,7 +141,7 @@ class TestNetLoggerNative(unittest.TestCase):
         self.create_log("CheckInsOn01-14-2026-00-04.log", log_row(1))
         p,a = native.build(self.root)
         self.assertEqual(a["missing_native_dates"], ["2026-01-20"])
-        self.assertEqual(p["batch_status"], "1 of 3 (partial)")
+        self.assertEqual(p["batch_status"], "Uploads complete; gap review in progress")
         self.assertTrue(all("PRIVATE" not in json.dumps(row) for row in p["checkins"]))
 
 

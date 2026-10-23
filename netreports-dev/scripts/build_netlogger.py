@@ -185,7 +185,7 @@ def build(root):
     all_dates = set(groups)
     audit = {
         "source_type": "Original NetLogger CheckIns exports ONLY",
-        "batch_status": "1 of 3 batches received; coverage INCOMPLETE",
+        "batch_status": "Uploads complete; gap review in progress",
         "source_file_count": len(sources),
         "matched_export_count": sum(len(g) for g in groups.values()),
         "net_count": len(output_nets),
@@ -208,17 +208,16 @@ def build(root):
             {"file": p["source"], "warnings": p["warnings"]}
             for p in parsed if p["warnings"]
         ],
-        "limitations": ("Preliminary batch only. Native filenames are treated as UTC "
-                        "and mapped to Eastern net date. Files whose date does not "
-                        "fall outside the regular Tuesday schedule are quarantined. "
-                        "Snapshots before 8:00 p.m. ET may be incomplete. "
-                        "Other laptops may contain missing or more complete logs. "
-                        "No OCR data is used."),
+        "limitations": ("All uploaded native files have been evaluated. Filename timestamps are UTC "
+                        "and mapped to Eastern net dates. Files outside the regular "
+                        "Tuesday schedule are quarantined. Snapshots before 8:00 p.m. "
+                        "ET may be incomplete. Historical dates without uploaded native "
+                        "sources remain missing. No OCR data is used."),
     }
     payload = {
         "kind": "netlogger-native-checkins", "version": 1,
         "source": "Original NetLogger CheckIns logs only",
-        "batch_status": "1 of 3 (partial)",
+        "batch_status": "Uploads complete; gap review in progress",
         "nets": output_nets, "checkins": checkins,
     }
     return payload, audit

@@ -1,10 +1,10 @@
 {
   "source_type": "Original NetLogger CheckIns exports ONLY",
-  "batch_status": "1 of 3 batches received; coverage INCOMPLETE",
-  "source_file_count": 156,
-  "matched_export_count": 143,
-  "net_count": 142,
-  "checkin_count": 1571,
+  "batch_status": "Uploads complete; gap review in progress",
+  "source_file_count": 165,
+  "matched_export_count": 152,
+  "net_count": 151,
+  "checkin_count": 1655,
   "screenshot_net_dates": 162,
   "missing_native_dates": [
     "2023-09-06",
@@ -15,18 +15,9 @@
     "2023-10-25",
     "2023-11-01",
     "2023-11-07",
-    "2024-06-04",
-    "2024-09-03",
-    "2024-09-24",
-    "2025-02-11",
     "2025-05-13",
-    "2025-08-05",
-    "2025-09-16",
-    "2025-09-30",
     "2025-12-23",
-    "2025-12-30",
-    "2026-07-07",
-    "2026-08-11"
+    "2025-12-30"
   ],
   "native_dates_without_screenshot": [],
   "possibly_early_snapshots": [
@@ -521,6 +512,11 @@
       "source_time_et": "18:57"
     },
     {
+      "date": "2026-07-07",
+      "source_file": "CheckInsOn07-07-2026-23-53July72026.log",
+      "source_time_et": "19:53"
+    },
+    {
       "date": "2026-07-14",
       "source_file": "CheckInsOn07-14-2026-22-52.log",
       "source_time_et": "18:52"
@@ -529,6 +525,11 @@
       "date": "2026-08-04",
       "source_file": "CheckInsOn08-04-2026-23-05.log",
       "source_time_et": "19:05"
+    },
+    {
+      "date": "2026-08-11",
+      "source_file": "CheckInsOn08-11-2026-23-53081126.log",
+      "source_time_et": "19:53"
     },
     {
       "date": "2026-08-25",
@@ -666,5 +667,5 @@
     }
   ],
   "parse_warnings": [],
-  "limitations": "Preliminary batch only. Native filenames are treated as UTC and mapped to Eastern net date. Files whose date does not fall outside the regular Tuesday schedule are quarantined. Snapshots before 8:00 p.m. ET may be incomplete. Other laptops may contain missing or more complete logs. No OCR data is used."
+  "limitations": "All uploaded native files have been evaluated. Filename timestamps are UTC and mapped to Eastern net dates. Files outside the regular Tuesday schedule are quarantined. Snapshots before 8:00 p.m. ET may be incomplete. Historical dates without uploaded native sources remain missing. No OCR data is used."
 }

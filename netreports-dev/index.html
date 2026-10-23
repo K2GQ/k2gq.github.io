@@ -93,13 +93,13 @@ permalink: /netreports-dev/
     <div class="tablewrap"><table id="history-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
   <section id="panel-trends" class="panel" role="tabpanel" aria-labelledby="tab-trends" hidden>
-    <p class="muted">Statistics cover only the uploaded original NetLogger records. They are incomplete until all three batches have been received and net dates reconciled.</p>
+    <p class="muted">Statistics represent only the uploaded original NetLogger records. Some historical net dates remain without original files and may require reviewed manual reconstruction.</p>
     <div class="controls"><label>View year <select id="trend-year"></select></label></div>
     <div class="chart" id="trend-chart" role="img" aria-label="Native check-ins per month by year"></div>
     <h3>Annual summary (uploaded logs only)</h3>
     <div class="tablewrap"><table id="year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
-  <div class="footer">Source: original NetLogger check-in files only. No screenshot transcription or inferred station data is included. The source screenshots remain available to identify missing nets once uploads are complete. The existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages are unchanged.</div>
+  <div class="footer">Source: original NetLogger check-in files only. No screenshot transcription or inferred station data is included. The source screenshots remain available as the independent inventory of net dates. The existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages are unchanged.</div>
 </div>
 
 <script>
@@ -217,9 +217,9 @@ permalink: /netreports-dev/
     var unique=Array.from(new Set(data.checkins.map(function(r){return r.callsign;}).filter(Boolean))).sort();
     var datalist=el('all-calls');unique.forEach(function(call){var o=node('option');o.value=call;datalist.appendChild(o);});
     text('total-nets',nets.length);text('total-rows',data.checkins.length);text('total-calls',unique.length);
-    text('load-message','ORIGINAL NETLOGGER FILES · Batch 1 of 3. '+nets.length+
+    text('load-message','ORIGINAL NETLOGGER FILES · Uploaded logs reconciled. '+nets.length+
       ' net dates imported and '+data.checkins.length+' check-ins loaded from native files. '+
-      'This is an incomplete archive; two additional batches are expected. '+
+      'The uploaded logs are complete, but some historical dates still lack native records. '+
       'Some early-saved rosters may be incomplete. '+
       'Unmatched exports and missing dates will be reconciled after all uploads are complete.');
     selector.addEventListener('change',function(){selectedDate=this.value;renderWeekly();});

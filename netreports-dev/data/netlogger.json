@@ -2,7 +2,7 @@
   "kind": "netlogger-native-checkins",
   "version": 1,
   "source": "Original NetLogger CheckIns logs only",
-  "batch_status": "1 of 3 (partial)",
+  "batch_status": "Uploads complete; gap review in progress",
   "nets": [
     {
       "date": "2023-11-14",
@@ -295,6 +295,16 @@
       "source": "NetLogger original check-in file"
     },
     {
+      "date": "2024-06-04",
+      "checkin_count": 12,
+      "source_file": "CheckInsOn06-05-2024-00-34.log",
+      "source_time_et": "20:34",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
       "date": "2024-06-11",
       "checkin_count": 10,
       "source_file": "CheckInsOn06-11-2024-23-59.log",
@@ -415,6 +425,16 @@
       "source": "NetLogger original check-in file"
     },
     {
+      "date": "2024-09-03",
+      "checkin_count": 7,
+      "source_file": "CheckInsOn09-04-2024-00-18.log",
+      "source_time_et": "20:18",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
       "date": "2024-09-10",
       "checkin_count": 6,
       "source_file": "CheckInsOn09-10-2024-23-37.log",
@@ -430,6 +450,16 @@
       "source_file": "CheckInsOn09-17-2024-23-05.log",
       "source_time_et": "19:05",
       "possibly_early_snapshot": true,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2024-09-24",
+      "checkin_count": 8,
+      "source_file": "CheckInsOn09-25-2024-00-26d.log",
+      "source_time_et": "20:26",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -620,6 +650,16 @@
       "source_file": "CheckInsOn02-05-2025-00-17.log",
       "source_time_et": "19:17",
       "possibly_early_snapshot": true,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2025-02-11",
+      "checkin_count": 9,
+      "source_file": "CheckInsOn02-12-2025-01-09a.log",
+      "source_time_et": "20:09",
+      "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
@@ -855,6 +895,16 @@
       "source": "NetLogger original check-in file"
     },
     {
+      "date": "2025-08-05",
+      "checkin_count": 10,
+      "source_file": "CheckInsOn08-06-2025-00-07Aug52025.log",
+      "source_time_et": "20:07",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
       "date": "2025-08-12",
       "checkin_count": 8,
       "source_file": "CheckInsOn08-13-2025-00-00.log",
@@ -905,10 +955,30 @@
       "source": "NetLogger original check-in file"
     },
     {
+      "date": "2025-09-16",
+      "checkin_count": 10,
+      "source_file": "CheckInsOn09-17-2025-00-04d.log",
+      "source_time_et": "20:04",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
       "date": "2025-09-23",
       "checkin_count": 11,
       "source_file": "CheckInsOn09-24-2025-00-57.log",
       "source_time_et": "20:57",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2025-09-30",
+      "checkin_count": 10,
+      "source_file": "CheckInsOn10-01-2025-00-03.log",
+      "source_time_et": "20:03",
       "possibly_early_snapshot": false,
       "other_exports": 0,
       "source_warning_count": 0,
@@ -1285,6 +1355,16 @@
       "source": "NetLogger original check-in file"
     },
     {
+      "date": "2026-07-07",
+      "checkin_count": 8,
+      "source_file": "CheckInsOn07-07-2026-23-53July72026.log",
+      "source_time_et": "19:53",
+      "possibly_early_snapshot": true,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
       "date": "2026-07-14",
       "checkin_count": 10,
       "source_file": "CheckInsOn07-14-2026-22-52.log",
@@ -1319,6 +1399,16 @@
       "checkin_count": 13,
       "source_file": "CheckInsOn08-04-2026-23-05.log",
       "source_time_et": "19:05",
+      "possibly_early_snapshot": true,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2026-08-11",
+      "checkin_count": 10,
+      "source_file": "CheckInsOn08-11-2026-23-53081126.log",
+      "source_time_et": "19:53",
       "possibly_early_snapshot": true,
       "other_exports": 0,
       "source_warning_count": 0,
@@ -5365,6 +5455,138 @@
       "remarks": "EchoLink"
     },
     {
+      "date": "2024-06-04",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice Naraine",
+      "city": "Orange",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 2,
+      "callsign": "N2LMW",
+      "name": "Bob Zerilli",
+      "city": "Toms River",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 3,
+      "callsign": "KD2YOE",
+      "name": "Anthony Pietanza",
+      "city": "Staten Island",
+      "county": "",
+      "state": "NY",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 4,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 5,
+      "callsign": "N2RCP",
+      "name": "John Milarski",
+      "city": "Orange",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "RF"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 6,
+      "callsign": "W2RFU",
+      "name": "Tom Lifland",
+      "city": "Boca Raton",
+      "county": "",
+      "state": "FL",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 7,
+      "callsign": "KD5CEV",
+      "name": "Willie Odom",
+      "city": "Houston",
+      "county": "",
+      "state": "TX",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 8,
+      "callsign": "KA2PUN",
+      "name": "Matthew Couper",
+      "city": "Pittsfield",
+      "county": "",
+      "state": "MA",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 9,
+      "callsign": "KD2STE",
+      "name": "Terry Friedman",
+      "city": "Livingston",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 10,
+      "callsign": "WA2JSB",
+      "name": "Mike Scharfstein",
+      "city": "Boynton Beach",
+      "county": "",
+      "state": "FL",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 11,
+      "callsign": "N1UGK",
+      "name": "Jesse Bertier",
+      "city": "South Orange",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "via Echolink"
+    },
+    {
+      "date": "2024-06-04",
+      "number": 12,
+      "callsign": "KC2QLE",
+      "name": "Warner Staehle",
+      "city": "West Caldwell",
+      "county": "",
+      "state": "NJ",
+      "country": "",
+      "remarks": "RF"
+    },
+    {
       "date": "2024-06-11",
       "number": 1,
       "callsign": "KB2SUL",
@@ -6718,6 +6940,83 @@
       "remarks": "RF"
     },
     {
+      "date": "2024-09-03",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF/EchoLink"
+    },
+    {
+      "date": "2024-09-03",
+      "number": 2,
+      "callsign": "KD2DMO",
+      "name": "Marie Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-03",
+      "number": 3,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2024-09-03",
+      "number": 4,
+      "callsign": "WD2X",
+      "name": "Jose J Mercado",
+      "city": "POMPTON LAKES",
+      "county": "Passaic",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF/EchoLink"
+    },
+    {
+      "date": "2024-09-03",
+      "number": 5,
+      "callsign": "KE2DLM",
+      "name": "Jeff Weinick",
+      "city": "LIVINGSTON",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2024-09-03",
+      "number": 6,
+      "callsign": "WB4AIZ",
+      "name": "Chuck F Huber mr.",
+      "city": "Kenneth city",
+      "county": "Pinellas",
+      "state": "FL",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-03",
+      "number": 7,
+      "callsign": "KD2STE",
+      "name": "Terry Friedman",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
       "date": "2024-09-10",
       "number": 1,
       "callsign": "KB2SUL",
@@ -6857,6 +7156,94 @@
       "city": "West Caldwell",
       "county": "Essex",
       "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 2,
+      "callsign": "KA2PUN",
+      "name": "Matt Couper",
+      "city": "Pittsfield",
+      "county": "Berkshire",
+      "state": "MA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 3,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 4,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 5,
+      "callsign": "N2LMW",
+      "name": "Bob Zerilli",
+      "city": "Toms river",
+      "county": "Ocean",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 6,
+      "callsign": "KD2VLP",
+      "name": "Allan C Spera",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 7,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2024-09-24",
+      "number": 8,
+      "callsign": "WA2JSB",
+      "name": "Mike Scharfstein",
+      "city": "Boynton Beach",
+      "county": "Essex",
+      "state": "FL",
       "country": "United States",
       "remarks": "EchoLink"
     },
@@ -9112,6 +9499,105 @@
       "city": "TYLER",
       "county": "Smith",
       "state": "TX",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 2,
+      "callsign": "KD2STE",
+      "name": "Terry Friedman",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 3,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 4,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 5,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 6,
+      "callsign": "N2LMW",
+      "name": "Bob Zerilli",
+      "city": "Toms river",
+      "county": "Ocean",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 7,
+      "callsign": "WB4AIZ",
+      "name": "Chuck Huber",
+      "city": "Kenneth city",
+      "county": "Pinellas",
+      "state": "FL",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 8,
+      "callsign": "WB2GZL",
+      "name": "Jerry Scola",
+      "city": "Lincoln Park",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-02-11",
+      "number": 9,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink"
     },
@@ -11602,6 +12088,116 @@
       "remarks": "EchoLink"
     },
     {
+      "date": "2025-08-05",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 2,
+      "callsign": "KD2VLP",
+      "name": "Allan Spera",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 3,
+      "callsign": "KA2PUN",
+      "name": "Matthew Couper",
+      "city": "Pittsfield",
+      "county": "Berkshire",
+      "state": "MA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 4,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 5,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 6,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 7,
+      "callsign": "KD2STE",
+      "name": "Terry Friedman",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 8,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 9,
+      "callsign": "W2RFU",
+      "name": "Tom Lifland",
+      "city": "BOCA RATON",
+      "county": "Palm Beach",
+      "state": "FL",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-08-05",
+      "number": 10,
+      "callsign": "WB2CCD",
+      "name": "Donna Z Lifland",
+      "city": "BOCA RATON",
+      "county": "Nassau",
+      "state": "FL",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
       "date": "2025-08-12",
       "number": 1,
       "callsign": "KB2SUL",
@@ -12053,6 +12649,116 @@
       "remarks": "EchoLink"
     },
     {
+      "date": "2025-09-16",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 2,
+      "callsign": "KD2PQZ",
+      "name": "Phil A Madison",
+      "city": "Clifton",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 3,
+      "callsign": "KD2ZSW",
+      "name": "Michael F Smith",
+      "city": "Denville",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 4,
+      "callsign": "KD2VLP",
+      "name": "Allan C Spera",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 5,
+      "callsign": "KA2PUN",
+      "name": "Matt Couper",
+      "city": "Pittsfield",
+      "county": "Berkshire",
+      "state": "MA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 6,
+      "callsign": "WB2GZL",
+      "name": "Gerry J Scola",
+      "city": "Lincoln Park",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 7,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 8,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 9,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-16",
+      "number": 10,
+      "callsign": "KD2YCK",
+      "name": "Louis J Botterill",
+      "city": "West Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
       "date": "2025-09-23",
       "number": 1,
       "callsign": "KB2SUL",
@@ -12172,6 +12878,116 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "RF - MFF"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 2,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 3,
+      "callsign": "KD2PQZ",
+      "name": "Phil Madison",
+      "city": "Clifton",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 4,
+      "callsign": "KD3BXJ",
+      "name": "Martin Roldan",
+      "city": "Milford",
+      "county": "Pike",
+      "state": "PA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 5,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 6,
+      "callsign": "KD2STE",
+      "name": "Terry Friedman",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 7,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 8,
+      "callsign": "WB2GZL",
+      "name": "Jerry Scola",
+      "city": "Lincoln Park",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 9,
+      "callsign": "NJ5R",
+      "name": "Jeff H Regan",
+      "city": "Union",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
+    },
+    {
+      "date": "2025-09-30",
+      "number": 10,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF"
     },
     {
       "date": "2025-10-07",
@@ -16959,6 +17775,94 @@
       "remarks": "RF - TXA"
     },
     {
+      "date": "2026-07-07",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 2,
+      "callsign": "N2MVK",
+      "name": "Paul Molinari",
+      "city": "Medford",
+      "county": "Burlington",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 3,
+      "callsign": "WB2GZL",
+      "name": "Jerry Scola",
+      "city": "Lincoln Park",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 4,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 5,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF- TXA"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 6,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 7,
+      "callsign": "KA2PUN",
+      "name": "Matt Couper",
+      "city": "Pittsfield",
+      "county": "Berkshire",
+      "state": "MA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-07-07",
+      "number": 8,
+      "callsign": "KE2HPS",
+      "name": "Todd M Gutnick",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
       "date": "2026-07-14",
       "number": 1,
       "callsign": "KB2SUL",
@@ -17452,6 +18356,116 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 2,
+      "callsign": "KA2PUN",
+      "name": "Matt Couper",
+      "city": "Pittsfield",
+      "county": "Berkshire",
+      "state": "MA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 3,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 4,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF -TXA"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 5,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 6,
+      "callsign": "N2LMW",
+      "name": "Bob Zerilli",
+      "city": "Toms river",
+      "county": "Ocean",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 7,
+      "callsign": "K2AUF",
+      "name": "Bob Calandra",
+      "city": "ELIZABETH",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 8,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 9,
+      "callsign": "KE2KE",
+      "name": "Richard C Schonberg",
+      "city": "Mendham",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-08-11",
+      "number": 10,
+      "callsign": "K2WH",
+      "name": "Bill Gerhold",
+      "city": "Hewitt",
+      "county": "Passaic",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF -TXA"
     },
     {
       "date": "2026-08-18",

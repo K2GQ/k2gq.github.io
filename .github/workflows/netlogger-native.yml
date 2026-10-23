@@ -43,7 +43,7 @@ jobs:
           data=json.loads(Path('/tmp/netlogger-verified.json').read_text())
           audit=json.loads(Path('/tmp/netlogger-audit-verified.json').read_text())
           assert data['kind'] == 'netlogger-native-checkins'
-          assert data['batch_status'].startswith('1 of 3')
+          assert data['batch_status'] == 'Uploads complete; gap review in progress'
           assert len(data['nets']) > 0
           assert len(data['checkins']) == audit['checkin_count']
           assert all(r['date'] in {n['date'] for n in data['nets']} for r in data['checkins'])

@@ -10,9 +10,9 @@ Upload .log files or ZIP archives of CheckIns directories to
 `_netlogger-checkins/`. Preserve native content, file names and source
 laptop folder structures wherever possible.
 
-The first of three promised uploads is present. The development database is
-**incomplete**, and the historic date-gap report is **preliminary** until
-all three batches are uploaded and evaluated.
+All three upload batches have been received. The native-source database now
+covers 151 of the 162 dated net reports. Eleven historical dates still lack
+an original NetLogger check-in file and remain for manual reconciliation.
 
 ## Import files
 
@@ -73,8 +73,8 @@ generated datasets have been removed from the development branch. Historical
 screenshots remain available for gap auditing but **do not generate or
 correct check-in records**.
 
-After the user confirms all three batches have been uploaded, compare every
-available native file against the full list of 162 screenshot net dates.
+After additional NetLogger uploads, compare every available native file
+against the full list of 162 screenshot net dates.
 Report missing, duplicate and conflicting nets, and create manual entries
 only after explicit review of the missing session data.
 
