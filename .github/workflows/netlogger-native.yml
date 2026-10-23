@@ -53,6 +53,33 @@ jobs:
           print('Source records:', len(data['checkins']))
           print('Quarantined files:',len(audit['quarantined_exports']))
           PY
+      - name: Validate development page script and retired pipeline removal
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          page=Path('netreports-dev/index.html').read_text()
+          script=re.search(r'<script>(.*?)</script>',page,re.S)
+          assert script, "Development page script missing"
+          Path('/tmp/netlogger-dev-page.js').write_text(script.group(1))
+          assert 'data/netlogger.json' in page
+          assert 'preview.json' not in page
+          assert 'cell-ocr' not in page
+          assert 'exportCSV' not in page
+          retired=[
+              'netreports-dev/scripts/extract.py',
+              'netreports-dev/scripts/extract_cells.py',
+              'netreports-dev/scripts/import_all.py',
+              'netreports-dev/scripts/import_cells_all.py',
+              'netreports-dev/scripts/view-data.js',
+              'netreports-dev/data/preview.json',
+              'netreports-dev/data/cell-ocr-archive.json',
+              '.github/workflows/netreports-dev-ocr.yml',
+              '.github/workflows/netreports-dev-cell-ocr-full.yml',
+          ]
+          assert not any(Path(p).exists() for p in retired), "Retired extraction files remain"
+          PY
+          node --check /tmp/netlogger-dev-page.js
       - name: Verify committed outputs when present
         if: github.event_name == 'pull_request'
         run: |
