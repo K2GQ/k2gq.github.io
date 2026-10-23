@@ -56,23 +56,28 @@ permalink: /netreports-dev/
   #nr-dev #nr-weekly-table th:nth-child(8) { width:15%; }
 }
 @media(max-width:760px) { #nr-dev #nr-weekly-table { min-width:760px; } #nr-dev .nr-tablewrap, #nr-dev .nr-chart { overflow-x:auto; } #nr-dev .nr-barbox { flex:1 0 62px; font-size:.75rem; } }
+#nr-dev .nr-positive { color:#236343; font-weight:700; }
+#nr-dev .nr-negative { color:#9d3f28; font-weight:700; }
+#nr-dev #nr-compare-table td:nth-child(1), #nr-dev #nr-compare-table td:nth-child(6) { white-space:nowrap; }
+#nr-dev #nr-compare-table a { text-decoration:underline; text-underline-offset:.13em; }
 #nr-dev .nr-footer { margin-top:1.6rem; border-top:1px solid var(--line); padding-top:1rem; color:var(--muted); font-size:.9rem; }
 @media(max-width:650px) { #nr-dev .nr-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } #nr-dev .nr-metric strong {font-size:1.3rem;} #nr-dev .nr-controls { display:block; } #nr-dev .nr-controls label { margin-bottom:.75rem; } #nr-dev input[type=search], #nr-dev select {width:100%;} }
 </style>
 
 <div id="nr-dev">
-  <p class="nr-intro">Explore weekly check-ins, find a station's appearances, and preview attendance statistics. This development page is separate from the existing net report archives.</p>
-  <div id="nr-message" class="nr-notice" role="status">Loading OCR proof-of-concept data…</div>
-  <div class="nr-metrics" aria-label="Sample overview">
+  <p class="nr-intro">Explore historical check-ins reconstructed with improved cell-by-cell OCR. Compare the extraction methods and inspect original screenshots. This development page does not replace the published net report archive.</p>
+  <div id="nr-message" class="nr-notice" role="status">Loading improved OCR archive and verified check-in records…</div>
+  <div class="nr-metrics" aria-label="Development archive overview">
     <div class="nr-metric"><strong id="nr-nets">—</strong><span>Archived nets</span></div>
     <div class="nr-metric"><strong id="nr-rows">—</strong><span>Extracted check-ins</span></div>
     <div class="nr-metric"><strong id="nr-unique">—</strong><span>Distinct callsigns (estimated)</span></div>
-    <div class="nr-metric"><strong id="nr-flags">—</strong><span>Nets needing verification</span></div>
+    <div class="nr-metric"><strong id="nr-flags">—</strong><span>OCR rows flagged for review</span></div>
   </div>
   <div class="nr-tabs" role="tablist" aria-label="Net report views">
     <button class="nr-tab" role="tab" id="nr-tab-weekly" aria-controls="nr-panel-weekly" aria-selected="true" data-panel="weekly">Weekly reports</button>
     <button class="nr-tab" role="tab" id="nr-tab-stations" aria-controls="nr-panel-stations" aria-selected="false" data-panel="stations">Station history</button>
     <button class="nr-tab" role="tab" id="nr-tab-trends" aria-controls="nr-panel-trends" aria-selected="false" data-panel="trends">Participation trends</button>
+    <button class="nr-tab" role="tab" id="nr-tab-compare" aria-controls="nr-panel-compare" aria-selected="false" data-panel="compare">OCR comparison</button>
   </div>
   <section id="nr-panel-weekly" class="nr-panel" role="tabpanel" aria-labelledby="nr-tab-weekly">
     <div class="nr-controls">
@@ -81,7 +86,7 @@ permalink: /netreports-dev/
     </div>
     <div class="nr-preview"><div id="nr-net-count" class="nr-subtext"></div><a id="nr-source" href="#" target="_blank" rel="noopener">View original NetLogger screenshot ↗</a></div>
     <div class="nr-tablewrap"><table id="nr-weekly-table"><thead><tr></tr></thead><tbody></tbody></table></div>
-    <p class="nr-small">Original row order is preserved where recognized. Select a callsign to view its history. OCR-derived entries are provisional until verified against their original screenshot.</p>
+    <p class="nr-small">Original row order is preserved. Select a callsign to view its history. The four fully transcribed sample dates show manually verified records; other dates display provisional OCR interpretations. All records can be checked against the source screenshot.</p>
   </section>
   <section id="nr-panel-stations" class="nr-panel" role="tabpanel" aria-labelledby="nr-tab-stations" hidden>
     <div class="nr-controls"><label>Find a callsign <input type="search" id="nr-callsign" list="nr-callsigns" placeholder="Type a callsign" autocomplete="off"><datalist id="nr-callsigns"></datalist></label></div>
@@ -95,9 +100,28 @@ permalink: /netreports-dev/
     <div class="nr-chart" id="nr-chart" role="img" aria-label="Extracted check-ins by month for selected year"></div>
     <h3>Annual participation (provisional)</h3><div class="nr-tablewrap"><table id="nr-year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
+  <section id="nr-panel-compare" class="nr-panel" role="tabpanel" aria-labelledby="nr-tab-compare" hidden>
+    <p class="nr-subtext">Compare the original OCR extractor with the new cell-by-cell method. These figures count <strong>recognized rows</strong>, not independently verified check-ins. Positive changes indicate more detected rows, not proof that every row is correct.</p>
+    <div class="nr-controls">
+      <label>Year <select id="nr-compare-year"><option value="all">All years</option></select></label>
+      <label>Difference <select id="nr-compare-filter">
+        <option value="all">All dates</option>
+        <option value="gained">More rows in v2</option>
+        <option value="same">Unchanged</option>
+        <option value="lost">Fewer rows in v2</option>
+      </select></label>
+    </div>
+    <p id="nr-compare-summary" class="nr-subtext" aria-live="polite"></p>
+    <div class="nr-tablewrap"><table id="nr-compare-table"><thead><tr>
+      <th scope="col">Net date</th><th scope="col">Original OCR</th><th scope="col">Cell OCR v2</th>
+      <th scope="col">Change</th><th scope="col">Flagged rows</th><th scope="col">Original image</th>
+    </tr></thead><tbody></tbody></table></div>
+    <p class="nr-small">A flagged OCR row needs verification; an unflagged OCR row is not necessarily verified. No automatic edits are made to the screenshots or to the original OCR data.</p>
+  </section>
   <div class="nr-footer">Development preview · Original screenshots remain authoritative · Existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages have not been replaced. Statistics include unreviewed OCR records and may change as they are corrected.</div>
 </div>
 
+<script src="{{ '/netreports-dev/scripts/view-data.js' | relative_url }}"></script>
 <script>
 (function () {
   'use strict';
