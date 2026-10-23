@@ -20,8 +20,10 @@
     return obj[field];
   }
   function validDay(day) {
-    if (typeof day !== 'string' || !DATE.test(day) ||
-        new Date(day + 'T00:00:00Z').toISOString().slice(0, 10) !== day) {
+    var candidate = typeof day === 'string' && DATE.test(day) ?
+      new Date(day + 'T00:00:00Z') : null;
+    if (!candidate || !Number.isFinite(candidate.getTime()) ||
+        candidate.toISOString().slice(0, 10) !== day) {
       throw new Error('Invalid net date: ' + String(day));
     }
     return day;
