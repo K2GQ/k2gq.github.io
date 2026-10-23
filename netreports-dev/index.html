@@ -146,7 +146,9 @@ permalink: /netreports-dev/
   function renderWeekly(){
     var net=data.nets.find(function(n){return n.date===selectedDate;});
     var rows=sorted(weeklyRows(),weeklySort);
-    text('weekly-count',rows.length+' displayed check-ins'+(net?' · '+net.checkin_count+' in original saved roster':''));
+    text('weekly-count',rows.length+' displayed check-ins'+
+      (net?' · '+net.checkin_count+' in original saved roster'+
+      (net.possibly_early_snapshot?' · POSSIBLY INCOMPLETE (saved '+net.source_time_et+' ET)':''):''));
     table('weekly-table',columns,rows,weeklySort,function(k){weeklySort={key:k,asc:weeklySort.key===k?!weeklySort.asc:true};renderWeekly();},openCall);
   }
   function totals(){
@@ -218,6 +220,7 @@ permalink: /netreports-dev/
     text('load-message','ORIGINAL NETLOGGER FILES · Batch 1 of 3. '+nets.length+
       ' net dates imported and '+data.checkins.length+' check-ins loaded from native files. '+
       'This is an incomplete archive; two additional batches are expected. '+
+      'Some early-saved rosters may be incomplete. '+
       'Unmatched exports and missing dates will be reconciled after all uploads are complete.');
     selector.addEventListener('change',function(){selectedDate=this.value;renderWeekly();});
     el('search-weekly').addEventListener('input',function(){weeklySearch=this.value.trim().toUpperCase();renderWeekly();});
