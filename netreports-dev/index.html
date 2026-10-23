@@ -87,8 +87,6 @@ permalink: /netreports-dev/
     <div class="controls"><label>Find a callsign <input type="search" id="search-call" list="all-calls" placeholder="Type a callsign" autocomplete="off"><datalist id="all-calls"></datalist></label></div>
     <p id="station-summary" class="muted"></p>
     <div class="tablewrap"><table id="stations-table"><thead><tr></tr></thead><tbody></tbody></table></div>
-    <h3>Imported check-in history</h3>
-    <div class="tablewrap"><table id="history-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
   <section id="panel-trends" class="panel" role="tabpanel" aria-labelledby="tab-trends" hidden>
     <p class="muted">Compare participation across years without penalizing years with fewer available reports.</p>
@@ -175,8 +173,6 @@ permalink: /netreports-dev/
     var records=sorted(totals().filter(function(r){return !query||r.callsign.includes(query);}),stationSort);
     text('station-summary',records.length+' matching callsigns.');
     table('stations-table',stationColumns,records,stationSort,function(k){stationSort={key:k,asc:stationSort.key===k?!stationSort.asc:true};renderStations();},openCall);
-    var hits=data.checkins.filter(function(r){return query&&r.callsign===query;}).sort(function(a,b){return b.date.localeCompare(a.date);});
-    table('history-table',[['date','Net date'],['callsign','Call sign'],['name','Name'],['city','City'],['state','State'],['remarks','Remarks']],hits,{key:'date',asc:false},function(){});
   }
   function renderTrends(){
     var years=Array.from(new Set(data.nets.map(function(n){return n.date.slice(0,4);}))).sort();
@@ -187,6 +183,7 @@ permalink: /netreports-dev/
     picker.value=chosen;
     var monthly=el('trend-view').value==='monthly';
     el('trend-year-control').hidden=!monthly;
+    el('trend-note').hidden=!monthly;
     var months={},groups={};
     data.nets.forEach(function(net){
       var year=net.date.slice(0,4),m=net.date.slice(5,7);
@@ -218,7 +215,6 @@ permalink: /netreports-dev/
             ' check-ins across '+r.nets+' documented nets)'};
       });
       chart.setAttribute('aria-label','Average check-ins per documented net for each year');
-      text('trend-note','Annual average = total recorded check-ins ÷ documented nets. Missing and future weeks are not counted as zero.');
     }
     var max=Math.max(1,...series.map(function(r){return r.value;}));
     clear(chart);
