@@ -8,8 +8,6 @@ permalink: /netreports-dev/
 <style>
 #net-db { --ink:#203149; --muted:#536276; --line:#dbe4ec; --accent:#155e86; --soft:#eef5fa; color:var(--ink); }
 #net-db * { box-sizing:border-box; }
-#net-db .notice { background:#fff6e6; color:#503a18; border:1px solid #ead09a; border-radius:.5rem; padding:1rem; line-height:1.6; margin:1rem 0; }
-#net-db .intro { max-width:65rem; color:var(--muted); }
 #net-db .metrics { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.75rem; margin:1.3rem 0; }
 #net-db .metric { border:1px solid var(--line); background:#f2f7fb; border-radius:.65rem; padding:1rem; }
 #net-db .metric strong { display:block; font-size:1.6rem; letter-spacing:-.03em; }
@@ -18,7 +16,7 @@ permalink: /netreports-dev/
 #net-db button, #net-db select, #net-db input { font:inherit; }
 #net-db .tab { border:1px solid #bdcbd9; border-radius:.45rem; background:#fff; color:var(--ink); padding:.5rem .8rem; cursor:pointer; }
 #net-db .tab[aria-selected="true"] { background:var(--accent); color:#fff; border-color:var(--accent); }
-#net-db .panel[hidden] { display:none; }
+#net-db [hidden] { display:none !important; }
 #net-db .controls { display:flex; gap:1rem; align-items:end; flex-wrap:wrap; margin:.9rem 0; }
 #net-db label { display:flex; flex-direction:column; gap:.3rem; font-weight:600; font-size:.92rem; }
 #net-db input, #net-db select { min-height:2.5rem; border:1px solid #9caec0; border-radius:.4rem; background:#fff; color:var(--ink); padding:.4rem .6rem; max-width:100%; }
@@ -34,8 +32,9 @@ permalink: /netreports-dev/
 #net-db .call { font-weight:600; text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:.1em; }
 #net-db .chart { display:flex; gap:.35rem; align-items:end; overflow-x:hidden; min-height:220px; padding:1rem .5rem; border:1px solid var(--line); border-radius:.55rem; }
 #net-db .barbox { flex:1 1 0; min-width:0; text-align:center; font-size:.74rem; }
-#net-db .bar { background:#2479a5; border-radius:.22rem .22rem 0 0; width:60%; min-height:2px; margin:auto; }
-#net-db .footer { border-top:1px solid var(--line); margin-top:1.6rem; padding-top:1rem; color:var(--muted); font-size:.9rem; }
+#net-db .bar { background:#2479a5; border-radius:.22rem .22rem 0 0; width:60%; max-width:68px; min-height:2px; margin:auto; }
+#net-db .barbox strong { display:block; margin-bottom:.45rem; }
+#net-db .barbox span { display:block; margin-top:.3rem; }
 @media(min-width:761px) {
   #net-db .tablewrap { overflow-x:visible; }
   #net-db table { table-layout:fixed; font-size:clamp(.73rem,.78vw,.87rem); }
@@ -64,10 +63,9 @@ permalink: /netreports-dev/
 </style>
 
 <div id="net-db">
-  <p class="intro">Browse the Roseland club's historical check-ins, using original NetLogger logs and separately approved manual reconstructions for dates without native files. This development page is separate from the published net reports.</p>
-  <div id="load-message" class="notice" role="status">Loading historical check-ins…</div>
+  <p id="load-message" class="muted" role="status">Loading check-ins…</p>
   <div class="metrics" aria-label="Imported source data summary">
-    <div class="metric"><strong id="total-nets">—</strong><span>Historical net reports</span></div>
+    <div class="metric"><strong id="total-nets">—</strong><span>Documented nets</span></div>
     <div class="metric"><strong id="total-rows">—</strong><span>Recorded check-ins</span></div>
     <div class="metric"><strong id="total-calls">—</strong><span>Distinct callsigns</span></div>
   </div>
@@ -83,7 +81,7 @@ permalink: /netreports-dev/
     </div>
     <p id="weekly-count" class="muted" aria-live="polite"></p>
     <div class="tablewrap"><table id="weekly-table"><thead><tr></tr></thead><tbody></tbody></table></div>
-    <p class="muted">NetLogger check-ins are used where available; otherwise, the approved manual transcription supplies the historical record. Select a callsign to see all documented appearances.</p>
+    <p class="muted">Select a callsign to see its check-in history.</p>
   </section>
   <section id="panel-stations" class="panel" role="tabpanel" aria-labelledby="tab-stations" hidden>
     <div class="controls"><label>Find a callsign <input type="search" id="search-call" list="all-calls" placeholder="Type a callsign" autocomplete="off"><datalist id="all-calls"></datalist></label></div>
@@ -93,13 +91,21 @@ permalink: /netreports-dev/
     <div class="tablewrap"><table id="history-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
   <section id="panel-trends" class="panel" role="tabpanel" aria-labelledby="tab-trends" hidden>
-    <p class="muted">Statistics combine original NetLogger check-ins with 11 separately approved manual reconstructions. No unapproved OCR results are included.</p>
-    <div class="controls"><label>View year <select id="trend-year"></select></label></div>
-    <div class="chart" id="trend-chart" role="img" aria-label="Native check-ins per month by year"></div>
+    <p class="muted">Compare participation across years without penalizing years with fewer available reports.</p>
+    <div class="controls">
+      <label>Trend view
+        <select id="trend-view">
+          <option value="annual">Annual average check-ins per net</option>
+          <option value="monthly">Monthly check-ins</option>
+        </select>
+      </label>
+      <label id="trend-year-control" hidden>View year <select id="trend-year"></select></label>
+    </div>
+    <div class="chart" id="trend-chart" role="img" aria-label="Average check-ins per documented net by year"></div>
+    <p id="trend-note" class="muted"></p>
     <h3>Annual summary (documented nets)</h3>
     <div class="tablewrap"><table id="year-table"><thead><tr></tr></thead><tbody></tbody></table></div>
   </section>
-  <div class="footer">Sources: original NetLogger files (primary) and the explicitly approved manual reconstruction CSV for 11 missing-file dates. No unapproved OCR data is included. Screenshots remain available for historical reference. The existing <a href="{{ '/netreports/' | relative_url }}">Net Reports</a> pages are unchanged.</div>
 </div>
 
 <script>
@@ -167,37 +173,65 @@ permalink: /netreports-dev/
   function renderStations(){
     var query=el('search-call').value.trim().toUpperCase();
     var records=sorted(totals().filter(function(r){return !query||r.callsign.includes(query);}),stationSort);
-    text('station-summary',records.length+' matching callsigns · History includes native and manually approved check-ins.');
+    text('station-summary',records.length+' matching callsigns.');
     table('stations-table',stationColumns,records,stationSort,function(k){stationSort={key:k,asc:stationSort.key===k?!stationSort.asc:true};renderStations();},openCall);
     var hits=data.checkins.filter(function(r){return query&&r.callsign===query;}).sort(function(a,b){return b.date.localeCompare(a.date);});
     table('history-table',[['date','Net date'],['callsign','Call sign'],['name','Name'],['city','City'],['state','State'],['remarks','Remarks']],hits,{key:'date',asc:false},function(){});
   }
   function renderTrends(){
-    var years=Array.from(new Set(data.nets.map(function(n){return n.date.slice(0,4);}))).sort().reverse();
+    var years=Array.from(new Set(data.nets.map(function(n){return n.date.slice(0,4);}))).sort();
     var picker=el('trend-year'),chosen=picker.value;
-    if(!years.includes(chosen))chosen=years[0];
+    if(!years.includes(chosen))chosen=years[years.length-1];
     clear(picker);
-    years.forEach(function(y){var opt=node('option',y);opt.value=y;picker.appendChild(opt);});
+    years.slice().reverse().forEach(function(y){var opt=node('option',y);opt.value=y;picker.appendChild(opt);});
     picker.value=chosen;
+    var monthly=el('trend-view').value==='monthly';
+    el('trend-year-control').hidden=!monthly;
     var months={},groups={};
-    data.nets.forEach(function(net){var year=net.date.slice(0,4),m=net.date.slice(5,7);
+    data.nets.forEach(function(net){
+      var year=net.date.slice(0,4),m=net.date.slice(5,7);
       if(!groups[year])groups[year]={year:year,nets:0,checkins:0};
-      groups[year].nets++;groups[year].checkins+=net.checkin_count;
-      if(year===chosen){if(!months[m])months[m]={checkins:0,nets:0};
-        months[m].checkins+=net.checkin_count;months[m].nets++;
+      groups[year].nets++;
+      groups[year].checkins+=net.checkin_count;
+      if(year===chosen){
+        if(!months[m])months[m]={checkins:0,nets:0};
+        months[m].checkins+=net.checkin_count;
+        months[m].nets++;
       }
-    });
-    var sums=Object.keys(months).sort().map(function(k){return {month:k,checkins:months[k].checkins,nets:months[k].nets};});
-    var max=Math.max(1,...sums.map(function(r){return r.checkins;})),chart=el('trend-chart');clear(chart);
-    sums.forEach(function(m){var box=node('div');box.className='barbox';box.appendChild(node('strong',m.checkins));
-      var bar=node('div');bar.className='bar';bar.style.height=Math.max(2,140*m.checkins/max)+'px';
-      bar.title=chosen+'-'+m.month+': '+m.checkins+' check-ins in '+m.nets+' imported nets';
-      box.appendChild(bar);
-      box.appendChild(node('span',['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][Number(m.month)-1]));
-      chart.appendChild(box);
     });
     var annual=Object.values(groups).sort(function(a,b){return a.year.localeCompare(b.year);});
     annual.forEach(function(r){r.average=(r.checkins/r.nets).toFixed(1);});
+    var series,chart=el('trend-chart');
+    if(monthly){
+      var labels=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      series=Object.keys(months).sort().map(function(m){
+        var item=months[m];
+        return {label:labels[Number(m)-1],value:item.checkins,display:String(item.checkins),
+          detail:chosen+'-'+m+': '+item.checkins+' check-ins in '+item.nets+' documented nets'};
+      });
+      chart.setAttribute('aria-label','Monthly check-in totals for '+chosen+' (documented nets only)');
+      text('trend-note','Monthly totals include only documented nets for '+chosen+'.');
+    }else{
+      series=annual.map(function(r){
+        return {label:r.year,value:r.checkins/r.nets,display:r.average,
+          detail:r.year+': '+r.average+' average check-ins per net ('+r.checkins+
+            ' check-ins across '+r.nets+' documented nets)'};
+      });
+      chart.setAttribute('aria-label','Average check-ins per documented net for each year');
+      text('trend-note','Annual average = total recorded check-ins ÷ documented nets. Missing and future weeks are not counted as zero.');
+    }
+    var max=Math.max(1,...series.map(function(r){return r.value;}));
+    clear(chart);
+    series.forEach(function(item){
+      var box=node('div');box.className='barbox';
+      box.appendChild(node('strong',item.display));
+      var bar=node('div');bar.className='bar';
+      bar.style.height=Math.max(2,140*item.value/max)+'px';
+      bar.title=item.detail;
+      box.appendChild(bar);
+      box.appendChild(node('span',item.label));
+      chart.appendChild(box);
+    });
     table('year-table',[['year','Year'],['nets','Documented nets'],['checkins','Check-ins'],['average','Average per net']],annual,{key:'year',asc:true},function(){});
   }
   function activate(which){
@@ -218,24 +252,19 @@ permalink: /netreports-dev/
     var datalist=el('all-calls');unique.forEach(function(call){var o=node('option');o.value=call;datalist.appendChild(o);});
     text('total-nets',nets.length);text('total-rows',data.checkins.length);text('total-calls',unique.length);
     var counts=data.source_counts||{};
-    text('load-message','HISTORICAL NET REPORTS · '+nets.length+' documented nets with '+
-      data.checkins.length+' check-ins. '+(counts.native_nets||0)+' nets ('+
-      (counts.native_checkins||0)+' check-ins) come from original NetLogger files; '+
-      (counts.manual_nets||0)+' nets ('+(counts.manual_checkins||0)+
-      ' check-ins) use your approved manual reconstructions. '+
-      'Original NetLogger records remain authoritative if recovered later. '+
-      'Some early-saved native rosters may be incomplete.');
+    el('load-message').hidden=true;
     selector.addEventListener('change',function(){selectedDate=this.value;renderWeekly();});
     el('search-weekly').addEventListener('input',function(){weeklySearch=this.value.trim().toUpperCase();renderWeekly();});
     el('search-call').addEventListener('input',renderStations);
     el('trend-year').addEventListener('change',renderTrends);
+    el('trend-view').addEventListener('change',renderTrends);
     root.querySelectorAll('[role="tab"]').forEach(function(b){b.addEventListener('click',function(){activate(b.getAttribute('data-view'));});});
     activate('weekly');
   }
   fetch("{{ '/netreports-dev/data/netlogger.json' | relative_url }}",{cache:'no-store'})
     .then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();})
     .then(init)
-    .catch(function(e){text('load-message','Native NetLogger data is unavailable: '+e.message);
+    .catch(function(e){text('load-message','Check-in data is unavailable: '+e.message);
       text('total-nets',0);text('total-rows',0);text('total-calls',0);});
 })();
 </script>
