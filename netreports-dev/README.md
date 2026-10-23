@@ -1,31 +1,42 @@
-# K2GQ Net Reports: native NetLogger data (development)
+# K2GQ Net Reports: native logs and approved manual records (development)
 
 This directory powers the development preview at `/netreports-dev/`. The
 production `/netreports/` pages and their historic posts remain unchanged.
 
 ## Source of truth
 
-**Only original NetLogger CheckIns files are used to create this database.**
-Upload .log files or ZIP archives of CheckIns directories to
-`_netlogger-checkins/`. Preserve native content, file names and source
-laptop folder structures wherever possible.
+Original NetLogger CheckIns files are the primary records. For the 11
+historical dates without native log files, the database includes the **66
+user-approved manual check-ins** from
+`netreports-dev/data/manual-checkins.csv`. No OCR-generated guesses are
+accepted without explicit manual approval. Upload future native .log files or
+ZIP archives of CheckIns directories to `_netlogger-checkins/`. Preserve
+native filenames and source laptop structures when possible.
 
-All three upload batches have been received. The native-source database now
-covers 151 of the 162 dated net reports. Eleven historical dates still lack
-an original NetLogger check-in file and remain for manual reconciliation.
+All upload batches have been received. The combined database covers **all
+162 screenshot-dated reports**: 151 with native NetLogger records, plus 11
+manually reconstructed and explicitly approved reports. The original log
+files remain preferred if an original is recovered later.
 
 ## Import files
 
-- `scripts/build_netlogger.py` parses original pipe-delimited CheckIns files.
+- `scripts/build_netlogger.py` parses original pipe-delimited CheckIns files
+  and validates and imports approved manual check-ins for dates without them.
+- `data/manual-checkins.csv` preserves the user's approved nine-column
+  transcription, with dates normalized to ISO `YYYY-MM-DD`. These rows are
+  **not** silently replaced by future screenshot-reading automation.
+  If a real NetLogger file is later recovered for one of these dates,
+  that original log takes precedence, and the conflict is audited.
 - `data/netlogger.json` contains the rendered, privacy-reduced data:
   check-in number, callsign, name, city, county, state, country and
   operating remarks. It does **not** include addresses, ZIP codes, FRNs,
   phone numbers, email addresses or personal QRZ notes.
-- `data/netlogger-audit.json` inventories source files, duplicate/snapshot
-  exports, files that cannot be matched unambiguously to Tuesday net dates,
-  and dates with no uploaded native file yet.
-- `tests/test_netlogger.py` tests data mappings, Eastern time conversion,
-  duplicate exports, privacy protections and ZIP handling.
+- `data/netlogger-audit.json` inventories native sources,
+  duplicate/snapshot exports, ambiguous dates, manually approved dates,
+  uncovered report dates, and manual dates superseded by newly found logs.
+- `tests/test_netlogger.py` tests native mappings, Eastern time conversion,
+  duplicate exports, manual row validation and native precedence, privacy
+  protections, and ZIP handling.
 - `.github/workflows/netlogger-native.yml` produces staging branch output
   and validates the pull request.
 
@@ -69,9 +80,10 @@ python netreports-dev/scripts/build_netlogger.py --root .
 ## Import policy
 
 The previous experimental screenshot text-extraction pipeline and all its
-generated datasets have been removed from the development branch. Historical
-screenshots remain available for gap auditing but **do not generate or
-correct check-in records**.
+generated datasets have been removed. The explicitly approved 66 manually
+reconstructed entries are preserved in `manual-checkins.csv`; no OCR pipeline
+runs on site or can silently change these user-approved records. Screenshots
+remain available for historical reference.
 
 After additional NetLogger uploads, compare every available native file
 against the full list of 162 screenshot net dates.
