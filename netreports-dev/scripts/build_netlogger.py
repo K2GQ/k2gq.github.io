@@ -27,7 +27,7 @@ MAX_ARCHIVE_MEMBERS = 5000
 
 def parse_filename(filename):
     """NetLogger's filename timestamp is UTC; convert to the net's ET date."""
-    m = FILENAME.fullmatch(Path(filename).name)
+    m = FILENAME.fullmatch(Path(str(filename).replace("\\", "/")).name)
     if not m:
         raise ValueError("Unrecognized NetLogger log filename: " + str(filename))
     month, day, year, hour, minute = map(int, m.groups()[:5])
@@ -82,26 +82,30 @@ def parse_log(blob, file_id):
 def scan_sources(directory):
     """Read .log files and optional per-laptop ZIPs without extracting unsafe paths."""
     files = []
-    for source in sorted(directory.iterdir(), key=lambda p: p.name):
-        if source.is_file() and source.suffix.lower() == ".log":
+    for source in sorted(directory.rglob("*"),
+                         key=lambda p: p.relative_to(directory).as_posix()):
+        if not source.is_file():
+            continue
+        identifier = source.relative_to(directory).as_posix()
+        if source.suffix.lower() == ".log":
             if source.stat().st_size > MAX_MEMBER:
-                raise ValueError("Oversized NetLogger log: " + source.name)
-            files.append((source.name, source.read_bytes()))
-        elif source.is_file() and source.suffix.lower() == ".zip":
+                raise ValueError("Oversized NetLogger log: " + identifier)
+            files.append((identifier, source.read_bytes()))
+        elif source.suffix.lower() == ".zip":
             try:
                 with ZipFile(source) as archive:
                     members = [n for n in archive.infolist()
                                if not n.is_dir() and n.filename.lower().endswith(".log")]
                     if len(members) > MAX_ARCHIVE_MEMBERS:
-                        raise ValueError("Too many logs in archive " + source.name)
+                        raise ValueError("Too many logs in archive " + identifier)
                     for member in sorted(members, key=lambda n: n.filename):
                         if member.file_size > MAX_MEMBER:
-                            raise ValueError("Oversized ZIP log in " + source.name)
+                            raise ValueError("Oversized ZIP log in " + identifier)
                         # No extraction to disk. Preserve archive/member identifier.
-                        files.append((source.name + "::" + member.filename,
+                        files.append((identifier + "::" + member.filename,
                                       archive.read(member)))
             except BadZipFile as exc:
-                raise ValueError("Invalid ZIP: " + source.name) from exc
+                raise ValueError("Invalid ZIP: " + identifier) from exc
     return files
 
 
@@ -147,15 +151,25 @@ def build(root):
                        reverse=True)
         chosen = group[0]
         if len(group) > 1:
-            signatures = [set((r["number"], r["callsign"]) for r in g["rows"])
-                          for g in group]
-            # Overlapping log exports may represent snapshots at different times.
+            # Also compare the public field values, not only row+callsign.
+            # Two snapshots can disagree on names, places or operating mode
+            # even when every callsign and row number is identical.
+            def public_index(item):
+                return {(r["number"], r["callsign"]): r for r in item["rows"]}
+            primary = public_index(chosen)
+            conflicting = False
+            for other in group[1:]:
+                for key, alternative in public_index(other).items():
+                    if key not in primary or primary[key] != alternative:
+                        conflicting = True
+                        break
+                if conflicting:
+                    break
             overlaps.append({
                 "date": date, "preferred_source": chosen["source"],
                 "sources": [{"file": item["source"], "rows": item["count"],
                              "time_et": item["local_time"]} for item in group],
-                "conflicting_rows": any(not s.issubset(signatures[0])
-                                        for s in signatures[1:])
+                "conflicting_rows": conflicting
             })
         output_nets.append({
             "date": date, "checkin_count": chosen["count"],
