@@ -96,6 +96,22 @@ class TestNetLoggerNative(unittest.TestCase):
         self.assertEqual(a["source_file_count"], 1)
         self.assertIn("laptop-two.zip::CheckIns/",p["nets"][0]["source_file"])
 
+
+    def test_tuesday_native_log_is_valid_even_without_png(self):
+        self.create_log("CheckInsOn01-14-2026-00-04.log", log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["nets"][0]["date"], "2026-01-13")
+        self.assertEqual(audit["native_dates_without_screenshot"], ["2026-01-13"])
+        self.assertEqual(audit["screenshot_net_dates"], 0)
+
+    def test_early_snapshot_is_flagged_not_suppressed(self):
+        self.create_net("2026-05-12")
+        self.create_log("CheckInsOn05-12-2026-23-13.log", log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["nets"][0]["checkin_count"], 1)
+        self.assertTrue(payload["nets"][0]["possibly_early_snapshot"])
+        self.assertEqual(audit["possibly_early_snapshots"][0]["source_time_et"], "19:13")
+
     def test_missing_dates_are_preliminary_and_all_native(self):
         self.create_net("2026-01-13")
         self.create_net("2026-01-20")
