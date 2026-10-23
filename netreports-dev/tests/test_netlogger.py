@@ -112,6 +112,29 @@ class TestNetLoggerNative(unittest.TestCase):
         self.assertTrue(payload["nets"][0]["possibly_early_snapshot"])
         self.assertEqual(audit["possibly_early_snapshots"][0]["source_time_et"], "19:13")
 
+
+    def test_preserved_laptop_folders_are_discovered(self):
+        self.create_net("2026-01-13")
+        folder = self.root / "_netlogger-checkins" / "laptop-two" / "CheckIns"
+        folder.mkdir(parents=True)
+        source = folder / "CheckInsOn01-14-2026-00-04.log"
+        source.write_text(log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(audit["source_file_count"], 1)
+        self.assertEqual(payload["checkins"][0]["callsign"], "KC2NJ")
+        self.assertEqual(payload["nets"][0]["source_file"],
+                         "laptop-two/CheckIns/CheckInsOn01-14-2026-00-04.log")
+
+    def test_same_callsign_but_different_name_is_conflict(self):
+        self.create_net("2026-05-12")
+        self.create_log("CheckInsOn05-12-2026-23-13.log",
+                        log_row(1, "KC2NJ", "Michael Abbey"))
+        self.create_log("CheckInsOn05-13-2026-00-08.log",
+                        log_row(1, "KC2NJ", "Mike Abbey"))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["checkins"][0]["name"], "Mike Abbey")
+        self.assertTrue(audit["duplicate_exports"][0]["conflicting_rows"])
+
     def test_missing_dates_are_preliminary_and_all_native(self):
         self.create_net("2026-01-13")
         self.create_net("2026-01-20")
