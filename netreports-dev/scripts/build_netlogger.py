@@ -181,10 +181,12 @@ def build(root):
             # A valid Tuesday original log is authoritative even when the
             # screenshot directory has no matching PNG. Screenshots are only
             # used to identify outstanding/missing coverage later.
-            normal_net_day = metadata["weekday"] == "Tue"
+            historical_wednesday = (metadata["weekday"] == "Wed" and
+                                    "2023-08-30" <= metadata["date"] <= "2023-11-01")
+            normal_net_day = metadata["weekday"] == "Tue" or historical_wednesday
             reason = None
             if not normal_net_day:
-                reason = ("Not on the Tuesday net schedule: " +
+                reason = ("Not on the historical net schedule: " +
                           metadata["date"] + " (" + metadata["weekday"] + ")")
             if not rows:
                 reason = reason or "No nonblank check-ins"
@@ -290,8 +292,9 @@ def build(root):
                         "Manually reconstructed check-ins come exclusively from the "
                         "user-approved CSV and are never auto-generated from OCR. "
                         "UTC log timestamps are mapped to Eastern net dates. "
-                        "Off-schedule files remain quarantined; early snapshots "
-                        "may be incomplete."),
+                        "Off-schedule files remain quarantined (historical "
+                        "Wednesday nets from August to November 2023 are accepted); "
+                        "early snapshots may be incomplete."),
     }
     payload = {
         "kind": "netlogger-native-checkins", "version": 1,
