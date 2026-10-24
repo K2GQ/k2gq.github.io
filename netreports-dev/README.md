@@ -1,7 +1,12 @@
 # K2GQ Net Reports: native logs and approved manual records (development)
 
-This directory powers the development preview at `/netreports-dev/`. The
-production `/netreports/` pages and their historic posts remain unchanged.
+This directory powers the development workspace at `/netreports-dev/`.
+The public `/netreports/` page contains its own copy of the dashboard UI below
+its "How to Join" section. Both pages currently load the reviewed check-in data
+from `/netreports-dev/data/netlogger.json`, so data updates merged to the default
+branch affect both pages. Editing `netreports-dev/index.html` alone does not
+change the production interface. The previous classic reports page is preserved
+at `/netreports-legacy/`.
 
 ## Source of truth
 
@@ -91,5 +96,6 @@ Report missing, duplicate and conflicting nets, and create manual entries
 only after explicit review of the missing session data.
 
 Do not merge development changes without Codex review and explicit user
-approval. Do not replace production net reports until the new dataset and
-web interface have been accepted.
+approval. Changes to the development dashboard interface require a deliberate,
+separate update to `netreports.md` before they appear on production. Updates to
+the shared JSON dataset affect both sites once merged.
