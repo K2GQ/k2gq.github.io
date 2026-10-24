@@ -1,0 +1,368 @@
+---
+layout: page
+title: Net Reports
+cover-img: /assets/img/FT-736R.jpg
+subtitle: Weekly Net Reports
+permalink: /netreports-legacy/
+---
+
+
+<p class="box-note">
+Since August 30, 2023, the Community Amateur Radio Social Net has brought amateur radio operators together every Tuesday at 7:00 PM Eastern. The net is an informal, welcoming gathering where conversations range from everyday topics like weather, food, and gardening to amateur radio and technology. Whether you're a longtime operator or newly licensed, everyone is welcome to check in, join the conversation, and connect with fellow hams throughout Essex County, New Jersey, and beyond.
+</p>
+
+### How to Join
+
+The net meets every Tuesday at 7:00 PM Eastern and can be accessed through either of two linked repeaters or via EchoLink.
+
+- **Livingston – KC2TXA (SBARC):** [146.595 MHz (+1.0 MHz offset), 100.0 Hz PL](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)
+- **Newark – K2MFF (NJIT):** [147.225 MHz (+0.6 MHz offset), 141.3 Hz PL](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)
+- **EchoLink:** KC2TXA-R
+
+<p style="text-align: center;">
+  <a href="/netreports2023/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2023 Net Reports</a> ||
+    <a href="/netreports2024/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2024 Net Reports</a> ||
+    <a href="/netreports2025/" style="text-decoration: none; font-size: 18px; font-weight: bold; text-decoration: underline;">2025 Net Reports</a>
+</p>
+<p style="text-align: center; font-size: 24px; font-weight: bold; text-decoration: underline;">2026 Net Reports</p>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <table id="months-table" border="1" cellpadding="10">
+    <tbody>
+      <tr>
+        <td><a href="#january">January</a></td>
+        <td><a href="#february">February</a></td>
+        <td><a href="#march">March</a></td>
+      </tr>
+      <tr>
+        <td><a href="#april">April</a></td>
+        <td><a href="#may">May</a></td>
+        <td><a href="#june">June</a></td>
+      </tr>
+      <tr>
+        <td><a href="#july">July</a></td>
+        <td><a href="#august">August</a></td>
+        <td><a href="#september">September</a></td>
+      </tr>
+      <tr>
+        <td><a href="#october">October</a></td>
+        <td><a href="#november">November</a></td>
+        <td><a href="#december">December</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br/>
+
+<span id="january" style="font-size:larger;text-decoration:underline;">**January 2026**
+
+**Tuesday, January 6**
+[<img align="right" width="395" src="/assets/img/net-2026-01-06.png">](./assets/img/net-2026-01-06.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 13**
+[<img align="right" width="395" src="/assets/img/net-2026-01-13.png">](./assets/img/net-2026-01-13.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 20**
+[<img align="right" width="395" src="/assets/img/net-2026-01-20.png">](./assets/img/net-2026-01-20.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, January 27**
+[<img align="right" width="395" src="/assets/img/net-2026-01-27.png">](./assets/img/net-2026-01-27.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+<span id="february" style="font-size:larger;text-decoration:underline;">**February 2026**
+
+**Tuesday, February 3**
+[<img align="right" width="395" src="/assets/img/net-2026-02-03.png">](./assets/img/net-2026-02-03.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, February 10**
+[<img align="right" width="395" src="/assets/img/net-2026-02-10.png">](./assets/img/net-2026-02-10.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, February 17**
+[<img align="right" width="395" src="/assets/img/net-2026-02-17.png">](./assets/img/net-2026-02-17.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, February 24**
+[<img align="right" width="395" src="/assets/img/net-2026-02-24.png">](./assets/img/net-2026-02-24.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+<span id="march" style="font-size:larger;text-decoration:underline;">**March 2026**
+
+**Tuesday, March 3**
+[<img align="right" width="395" src="/assets/img/net-2026-03-03.png">](./assets/img/net-2026-03-03.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, March 10**
+[<img align="right" width="395" src="/assets/img/net-2026-03-10.png">](./assets/img/net-2026-03-10.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, March 17**
+[<img align="right" width="395" src="/assets/img/net-2026-03-17.png">](./assets/img/net-2026-03-17.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, March 24**
+[<img align="right" width="395" src="/assets/img/net-2026-03-24.png">](./assets/img/net-2026-03-24.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, March 31**
+[<img align="right" width="395" src="/assets/img/net-2026-03-31.png">](./assets/img/net-2026-03-31.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+<span id="april" style="font-size:larger;text-decoration:underline;">**April 2026**
+
+**Tuesday, April 7**
+[<img align="right" width="395" src="/assets/img/net-2026-04-07.png">](./assets/img/net-2026-04-07.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, April 14**
+[<img align="right" width="395" src="/assets/img/net-2026-04-14.png">](./assets/img/net-2026-04-14.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, April 21**
+[<img align="right" width="395" src="/assets/img/net-2026-04-21.png">](./assets/img/net-2026-04-21.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, April 28**
+[<img align="right" width="395" src="/assets/img/net-2026-04-28.png">](./assets/img/net-2026-04-28.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+<span id="may" style="font-size:larger;text-decoration:underline;">**May 2026**
+
+**Tuesday, May 5**
+[<img align="right" width="395" src="/assets/img/net-2026-05-05.png">](./assets/img/net-2026-05-05.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, May 12**
+[<img align="right" width="395" src="/assets/img/net-2026-05-12.png">](./assets/img/net-2026-05-12.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, May 19**
+[<img align="right" width="395" src="/assets/img/net-2026-05-19.png">](./assets/img/net-2026-05-19.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+**Tuesday, May 26**
+[<img align="right" width="395" src="/assets/img/net-2026-05-26.png">](./assets/img/net-2026-05-26.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/>
+
+<span id="june" style="font-size:larger;text-decoration:underline;">**June 2026**
+
+**Tuesday, June 2**
+[<img align="right" width="395" src="/assets/img/net-2026-06-02.png">](./assets/img/net-2026-06-02.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, June 9**
+[<img align="right" width="395" src="/assets/img/net-2026-06-09.png">](./assets/img/net-2026-06-09.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, June 16**
+[<img align="right" width="395" src="/assets/img/net-2026-06-16.png">](./assets/img/net-2026-06-16.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, June 23**
+[<img align="right" width="395" src="/assets/img/net-2026-06-23.png">](./assets/img/net-2026-06-23.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, June 30**
+[<img align="right" width="395" src="/assets/img/net-2026-06-30.png">](./assets/img/net-2026-06-30.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+<span id="july" style="font-size:larger;text-decoration:underline;">**July 2026**
+
+**Tuesday, July 7**
+[<img align="right" width="395" src="/assets/img/net-2026-07-07.png">](./assets/img/net-2026-07-07.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, July 14**
+[<img align="right" width="395" src="/assets/img/net-2026-07-14.png">](./assets/img/net-2026-07-14.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, July 21**
+[<img align="right" width="395" src="/assets/img/net-2026-07-21.png">](./assets/img/net-2026-07-21.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, July 28**
+[<img align="right" width="395" src="/assets/img/net-2026-07-28.png">](./assets/img/net-2026-07-28.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+<span id="august" style="font-size:larger;text-decoration:underline;">**August 2026**
+
+**Tuesday, August 4**
+[<img align="right" width="395" src="/assets/img/net-2026-08-04.png">](./assets/img/net-2026-08-04.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, August 11**
+[<img align="right" width="395" src="/assets/img/net-2026-08-11.png">](./assets/img/net-2026-08-11.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, August 18**
+[<img align="right" width="395" src="/assets/img/net-2026-08-18.png">](./assets/img/net-2026-08-18.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, August 25**
+[<img align="right" width="395" src="/assets/img/net-2026-08-25.png">](./assets/img/net-2026-08-25.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+<span id="september" style="font-size:larger;text-decoration:underline;">**September 2026**
+
+**Tuesday, September 1**
+[<img align="right" width="395" src="/assets/img/net-2026-09-01.png">](./assets/img/net-2026-09-01.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, September 8**
+[<img align="right" width="395" src="/assets/img/net-2026-09-08.png">](./assets/img/net-2026-09-08.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, September 15**
+[<img align="right" width="395" src="/assets/img/net-2026-09-15.png">](./assets/img/net-2026-09-15.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, September 22**
+[<img align="right" width="395" src="/assets/img/net-2026-09-22.png">](./assets/img/net-2026-09-22.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, September 29**
+[<img align="right" width="395" src="/assets/img/net-2026-09-29.png">](./assets/img/net-2026-09-29.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+<span id="october" style="font-size:larger;text-decoration:underline;">**October 2026**
+
+**Tuesday, October 6**
+[<img align="right" width="395" src="/assets/img/net-2026-10-06.png">](./assets/img/net-2026-10-06.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, October 13**
+[<img align="right" width="395" src="/assets/img/net-2026-10-13.png">](./assets/img/net-2026-10-13.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
+
+**Tuesday, October 20**
+[<img align="right" width="395" src="/assets/img/net-2026-10-20.png">](./assets/img/net-2026-10-20.png)<br/>
+Livingston: [146.595 (+1.0 MHz), 100.0 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)<br/>
+Newark: [147.225 (+0.6 MHz), 141.3 Hz](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)<br/>
+░▒EchoLink: KC2TXA-R▒░<br/>
+7 PM ET, weekly social net, open to all.<br/><br/><br/><br/>
