@@ -436,7 +436,7 @@ Select a decade to explore original records. The shaded entries before 1940 desc
 
 <section class="rarc-today-net" aria-labelledby="rarc-today-net-title">
   <h3 id="rarc-today-net-title">Join the conversation every Tuesday</h3>
-  <p>Since 2023, our Community Amateur Radio Social Net has connected local and regional operators for friendly conversation. Join us Tuesdays at 7:30 PM Eastern on KC2TXA/R (146.595 MHz) or through EchoLink KC2TXA-R. All licensed operators are welcome.</p>
+  <p>Since 2023, our Community Amateur Radio Social Net has connected local and regional operators for friendly conversation. Join us Tuesdays at 7:00 PM Eastern on KC2TXA/R (146.595 MHz) or through EchoLink KC2TXA-R. All licensed operators are welcome.</p>
   <p><a href="#net">Net frequencies and details</a> · <a href="/netreports/" target="_blank" rel="noopener noreferrer">Weekly net reports</a></p>
 </section>
 
@@ -522,7 +522,7 @@ Guests and new members are always welcome. Please check the <a href="/calendar/"
 
 <a href="/netreports/" aria-label="View weekly net reports" target="_blank" rel="noopener noreferrer"><img class="rarc-side-image" src="/assets/img/scanner.jpg" alt="Radio scanner" loading="lazy"></a>
 
-**Tuesdays at 7:30 PM Eastern Time — open to all.**
+**Tuesdays at 7:00 PM Eastern Time — open to all.**
 
 Livingston: <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845" target="_blank" rel="noopener noreferrer">146.595 MHz (+1.0 MHz), 100.0 Hz</a>  
 Newark: <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847" target="_blank" rel="noopener noreferrer">147.225 MHz (+0.6 MHz), 141.3 Hz</a>  
