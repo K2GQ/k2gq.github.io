@@ -14,8 +14,8 @@ Since August 30, 2023, the Community Amateur Radio Social Net has brought amateu
 
 The net meets every Tuesday at 7:00 PM Eastern and can be accessed through either of two linked repeaters or via EchoLink.
 
-- **Livingston – KC2TXA (SBARC):** [146.595 MHz (+1.0 MHz offset), 100.0 Hz PL](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2845)
-- **Newark – K2MFF (NJIT):** [147.225 MHz (+0.6 MHz offset), 141.3 Hz PL](https://www.repeaterbook.com/repeaters/details.php?state_id=34&ID=2847)
+- **Livingston – KC2TXA (SBARC):** <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=34&amp;ID=2845" target="_blank" rel="noopener noreferrer">146.595 MHz (+1.0 MHz offset), 100.0 Hz PL</a>
+- **Newark – K2MFF (NJIT):** <a href="https://www.repeaterbook.com/repeaters/details.php?state_id=34&amp;ID=2847" target="_blank" rel="noopener noreferrer">147.225 MHz (+0.6 MHz offset), 141.3 Hz PL</a>
 - **EchoLink:** KC2TXA-R
 
 <style>
