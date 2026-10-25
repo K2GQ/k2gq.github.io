@@ -406,7 +406,10 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
     // Cancel an interrupted fade while preparing the next photo.
     viewport.classList.remove('is-changing');
     if (photoWidth && large.getAttribute('src') === url) {
+      // This photo is already displayed. Clear any error left by a
+      // failed intervening request and restore the normal photo counter.
       current = indexToShow;
+      count.textContent = (current + 1) + ' / ' + photos.length;
       return;
     }
 
