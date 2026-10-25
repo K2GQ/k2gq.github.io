@@ -2,9 +2,9 @@
 layout: post
 title: "South Mountain Reservation: Fall Activation & Meet Up"
 subtitle: "RARC Club Event"
-cover-img: /assets/img/2026-oct-smtn/maurice-first-pick.jpg
-thumbnail-img: /assets/img/2026-oct-smtn/maurice-first-pick-social.jpg
-share-img: /assets/img/2026-oct-smtn/maurice-first-pick-social.jpg
+cover-img: /assets/img/2026-oct-smtn/20261024_094525.jpg
+thumbnail-img: /assets/img/2026-oct-smtn/maurice-first-pick.jpg
+share-img: /assets/img/2026-oct-smtn/maurice-first-pick.jpg
 tags: [south mountain, activation, meet up, hf]
 ---
 
