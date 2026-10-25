@@ -456,8 +456,9 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
     }).catch(function () {
       if (ticket === requestToken && viewer.open) {
         viewport.classList.remove('is-changing');
-        count.textContent = 'Unable to load photo';
-        requested = current;
+        // Keep requested at the failed index so Next/Previous can move
+        // beyond a missing file; current still refers to the shown photo.
+        count.textContent = 'Photo ' + (indexToShow + 1) + ' unavailable';
       }
     });
   }
