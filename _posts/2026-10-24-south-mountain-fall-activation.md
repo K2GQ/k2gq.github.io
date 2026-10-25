@@ -26,8 +26,6 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
 
 ## Photos from the Event
 
-Select any photograph to enlarge it. Use the arrows to browse, or close the viewer to return to the article.
-
 <style>
 /* South Mountain October 2026: natural-aspect-ratio photo album */
 .south-mountain-gallery {
@@ -101,12 +99,19 @@ Select any photograph to enlarge it. Use the arrows to browse, or close the view
   flex: 0 0 auto;
 }
 .south-mountain-viewer-media {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  background: #101215;
+  scrollbar-color: #777 #282c32;
+}
+.south-mountain-viewer-stage {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
 }
 .south-mountain-viewer-media img {
   display: block;
@@ -117,10 +122,32 @@ Select any photograph to enlarge it. Use the arrows to browse, or close the view
   object-fit: contain;
   margin: 0;
   border: 0;
+  cursor: zoom-in;
+  user-select: none;
+  -webkit-user-select: none;
 }
+.south-mountain-viewer-media.is-zoomed img { cursor: grab; }
+.south-mountain-viewer-media.is-dragging img { cursor: grabbing; }
+.south-mountain-viewer-bar { flex-wrap: wrap; }
 .south-mountain-viewer-count { font-size: .9rem; white-space: nowrap; }
-.south-mountain-viewer-controls { display: flex; gap: 8px; white-space: nowrap; }
-.south-mountain-viewer button {
+.south-mountain-viewer-zoom-tools,
+.south-mountain-viewer-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.south-mountain-viewer-zoom-label {
+  min-width: 46px;
+  text-align: center;
+  font-size: .9rem;
+  font-variant-numeric: tabular-nums;
+}
+.south-mountain-viewer button,
+.south-mountain-viewer-zoom-tools a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   background: #343b43;
   border: 1px solid #666;
@@ -128,11 +155,28 @@ Select any photograph to enlarge it. Use the arrows to browse, or close the view
   min-height: 40px;
   padding: 8px 13px;
   cursor: pointer;
+  font-size: .9rem;
+  line-height: 1.2;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-.south-mountain-viewer button:hover,
-.south-mountain-viewer button:focus-visible { background: #465463; }
+.south-mountain-viewer button:disabled {
+  cursor: default;
+  opacity: .45;
+}
+.south-mountain-viewer button:not(:disabled):hover,
+.south-mountain-viewer button:focus-visible,
+.south-mountain-viewer-zoom-tools a:hover,
+.south-mountain-viewer-zoom-tools a:focus-visible {
+  color: #fff;
+  background: #465463;
+}
 @media (max-width: 570px) {
   .south-mountain-viewer[open] { width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; padding: 10px; }
+  .south-mountain-viewer-bar { justify-content: space-between; }
+  .south-mountain-viewer-zoom-tools { order: 3; flex: 1 0 100%; justify-content: center; gap: 5px; }
+  .south-mountain-viewer-zoom-tools button,
+  .south-mountain-viewer-zoom-tools a { padding: 8px 10px; }
   .south-mountain-viewer-footer { flex-direction: column; text-align: center; }
   .south-mountain-viewer-controls { width: 100%; justify-content: space-between; }
 }
@@ -219,10 +263,20 @@ Select any photograph to enlarge it. Use the arrows to browse, or close the view
 <dialog id="south-mountain-viewer-2026" class="south-mountain-viewer" aria-label="South Mountain event photo viewer">
   <div class="south-mountain-viewer-bar">
     <span id="south-mountain-photo-count" class="south-mountain-viewer-count" aria-live="polite"></span>
+    <div class="south-mountain-viewer-zoom-tools" aria-label="Photo zoom controls">
+      <button type="button" id="south-mountain-zoom-out" aria-label="Zoom out" title="Zoom out">−</button>
+      <span id="south-mountain-zoom-level" class="south-mountain-viewer-zoom-label" aria-live="polite">Fit</span>
+      <button type="button" id="south-mountain-zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+      <button type="button" id="south-mountain-zoom-actual" title="Show image at its original pixel resolution">100%</button>
+      <button type="button" id="south-mountain-zoom-fit" title="Fit entire photo in viewer">Fit</button>
+      <a id="south-mountain-photo-original" href="#" target="_blank" rel="noopener noreferrer" title="Open original high-resolution image in a new tab">Open original ↗</a>
+    </div>
     <button type="button" id="south-mountain-photo-close" aria-label="Close photo viewer">Close ×</button>
   </div>
-  <div class="south-mountain-viewer-media">
-    <img id="south-mountain-photo-large" alt="">
+  <div class="south-mountain-viewer-media" id="south-mountain-photo-viewport">
+    <div class="south-mountain-viewer-stage" id="south-mountain-photo-stage">
+      <img id="south-mountain-photo-large" alt="" draggable="false">
+    </div>
   </div>
   <div class="south-mountain-viewer-footer">
     <div class="south-mountain-viewer-controls">
@@ -239,17 +293,105 @@ Select any photograph to enlarge it. Use the arrows to browse, or close the view
   if (!gallery || !viewer || typeof viewer.showModal !== 'function') return;
 
   const photos = Array.from(gallery.querySelectorAll('a[data-full]'));
+  const viewport = document.getElementById('south-mountain-photo-viewport');
+  const stage = document.getElementById('south-mountain-photo-stage');
   const large = document.getElementById('south-mountain-photo-large');
   const count = document.getElementById('south-mountain-photo-count');
+  const level = document.getElementById('south-mountain-zoom-level');
+  const zoomIn = document.getElementById('south-mountain-zoom-in');
+  const zoomOut = document.getElementById('south-mountain-zoom-out');
+  const zoomActual = document.getElementById('south-mountain-zoom-actual');
+  const zoomFit = document.getElementById('south-mountain-zoom-fit');
+  const original = document.getElementById('south-mountain-photo-original');
   let current = 0;
+  let fitScale = 1;
+  let scale = 1;
+  let drag = null;
+  let ignoreClick = false;
+
+  function calculateFit() {
+    if (!large.naturalWidth || !large.naturalHeight || !viewport.clientWidth || !viewport.clientHeight) return 1;
+    // Do not enlarge an image beyond its original pixel dimensions.
+    return Math.min(1, viewport.clientWidth / large.naturalWidth, viewport.clientHeight / large.naturalHeight);
+  }
+
+  function refreshControls() {
+    const ready = !!(large.naturalWidth && viewport.clientWidth);
+    level.textContent = ready ? Math.round(scale * 100) + '%' : 'Fit';
+    zoomOut.disabled = !ready || scale <= fitScale + 0.0001;
+    zoomIn.disabled = !ready || scale >= 0.9999;
+    zoomActual.disabled = !ready || scale >= 0.9999;
+    zoomFit.disabled = !ready || scale <= fitScale + 0.0001;
+    viewport.classList.toggle('is-zoomed', scale > fitScale + 0.0001);
+  }
+
+  function renderScale() {
+    if (!large.naturalWidth || !large.naturalHeight) return;
+    const w = Math.round(large.naturalWidth * scale);
+    const h = Math.round(large.naturalHeight * scale);
+    large.style.maxWidth = 'none';
+    large.style.maxHeight = 'none';
+    large.style.width = w + 'px';
+    large.style.height = h + 'px';
+    stage.style.width = Math.max(viewport.clientWidth, w) + 'px';
+    stage.style.height = Math.max(viewport.clientHeight, h) + 'px';
+    refreshControls();
+  }
+
+  function fitImage() {
+    if (!viewer.open || !large.naturalWidth) return;
+    fitScale = calculateFit();
+    scale = fitScale;
+    renderScale();
+    viewport.scrollLeft = 0;
+    viewport.scrollTop = 0;
+  }
+
+  function changeZoom(next, pointX, pointY) {
+    if (!viewer.open || !large.naturalWidth) return;
+    const x = pointX === undefined ? viewport.clientWidth / 2 : pointX;
+    const y = pointY === undefined ? viewport.clientHeight / 2 : pointY;
+    const oldW = Math.round(large.naturalWidth * scale);
+    const oldH = Math.round(large.naturalHeight * scale);
+    const oldStageW = Math.max(viewport.clientWidth, oldW);
+    const oldStageH = Math.max(viewport.clientHeight, oldH);
+    const oldOffsetX = (oldStageW - oldW) / 2;
+    const oldOffsetY = (oldStageH - oldH) / 2;
+    const imageX = (viewport.scrollLeft + x - oldOffsetX) / scale;
+    const imageY = (viewport.scrollTop + y - oldOffsetY) / scale;
+
+    scale = Math.max(fitScale, Math.min(1, next));
+    renderScale();
+
+    const newW = Math.round(large.naturalWidth * scale);
+    const newH = Math.round(large.naturalHeight * scale);
+    const offsetX = (Math.max(viewport.clientWidth, newW) - newW) / 2;
+    const offsetY = (Math.max(viewport.clientHeight, newH) - newH) / 2;
+    viewport.scrollLeft = offsetX + imageX * scale - x;
+    viewport.scrollTop = offsetY + imageY * scale - y;
+  }
 
   function display(index) {
     current = (index + photos.length) % photos.length;
     const link = photos[current];
-    large.src = link.dataset.full;
+    drag = null;
+    ignoreClick = false;
+    viewport.classList.remove('is-dragging');
+    large.removeAttribute('style');
+    stage.removeAttribute('style');
+    original.href = link.dataset.full;
     large.alt = 'Full-size photo ' + (current + 1) + ' of ' + photos.length + ' from the South Mountain event';
     count.textContent = (current + 1) + ' / ' + photos.length;
+    large.src = link.dataset.full;
+    // requestAnimationFrame also handles browser-cached images.
+    requestAnimationFrame(function () {
+      if (large.complete && large.naturalWidth && viewer.open) fitImage();
+    });
   }
+
+  large.addEventListener('load', function () {
+    requestAnimationFrame(fitImage);
+  });
 
   photos.forEach(function (link, index) {
     link.addEventListener('click', function (event) {
@@ -259,18 +401,77 @@ Select any photograph to enlarge it. Use the arrows to browse, or close the view
     });
   });
 
+  // Clicking the enlarged photo toggles fit-to-screen and actual pixel size.
+  large.addEventListener('click', function (event) {
+    if (ignoreClick) { ignoreClick = false; return; }
+    if (scale > fitScale + 0.0001) {
+      fitImage();
+    } else {
+      const rect = viewport.getBoundingClientRect();
+      changeZoom(1, event.clientX - rect.left, event.clientY - rect.top);
+    }
+  });
+
+  zoomIn.addEventListener('click', function () { changeZoom(scale * 1.6); });
+  zoomOut.addEventListener('click', function () { changeZoom(scale / 1.6); });
+  zoomActual.addEventListener('click', function () { changeZoom(1); });
+  zoomFit.addEventListener('click', fitImage);
+
+  // Desktop: drag a magnified photo to pan. Touch devices retain native scrolling.
+  large.addEventListener('pointerdown', function (event) {
+    if (event.pointerType !== 'mouse' || event.button !== 0 || scale <= fitScale + 0.0001) return;
+    drag = { id: event.pointerId, x: event.clientX, y: event.clientY,
+      left: viewport.scrollLeft, top: viewport.scrollTop, moved: false };
+    large.setPointerCapture(event.pointerId);
+  });
+  large.addEventListener('pointermove', function (event) {
+    if (!drag || event.pointerId !== drag.id) return;
+    const dx = event.clientX - drag.x;
+    const dy = event.clientY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
+    if (drag.moved) {
+      viewport.classList.add('is-dragging');
+      viewport.scrollLeft = drag.left - dx;
+      viewport.scrollTop = drag.top - dy;
+    }
+  });
+  function endDrag(event) {
+    if (!drag || event.pointerId !== drag.id) return;
+    ignoreClick = drag.moved;
+    drag = null;
+    viewport.classList.remove('is-dragging');
+    if (large.hasPointerCapture(event.pointerId)) large.releasePointerCapture(event.pointerId);
+  }
+  large.addEventListener('pointerup', endDrag);
+  large.addEventListener('pointercancel', endDrag);
+
   document.getElementById('south-mountain-photo-prev').addEventListener('click', function () { display(current - 1); });
   document.getElementById('south-mountain-photo-next').addEventListener('click', function () { display(current + 1); });
   document.getElementById('south-mountain-photo-close').addEventListener('click', function () { viewer.close(); });
+
   viewer.addEventListener('click', function (event) {
     if (event.target === viewer) viewer.close();
   });
   viewer.addEventListener('keydown', function (event) {
+    // Keep shortcuts available when the toolbar's buttons or links have focus.
+    // Enter and Space remain untouched so those controls activate normally.
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
     if (event.key === 'ArrowLeft') { event.preventDefault(); display(current - 1); }
     if (event.key === 'ArrowRight') { event.preventDefault(); display(current + 1); }
+    if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(scale * 1.6); }
+    if (event.key === '-') { event.preventDefault(); changeZoom(scale / 1.6); }
+    if (event.key === '0') { event.preventDefault(); fitImage(); }
+  });
+  window.addEventListener('resize', function () {
+    if (viewer.open && large.naturalWidth) requestAnimationFrame(fitImage);
   });
   viewer.addEventListener('close', function () {
     large.removeAttribute('src');
+    large.removeAttribute('style');
+    stage.removeAttribute('style');
+    drag = null;
+    ignoreClick = false;
   });
 }());
 </script>
