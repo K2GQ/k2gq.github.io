@@ -453,7 +453,10 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
     if (event.target === viewer) viewer.close();
   });
   viewer.addEventListener('keydown', function (event) {
-    if (event.target.closest('button, a')) return;
+    // Keep shortcuts available when the toolbar's buttons or links have focus.
+    // Enter and Space remain untouched so those controls activate normally.
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
     if (event.key === 'ArrowLeft') { event.preventDefault(); display(current - 1); }
     if (event.key === 'ArrowRight') { event.preventDefault(); display(current + 1); }
     if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(scale * 1.6); }
