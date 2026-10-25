@@ -395,6 +395,14 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
     const ticket = ++requestToken;
     const url = link.dataset.full;
 
+    // For the first photo there is no visible image to fall back to.
+    // Point "Open original" at the requested file even if decoding fails.
+    // During subsequent transitions, keep it linked to the displayed photo.
+    if (!photoWidth) {
+      original.href = url;
+      count.textContent = (indexToShow + 1) + ' / ' + photos.length;
+    }
+
     // Cancel an interrupted fade while preparing the next photo.
     viewport.classList.remove('is-changing');
     if (photoWidth && large.getAttribute('src') === url) {
