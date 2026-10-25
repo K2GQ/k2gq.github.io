@@ -105,6 +105,7 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   overscroll-behavior: contain;
   background: #101215;
   scrollbar-color: #777 #282c32;
+  scrollbar-gutter: stable both-edges;
 }
 .south-mountain-viewer-stage {
   display: flex;
@@ -125,6 +126,12 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   cursor: zoom-in;
   user-select: none;
   -webkit-user-select: none;
+  opacity: 1;
+  transition: opacity .16s ease;
+}
+.south-mountain-viewer-media.is-changing img {
+  opacity: 0;
+  pointer-events: none;
 }
 .south-mountain-viewer-media.is-zoomed img { cursor: grab; }
 .south-mountain-viewer-media.is-dragging img { cursor: grabbing; }
@@ -170,6 +177,9 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
 .south-mountain-viewer-zoom-tools a:focus-visible {
   color: #fff;
   background: #465463;
+}
+@media (prefers-reduced-motion: reduce) {
+  .south-mountain-viewer-media img { transition: none; }
 }
 @media (max-width: 570px) {
   .south-mountain-viewer[open] { width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; padding: 10px; }
@@ -304,19 +314,24 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   const zoomFit = document.getElementById('south-mountain-zoom-fit');
   const original = document.getElementById('south-mountain-photo-original');
   let current = 0;
+  let requested = 0;
+  let requestToken = 0;
+  let photoWidth = 0;
+  let photoHeight = 0;
   let fitScale = 1;
   let scale = 1;
   let drag = null;
   let ignoreClick = false;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   function calculateFit() {
-    if (!large.naturalWidth || !large.naturalHeight || !viewport.clientWidth || !viewport.clientHeight) return 1;
+    if (!photoWidth || !photoHeight || !viewport.clientWidth || !viewport.clientHeight) return 1;
     // Do not enlarge an image beyond its original pixel dimensions.
-    return Math.min(1, viewport.clientWidth / large.naturalWidth, viewport.clientHeight / large.naturalHeight);
+    return Math.min(1, viewport.clientWidth / photoWidth, viewport.clientHeight / photoHeight);
   }
 
   function refreshControls() {
-    const ready = !!(large.naturalWidth && viewport.clientWidth);
+    const ready = !!(photoWidth && viewport.clientWidth);
     level.textContent = ready ? Math.round(scale * 100) + '%' : 'Fit';
     zoomOut.disabled = !ready || scale <= fitScale + 0.0001;
     zoomIn.disabled = !ready || scale >= 0.9999;
@@ -326,9 +341,9 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   }
 
   function renderScale() {
-    if (!large.naturalWidth || !large.naturalHeight) return;
-    const w = Math.round(large.naturalWidth * scale);
-    const h = Math.round(large.naturalHeight * scale);
+    if (!photoWidth || !photoHeight) return;
+    const w = Math.round(photoWidth * scale);
+    const h = Math.round(photoHeight * scale);
     large.style.maxWidth = 'none';
     large.style.maxHeight = 'none';
     large.style.width = w + 'px';
@@ -339,7 +354,7 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   }
 
   function fitImage() {
-    if (!viewer.open || !large.naturalWidth) return;
+    if (!viewer.open || !photoWidth) return;
     fitScale = calculateFit();
     scale = fitScale;
     renderScale();
@@ -348,11 +363,11 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   }
 
   function changeZoom(next, pointX, pointY) {
-    if (!viewer.open || !large.naturalWidth) return;
+    if (!viewer.open || !photoWidth) return;
     const x = pointX === undefined ? viewport.clientWidth / 2 : pointX;
     const y = pointY === undefined ? viewport.clientHeight / 2 : pointY;
-    const oldW = Math.round(large.naturalWidth * scale);
-    const oldH = Math.round(large.naturalHeight * scale);
+    const oldW = Math.round(photoWidth * scale);
+    const oldH = Math.round(photoHeight * scale);
     const oldStageW = Math.max(viewport.clientWidth, oldW);
     const oldStageH = Math.max(viewport.clientHeight, oldH);
     const oldOffsetX = (oldStageW - oldW) / 2;
@@ -363,41 +378,99 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
     scale = Math.max(fitScale, Math.min(1, next));
     renderScale();
 
-    const newW = Math.round(large.naturalWidth * scale);
-    const newH = Math.round(large.naturalHeight * scale);
+    const newW = Math.round(photoWidth * scale);
+    const newH = Math.round(photoHeight * scale);
     const offsetX = (Math.max(viewport.clientWidth, newW) - newW) / 2;
     const offsetY = (Math.max(viewport.clientHeight, newH) - newH) / 2;
     viewport.scrollLeft = offsetX + imageX * scale - x;
     viewport.scrollTop = offsetY + imageY * scale - y;
   }
 
+  // Decode before swapping images to avoid changing the old photo's
+  // dimensions while the next one loads. The canvas stays the same size.
   function display(index) {
-    current = (index + photos.length) % photos.length;
-    const link = photos[current];
-    drag = null;
-    ignoreClick = false;
-    viewport.classList.remove('is-dragging');
-    large.removeAttribute('style');
-    stage.removeAttribute('style');
-    original.href = link.dataset.full;
-    large.alt = 'Full-size photo ' + (current + 1) + ' of ' + photos.length + ' from the South Mountain event';
-    count.textContent = (current + 1) + ' / ' + photos.length;
-    large.src = link.dataset.full;
-    // requestAnimationFrame also handles browser-cached images.
-    requestAnimationFrame(function () {
-      if (large.complete && large.naturalWidth && viewer.open) fitImage();
+    requested = (index + photos.length) % photos.length;
+    const indexToShow = requested;
+    const link = photos[indexToShow];
+    const ticket = ++requestToken;
+    const url = link.dataset.full;
+
+    // For the first photo there is no visible image to fall back to.
+    // Point "Open original" at the requested file even if decoding fails.
+    // During subsequent transitions, keep it linked to the displayed photo.
+    if (!photoWidth) {
+      original.href = url;
+      count.textContent = (indexToShow + 1) + ' / ' + photos.length;
+    }
+
+    // Cancel an interrupted fade while preparing the next photo.
+    viewport.classList.remove('is-changing');
+    if (photoWidth && large.getAttribute('src') === url) {
+      // This photo is already displayed. Clear any error left by a
+      // failed intervening request and restore the normal photo counter.
+      current = indexToShow;
+      count.textContent = (current + 1) + ' / ' + photos.length;
+      return;
+    }
+
+    const pending = new Image();
+    pending.decoding = 'async';
+    pending.src = url;
+    const ready = typeof pending.decode === 'function'
+      ? pending.decode()
+      : new Promise(function (resolve, reject) {
+          if (pending.complete) return pending.naturalWidth ? resolve() : reject(new Error('Image failed to load'));
+          pending.onload = resolve;
+          pending.onerror = reject;
+        });
+
+    ready.then(function () {
+      if (ticket !== requestToken || !viewer.open || !pending.naturalWidth) return;
+
+      function switchPhoto() {
+        if (ticket !== requestToken || !viewer.open) return;
+        drag = null;
+        ignoreClick = false;
+        viewport.classList.remove('is-dragging');
+        photoWidth = pending.naturalWidth;
+        photoHeight = pending.naturalHeight;
+        large.src = url;
+        large.alt = 'Full-size photo ' + (indexToShow + 1) + ' of ' + photos.length + ' from the South Mountain event';
+        original.href = url;
+        current = indexToShow;
+        count.textContent = (current + 1) + ' / ' + photos.length;
+        fitImage();
+
+        // New image dimensions are settled before it fades into view.
+        requestAnimationFrame(function () {
+          if (ticket !== requestToken || !viewer.open) return;
+          requestAnimationFrame(function () {
+            if (ticket === requestToken && viewer.open) viewport.classList.remove('is-changing');
+          });
+        });
+      }
+
+      if (photoWidth && !reducedMotion.matches) {
+        viewport.classList.add('is-changing');
+        setTimeout(switchPhoto, 160);
+      } else {
+        switchPhoto();
+      }
+    }).catch(function () {
+      if (ticket === requestToken && viewer.open) {
+        viewport.classList.remove('is-changing');
+        // Keep requested at the failed index so Next/Previous can move
+        // beyond a missing file; current still refers to the shown photo.
+        count.textContent = 'Photo ' + (indexToShow + 1) + ' unavailable';
+      }
     });
   }
-
-  large.addEventListener('load', function () {
-    requestAnimationFrame(fitImage);
-  });
 
   photos.forEach(function (link, index) {
     link.addEventListener('click', function (event) {
       event.preventDefault();
-      display(index);
       viewer.showModal();
+      display(index);
     });
   });
 
@@ -445,8 +518,8 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
   large.addEventListener('pointerup', endDrag);
   large.addEventListener('pointercancel', endDrag);
 
-  document.getElementById('south-mountain-photo-prev').addEventListener('click', function () { display(current - 1); });
-  document.getElementById('south-mountain-photo-next').addEventListener('click', function () { display(current + 1); });
+  document.getElementById('south-mountain-photo-prev').addEventListener('click', function () { display(requested - 1); });
+  document.getElementById('south-mountain-photo-next').addEventListener('click', function () { display(requested + 1); });
   document.getElementById('south-mountain-photo-close').addEventListener('click', function () { viewer.close(); });
 
   viewer.addEventListener('click', function (event) {
@@ -457,16 +530,20 @@ A sincere thank-you to everyone who participated in the South Mountain activatio
     // Enter and Space remain untouched so those controls activate normally.
     if (event.altKey || event.ctrlKey || event.metaKey) return;
     if (event.target.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
-    if (event.key === 'ArrowLeft') { event.preventDefault(); display(current - 1); }
-    if (event.key === 'ArrowRight') { event.preventDefault(); display(current + 1); }
+    if (event.key === 'ArrowLeft') { event.preventDefault(); display(requested - 1); }
+    if (event.key === 'ArrowRight') { event.preventDefault(); display(requested + 1); }
     if (event.key === '+' || event.key === '=') { event.preventDefault(); changeZoom(scale * 1.6); }
     if (event.key === '-') { event.preventDefault(); changeZoom(scale / 1.6); }
     if (event.key === '0') { event.preventDefault(); fitImage(); }
   });
   window.addEventListener('resize', function () {
-    if (viewer.open && large.naturalWidth) requestAnimationFrame(fitImage);
+    if (viewer.open && photoWidth) requestAnimationFrame(fitImage);
   });
   viewer.addEventListener('close', function () {
+    ++requestToken; // Cancel pending loads or fades if the viewer closes.
+    viewport.classList.remove('is-changing', 'is-dragging');
+    photoWidth = 0;
+    photoHeight = 0;
     large.removeAttribute('src');
     large.removeAttribute('style');
     stage.removeAttribute('style');
