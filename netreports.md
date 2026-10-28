@@ -275,7 +275,7 @@ The net meets every Tuesday at 7:00 PM Eastern and can be accessed through eithe
     },null,openDate);
     renderEngagement(rows);
   }
-  function locationValue(value){return String(value==null?'':value).trim().replace(/\\s+/g,' ');}
+  function locationValue(value){return String(value==null?'':value).trim().replace(/\s+/g,' ');}
   function locationKey(value){return locationValue(value).toLocaleLowerCase();}
   function updateLocationOptions(){
     var selected={};
