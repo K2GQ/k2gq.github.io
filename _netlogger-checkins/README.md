@@ -34,4 +34,12 @@ private phone numbers, email addresses, or other information that should not
 be made public. If unredacted files contain private details, use a private
 repository or private storage instead; let me know before uploading them.
 
-Once the automation workflow is enabled, pushing a new .log file to `master` triggers the database update. A workflow failure must be corrected before the new net can be considered published.
+Once the automation workflow is enabled, pushing a new .log file to `master`
+triggers the database update. If Actions fails or Pages does not deploy, use
+**Actions → NetLogger Check-in Database Update → Run workflow** on `master`
+to retry; the rebuild is requested even if JSON is already current.
+Publication automatically stops if previously published net dates or check-in
+rows are lost. Intentional historical removals require separate review and
+the manual `allow_history_reduction` checkbox; leave it unchecked for normal
+weekly imports. A workflow failure must be corrected before the new net can
+be considered published.
