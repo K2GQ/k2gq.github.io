@@ -38,6 +38,7 @@ const elements=new Map();
 function el(id) {
   if(!elements.has(id)) {
     const item=new Element(id.endsWith('-table')?'table':'div');
+    item.id=id;
     if(id.endsWith('-table')) {
       item.tHead={rows:[new Element('tr')]};
       item.tBodies=[new Element('tbody')];
@@ -84,6 +85,7 @@ vm.runInNewContext(prod,{document,fetch,console});
   assert.ok(el('weekly-count').textContent.includes('displayed check-ins'));
   assert.doesNotMatch(el('weekly-count').textContent,/INCOMPLETE|19:05/);
 
+  el('tab-stations').trigger('click');
   el('search-call').value='KC2NJ';
   el('search-call').trigger('input');
   assert.equal(el('station-detail').hidden,false);
