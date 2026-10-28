@@ -35,6 +35,16 @@ permalink: /netreports-dev/
 #net-db .bar { background:#2479a5; border-radius:.22rem .22rem 0 0; width:60%; max-width:68px; min-height:2px; margin:auto; }
 #net-db .barbox strong { display:block; margin-bottom:.45rem; }
 #net-db .barbox span { display:block; margin-top:.3rem; }
+
+#net-db .station-detail { margin-top:1.5rem; border-top:1px solid var(--line); padding-top:1.1rem; }
+#net-db .station-detail h3 { margin:.5rem 0 .2rem; }
+#net-db .engagement { margin:.9rem 0 1.5rem; }
+#net-db .engagement-row { display:grid; grid-template-columns:3.5rem minmax(0,1fr) 13rem; align-items:center; gap:.75rem; margin:.5rem 0; }
+#net-db .engagement-track { height:.85rem; background:#e5edf4; border-radius:1rem; overflow:hidden; }
+#net-db .engagement-fill { height:100%; background:#2479a5; border-radius:1rem; }
+#net-db .engagement-value { font-size:.87rem; color:var(--muted); }
+#net-db #panel-locations .controls label { flex:1 1 9rem; min-width:0; }
+#net-db #panel-locations select { width:100%; }
 @media(min-width:761px) {
   #net-db .tablewrap { overflow-x:visible; }
   #net-db table { table-layout:fixed; font-size:clamp(.73rem,.78vw,.87rem); }
@@ -49,7 +59,7 @@ permalink: /netreports-dev/
   #net-db #weekly-table th:nth-child(8) { width:15%; }
 }
 @media(max-width:760px) {
-  #net-db #weekly-table { min-width:760px; }
+  #net-db #weekly-table, #net-db #stations-history-table, #net-db #locations-table { min-width:760px; }
   #net-db .chart { overflow-x:auto; }
   #net-db .barbox { flex:1 0 60px; }
 }
@@ -59,6 +69,8 @@ permalink: /netreports-dev/
   #net-db .controls { display:block; }
   #net-db .controls label { margin-bottom:.8rem; }
   #net-db input[type=search], #net-db select { width:100%; }
+  #net-db .engagement-row { grid-template-columns:3rem minmax(0,1fr); gap:.3rem .65rem; }
+  #net-db .engagement-value { grid-column:2; }
 }
 </style>
 
@@ -72,6 +84,7 @@ permalink: /netreports-dev/
   <div class="tabs" role="tablist" aria-label="Net report views">
     <button class="tab" role="tab" id="tab-weekly" aria-controls="panel-weekly" aria-selected="true" data-view="weekly">Weekly reports</button>
     <button class="tab" role="tab" id="tab-stations" aria-controls="panel-stations" aria-selected="false" data-view="stations">Station history</button>
+    <button class="tab" role="tab" id="tab-locations" aria-controls="panel-locations" aria-selected="false" data-view="locations">Browse by location</button>
     <button class="tab" role="tab" id="tab-trends" aria-controls="panel-trends" aria-selected="false" data-view="trends">Participation trends</button>
   </div>
   <section id="panel-weekly" class="panel" role="tabpanel" aria-labelledby="tab-weekly">
@@ -85,8 +98,28 @@ permalink: /netreports-dev/
   </section>
   <section id="panel-stations" class="panel" role="tabpanel" aria-labelledby="tab-stations" hidden>
     <div class="controls"><label>Find a callsign <input type="search" id="search-call" list="all-calls" placeholder="Type a callsign" autocomplete="off"><datalist id="all-calls"></datalist></label></div>
-    <p id="station-summary" class="muted"></p>
-    <div class="tablewrap"><table id="stations-table"><thead><tr></tr></thead><tbody></tbody></table></div>
+    <p id="station-summary" class="muted" aria-live="polite"></p>
+    <div id="station-list" class="tablewrap"><table id="stations-table"><thead><tr></tr></thead><tbody></tbody></table></div>
+    <div id="station-detail" class="station-detail" hidden>
+      <h3 id="station-history-title"></h3>
+      <p id="station-history-note" class="muted"></p>
+      <div class="tablewrap"><table id="stations-history-table"><thead><tr></tr></thead><tbody></tbody></table></div>
+      <h3>Participation by year</h3>
+      <p class="muted">The bars show the portion of documented nets this station attended in each year. Years with fewer available reports are compared fairly.</p>
+      <div id="station-engagement" class="engagement" role="list" aria-label="Station participation by year"></div>
+    </div>
+  </section>
+  <section id="panel-locations" class="panel" role="tabpanel" aria-labelledby="tab-locations" hidden>
+    <p class="muted">Explore stations using their recorded check-in locations. Filters work together, and each matching callsign appears once.</p>
+    <div class="controls">
+      <label>Country <select id="location-country"></select></label>
+      <label>State <select id="location-state"></select></label>
+      <label>County <select id="location-county"></select></label>
+      <label>City <select id="location-city"></select></label>
+    </div>
+    <p id="location-summary" class="muted" aria-live="polite"></p>
+    <div class="tablewrap"><table id="locations-table"><thead><tr></tr></thead><tbody></tbody></table></div>
+    <p class="muted">Choose a callsign to open its complete check-in history. The location shown is from that station's most recent matching check-in.</p>
   </section>
   <section id="panel-trends" class="panel" role="tabpanel" aria-labelledby="tab-trends" hidden>
     <p class="muted">Compare participation across years without penalizing years with fewer available reports.</p>
@@ -109,9 +142,12 @@ permalink: /netreports-dev/
 <script>
 (function () {
   'use strict';
-  var root=document.getElementById('net-db'), data=null,selectedDate='',weeklySearch='',weeklySort={key:'number',asc:true},stationSort={key:'total',asc:false};
+  var root=document.getElementById('net-db'), data=null,selectedDate='',weeklySearch='',weeklySort={key:'number',asc:true},stationSort={key:'total',asc:false},stationHistorySort={key:'date',asc:false},locationSort={key:'last',asc:false};
   var columns=[['number','#'],['callsign','Call sign'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks']];
   var stationColumns=[['callsign','Call sign'],['total','Nets'],['first','First seen'],['last','Last seen']];
+  var historyColumns=[['date','Net date'],['number','#'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks']];
+  var locationColumns=[['callsign','Call sign'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['nets','Nets matched'],['last','Last check-in']];
+  var locationFields=['country','state','county','city'];
   function el(id){return document.getElementById(id);}
   function text(id,value){el(id).textContent=String(value);}
   function node(tag,value){var n=document.createElement(tag);if(value!==undefined)n.textContent=String(value);return n;}
@@ -121,7 +157,7 @@ permalink: /netreports-dev/
     var d=typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y),undefined,{sensitivity:'base',numeric:true});
     return spec.asc?d:-d;
   });}
-  function table(id,fields,rows,sort,onSort,onCall){
+  function table(id,fields,rows,sort,onSort,onCall,onDate){
     var t=el(id),thead=t.tHead.rows[0],tbody=t.tBodies[0];clear(thead);clear(tbody);
     fields.forEach(function(col){
       var th=node('th');th.scope='col';
@@ -135,6 +171,9 @@ permalink: /netreports-dev/
         if(field[0]==='callsign'&&onCall){
           clear(cell);var link=node('a',row.callsign);link.href='#panel-stations';link.className='call';
           link.addEventListener('click',function(e){e.preventDefault();onCall(row.callsign);});cell.appendChild(link);
+        }else if(field[0]==='date'&&onDate){
+          clear(cell);var dateLink=node('a',row.date);dateLink.href='#panel-weekly';
+          dateLink.addEventListener('click',function(e){e.preventDefault();onDate(row.date);});cell.appendChild(dateLink);
         }
         tr.appendChild(cell);
       });
@@ -151,8 +190,8 @@ permalink: /netreports-dev/
     var net=data.nets.find(function(n){return n.date===selectedDate;});
     var rows=sorted(weeklyRows(),weeklySort);
     text('weekly-count',rows.length+' displayed check-ins'+
-      (net?' · '+net.checkin_count+(net.manual?' in approved manual reconstruction':' in original NetLogger roster')+
-      (net.possibly_early_snapshot?' · POSSIBLY INCOMPLETE (saved '+net.source_time_et+' ET)':''):''));
+      (net?' · '+net.checkin_count+(net.manual?' in approved manual reconstruction':' in original NetLogger roster'):''));
+
     table('weekly-table',columns,rows,weeklySort,function(k){weeklySort={key:k,asc:weeklySort.key===k?!weeklySort.asc:true};renderWeekly();},openCall);
   }
   function totals(){
@@ -167,12 +206,111 @@ permalink: /netreports-dev/
       return {callsign:entry[0],total:ds.length,first:ds[0],last:ds[ds.length-1]};
     });
   }
-  function openCall(call){el('search-call').value=call;activate('stations');}
+  function openCall(call){
+    el('search-call').value=call;
+    stationHistorySort={key:'date',asc:false};
+    activate('stations');
+  }
+  function openDate(date){
+    selectedDate=date;
+    el('select-date').value=date;
+    weeklySearch='';
+    el('search-weekly').value='';
+    activate('weekly');
+  }
+  function renderEngagement(rows){
+    var attended=new Set(rows.map(function(row){return row.date;}));
+    var available={};
+    data.nets.forEach(function(net){
+      var year=net.date.slice(0,4);
+      available[year]=(available[year]||0)+1;
+    });
+    var container=el('station-engagement');clear(container);
+    Object.keys(available).sort().forEach(function(year){
+      var total=available[year],count=0;
+      attended.forEach(function(date){if(date.slice(0,4)===year)count++;});
+      var percent=Math.round(100*count/total);
+      var group=node('div');group.className='engagement-row';group.setAttribute('role','listitem');
+      group.setAttribute('aria-label',year+': '+count+' of '+total+' documented nets, '+percent+' percent');
+      group.appendChild(node('strong',year));
+      var track=node('div');track.className='engagement-track';track.setAttribute('aria-hidden','true');
+      var fill=node('div');fill.className='engagement-fill';fill.style.width=percent+'%';
+      track.appendChild(fill);group.appendChild(track);
+      group.appendChild(node('span',count+' of '+total+' nets ('+percent+'%)')).className='engagement-value';
+      container.appendChild(group);
+    });
+  }
   function renderStations(){
     var query=el('search-call').value.trim().toUpperCase();
     var records=sorted(totals().filter(function(r){return !query||r.callsign.includes(query);}),stationSort);
-    text('station-summary',records.length+' matching callsigns.');
-    table('stations-table',stationColumns,records,stationSort,function(k){stationSort={key:k,asc:stationSort.key===k?!stationSort.asc:true};renderStations();},openCall);
+    var chosen=records.find(function(r){return r.callsign===query;});
+    el('station-list').hidden=!!chosen;
+    el('station-detail').hidden=!chosen;
+    if(!chosen){
+      text('station-summary',records.length+' matching callsigns. Select a callsign to view its full history.');
+      table('stations-table',stationColumns,records,stationSort,function(k){
+        stationSort={key:k,asc:stationSort.key===k?!stationSort.asc:true};renderStations();
+      },openCall);
+      return;
+    }
+    var rows=data.checkins.filter(function(r){return String(r.callsign||'').toUpperCase()===chosen.callsign;});
+    text('station-summary',chosen.callsign+' · '+chosen.total+' documented nets · Most recent: '+chosen.last);
+    text('station-history-title','Check-in history: '+chosen.callsign);
+    text('station-history-note','All '+chosen.total+' nets, newest first by default. First check-in: '+chosen.first+'. Select a net date to open its report.');
+    table('stations-history-table',historyColumns,sorted(rows,stationHistorySort),stationHistorySort,function(k){
+      stationHistorySort={key:k,asc:stationHistorySort.key===k?!stationHistorySort.asc:true};renderStations();
+    },null,openDate);
+    renderEngagement(rows);
+  }
+  function locationValue(value){return String(value==null?'':value).trim().replace(/\\s+/g,' ');}
+  function locationKey(value){return locationValue(value).toLocaleLowerCase();}
+  function updateLocationOptions(){
+    var selected={};
+    locationFields.forEach(function(field,index){
+      var picker=el('location-'+field),previous=picker.value;
+      var possible=new Map();
+      data.checkins.forEach(function(row){
+        var matches=locationFields.slice(0,index).every(function(parent){
+          return !selected[parent]||locationKey(row[parent])===locationKey(selected[parent]);
+        });
+        if(!matches)return;
+        var value=locationValue(row[field]);
+        if(value&&!possible.has(locationKey(value)))possible.set(locationKey(value),value);
+      });
+      var values=Array.from(possible.values()).sort(function(a,b){return a.localeCompare(b,undefined,{sensitivity:'base'});});
+      clear(picker);
+      var all=node('option','All '+({country:'countries',state:'states',county:'counties',city:'cities'}[field]));
+      all.value='';picker.appendChild(all);
+      values.forEach(function(value){var opt=node('option',value);opt.value=value;picker.appendChild(opt);});
+      selected[field]=values.find(function(value){return locationKey(value)===locationKey(previous);})||'';
+      picker.value=selected[field];
+    });
+    return selected;
+  }
+  function renderLocations(){
+    var criteria=updateLocationOptions();
+    var grouped=new Map();
+    data.checkins.forEach(function(row){
+      if(!locationFields.every(function(field){
+        return !criteria[field]||locationKey(row[field])===locationKey(criteria[field]);
+      }))return;
+      var call=String(row.callsign||'').trim().toUpperCase();
+      if(!call)return;
+      if(!grouped.has(call))grouped.set(call,{callsign:call,dates:new Set(),last:''});
+      var item=grouped.get(call);item.dates.add(row.date);
+      if(row.date>=item.last){
+        item.last=row.date;
+        ['name','city','county','state','country'].forEach(function(key){item[key]=row[key];});
+      }
+    });
+    var records=Array.from(grouped.values()).map(function(item){
+      return {callsign:item.callsign,name:item.name,city:item.city,county:item.county,
+        state:item.state,country:item.country,nets:item.dates.size,last:item.last};
+    });
+    text('location-summary',records.length+' matching callsigns. Nets matched counts only check-ins satisfying the selected location filters.');
+    table('locations-table',locationColumns,sorted(records,locationSort),locationSort,function(k){
+      locationSort={key:k,asc:locationSort.key===k?!locationSort.asc:true};renderLocations();
+    },openCall);
   }
   function renderTrends(){
     var years=Array.from(new Set(data.nets.map(function(n){return n.date.slice(0,4);}))).sort();
@@ -235,6 +373,7 @@ permalink: /netreports-dev/
     root.querySelectorAll('.panel').forEach(function(p){p.hidden=p.id!=='panel-'+which;});
     if(which==='weekly')renderWeekly();
     if(which==='stations')renderStations();
+    if(which==='locations')renderLocations();
     if(which==='trends')renderTrends();
   }
   function init(payload){
@@ -251,7 +390,10 @@ permalink: /netreports-dev/
     el('load-message').hidden=true;
     selector.addEventListener('change',function(){selectedDate=this.value;renderWeekly();});
     el('search-weekly').addEventListener('input',function(){weeklySearch=this.value.trim().toUpperCase();renderWeekly();});
-    el('search-call').addEventListener('input',renderStations);
+    el('search-call').addEventListener('input',function(){stationHistorySort={key:'date',asc:false};renderStations();});
+    locationFields.forEach(function(field){
+      el('location-'+field).addEventListener('change',renderLocations);
+    });
     el('trend-year').addEventListener('change',renderTrends);
     el('trend-view').addEventListener('change',renderTrends);
     root.querySelectorAll('[role="tab"]').forEach(function(b){b.addEventListener('click',function(){activate(b.getAttribute('data-view'));});});
