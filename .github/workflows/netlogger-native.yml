@@ -1,11 +1,12 @@
-name: NetLogger Native Check-in Import (development)
+name: NetLogger Check-in Database Update
 
 on:
   push:
     branches:
-      - feature/netlogger-native-import-batch1
+      - master
     paths:
       - '_netlogger-checkins/**'
+      - 'netreports-dev/data/manual-checkins.csv'
       - 'netreports-dev/scripts/build_netlogger.py'
       - 'netreports-dev/tests/test_netlogger.py'
       - '.github/workflows/netlogger-native.yml'
@@ -15,13 +16,19 @@ on:
       - 'netreports-dev/**'
       - '.github/workflows/netlogger-native.yml'
   workflow_dispatch:
+    inputs:
+      allow_history_reduction:
+        description: 'Approve intentional loss or correction of previously published historical records'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
 
 concurrency:
   group: netlogger-native-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   verify-native:
@@ -32,7 +39,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test NetLogger parsing and privacy controls
-        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger.py' -v
+        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger*.py' -v
       - name: Rebuild native records in a temporary location
         run: |
           python netreports-dev/scripts/build_netlogger.py --root . \
@@ -80,55 +87,85 @@ jobs:
           assert not any(Path(p).exists() for p in retired), "Retired extraction files remain"
           PY
           node --check /tmp/netlogger-dev-page.js
-      - name: Verify committed outputs when present
+      - name: Verify committed outputs match the rebuilt dataset
         if: github.event_name == 'pull_request'
-        run: |
-          if test -f netreports-dev/data/netlogger.json; then
-            diff -u netreports-dev/data/netlogger.json /tmp/netlogger-verified.json
-            diff -u netreports-dev/data/netlogger-audit.json /tmp/netlogger-audit-verified.json
-          fi
-
-  build-on-staging:
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/feature/netlogger-native-import-batch1'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - name: Check out exact staging branch
-        uses: actions/checkout@v4
-        with:
-          ref: feature/netlogger-native-import-batch1
-          persist-credentials: true
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Run native parser unit tests
-        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger.py' -v
-      - name: Build source-only provisional data and coverage audit
-        run: python netreports-dev/scripts/build_netlogger.py --root .
-      - name: Inspect generated dataset for sensitive fields
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          payload=json.loads(Path('netreports-dev/data/netlogger.json').read_text())
-          audit=json.loads(Path('netreports-dev/data/netlogger-audit.json').read_text())
-          assert payload['kind'] == 'netlogger-native-checkins'
-          assert audit['source_file_count'] > 0
-          assert all(r['date'] in {n['date'] for n in payload['nets']} for r in payload['checkins'])
-          for row in payload['checkins']:
-              assert set(row)=={'date','number','callsign','name','city','county','state','country','remarks'}, row
-          print('Native imported nets:',audit['net_count'])
-          print('Native check-in rows:',audit['checkin_count'])
-          print('Unmatched files:',len(audit['quarantined_exports']))
+          for name in ('netlogger.json', 'netlogger-audit.json'):
+              saved=json.loads(Path('netreports-dev/data',name).read_text())
+              rebuilt=json.loads(Path('/tmp',name.replace('.json','-verified.json')).read_text())
+              assert saved == rebuilt, name + ' differs from import results'
+              print('Matches rebuilt data:',name)
           PY
-      - name: Commit only sanitized native datasets to staging branch
+
+  publish-native:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: verify-native
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - name: Check out the published branch
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh, validate, and publish with bounded race retries
+        env:
+          ALLOW_HISTORY_REDUCTION: ${{ github.event_name == 'workflow_dispatch' && inputs.allow_history_reduction == true && 'true' || 'false' }}
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add netreports-dev/data/netlogger.json netreports-dev/data/netlogger-audit.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Generate partial native NetLogger check-in database"
-            git pull --rebase origin feature/netlogger-native-import-batch1
-            git push origin HEAD:feature/netlogger-native-import-batch1
-          fi
+          # Rebuild from each newly fetched master, never rebase stale JSON.
+          # A concurrent human commit may make a first push non-fast-forward.
+          for attempt in 1 2 3; do
+            echo "Publication attempt $attempt of 3"
+            git fetch --no-tags origin +refs/heads/master:refs/remotes/origin/master
+            git reset --hard refs/remotes/origin/master
+            python -m unittest discover -s netreports-dev/tests -p 'test_netlogger*.py' -v
+            cp netreports-dev/data/netlogger.json /tmp/netlogger-before.json
+            python netreports-dev/scripts/build_netlogger.py --root .
+            validation=(
+              --baseline /tmp/netlogger-before.json
+              --updated netreports-dev/data/netlogger.json
+              --audit netreports-dev/data/netlogger-audit.json
+            )
+            if [[ "$ALLOW_HISTORY_REDUCTION" == "true" ]]; then
+              validation+=(--allow-history-reduction)
+            fi
+            python netreports-dev/scripts/validate_netlogger_publication.py "${validation[@]}"
+            git add netreports-dev/data/netlogger.json netreports-dev/data/netlogger-audit.json
+            if git diff --cached --quiet; then
+              echo "Published database already matches the latest sources."
+              exit 0
+            fi
+            git commit -m "Update NetLogger check-ins from uploaded logs"
+            if git push origin HEAD:master; then
+              echo "Database pushed successfully."
+              exit 0
+            fi
+            echo "Push rejected; fetching current master and rebuilding."
+            sleep "$((attempt * 2))"
+          done
+          echo "ERROR: publication failed after three attempts" >&2
+          exit 1
+      - name: Request Pages rebuild, including unchanged reruns
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPOSITORY: ${{ github.repository }}
+        run: |
+          # A GITHUB_TOKEN push does not trigger a branch-based Pages build.
+          # Always request a build: this also recovers a previously failed one.
+          curl --fail-with-body --silent --show-error --location \
+            --request POST \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$GH_REPOSITORY/pages/builds"
