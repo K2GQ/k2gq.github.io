@@ -16,6 +16,12 @@ on:
       - 'netreports-dev/**'
       - '.github/workflows/netlogger-native.yml'
   workflow_dispatch:
+    inputs:
+      allow_history_reduction:
+        description: 'Approve intentional loss or correction of previously published historical records'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
@@ -33,7 +39,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Test NetLogger parsing and privacy controls
-        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger.py' -v
+        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger*.py' -v
       - name: Rebuild native records in a temporary location
         run: |
           python netreports-dev/scripts/build_netlogger.py --root . \
@@ -102,7 +108,7 @@ jobs:
       contents: write
       pages: write
     steps:
-      - name: Check out current published branch
+      - name: Check out the published branch
         uses: actions/checkout@v4
         with:
           ref: master
@@ -110,54 +116,54 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Update from latest master
-        run: git pull --ff-only origin master
-      - name: Recheck native-source test suite
-        run: python -m unittest discover -s netreports-dev/tests -p 'test_netlogger.py' -v
-      - name: Rebuild latest native and approved manual records
-        run: python netreports-dev/scripts/build_netlogger.py --root .
-      - name: Validate public fields and historical coverage
+      - name: Refresh, validate, and publish with bounded race retries
+        env:
+          ALLOW_HISTORY_REDUCTION: ${{ github.event_name == 'workflow_dispatch' && inputs.allow_history_reduction == true && 'true' || 'false' }}
+        shell: bash
         run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          data=json.loads(Path('netreports-dev/data/netlogger.json').read_text())
-          audit=json.loads(Path('netreports-dev/data/netlogger-audit.json').read_text())
-          allowed={'date','number','callsign','name','city','county','state','country','remarks'}
-          assert data['kind'] == 'netlogger-native-checkins'
-          assert data['source_counts']['manual_nets'] == audit['approved_manual_net_count']
-          assert audit['missing_report_dates'] == [], 'Historical reports lost coverage'
-          assert len(data['checkins']) == audit['checkin_count']
-          assert len(data['nets']) == audit['net_count']
-          assert all(set(row) == allowed for row in data['checkins'])
-          assert all(not row.get('manual') or row['source'] == 'User-approved manual reconstruction'
-                     for row in data['nets'])
-          print('Documented nets:',audit['net_count'])
-          print('Public check-ins:',audit['checkin_count'])
-          print('Log-only net dates:',len(audit['log_only_net_dates']))
-          PY
-      - name: Commit sanitized database and audit to published branch
-        id: publish
-        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add netreports-dev/data/netlogger.json netreports-dev/data/netlogger-audit.json
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "Database already current."
-          else
+          # Rebuild from each newly fetched master, never rebase stale JSON.
+          # A concurrent human commit may make a first push non-fast-forward.
+          for attempt in 1 2 3; do
+            echo "Publication attempt $attempt of 3"
+            git fetch --no-tags origin +refs/heads/master:refs/remotes/origin/master
+            git reset --hard refs/remotes/origin/master
+            python -m unittest discover -s netreports-dev/tests -p 'test_netlogger*.py' -v
+            cp netreports-dev/data/netlogger.json /tmp/netlogger-before.json
+            python netreports-dev/scripts/build_netlogger.py --root .
+            validation=(
+              --baseline /tmp/netlogger-before.json
+              --updated netreports-dev/data/netlogger.json
+              --audit netreports-dev/data/netlogger-audit.json
+            )
+            if [[ "$ALLOW_HISTORY_REDUCTION" == "true" ]]; then
+              validation+=(--allow-history-reduction)
+            fi
+            python netreports-dev/scripts/validate_netlogger_publication.py "${validation[@]}"
+            git add netreports-dev/data/netlogger.json netreports-dev/data/netlogger-audit.json
+            if git diff --cached --quiet; then
+              echo "Published database already matches the latest sources."
+              exit 0
+            fi
             git commit -m "Update NetLogger check-ins from uploaded logs"
-            git push origin HEAD:master
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-      - name: Request Pages rebuild for workflow-generated commit
-        if: steps.publish.outputs.changed == 'true'
+            if git push origin HEAD:master; then
+              echo "Database pushed successfully."
+              exit 0
+            fi
+            echo "Push rejected; fetching current master and rebuilding."
+            sleep "$((attempt * 2))"
+          done
+          echo "ERROR: publication failed after three attempts" >&2
+          exit 1
+      - name: Request Pages rebuild, including unchanged reruns
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPOSITORY: ${{ github.repository }}
         run: |
-          # A GITHUB_TOKEN git push does NOT automatically trigger a
-          # branch-based Pages build. Request it explicitly via GitHub API.
+          # A GITHUB_TOKEN push does not trigger a branch-based Pages build.
+          # Always request a build: this also recovers a previously failed one.
           curl --fail-with-body --silent --show-error --location \
             --request POST \
             --header "Accept: application/vnd.github+json" \
