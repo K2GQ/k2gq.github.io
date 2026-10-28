@@ -37,6 +37,9 @@
   ],
   "approved_manual_superseded_by_native": [],
   "native_dates_without_screenshot": [],
+  "log_only_net_dates": [
+    "2026-10-27"
+  ],
   "possibly_early_snapshots": [
     {
       "date": "2023-11-14",
@@ -689,8 +692,5 @@
     }
   ],
   "parse_warnings": [],
-  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined (historical Wednesday nets from August to November 2023 are accepted); after the final screenshot date, Tuesday NetLogger logs are published without screenshot files. Early snapshots may be incomplete.",
-  "log_only_net_dates": [
-    "2026-10-27"
-  ]
+  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined (historical Wednesday nets from August to November 2023 are accepted); after the final screenshot date, Tuesday NetLogger logs are published without screenshot files. Early snapshots may be incomplete."
 }
