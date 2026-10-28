@@ -51,10 +51,12 @@ permalink: /netreports-dev/
   #net-db th, #net-db td { white-space:normal; padding:.5rem .28rem; }
   #net-db #weekly-table th:nth-child(1) { width:4%; }
   #net-db #weekly-table th:nth-child(2) { width:11%; }
-  #net-db #weekly-table th:nth-child(3) { width:21%; }
-  #net-db #weekly-table th:nth-child(4) { width:17%; }
+  /* Reserve enough room for State and keep all weekly headings on one line. */
+  #net-db #weekly-table th button { white-space:nowrap; }
+  #net-db #weekly-table th:nth-child(3) { width:20%; }
+  #net-db #weekly-table th:nth-child(4) { width:16%; }
   #net-db #weekly-table th:nth-child(5) { width:12%; }
-  #net-db #weekly-table th:nth-child(6) { width:6%; }
+  #net-db #weekly-table th:nth-child(6) { width:8%; }
   #net-db #weekly-table th:nth-child(7) { width:14%; }
   #net-db #weekly-table th:nth-child(8) { width:15%; }
 }
@@ -145,7 +147,7 @@ permalink: /netreports-dev/
   var root=document.getElementById('net-db'), data=null,selectedDate='',weeklySearch='',weeklySort={key:'number',asc:true},stationSort={key:'total',asc:false},stationHistorySort={key:'date',asc:false},locationSort={key:'last',asc:false};
   var columns=[['number','#'],['callsign','Call sign'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks']];
   var stationColumns=[['callsign','Call sign'],['total','Nets'],['first','First seen'],['last','Last seen']];
-  var historyColumns=[['date','Net date'],['number','#'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks']];
+  var historyColumns=[['date','Net date'],['name','First name'],['city','City'],['county','County'],['state','State'],['country','Country'],['remarks','Remarks']];
   var locationColumns=[['callsign','Call sign'],['name','Name'],['city','City'],['county','County'],['state','State'],['country','Country'],['nets','Nets matched'],['last','Last check-in']];
   var locationFields=['country','state','county','city'];
   function el(id){return document.getElementById(id);}
@@ -206,6 +208,7 @@ permalink: /netreports-dev/
       return {callsign:entry[0],total:ds.length,first:ds[0],last:ds[ds.length-1]};
     });
   }
+  function firstName(name){return String(name||'').trim().split(/\s+/)[0]||'';}
   function openCall(call){
     el('search-call').value=call;
     stationHistorySort={key:'date',asc:false};
@@ -261,7 +264,9 @@ permalink: /netreports-dev/
     text('station-summary',chosen.callsign+' · '+chosen.total+' documented nets · Most recent: '+chosen.last);
     text('station-history-title','Check-in history: '+chosen.callsign);
     text('station-history-note','All '+chosen.total+' nets, newest first by default. First check-in: '+chosen.first+'. Select a net date to open its report.');
-    table('stations-history-table',historyColumns,sorted(rows,stationHistorySort),stationHistorySort,function(k){
+    // Keep original check-in records intact; shorten names only in station history.
+    var displayRows=rows.map(function(row){return Object.assign({},row,{name:firstName(row.name)});});
+    table('stations-history-table',historyColumns,sorted(displayRows,stationHistorySort),stationHistorySort,function(k){
       stationHistorySort={key:k,asc:stationHistorySort.key===k?!stationHistorySort.asc:true};renderStations();
     },null,openDate);
     renderEngagement(rows);
