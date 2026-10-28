@@ -31,6 +31,7 @@ class Element {
   setAttribute(key,value) { this.attrs[key]=String(value); }
   getAttribute(key) { return this.attrs[key]; }
   addEventListener(key,listener) { (this.listeners[key] ||= []).push(listener); }
+  focus() { document.activeElement=this; }
   trigger(key) { (this.listeners[key] || []).forEach(listener=>listener({preventDefault(){}})); }
 }
 const elements=new Map();
@@ -56,7 +57,7 @@ el('net-db').querySelectorAll=selector=>{
   if(selector==='.panel')return panels;
   throw Error('Unexpected selector '+selector);
 };
-const document={getElementById:el,createElement:tag=>new Element(tag)};
+const document={getElementById:el,createElement:tag=>new Element(tag),activeElement:null};
 function checkin(date,call,city,county,state,country) {
   return {date,number:1,callsign:call,name:call+' Operator',
     city,county,state,country,remarks:'RF'};
@@ -95,6 +96,18 @@ vm.runInNewContext(prod,{document,fetch,console});
   assert.equal(engagement.length,4);
   assert.ok(engagement.some(value=>value==='2026: 1 of 2 documented nets, 50 percent'));
 
+  // A keyboard-activated net date must move focus out of the hidden history
+  // panel and onto the selected weekly report's visible date control.
+  const historyLink=el('stations-history-table').tBodies[0].children[1].children[0].children[0];
+  historyLink.focus();
+  assert.equal(document.activeElement,historyLink);
+  historyLink.trigger('click');
+  assert.equal(el('select-date').value,'2025-10-07');
+  assert.equal(el('panel-weekly').hidden,false);
+  assert.equal(el('panel-stations').hidden,true);
+  assert.equal(document.activeElement,el('select-date'),
+    'Opening a weekly report from station history must focus the visible date selector');
+
   el('tab-locations').trigger('click');
   el('location-country').value='United States';
   el('location-country').trigger('change');
@@ -111,9 +124,15 @@ vm.runInNewContext(prod,{document,fetch,console});
   assert.equal(locationRows.length,1);
   assert.equal(locationRows[0].children[0].textContent,'KC2NJ');
   assert.equal(locationRows[0].children[6].textContent,'1');
-  // Location rows link directly into the complete station history.
-  locationRows[0].children[0].children[0].trigger('click');
+  // Callsign links similarly move focus into the newly visible station view.
+  const locationLink=locationRows[0].children[0].children[0];
+  locationLink.focus();
+  locationLink.trigger('click');
   assert.equal(el('station-detail').hidden,false);
+  assert.equal(el('panel-stations').hidden,false);
+  assert.equal(el('panel-locations').hidden,true);
+  assert.equal(document.activeElement,el('search-call'),
+    'Opening station history from location results must focus its search field');
   assert.ok(el('station-history-title').textContent.includes('KC2NJ'));
 
   el('tab-locations').trigger('click');
@@ -123,5 +142,5 @@ vm.runInNewContext(prod,{document,fetch,console});
   const ukRows=el('locations-table').tBodies[0].children;
   assert.equal(ukRows.length,1);
   assert.equal(ukRows[0].children[0].textContent,'G4ABC');
-  console.log('Net Reports dashboard: history, engagement, filters and warning-removal tests passed');
+  console.log('Net Reports dashboard: history, engagement, filters, focus navigation and warning-removal tests passed');
 })().catch(error=>{console.error(error);process.exitCode=1;});
