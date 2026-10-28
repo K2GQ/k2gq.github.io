@@ -72,6 +72,25 @@ class TestPublicationProtection(unittest.TestCase):
         new = dataset(["2026-10-20"])
         pub.validate(old, new, audit_for(new), allow_history_reduction=True)
 
+    def test_archived_screenshot_date_loss_requires_history_override(self):
+        old = dataset(["2026-10-13", "2026-10-20", "2026-10-27"])
+        new = dataset(["2026-10-13", "2026-10-27"])
+        audit = audit_for(new)
+        audit["missing_report_dates"] = ["2026-10-20"]
+        with self.assertRaisesRegex(ValueError, "Archived screenshot date"):
+            pub.validate(old, new, audit)
+        # A reviewed removal must be possible without deleting the old PNG.
+        pub.validate(old, new, audit, allow_history_reduction=True)
+
+    def test_override_does_not_bypass_audit_consistency(self):
+        old = dataset(["2026-10-20", "2026-10-27"])
+        new = dataset(["2026-10-27"])
+        audit = audit_for(new)
+        audit["missing_report_dates"] = ["2026-10-20"]
+        audit["checkin_count"] += 1
+        with self.assertRaisesRegex(ValueError, "Audit totals"):
+            pub.validate(old, new, audit, allow_history_reduction=True)
+
     def test_private_or_unexpected_fields_are_rejected_even_with_override(self):
         old = dataset(["2026-10-27"])
         new = dataset(["2026-10-27"])
