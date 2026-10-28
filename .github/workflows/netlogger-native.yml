@@ -87,6 +87,7 @@ jobs:
           assert not any(Path(p).exists() for p in retired), "Retired extraction files remain"
           PY
           node --check /tmp/netlogger-dev-page.js
+          node netreports-dev/tests/test_dashboard.js
       - name: Verify committed outputs match the rebuilt dataset
         if: github.event_name == 'pull_request'
         run: |
