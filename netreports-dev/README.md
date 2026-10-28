@@ -45,8 +45,10 @@ when recovered for a previously reconstructed historical date.
 - `tests/test_netlogger.py` tests native mappings, Eastern time conversion,
   duplicate exports, manual row validation and native precedence, privacy
   protections, and ZIP handling.
-- `.github/workflows/netlogger-native.yml` produces staging branch output
-  and validates the pull request.
+- `.github/workflows/netlogger-native.yml` validates imports and, on
+  `master` uploads, automatically regenerates the shared database, commits
+  the whitelist-only JSON, and requests a GitHub Pages rebuild. Pull
+  requests run validation without publishing.
 
 Source filenames such as `CheckInsOn10-27-2026-23-05.log` represent UTC
 timestamps. Convert to `America/New_York` to match the Tuesday local net
@@ -61,8 +63,9 @@ and flags disagreement rather than merging identities or inventing rows.
 
 An export whose timestamp falls **outside the usual Tuesday schedule** is
 quarantined for manual review. Valid Tuesday native files are imported even
-when no matching screenshot exists; the missing screenshot is reported for
-audit. Early roster snapshots saved before 8:00 p.m. Eastern are flagged
+when no matching screenshot exists. Dates after the last archived screenshot
+(October 20, 2026) are identified as **expected log-only nets**, not
+missing screenshots. Early roster snapshots saved before 8:00 p.m. Eastern are flagged
 because the net may not yet have finished. The screenshots are retained
 strictly as a **date inventory**, not as a check-in source.
 
@@ -93,10 +96,10 @@ reconstructed entries are preserved in `manual-checkins.csv`; no OCR pipeline
 runs on site or can silently change these user-approved records. Screenshots
 remain available for historical reference.
 
-After additional NetLogger uploads, compare every available native file
-against the full list of 162 screenshot net dates.
-Report missing, duplicate and conflicting nets, and create manual entries
-only after explicit review of the missing session data.
+For future weekly nets, upload only the saved NetLogger `.log` to
+`_netlogger-checkins/` on `master`. No screenshot, CSV, or manual page edit is
+needed. Check the GitHub Actions import and Pages build results. Historical
+missing dates, duplicate logs, and conflicting check-ins remain auditable.
 
 Do not merge development changes without Codex review and explicit user
 approval. Changes to the development dashboard interface require a deliberate,
