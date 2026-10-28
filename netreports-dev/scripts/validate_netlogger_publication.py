@@ -35,8 +35,11 @@ def validate(baseline, updated, audit, allow_history_reduction=False):
         raise ValueError("Per-date check-in counts do not match")
     if len(nets) != audit["net_count"] or len(rows) != audit["checkin_count"]:
         raise ValueError("Audit totals do not match public database")
-    if audit["missing_report_dates"]:
-        raise ValueError("Archived screenshot date has lost check-in coverage")
+    # Missing screenshot-backed dates are historical coverage reductions.
+    # Only the explicit, manually authorized correction path may accept them.
+    if audit["missing_report_dates"] and not allow_history_reduction:
+        raise ValueError("Archived screenshot date has lost check-in coverage: "
+                         + ", ".join(audit["missing_report_dates"]))
     manual_nets = {day for day, item in new_by_date.items() if item.get("manual")}
     if any(new_by_date[day].get("source") != MANUAL_SOURCE for day in manual_nets):
         raise ValueError("Manual net has incorrect provenance")
