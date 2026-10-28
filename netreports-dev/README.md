@@ -18,10 +18,13 @@ accepted without explicit manual approval. Upload future native .log files or
 ZIP archives of CheckIns directories to `_netlogger-checkins/`. Preserve
 native filenames and source laptop structures when possible.
 
-All upload batches have been received. The combined database covers **all
-162 screenshot-dated reports**: 151 with native NetLogger records, plus 11
-manually reconstructed and explicitly approved reports. The original log
-files remain preferred if an original is recovered later.
+The database covers all **162 historical screenshot-dated reports** (151
+native NetLogger records and 11 explicitly approved manual reconstructions),
+plus subsequent weekly nets supplied by original NetLogger files alone.
+The last archived screenshot is dated October 20, 2026; starting October 27,
+2026, **screenshots are no longer required**. Upload the completed NetLogger
+check-in `.log` file for each Tuesday net. Native log files are always preferred
+when recovered for a previously reconstructed historical date.
 
 ## Import files
 
@@ -45,9 +48,9 @@ files remain preferred if an original is recovered later.
 - `.github/workflows/netlogger-native.yml` produces staging branch output
   and validates the pull request.
 
-Source filenames such as `CheckInsOn10-21-2026-00-07.log` represent UTC
+Source filenames such as `CheckInsOn10-27-2026-23-05.log` represent UTC
 timestamps. Convert to `America/New_York` to match the Tuesday local net
-date (`2026-10-20` in that example).
+date (`2026-10-27` in this example, at 7:05 PM EDT).
 
 Each log can contain unused blank rows. These are **not** check-ins.
 

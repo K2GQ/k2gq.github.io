@@ -272,7 +272,16 @@ def build(root):
         "approved_manual_checkin_count": sum(len(approved[d]) for d in manual_dates),
         "approved_manual_dates": manual_dates,
         "approved_manual_superseded_by_native": unused_manual_dates,
-        "native_dates_without_screenshot": sorted(native_dates-existing),
+        # Screenshots were retired after the last archived screenshot date.
+        # Future Tuesday log-only nets are valid and do not need PNGs.
+        "native_dates_without_screenshot": sorted(
+            day for day in native_dates-existing
+            if not existing or day <= max(existing)
+        ),
+        "log_only_net_dates": sorted(
+            day for day in native_dates-existing
+            if existing and day > max(existing)
+        ),
         "possibly_early_snapshots": [
             {"date": n["date"], "source_file": n["source_file"],
              "source_time_et": n["source_time_et"]}
@@ -294,7 +303,9 @@ def build(root):
                         "UTC log timestamps are mapped to Eastern net dates. "
                         "Off-schedule files remain quarantined (historical "
                         "Wednesday nets from August to November 2023 are accepted); "
-                        "early snapshots may be incomplete."),
+                        "after the final screenshot date, Tuesday NetLogger logs "
+                        "are published without screenshot files. Early snapshots "
+                        "may be incomplete."),
     }
     payload = {
         "kind": "netlogger-native-checkins", "version": 1,

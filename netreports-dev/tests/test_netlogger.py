@@ -104,6 +104,16 @@ class TestNetLoggerNative(unittest.TestCase):
         self.assertEqual(audit["native_dates_without_screenshot"], ["2026-01-13"])
         self.assertEqual(audit["screenshot_net_dates"], 0)
 
+    def test_new_tuesday_log_does_not_require_screenshot(self):
+        self.create_net("2026-10-20")  # Last archived screenshot.
+        self.create_log("CheckInsOn10-27-2026-23-05.log", log_row(1))
+        payload, audit = native.build(self.root)
+        self.assertEqual(payload["nets"][0]["date"], "2026-10-27")
+        self.assertEqual(payload["nets"][0]["checkin_count"], 1)
+        self.assertEqual(audit["log_only_net_dates"], ["2026-10-27"])
+        self.assertEqual(audit["native_dates_without_screenshot"], [])
+        self.assertEqual(audit["missing_report_dates"], ["2026-10-20"])
+
     def test_early_snapshot_is_flagged_not_suppressed(self):
         self.create_net("2026-05-12")
         self.create_log("CheckInsOn05-12-2026-23-13.log", log_row(1))

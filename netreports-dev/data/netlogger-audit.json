@@ -1,10 +1,10 @@
 {
   "source_type": "Original NetLogger CheckIns exports and approved manual records",
   "batch_status": "Uploads complete; gap review in progress",
-  "source_file_count": 165,
-  "matched_export_count": 152,
-  "net_count": 162,
-  "checkin_count": 1721,
+  "source_file_count": 166,
+  "matched_export_count": 153,
+  "net_count": 163,
+  "checkin_count": 1737,
   "screenshot_net_dates": 162,
   "missing_native_dates": [
     "2023-09-06",
@@ -582,6 +582,11 @@
       "date": "2026-10-13",
       "source_file": "CheckInsOn10-13-2026-23-00.log",
       "source_time_et": "19:00"
+    },
+    {
+      "date": "2026-10-27",
+      "source_file": "CheckInsOn10-27-2026-23-05.log",
+      "source_time_et": "19:05"
     }
   ],
   "quarantined_exports": [
@@ -684,5 +689,8 @@
     }
   ],
   "parse_warnings": [],
-  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined (historical Wednesday nets from August to November 2023 are accepted); early snapshots may be incomplete."
+  "limitations": "Native NetLogger logs are authoritative when available. Manually reconstructed check-ins come exclusively from the user-approved CSV and are never auto-generated from OCR. UTC log timestamps are mapped to Eastern net dates. Off-schedule files remain quarantined (historical Wednesday nets from August to November 2023 are accepted); after the final screenshot date, Tuesday NetLogger logs are published without screenshot files. Early snapshots may be incomplete.",
+  "log_only_net_dates": [
+    "2026-10-27"
+  ]
 }
