@@ -223,6 +223,8 @@ The net meets every Tuesday at 7:00 PM Eastern and can be accessed through eithe
     el('search-call').value=call;
     stationHistorySort={key:'date',asc:false};
     activate('stations');
+    // A callsign link hides its originating panel; move focus into the new view.
+    el('search-call').focus();
   }
   function openDate(date){
     selectedDate=date;
@@ -230,6 +232,8 @@ The net meets every Tuesday at 7:00 PM Eastern and can be accessed through eithe
     weeklySearch='';
     el('search-weekly').value='';
     activate('weekly');
+    // The history link is now hidden, so focus the selected weekly report.
+    el('select-date').focus();
   }
   function renderEngagement(rows){
     var attended=new Set(rows.map(function(row){return row.date;}));
