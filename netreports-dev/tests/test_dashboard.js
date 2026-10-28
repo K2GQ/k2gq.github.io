@@ -17,6 +17,13 @@ const dev = inlineScript('netreports-dev/index.html');
 assert.equal(prod, dev, 'Published and development dashboard logic must stay identical');
 assert.doesNotMatch(prod, /POSSIBLY INCOMPLETE/i, 'Completed nets must not display a warning');
 new vm.Script(prod);
+const prodStyle=fs.readFileSync('netreports.md','utf8').match(/<style>([\s\S]*?)<\/style>/)[1];
+const devStyle=fs.readFileSync('netreports-dev/index.html','utf8').match(/<style>([\s\S]*?)<\/style>/)[1];
+assert.equal(prodStyle,devStyle,'Production and development styles must stay synchronized');
+assert.match(prodStyle,/#net-db #weekly-table th button\s*\{\s*white-space:nowrap;\s*\}/,
+  'Weekly report headings must stay on one line on desktop');
+assert.match(prodStyle,/#net-db #weekly-table th:nth-child\(6\)\s*\{\s*width:8%;\s*\}/,
+  'State column needs sufficient desktop space');
 
 class Element {
   constructor(tag='div') {
@@ -72,6 +79,10 @@ const checkins=[
   checkin('2026-10-27','G4ABC','London','Greater London','England','United Kingdom'),
   checkin('2026-10-27','KE2HPS','Roseland','Essex','NJ','United States')
 ];
+checkins[0].name='Mike Abbey';
+checkins[1].name='  Michael   Abbey  ';
+checkins[2].name='Mike A. Abbey';
+checkins[4].name='Mike Abbey';
 const dates=[...new Set(checkins.map(row=>row.date))].sort();
 const payload={kind:'netlogger-native-checkins',checkins,
   nets:dates.map(date=>({date,checkin_count:checkins.filter(row=>row.date===date).length,
@@ -84,6 +95,10 @@ vm.runInNewContext(prod,{document,fetch,console});
   await new Promise(resolve=>setImmediate(resolve));
   assert.ok(el('weekly-count').textContent.includes('displayed check-ins'));
   assert.doesNotMatch(el('weekly-count').textContent,/INCOMPLETE|19:05/);
+  const weeklyCall=el('weekly-table').tBodies[0].children.find(row=>row.children[1].textContent==='KC2NJ');
+  assert.ok(weeklyCall,'Latest weekly report should show KC2NJ');
+  assert.equal(weeklyCall.children[2].textContent,'Mike Abbey',
+    'Weekly reports must continue displaying the complete stored operator name');
 
   el('tab-stations').trigger('click');
   el('search-call').value='KC2NJ';
@@ -94,6 +109,13 @@ vm.runInNewContext(prod,{document,fetch,console});
   const history=el('stations-history-table').tBodies[0].children.map(
     row=>row.children[0].textContent);
   assert.deepEqual(history,['2026-10-27','2025-10-07','2024-10-01','2023-10-03']);
+  const headers=el('stations-history-table').tHead.rows[0].children.map(th=>th.textContent);
+  assert.deepEqual(headers.map(h=>h.replace(/ [↑↓]$/,'')),
+    ['Net date','First name','City','County','State','Country','Remarks'],
+    'Station history must exclude check-in order and label first names');
+  const firstNames=el('stations-history-table').tBodies[0].children.map(row=>row.children[1].textContent);
+  assert.deepEqual(firstNames,['Mike','Mike','Michael','Mike'],
+    'Station history must show first names only, trimming whitespace');
   const engagement=el('station-engagement').children.map(row=>row.attrs['aria-label']);
   assert.equal(engagement.length,4);
   assert.ok(engagement.some(value=>value==='2026: 1 of 2 documented nets, 50 percent'));
@@ -144,5 +166,5 @@ vm.runInNewContext(prod,{document,fetch,console});
   const ukRows=el('locations-table').tBodies[0].children;
   assert.equal(ukRows.length,1);
   assert.equal(ukRows[0].children[0].textContent,'G4ABC');
-  console.log('Net Reports dashboard: history, engagement, filters, focus navigation and warning-removal tests passed');
+  console.log('Net Reports dashboard: first names, no order column, one-line headers, history, engagement, filters and focus tests passed');
 })().catch(error=>{console.error(error);process.exitCode=1;});
