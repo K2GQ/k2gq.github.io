@@ -45,6 +45,10 @@ when recovered for a previously reconstructed historical date.
 - `tests/test_netlogger.py` tests native mappings, Eastern time conversion,
   duplicate exports, manual row validation and native precedence, privacy
   protections, and ZIP handling.
+- `scripts/validate_netlogger_publication.py` compares each rebuild with the already
+  published database and blocks missing net dates, reduced existing rosters,
+  unauthorized changes to manually approved rows, or non-whitelisted fields.
+- `tests/test_netlogger_publication.py` exercises publication regression checks.
 - `.github/workflows/netlogger-native.yml` validates imports and, on
   `master` uploads, automatically regenerates the shared database, commits
   the whitelist-only JSON, and requests a GitHub Pages rebuild. Pull
@@ -84,7 +88,7 @@ files private.
 From the repository root, with Python 3.12+:
 
 ```bash
-python -m unittest discover -s netreports-dev/tests -p test_netlogger.py -v
+python -m unittest discover -s netreports-dev/tests -p 'test_netlogger*.py' -v
 python netreports-dev/scripts/build_netlogger.py --root .
 ```
 
@@ -98,8 +102,15 @@ remain available for historical reference.
 
 For future weekly nets, upload only the saved NetLogger `.log` to
 `_netlogger-checkins/` on `master`. No screenshot, CSV, or manual page edit is
-needed. Check the GitHub Actions import and Pages build results. Historical
-missing dates, duplicate logs, and conflicting check-ins remain auditable.
+needed. Check the GitHub Actions import and Pages build results. Every run
+requests a Pages build, including manual reruns after a failed deployment.
+A concurrent update to `master` causes up to three rebuild-and-push attempts.
+If a source disappears or an existing roster shrinks, publication fails safely
+without removing published history. To intentionally correct or remove
+historical check-ins, review the source changes and then use **Actions →
+NetLogger Check-in Database Update → Run workflow** on `master`, checking
+**allow_history_reduction**. That manual override never bypasses public-field
+or audit consistency checks. Historical missing dates, duplicate logs, and conflicting check-ins remain auditable.
 
 Do not merge development changes without Codex review and explicit user
 approval. Changes to the development dashboard interface require a deliberate,
