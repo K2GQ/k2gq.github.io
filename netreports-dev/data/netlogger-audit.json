@@ -1,10 +1,10 @@
 {
   "source_type": "Original NetLogger CheckIns exports and approved manual records",
   "batch_status": "Uploads complete; gap review in progress",
-  "source_file_count": 166,
-  "matched_export_count": 153,
-  "net_count": 163,
-  "checkin_count": 1737,
+  "source_file_count": 167,
+  "matched_export_count": 154,
+  "net_count": 164,
+  "checkin_count": 1749,
   "screenshot_net_dates": 162,
   "missing_native_dates": [
     "2023-09-06",
@@ -38,7 +38,8 @@
   "approved_manual_superseded_by_native": [],
   "native_dates_without_screenshot": [],
   "log_only_net_dates": [
-    "2026-10-27"
+    "2026-10-27",
+    "2026-11-03"
   ],
   "possibly_early_snapshots": [
     {
@@ -590,6 +591,11 @@
       "date": "2026-10-27",
       "source_file": "CheckInsOn10-27-2026-23-05.log",
       "source_time_et": "19:05"
+    },
+    {
+      "date": "2026-11-03",
+      "source_file": "CheckInsOn11-04-2026-00-04.log",
+      "source_time_et": "19:04"
     }
   ],
   "quarantined_exports": [
