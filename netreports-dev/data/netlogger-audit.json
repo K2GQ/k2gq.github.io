@@ -1,10 +1,10 @@
 {
   "source_type": "Original NetLogger CheckIns exports and approved manual records",
   "batch_status": "Uploads complete; gap review in progress",
-  "source_file_count": 167,
-  "matched_export_count": 154,
-  "net_count": 164,
-  "checkin_count": 1749,
+  "source_file_count": 168,
+  "matched_export_count": 155,
+  "net_count": 165,
+  "checkin_count": 1762,
   "screenshot_net_dates": 162,
   "missing_native_dates": [
     "2023-09-06",
@@ -39,7 +39,8 @@
   "native_dates_without_screenshot": [],
   "log_only_net_dates": [
     "2026-10-27",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-10"
   ],
   "possibly_early_snapshots": [
     {

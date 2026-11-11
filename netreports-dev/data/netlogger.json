@@ -1654,6 +1654,16 @@
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2026-11-10",
+      "checkin_count": 13,
+      "source_file": "CheckInsOn11-11-2026-01-15.log",
+      "source_time_et": "20:15",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
     }
   ],
   "checkins": [
@@ -20895,11 +20905,154 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 2,
+      "callsign": "KE2GVV",
+      "name": "Steve Giampaolo",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 3,
+      "callsign": "KD3DRY",
+      "name": "Scott Zahlman",
+      "city": "Bushkill",
+      "county": "Pike",
+      "state": "PA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 4,
+      "callsign": "KD2VLP",
+      "name": "Allan Spera",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 5,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 6,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 7,
+      "callsign": "KE2HPS",
+      "name": "Todd M Gutnick",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 8,
+      "callsign": "KE2JKR",
+      "name": "Nicholas D Quartuccio",
+      "city": "Rockaway",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 9,
+      "callsign": "N2RCP",
+      "name": "John Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 10,
+      "callsign": "AJ5DG",
+      "name": "Matt Mc New",
+      "city": "",
+      "county": "",
+      "state": "",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 11,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 12,
+      "callsign": "K2AUF",
+      "name": "Bob Calandra",
+      "city": "ELIZABETH",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-10",
+      "number": 13,
+      "callsign": "W2ILL",
+      "name": "Will Donaway",
+      "city": "Verona",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
     }
   ],
   "source_counts": {
-    "native_nets": 153,
-    "native_checkins": 1683,
+    "native_nets": 154,
+    "native_checkins": 1696,
     "manual_nets": 11,
     "manual_checkins": 66
   }
