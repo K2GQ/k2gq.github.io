@@ -1664,6 +1664,16 @@
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2026-11-17",
+      "checkin_count": 10,
+      "source_file": "CheckInsOn11-17-2026-23-56.log",
+      "source_time_et": "18:56",
+      "possibly_early_snapshot": true,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
     }
   ],
   "checkins": [
@@ -21048,11 +21058,121 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 2,
+      "callsign": "KD2VLP",
+      "name": "Allan C Spera",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 3,
+      "callsign": "KA2PUN",
+      "name": "Matt Couper",
+      "city": "Pittsfield",
+      "county": "Berkshire",
+      "state": "MA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 4,
+      "callsign": "KD2DMO",
+      "name": "Mar Christiano",
+      "city": "Summit",
+      "county": "Union",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 5,
+      "callsign": "KE2HPS",
+      "name": "Todd M Gutnick",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 6,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 7,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 8,
+      "callsign": "KE2GVV",
+      "name": "Steve Giampaolo",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 9,
+      "callsign": "KE2KE",
+      "name": "Richard C Schonberg",
+      "city": "Mendham",
+      "county": "Morris",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-17",
+      "number": 10,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
     }
   ],
   "source_counts": {
-    "native_nets": 154,
-    "native_checkins": 1696,
+    "native_nets": 155,
+    "native_checkins": 1706,
     "manual_nets": 11,
     "manual_checkins": 66
   }
