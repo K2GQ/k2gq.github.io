@@ -1674,6 +1674,16 @@
       "other_exports": 0,
       "source_warning_count": 0,
       "source": "NetLogger original check-in file"
+    },
+    {
+      "date": "2026-11-24",
+      "checkin_count": 13,
+      "source_file": "CheckInsOn11-25-2026-01-12.log",
+      "source_time_et": "20:12",
+      "possibly_early_snapshot": false,
+      "other_exports": 0,
+      "source_warning_count": 0,
+      "source": "NetLogger original check-in file"
     }
   ],
   "checkins": [
@@ -21168,11 +21178,154 @@
       "state": "NJ",
       "country": "United States",
       "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 1,
+      "callsign": "KB2SUL",
+      "name": "Maurice A Naraine",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 2,
+      "callsign": "KD2VLP",
+      "name": "Allan C Spera",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 3,
+      "callsign": "N2MVK",
+      "name": "Paul Molinari",
+      "city": "Medford",
+      "county": "Burlington",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 4,
+      "callsign": "KE2IRC",
+      "name": "Anthony B Cappel",
+      "city": "Parlin",
+      "county": "Middlesex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 5,
+      "callsign": "N2RCP",
+      "name": "John J Milarski",
+      "city": "ORANGE",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 6,
+      "callsign": "KE2HPS",
+      "name": "Todd M Gutnick",
+      "city": "South Orange",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 7,
+      "callsign": "KE2GVV",
+      "name": "Steven C Giampaolo",
+      "city": "Livingston",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 8,
+      "callsign": "KC2NJ",
+      "name": "Mike Abbey",
+      "city": "Short Hills",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "RF - TXA"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 9,
+      "callsign": "N2LMW",
+      "name": "Bob Zerilli",
+      "city": "Eatontown",
+      "county": "Ocean",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 10,
+      "callsign": "W2ILL",
+      "name": "Will Donaway",
+      "city": "Verona",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 11,
+      "callsign": "AA3MR",
+      "name": "Walter J Greenewald",
+      "city": "Clairton",
+      "county": "Allegheny",
+      "state": "PA",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 12,
+      "callsign": "KC2QLE",
+      "name": "Werner J Staehle",
+      "city": "West Caldwell",
+      "county": "Essex",
+      "state": "NJ",
+      "country": "United States",
+      "remarks": "EchoLink"
+    },
+    {
+      "date": "2026-11-24",
+      "number": 13,
+      "callsign": "ZL3BHS",
+      "name": "Bryan H Stevens",
+      "city": "Christchurch",
+      "county": "",
+      "state": "",
+      "country": "New Zealand",
+      "remarks": "EchoLink"
     }
   ],
   "source_counts": {
-    "native_nets": 155,
-    "native_checkins": 1706,
+    "native_nets": 156,
+    "native_checkins": 1719,
     "manual_nets": 11,
     "manual_checkins": 66
   }
